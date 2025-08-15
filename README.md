@@ -157,7 +157,7 @@ If you use this code in your research, please cite:
 ```bibtex
 @software{spaadia_analysis_2025,
   title = {A Multilevel Logistic Regression Analysis Framework for SPAADIA Corpus},
-  author = {Chen, Wangfang},
+  author = {xxx},
   year = {2025},
   url = {https://github.com/chenwangfang/A-Multilevel-Logistic-Regression-Analysis}
 }
@@ -311,7 +311,7 @@ Rscript comprehensive_validation.R
 ```bibtex
 @software{spaadia_analysis_2025,
   title = {SPAADIA语料库多层逻辑回归分析框架},
-  author = {陈望芳},
+  author = {xxx},
   year = {2025},
   url = {https://github.com/chenwangfang/A-Multilevel-Logistic-Regression-Analysis}
 }
@@ -352,7 +352,6 @@ Rscript comprehensive_validation.R
 
 如有问题或建议，请通过以下方式联系：
 - GitHub Issues: [提交Issue](https://github.com/chenwangfang/A-Multilevel-Logistic-Regression-Analysis/issues)
-- Email: [您的邮箱]
 
 ---
 
