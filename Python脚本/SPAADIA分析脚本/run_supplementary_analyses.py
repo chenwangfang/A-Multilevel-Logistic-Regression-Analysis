@@ -28,12 +28,17 @@ logger = logging.getLogger(__name__)
 class SupplementaryAnalysesRunner:
     """补充分析运行器"""
     
-    def __init__(self):
-        """初始化运行器"""
+    def __init__(self, language: str = 'zh'):
+        """初始化运行器
+        
+        Args:
+            language: 输出语言 ('zh' 或 'en')
+        """
         self.start_time = datetime.now()
+        self.language = language
         
         # 输出目录
-        self.output_dir = Path('/mnt/g/Project/实证/关联框架/输出')
+        self.output_dir = Path(f'/mnt/g/Project/实证/关联框架/{"输出" if language == "zh" else "output"}')
         self.logs_dir = self.output_dir / 'logs'
         self.reports_dir = self.output_dir / 'reports'
         
@@ -301,16 +306,28 @@ class SupplementaryAnalysesRunner:
 
 
 def main():
-    """主函数"""
-    runner = SupplementaryAnalysesRunner()
-    success_count, failed_count = runner.run_all_analyses()
+    """主函数 - 运行中英文双语分析"""
+    # 运行中文分析
+    print("运行中文补充分析...")
+    runner_zh = SupplementaryAnalysesRunner(language='zh')
+    success_count_zh, failed_count_zh = runner_zh.run_all_analyses()
+    
+    # 运行英文分析
+    print("\n运行英文补充分析...")
+    runner_en = SupplementaryAnalysesRunner(language='en')
+    success_count_en, failed_count_en = runner_en.run_all_analyses()
+    
+    print("\n分析完成！结果已保存到:")
+    print("中文结果: /mnt/g/Project/实证/关联框架/输出/")
+    print("英文结果: /mnt/g/Project/实证/关联框架/output/")
     
     # 返回运行状态
-    if failed_count == 0:
+    total_failed = failed_count_zh + failed_count_en
+    if total_failed == 0:
         logger.info("\n✓ 所有补充分析成功完成！")
         return 0
     else:
-        logger.warning(f"\n⚠ {failed_count} 个分析失败，请检查日志")
+        logger.warning(f"\n⚠ {total_failed} 个分析失败，请检查日志")
         return 1
 
 

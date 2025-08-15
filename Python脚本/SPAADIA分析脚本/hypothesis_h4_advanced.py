@@ -1111,21 +1111,24 @@ class H4HypothesisAdvancedAnalysis:
         logger.info(f"结果已保存至 {json_path}")
 
 def main():
-    """主函数"""
-    # 创建高级分析器
-    analyzer = H4HypothesisAdvancedAnalysis(language='zh')
+    """主函数 - 运行中英文双语分析"""
+    # 运行中文分析
+    print("运行中文分析...")
+    analyzer_zh = H4HypothesisAdvancedAnalysis(language='zh')
+    analyzer_zh.load_data()
+    analyzer_zh.run_analysis()
+    analyzer_zh.save_results()
     
-    # 加载数据
-    analyzer.load_data()
+    # 运行英文分析
+    print("\n运行英文分析...")
+    analyzer_en = H4HypothesisAdvancedAnalysis(language='en')
+    analyzer_en.load_data()
+    analyzer_en.run_analysis()
+    analyzer_en.save_results()
     
-    # 运行分析
-    analyzer.run_analysis()
-    
-    # 保存结果
-    analyzer.save_results()
-    
-    print("\nH4假设高级分析完成！")
-    print(f"结果已保存至: {analyzer.output_dir}")
+    print("\n分析完成！结果已保存到:")
+    print("中文结果: G:/Project/实证/关联框架/输出/")
+    print("英文结果: G:/Project/实证/关联框架/output/")
 
 if __name__ == "__main__":
     main()

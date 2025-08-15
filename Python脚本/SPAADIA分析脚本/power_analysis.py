@@ -33,20 +33,22 @@ logger = logging.getLogger(__name__)
 class PowerAnalysis:
     """统计功效分析类"""
     
-    def __init__(self, n_simulations: int = 1000, seed: int = 42):
+    def __init__(self, n_simulations: int = 1000, seed: int = 42, language: str = 'zh'):
         """
         初始化功效分析
         
         Args:
             n_simulations: 蒙特卡洛模拟次数
             seed: 随机种子
+            language: 输出语言 ('zh' 或 'en')
         """
         self.n_simulations = n_simulations
         self.seed = seed
+        self.language = language
         np.random.seed(seed)
         
         # 输出目录
-        self.output_dir = Path('/mnt/g/Project/实证/关联框架/输出')
+        self.output_dir = Path(f'/mnt/g/Project/实证/关联框架/{"输出" if language == "zh" else "output"}')
         self.data_dir = self.output_dir / 'data'
         self.tables_dir = self.output_dir / 'tables'
         self.reports_dir = self.output_dir / 'reports'
@@ -628,42 +630,71 @@ class PowerAnalysis:
 
 
 def main():
-    """主函数"""
+    """主函数 - 运行中英文双语分析"""
     logger.info("="*60)
     logger.info("开始SPAADIA框架统计功效分析")
     logger.info("="*60)
     
-    # 创建功效分析实例
-    analyzer = PowerAnalysis(n_simulations=1000, seed=42)
+    # 运行中文分析
+    print("运行中文分析...")
+    analyzer_zh = PowerAnalysis(n_simulations=1000, seed=42, language='zh')
     
     # 运行各假设的功效分析
     logger.info("\n运行H1假设功效分析...")
-    h1_results = analyzer.run_h1_power_analysis()
+    h1_results_zh = analyzer_zh.run_h1_power_analysis()
     
     logger.info("\n运行H2假设功效分析...")
-    h2_results = analyzer.run_h2_power_analysis()
+    h2_results_zh = analyzer_zh.run_h2_power_analysis()
     
     logger.info("\n运行H3假设功效分析...")
-    h3_results = analyzer.run_h3_power_analysis()
+    h3_results_zh = analyzer_zh.run_h3_power_analysis()
     
     logger.info("\n运行H4假设功效分析...")
-    h4_results = analyzer.run_h4_power_analysis()
+    h4_results_zh = analyzer_zh.run_h4_power_analysis()
     
     # 生成报告
     logger.info("\n生成功效分析报告...")
-    report = analyzer.generate_report()
+    report_zh = analyzer_zh.generate_report()
     
     # 生成汇总表
     logger.info("生成汇总表...")
-    summary = analyzer.generate_summary_table()
+    summary_zh = analyzer_zh.generate_summary_table()
+    
+    # 运行英文分析
+    print("\n运行英文分析...")
+    analyzer_en = PowerAnalysis(n_simulations=1000, seed=42, language='en')
+    
+    logger.info("\n运行H1假设功效分析（英文）...")
+    h1_results_en = analyzer_en.run_h1_power_analysis()
+    
+    logger.info("\n运行H2假设功效分析（英文）...")
+    h2_results_en = analyzer_en.run_h2_power_analysis()
+    
+    logger.info("\n运行H3假设功效分析（英文）...")
+    h3_results_en = analyzer_en.run_h3_power_analysis()
+    
+    logger.info("\n运行H4假设功效分析（英文）...")
+    h4_results_en = analyzer_en.run_h4_power_analysis()
+    
+    # 生成报告
+    logger.info("\n生成功效分析报告（英文）...")
+    report_en = analyzer_en.generate_report()
+    
+    # 生成汇总表
+    logger.info("生成汇总表（英文）...")
+    summary_en = analyzer_en.generate_summary_table()
     
     logger.info("\n" + "="*60)
     logger.info("统计功效分析完成！")
     logger.info("="*60)
     
+    print("\n分析完成！结果已保存到:")
+    print("中文结果: /mnt/g/Project/实证/关联框架/输出/")
+    print("英文结果: /mnt/g/Project/实证/关联框架/output/")
+    
     # 打印简要结果
     print("\n功效分析结果汇总：")
-    print(summary.to_string())
+    print(summary_zh.to_string())
     
     return analyzer
 

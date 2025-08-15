@@ -35,18 +35,20 @@ logger = logging.getLogger(__name__)
 class SensitivityAnalysis:
     """敏感性分析类"""
     
-    def __init__(self, seed: int = 42):
+    def __init__(self, seed: int = 42, language: str = 'zh'):
         """
         初始化敏感性分析
         
         Args:
             seed: 随机种子
+            language: 输出语言 ('zh' 或 'en')
         """
         self.seed = seed
+        self.language = language
         np.random.seed(seed)
         
         # 输出目录
-        self.output_dir = Path('/mnt/g/Project/实证/关联框架/输出')
+        self.output_dir = Path(f'/mnt/g/Project/实证/关联框架/{"输出" if language == "zh" else "output"}')
         self.data_dir = self.output_dir / 'data'
         self.tables_dir = self.output_dir / 'tables'
         self.reports_dir = self.output_dir / 'reports'
@@ -744,54 +746,93 @@ class SensitivityAnalysis:
 
 
 def main():
-    """主函数"""
+    """主函数 - 运行中英文双语分析"""
     logger.info("="*60)
     logger.info("开始SPAADIA框架敏感性分析")
     logger.info("="*60)
     
-    # 创建敏感性分析实例
-    analyzer = SensitivityAnalysis(seed=42)
+    # 运行中文分析
+    print("运行中文分析...")
+    analyzer_zh = SensitivityAnalysis(seed=42, language='zh')
     
     # 加载数据
     logger.info("\n加载数据...")
-    data = analyzer.load_data()
+    data_zh = analyzer_zh.load_data()
     
     # 运行敏感性分析1：语义距离方法
     logger.info("\n分析1：语义距离计算方法...")
-    texts = data.get('dialogue_texts', [])
-    if texts:
-        semantic_results = analyzer.sensitivity_semantic_distance(texts)
+    texts_zh = data_zh.get('dialogue_texts', [])
+    if texts_zh:
+        semantic_results_zh = analyzer_zh.sensitivity_semantic_distance(texts_zh)
     
     # 运行敏感性分析2：断点阈值
     logger.info("\n分析2：协商点识别阈值...")
-    temporal_data = data.get('temporal_dynamics', pd.DataFrame())
-    if not temporal_data.empty:
-        threshold_results = analyzer.sensitivity_breakpoint_threshold(temporal_data)
+    temporal_data_zh = data_zh.get('temporal_dynamics', pd.DataFrame())
+    if not temporal_data_zh.empty:
+        threshold_results_zh = analyzer_zh.sensitivity_breakpoint_threshold(temporal_data_zh)
     
     # 运行敏感性分析3：随机效应结构
     logger.info("\n分析3：随机效应模型结构...")
-    frame_data = data.get('frame_activation', pd.DataFrame())
-    if not frame_data.empty:
-        random_results = analyzer.sensitivity_random_effects(frame_data)
+    frame_data_zh = data_zh.get('frame_activation', pd.DataFrame())
+    if not frame_data_zh.empty:
+        random_results_zh = analyzer_zh.sensitivity_random_effects(frame_data_zh)
     
     # 生成报告
     logger.info("\n生成敏感性分析报告...")
-    report = analyzer.generate_report()
+    report_zh = analyzer_zh.generate_report()
     
     # 生成汇总表
     logger.info("生成汇总表...")
-    summary = analyzer.generate_summary_table()
+    summary_zh = analyzer_zh.generate_summary_table()
+    
+    # 运行英文分析
+    print("\n运行英文分析...")
+    analyzer_en = SensitivityAnalysis(seed=42, language='en')
+    
+    # 加载数据
+    logger.info("\n加载数据（英文）...")
+    data_en = analyzer_en.load_data()
+    
+    # 运行敏感性分析1：语义距离方法
+    logger.info("\n分析1：语义距离计算方法（英文）...")
+    texts_en = data_en.get('dialogue_texts', [])
+    if texts_en:
+        semantic_results_en = analyzer_en.sensitivity_semantic_distance(texts_en)
+    
+    # 运行敏感性分析2：断点阈值
+    logger.info("\n分析2：协商点识别阈值（英文）...")
+    temporal_data_en = data_en.get('temporal_dynamics', pd.DataFrame())
+    if not temporal_data_en.empty:
+        threshold_results_en = analyzer_en.sensitivity_breakpoint_threshold(temporal_data_en)
+    
+    # 运行敏感性分析3：随机效应结构
+    logger.info("\n分析3：随机效应模型结构（英文）...")
+    frame_data_en = data_en.get('frame_activation', pd.DataFrame())
+    if not frame_data_en.empty:
+        random_results_en = analyzer_en.sensitivity_random_effects(frame_data_en)
+    
+    # 生成报告
+    logger.info("\n生成敏感性分析报告（英文）...")
+    report_en = analyzer_en.generate_report()
+    
+    # 生成汇总表
+    logger.info("生成汇总表（英文）...")
+    summary_en = analyzer_en.generate_summary_table()
     
     logger.info("\n" + "="*60)
     logger.info("敏感性分析完成！")
     logger.info("="*60)
     
+    print("\n分析完成！结果已保存到:")
+    print("中文结果: /mnt/g/Project/实证/关联框架/输出/")
+    print("英文结果: /mnt/g/Project/实证/关联框架/output/")
+    
     # 打印简要结果
     print("\n敏感性分析结果汇总：")
-    if not summary.empty:
-        print(summary.to_string())
+    if not summary_zh.empty:
+        print(summary_zh.to_string())
     
-    return analyzer
+    return analyzer_zh
 
 
 if __name__ == "__main__":

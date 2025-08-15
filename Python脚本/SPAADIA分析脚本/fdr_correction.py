@@ -31,17 +31,19 @@ logger = logging.getLogger(__name__)
 class FDRCorrection:
     """FDR多重比较校正类"""
     
-    def __init__(self, alpha: float = 0.05):
+    def __init__(self, alpha: float = 0.05, language: str = 'zh'):
         """
         初始化FDR校正
         
         Args:
             alpha: 显著性水平（FDR控制水平）
+            language: 输出语言 ('zh' 或 'en')
         """
         self.alpha = alpha
+        self.language = language
         
         # 输出目录
-        self.output_dir = Path('/mnt/g/Project/实证/关联框架/输出')
+        self.output_dir = Path(f'/mnt/g/Project/实证/关联框架/{"输出" if language == "zh" else "output"}')
         self.data_dir = self.output_dir / 'data'
         self.tables_dir = self.output_dir / 'tables'
         self.reports_dir = self.output_dir / 'reports'
@@ -501,56 +503,93 @@ class FDRCorrection:
 
 
 def main():
-    """主函数"""
+    """主函数 - 运行中英文双语分析"""
     logger.info("="*60)
     logger.info("开始FDR多重比较校正分析")
     logger.info("="*60)
     
-    # 创建FDR校正实例
-    fdr = FDRCorrection(alpha=0.05)
+    # 运行中文分析
+    print("运行中文分析...")
+    fdr_zh = FDRCorrection(alpha=0.05, language='zh')
     
     # 加载假设检验结果
     logger.info("\n加载假设检验结果...")
-    results = fdr.load_hypothesis_results()
+    results_zh = fdr_zh.load_hypothesis_results()
     
     # 提取所有p值
     logger.info("\n提取p值...")
-    all_tests = fdr.extract_all_pvalues(results)
+    all_tests_zh = fdr_zh.extract_all_pvalues(results_zh)
     
     # 应用FDR校正
     logger.info("\n应用Benjamini-Hochberg FDR校正...")
-    corrected_df = fdr.apply_fdr_correction(method='fdr_bh')
+    corrected_df_zh = fdr_zh.apply_fdr_correction(method='fdr_bh')
     
     # 应用分层FDR校正
     logger.info("\n应用分层FDR校正...")
-    hierarchical_df = fdr.apply_hierarchical_fdr()
+    hierarchical_df_zh = fdr_zh.apply_hierarchical_fdr()
     
     # 比较不同校正方法
     logger.info("\n比较不同校正方法...")
-    comparison_df = fdr.compare_correction_methods()
+    comparison_df_zh = fdr_zh.compare_correction_methods()
     
     # 生成报告
     logger.info("\n生成报告...")
-    report = fdr.generate_report()
+    report_zh = fdr_zh.generate_report()
     
     # 绘制图形
     logger.info("\n绘制p值分布图...")
-    fdr.plot_pvalue_distribution()
+    fdr_zh.plot_pvalue_distribution()
+    
+    # 运行英文分析
+    print("\n运行英文分析...")
+    fdr_en = FDRCorrection(alpha=0.05, language='en')
+    
+    # 加载假设检验结果
+    logger.info("\n加载假设检验结果（英文）...")
+    results_en = fdr_en.load_hypothesis_results()
+    
+    # 提取所有p值
+    logger.info("\n提取p值（英文）...")
+    all_tests_en = fdr_en.extract_all_pvalues(results_en)
+    
+    # 应用FDR校正
+    logger.info("\n应用Benjamini-Hochberg FDR校正（英文）...")
+    corrected_df_en = fdr_en.apply_fdr_correction(method='fdr_bh')
+    
+    # 应用分层FDR校正
+    logger.info("\n应用分层FDR校正（英文）...")
+    hierarchical_df_en = fdr_en.apply_hierarchical_fdr()
+    
+    # 比较不同校正方法
+    logger.info("\n比较不同校正方法（英文）...")
+    comparison_df_en = fdr_en.compare_correction_methods()
+    
+    # 生成报告
+    logger.info("\n生成报告（英文）...")
+    report_en = fdr_en.generate_report()
+    
+    # 绘制图形
+    logger.info("\n绘制p值分布图（英文）...")
+    fdr_en.plot_pvalue_distribution()
     
     logger.info("\n" + "="*60)
     logger.info("FDR校正分析完成！")
     logger.info("="*60)
     
+    print("\n分析完成！结果已保存到:")
+    print("中文结果: /mnt/g/Project/实证/关联框架/输出/")
+    print("英文结果: /mnt/g/Project/实证/关联框架/output/")
+    
     # 打印简要结果
-    if not corrected_df.empty:
+    if not corrected_df_zh.empty:
         print("\nFDR校正结果摘要：")
-        print(f"总检验数：{len(corrected_df)}")
-        print(f"校正前显著：{(corrected_df['p_value'] < 0.05).sum()}")
-        print(f"校正后显著：{corrected_df['rejected'].sum()}")
+        print(f"总检验数：{len(corrected_df_zh)}")
+        print(f"校正前显著：{(corrected_df_zh['p_value'] < 0.05).sum()}")
+        print(f"校正后显著：{corrected_df_zh['rejected'].sum()}")
         print(f"\n各假设显著结果数：")
-        for hyp in sorted(corrected_df['hypothesis'].unique()):
-            n_sig = corrected_df[(corrected_df['hypothesis'] == hyp) & 
-                                corrected_df['rejected']].shape[0]
+        for hyp in sorted(corrected_df_zh['hypothesis'].unique()):
+            n_sig = corrected_df_zh[(corrected_df_zh['hypothesis'] == hyp) & 
+                                corrected_df_zh['rejected']].shape[0]
             print(f"  {hyp}: {n_sig}")
     
     return fdr

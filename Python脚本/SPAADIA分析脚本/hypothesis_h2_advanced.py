@@ -1310,15 +1310,20 @@ class H2MultilevelAnalysis:
 
 
 def main():
-    """主函数"""
-    # 创建分析器实例
-    analyzer = H2MultilevelAnalysis(language='zh')
+    """主函数 - 运行中英文双语分析"""
+    # 运行中文分析
+    print("运行中文分析...")
+    analyzer_zh = H2MultilevelAnalysis(language='zh')
+    analyzer_zh.run_analysis()
     
-    # 运行分析
-    analyzer.run_analysis()
+    # 运行英文分析
+    print("\n运行英文分析...")
+    analyzer_en = H2MultilevelAnalysis(language='en')
+    analyzer_en.run_analysis()
     
-    print("\nH2假设多层多项逻辑回归分析完成！")
-    print(f"结果保存在：{analyzer.output_dir}")
+    print("\n分析完成！结果已保存到:")
+    print("中文结果: G:/Project/实证/关联框架/输出/")
+    print("英文结果: G:/Project/实证/关联框架/output/")
 
 
 if __name__ == "__main__":

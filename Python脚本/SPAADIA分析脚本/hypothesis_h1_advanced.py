@@ -733,9 +733,20 @@ class H1ThreeLevelAnalysisV2:
         logger.info(f"报告已保存: {report_path}")
 
 def main():
-    """主函数"""
-    analyzer = H1ThreeLevelAnalysisV2(language='zh')
-    analyzer.run_analysis()
+    """主函数 - 运行中英文双语分析"""
+    # 运行中文分析
+    print("运行中文分析...")
+    analyzer_zh = H1ThreeLevelAnalysisV2(language='zh')
+    analyzer_zh.run_analysis()
+    
+    # 运行英文分析
+    print("\n运行英文分析...")
+    analyzer_en = H1ThreeLevelAnalysisV2(language='en')
+    analyzer_en.run_analysis()
+    
+    print("\n分析完成！结果已保存到:")
+    print("中文结果: G:/Project/实证/关联框架/输出/")
+    print("英文结果: G:/Project/实证/关联框架/output/")
 
 if __name__ == "__main__":
     main()
