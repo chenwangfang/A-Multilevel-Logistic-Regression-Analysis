@@ -1,5 +1,12 @@
 # A Multilevel Logistic Regression Analysis / 多层逻辑回归分析
 
+[![Version](https://img.shields.io/github/v/release/chenwangfang/A-Multilevel-Logistic-Regression-Analysis)](https://github.com/chenwangfang/A-Multilevel-Logistic-Regression-Analysis/releases)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
+[![R](https://img.shields.io/badge/R-4.2%2B-276DC3)](https://www.r-project.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Statistical Power](https://img.shields.io/badge/Power-%3E80%25-success)](Python脚本/SPAADIA分析脚本/power_analysis.py)
+[![FDR Corrected](https://img.shields.io/badge/FDR-Corrected-informational)](Python脚本/SPAADIA分析脚本/fdr_correction.py)
+
 [English](#english) | [中文](#chinese)
 
 ---
