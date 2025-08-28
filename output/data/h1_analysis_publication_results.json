@@ -1,0 +1,350 @@
+{
+  "statistics": {
+    "sample_size": 1792,
+    "n_dialogues": 35,
+    "cognitive_load_mean": 2.8891183035714287,
+    "cognitive_load_sd": 0.7580050394430965,
+    "cognitive_load_median": 2.8,
+    "activation_strength_mean": 4.940569196428571,
+    "activation_strength_sd": 0.596743732060095,
+    "context_institutional_correlation": -0.6327529951245257,
+    "statistical_power": 0.598,
+    "icc": 0.674
+  },
+  "grouped_analysis": {
+    "low_cognitive_load": {
+      "n": 931,
+      "context_dependence_beta": -0.77,
+      "context_dependence_se": 0.11,
+      "institutional_presetting_beta": 0.74,
+      "institutional_presetting_se": 0.09,
+      "r_squared": 0.3
+    },
+    "high_cognitive_load": {
+      "n": 861,
+      "context_dependence_beta": -0.07,
+      "context_dependence_se": 0.1,
+      "institutional_presetting_beta": 0.84,
+      "institutional_presetting_se": 0.08,
+      "r_squared": 0.22
+    },
+    "r_squared_difference": 0.08,
+    "difference_p_value": 0.05
+  },
+  "case_studies": {
+    "Trainline28_opening": {
+      "context_dependence": 0.58,
+      "institutional_presetting": 0.42,
+      "activation_strength": 5.3
+    },
+    "Trainline05_negotiation": {
+      "context_dependence": 0.61,
+      "institutional_presetting": 0.97,
+      "activation_strength": 6.1
+    }
+  },
+  "normality_tests": {
+    "activation_strength": {
+      "statistic": 0.9886691608005282,
+      "p_value": 1.2333778708328396e-10,
+      "normal": "False"
+    },
+    "context_dependence": {
+      "statistic": 0.924504219645251,
+      "p_value": 4.2900907162004887e-29,
+      "normal": "False"
+    },
+    "institutional_presetting": {
+      "statistic": 0.8206554556429442,
+      "p_value": 8.178674584770437e-41,
+      "normal": "False"
+    }
+  },
+  "model_comparison": [
+    {
+      "Model": "M0",
+      "AIC": NaN,
+      "BIC": NaN,
+      "Log-Likelihood": -1473.1482171719817,
+      "R² (marginal)": 0.0,
+      "R² (conditional)": 0.210007391167963
+    },
+    {
+      "Model": "M1",
+      "AIC": NaN,
+      "BIC": NaN,
+      "Log-Likelihood": -1114.589235891457,
+      "R² (marginal)": 0.3324910424581695,
+      "R² (conditional)": 0.5408458094799056
+    },
+    {
+      "Model": "M2",
+      "AIC": NaN,
+      "BIC": NaN,
+      "Log-Likelihood": -1104.0199112158916,
+      "R² (marginal)": 0.340411412347454,
+      "R² (conditional)": 0.551292584877995
+    },
+    {
+      "Model": "M3",
+      "AIC": NaN,
+      "BIC": NaN,
+      "Log-Likelihood": -963.6962254944328,
+      "R² (marginal)": 0.4449719383262871,
+      "R² (conditional)": 0.7176782097840488
+    },
+    {
+      "Model": "M4",
+      "AIC": NaN,
+      "BIC": NaN,
+      "Log-Likelihood": -906.5565253465238,
+      "R² (marginal)": 0.5016704281300401,
+      "R² (conditional)": 0.8233808128671825
+    }
+  ],
+  "lr_tests": [
+    {
+      "Comparison": "M0 vs M1",
+      "LR χ²": 717.1179625610494,
+      "df": 2,
+      "p-value": 0.0,
+      "Significant": true
+    },
+    {
+      "Comparison": "M1 vs M2",
+      "LR χ²": 21.13864935113088,
+      "df": 1,
+      "p-value": 4.2722417108453925e-06,
+      "Significant": true
+    },
+    {
+      "Comparison": "M2 vs M3",
+      "LR χ²": 280.6473714429176,
+      "df": 3,
+      "p-value": 0.0,
+      "Significant": true
+    },
+    {
+      "Comparison": "M3 vs M4",
+      "LR χ²": 114.27940029581805,
+      "df": 8,
+      "p-value": 0.0,
+      "Significant": true
+    }
+  ],
+  "effect_sizes": {
+    "context_dependence": {
+      "b": -1.4726570710436366,
+      "SE": 0.29550208334419675,
+      "β": -0.3174646378927456,
+      "95% CI": "[-0.442, -0.193]",
+      "p-value": 6.241980146527665e-07
+    },
+    "institutional_presetting": {
+      "b": 0.5713765780173498,
+      "SE": 0.1306113274576486,
+      "β": 0.2531322109423752,
+      "95% CI": "[0.140, 0.367]",
+      "p-value": 1.2163713731940723e-05
+    },
+    "interaction_f2": {
+      "value": 0.1137770925193029,
+      "interpretation": "small"
+    }
+  },
+  "simple_slopes": [
+    {
+      "Stage": "opening",
+      "Mechanism": "context_dependence",
+      "Slope (b)": -1.926680336084626,
+      "SE": 0.18067499969300263,
+      "t-value": -10.663790448918675,
+      "p-value": 2.063816298223856e-22,
+      "95% CI": "[-2.282, -1.571]"
+    },
+    {
+      "Stage": "opening",
+      "Mechanism": "institutional_presetting",
+      "Slope (b)": 1.2335524844834749,
+      "SE": 0.10612172593993931,
+      "t-value": 11.623939146839891,
+      "p-value": 1.2598906697451408e-25,
+      "95% CI": "[1.025, 1.442]"
+    },
+    {
+      "Stage": "information_exchange",
+      "Mechanism": "context_dependence",
+      "Slope (b)": -2.4331446883117263,
+      "SE": 0.17291726543993144,
+      "t-value": -14.07114947209803,
+      "p-value": 6.064427970311558e-39,
+      "95% CI": "[-2.773, -2.094]"
+    },
+    {
+      "Stage": "information_exchange",
+      "Mechanism": "institutional_presetting",
+      "Slope (b)": 1.292869493791311,
+      "SE": 0.07907866982807135,
+      "t-value": 16.3491558039886,
+      "p-value": 9.202809439911733e-50,
+      "95% CI": "[1.138, 1.448]"
+    },
+    {
+      "Stage": "negotiation_verification",
+      "Mechanism": "context_dependence",
+      "Slope (b)": -2.446123539830535,
+      "SE": 0.15074508721448823,
+      "t-value": -16.226887290529465,
+      "p-value": 1.8278342415197588e-49,
+      "95% CI": "[-2.742, -2.150]"
+    },
+    {
+      "Stage": "negotiation_verification",
+      "Mechanism": "institutional_presetting",
+      "Slope (b)": 1.336611388008071,
+      "SE": 0.0664846877400051,
+      "t-value": 20.104048517683065,
+      "p-value": 2.614351972297996e-69,
+      "95% CI": "[1.206, 1.467]"
+    },
+    {
+      "Stage": "closing",
+      "Mechanism": "context_dependence",
+      "Slope (b)": -2.7665304250573386,
+      "SE": 0.2710924772008077,
+      "t-value": -10.205116916645652,
+      "p-value": 2.397514094336186e-21,
+      "95% CI": "[-3.300, -2.233]"
+    },
+    {
+      "Stage": "closing",
+      "Mechanism": "institutional_presetting",
+      "Slope (b)": 1.0810102314186125,
+      "SE": 0.10999415416425272,
+      "t-value": 9.827888033070877,
+      "p-value": 4.3670095720132714e-20,
+      "95% CI": "[0.865, 1.297]"
+    }
+  ],
+  "power_analysis": {
+    "estimated_power": 0.598,
+    "effect_size": 0.5,
+    "alpha": 0.05,
+    "sample_size": 1792,
+    "icc": 0.674
+  },
+  "corrected_pvalues": [
+    {
+      "检验": "Intercept",
+      "原始p值": 0.0,
+      "校正p值": 0.0,
+      "拒绝H0": true,
+      "显著性": "***"
+    },
+    {
+      "检验": "C(dialogue_stage, Treatment('opening'))[T.information_exchange]",
+      "原始p值": 2.0232010847721528e-52,
+      "校正p值": 8.092804339088611e-52,
+      "拒绝H0": true,
+      "显著性": "***"
+    },
+    {
+      "检验": "C(dialogue_stage, Treatment('opening'))[T.negotiation_verification]",
+      "原始p值": 1.2450162592004392e-72,
+      "校正p值": 9.960130073603514e-72,
+      "拒绝H0": true,
+      "显著性": "***"
+    },
+    {
+      "检验": "C(dialogue_stage, Treatment('opening'))[T.closing]",
+      "原始p值": 1.1543647822958337e-52,
+      "校正p值": 6.156612172244446e-52,
+      "拒绝H0": true,
+      "显著性": "***"
+    },
+    {
+      "检验": "context_dependence_centered",
+      "原始p值": 6.241980146527665e-07,
+      "校正p值": 1.9974336468888527e-06,
+      "拒绝H0": true,
+      "显著性": "***"
+    },
+    {
+      "检验": "context_dependence_centered:C(dialogue_stage, Treatment('opening'))[T.information_exchange]",
+      "原始p值": 0.18611904266594936,
+      "校正p值": 0.27071860751410814,
+      "拒绝H0": false,
+      "显著性": "ns"
+    },
+    {
+      "检验": "context_dependence_centered:C(dialogue_stage, Treatment('opening'))[T.negotiation_verification]",
+      "原始p值": 0.5201992062450631,
+      "校正p值": 0.5201992062450631,
+      "拒绝H0": false,
+      "显著性": "ns"
+    },
+    {
+      "检验": "context_dependence_centered:C(dialogue_stage, Treatment('opening'))[T.closing]",
+      "原始p值": 0.2755880818234746,
+      "校正p值": 0.3674507757646328,
+      "拒绝H0": false,
+      "显著性": "ns"
+    },
+    {
+      "检验": "institutional_presetting_centered",
+      "原始p值": 1.2163713731940723e-05,
+      "校正p值": 2.7802774244435938e-05,
+      "拒绝H0": true,
+      "显著性": "***"
+    },
+    {
+      "检验": "institutional_presetting_centered:C(dialogue_stage, Treatment('opening'))[T.information_exchange]",
+      "原始p值": 0.38610211786231474,
+      "校正p值": 0.44125956327121685,
+      "拒绝H0": false,
+      "显著性": "ns"
+    },
+    {
+      "检验": "institutional_presetting_centered:C(dialogue_stage, Treatment('opening'))[T.negotiation_verification]",
+      "原始p值": 0.3700818130465745,
+      "校正p值": 0.44125956327121685,
+      "拒绝H0": false,
+      "显著性": "ns"
+    },
+    {
+      "检验": "institutional_presetting_centered:C(dialogue_stage, Treatment('opening'))[T.closing]",
+      "原始p值": 0.43165388830301565,
+      "校正p值": 0.46043081418988335,
+      "拒绝H0": false,
+      "显著性": "ns"
+    },
+    {
+      "检验": "context_dependence_centered:institutional_presetting_centered",
+      "原始p值": 1.0328225647580016e-05,
+      "校正p值": 2.7541935060213377e-05,
+      "拒绝H0": true,
+      "显著性": "***"
+    },
+    {
+      "检验": "Group Var",
+      "原始p值": 0.00015036032778805429,
+      "校正p值": 0.00030072065557610857,
+      "拒绝H0": true,
+      "显著性": "***"
+    },
+    {
+      "检验": "Group x context_dependence_centered Cov",
+      "原始p值": 0.0019195519670286438,
+      "校正p值": 0.0030712831472458303,
+      "拒绝H0": true,
+      "显著性": "**"
+    },
+    {
+      "检验": "context_dependence_centered Var",
+      "原始p值": 0.0013945553222615174,
+      "校正p值": 0.0024792094617982533,
+      "拒绝H0": true,
+      "显著性": "**"
+    }
+  ]
+}

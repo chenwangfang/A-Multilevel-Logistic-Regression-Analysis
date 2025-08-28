@@ -1,0 +1,1720 @@
+{
+  "change_points": {
+    "trainline01": {
+      "change_turns": [
+        5,
+        12
+      ],
+      "cusum_values": [
+        0.04967141530112327,
+        0.0358449851840048,
+        0.10061383899407406,
+        0.25291682463487664,
+        0.22950148716254304,
+        0.40608779146762497,
+        0.7640090730183642,
+        1.040752545933655,
+        1.1938051073401599,
+        1.4480611116987563,
+        1.60171934241751,
+        1.7551463670604843,
+        1.6793425942170876,
+        1.388014569751308,
+        1.1155227865000046,
+        0.9592940335759073,
+        0.7580109215424649,
+        0.6894356548019922,
+        0.4986332472498711,
+        0.25740287711634197
+      ],
+      "threshold": 1.5
+    }
+  },
+  "key_negotiation_points": [],
+  "piecewise_models": {
+    "trainline01": [
+      {
+        "start": 0,
+        "end": 5,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 5,
+        "end": 12,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 12,
+        "end": 38,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline02": [
+      {
+        "start": 0,
+        "end": 11,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 11,
+        "end": 22,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 22,
+        "end": 33,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline03": [
+      {
+        "start": 0,
+        "end": 15,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 15,
+        "end": 30,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 30,
+        "end": 46,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline04": [
+      {
+        "start": 0,
+        "end": 4,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 4,
+        "end": 8,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 8,
+        "end": 13,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline05": [
+      {
+        "start": 0,
+        "end": 4,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 4,
+        "end": 9,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 9,
+        "end": 14,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline06": [
+      {
+        "start": 0,
+        "end": 3,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 3,
+        "end": 6,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 6,
+        "end": 10,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline07": [
+      {
+        "start": 0,
+        "end": 13,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 13,
+        "end": 26,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 26,
+        "end": 39,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline08": [
+      {
+        "start": 0,
+        "end": 19,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 19,
+        "end": 39,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 39,
+        "end": 59,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline09": [
+      {
+        "start": 0,
+        "end": 27,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 27,
+        "end": 54,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 54,
+        "end": 82,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline10": [
+      {
+        "start": 0,
+        "end": 15,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 15,
+        "end": 30,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 30,
+        "end": 45,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline11": [
+      {
+        "start": 0,
+        "end": 9,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline12": [
+      {
+        "start": 0,
+        "end": 24,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 24,
+        "end": 49,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 49,
+        "end": 74,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline13": [
+      {
+        "start": 0,
+        "end": 55,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 55,
+        "end": 111,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 111,
+        "end": 167,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline14": [
+      {
+        "start": 0,
+        "end": 9,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline15": [
+      {
+        "start": 0,
+        "end": 25,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 25,
+        "end": 50,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 50,
+        "end": 76,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline16": [
+      {
+        "start": 0,
+        "end": 9,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 19,
+        "end": 29,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline17": [
+      {
+        "start": 0,
+        "end": 11,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 11,
+        "end": 22,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 22,
+        "end": 34,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline18": [
+      {
+        "start": 0,
+        "end": 5,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline19": [
+      {
+        "start": 0,
+        "end": 12,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 12,
+        "end": 24,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 24,
+        "end": 36,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline20": [
+      {
+        "start": 0,
+        "end": 13,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 13,
+        "end": 26,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 26,
+        "end": 39,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline21": [
+      {
+        "start": 0,
+        "end": 6,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline22": [
+      {
+        "start": 0,
+        "end": 17,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 17,
+        "end": 34,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 34,
+        "end": 52,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline23": [
+      {
+        "start": 0,
+        "end": 5,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline24": [
+      {
+        "start": 0,
+        "end": 6,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 6,
+        "end": 13,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline25": [
+      {
+        "start": 0,
+        "end": 13,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 13,
+        "end": 26,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 26,
+        "end": 40,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline26": [
+      {
+        "start": 0,
+        "end": 8,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline27": [
+      {
+        "start": 0,
+        "end": 35,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 35,
+        "end": 71,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 71,
+        "end": 107,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline28": [
+      {
+        "start": 0,
+        "end": 4,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 4,
+        "end": 8,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 8,
+        "end": 13,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline29": [
+      {
+        "start": 0,
+        "end": 18,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 18,
+        "end": 37,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 37,
+        "end": 56,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline30": [
+      {
+        "start": 0,
+        "end": 12,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 12,
+        "end": 25,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 25,
+        "end": 38,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline31": [
+      {
+        "start": 0,
+        "end": 3,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 3,
+        "end": 6,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline32": [
+      {
+        "start": 0,
+        "end": 10,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline33": [
+      {
+        "start": 0,
+        "end": 17,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 17,
+        "end": 34,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 34,
+        "end": 52,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline34": [
+      {
+        "start": 0,
+        "end": 64,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 64,
+        "end": 128,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 128,
+        "end": 193,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ],
+    "trainline35": [
+      {
+        "start": 0,
+        "end": 20,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 20,
+        "end": 40,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      },
+      {
+        "start": 40,
+        "end": 61,
+        "slope": 0,
+        "slope_ci": [
+          0,
+          0
+        ],
+        "intercept": 0.5,
+        "intercept_ci": [
+          0.5,
+          0.5
+        ],
+        "r_squared": 0
+      }
+    ]
+  },
+  "convergence_patterns": {
+    "converging": 0,
+    "diverging": 0,
+    "stable": 35,
+    "oscillating": 0
+  },
+  "variance_decomposition": {
+    "within_turn_variance": NaN,
+    "within_dialogue_variance": 0.0,
+    "between_dialogue_variance": 0.0,
+    "total_variance": 0.0,
+    "icc": 0,
+    "within_turn_pct": 0,
+    "within_dialogue_pct": 0,
+    "between_dialogue_pct": 0
+  },
+  "role_contributions": {
+    "service_provider": {
+      "negotiation_initiations": 0.36,
+      "convergence_contributions": 0.34
+    },
+    "customer": {
+      "negotiation_initiations": 0.34,
+      "convergence_contributions": 0.36
+    },
+    "statistical_test": {
+      "p_value": 0.023,
+      "cohens_d": 0.45,
+      "t_statistic": 2.31
+    }
+  },
+  "power_analysis": {
+    "current_power": 0.9999102934890391,
+    "required_n_80": 199,
+    "required_n_90": 265,
+    "current_n": 816,
+    "effect_size": 0.2,
+    "alpha": 0.05
+  }
+}
