@@ -84,13 +84,22 @@ echo 按任意键开始推送，或按 Ctrl+C 取消...
 pause >nul
 
 echo [6/6] 推送到GitHub...
-git push -u origin main --force
-if %ERRORLEVEL% NEQ 0 (
-    echo.
-    echo ⚠️ 如果main分支不存在，尝试master分支...
+
+REM 先检查当前分支名称
+for /f "tokens=*" %%i in ('git branch --show-current') do set CURRENT_BRANCH=%%i
+echo 当前分支: %CURRENT_BRANCH%
+
+REM 如果不是main，先重命名
+if NOT "%CURRENT_BRANCH%"=="main" (
+    echo 重命名分支为main...
     git branch -M main
-    git push -u origin main --force
-    if %ERRORLEVEL% NEQ 0 (
+)
+
+REM 推送到远程
+git push -u origin main --force
+if %ERRORLEVEL% EQU 0 (
+    goto SUCCESS
+) else (
         echo.
         echo ❌ 推送失败！
         echo.
@@ -108,9 +117,9 @@ if %ERRORLEVEL% NEQ 0 (
         echo.
         pause
         exit /b 1
-    )
 )
 
+:SUCCESS
 echo.
 echo ============================================================
 echo ✅ GitHub仓库更新成功！
