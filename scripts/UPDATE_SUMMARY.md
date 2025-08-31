@@ -10,7 +10,7 @@
 - ✅ 创建了`run_all_figures.py`批量生成图表脚本
 
 ### 2. 文档更新
-- ✅ 删除了所有"Applied Linguistics期刊"相关表述
+- ✅ 删除了所有特定期刊相关表述
 - ✅ 删除了Applied_Linguistics_Statistical_Checklist.md
 - ✅ 更新README.md，使用更通用的学术表述
 

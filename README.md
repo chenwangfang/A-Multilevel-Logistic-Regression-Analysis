@@ -18,14 +18,14 @@
 
 ### Project Overview
 
-This repository contains the complete implementation of multilevel statistical analysis for the SPAADIA corpus, integrating cognitive linguistic construal theory with institutional discourse analysis. The project validates four interconnected hypotheses about frame activation, strategy selection, and meaning negotiation mechanisms in service dialogues through rigorous statistical modeling.
+This repository contains the complete implementation of multilevel statistical analysis for the SPAADIA corpus (35 dialogues, 3,333 turns), integrating cognitive linguistic construal theory with institutional discourse analysis. The research empirically validates how construal operations drive frame activation and strategy selection in service dialogues, revealing systematic connections between cognitive mechanisms and institutional discourse patterns. The XML-JSON hybrid annotation system enables quantification of construal phenomena for large-scale empirical analysis.
 
 ### 📊 Key Findings
 
-- **H1**: Frame activation exhibits dual mechanisms (CD × IP interaction: β = -3.526, *p* = 0.009), **ICC**_speaker = 0.425
-- **H2**: Limited frame-strategy association, χ²(6) = 3.32, *p* = 0.768, Cramér's *V* = 0.024
-- **H3**: Moderate path dependency in strategy transitions, diagonal dominance = 0.600, HR = 0.58
-- **H4**: Structured negotiation dynamics, semantic distance reduction 0.81→0.28 (65.4% reduction)
+- **H1**: Frame activation exhibits dual mechanisms of context dependency (β = -.317) and institutional presupposition (β = .253) with medium interaction effect (*f*² = 0.114), **ICC**_speaker = 0.425, **ICC**_dialogue = 0.000
+- **H2**: Frame types significantly predict strategy selection (χ² = 62.24, *p* < .001, Cramér's *V* = 0.259), with service initiation frames showing strong preference for frame reinforcement (OR = 15.33)
+- **H3**: Strategy evolution demonstrates path dependency (diagonal dominance = 0.533) with effectiveness decay (β = -.082, *p* = .001), customer decay exceeds service provider
+- **H4**: Semantic distance decreases from 0.836 to 0.738 (11.7% reduction, *d* = 1.25), with key negotiation points at turns 5 and 12 (CUSUM = 0.29)
 
 ### 🚀 Quick Start
 
@@ -204,18 +204,18 @@ If you use this code or data in your research, please cite:
 ```bibtex
 @article{chen2025construal,
   title={Construal-Driven Frame Activation and Strategy Selection in Service Dialogues: 
-         A Multilevel Statistical Analysis},
-  author={Author Name},
-  journal={Applied Linguistics},
+         A Multilevel Logistic Regression Analysis},
+  author={[Author Names]},
+  journal={[Journal Name]},
   year={2025},
-  doi={10.1093/applin/XXXXX}
+  doi={10.XXXX/XXXXX}
 }
 
 @software{spaadia_analysis_2025,
   title={SPAADIA Multilevel Statistical Analysis Framework},
-  author={Author Name},
+  author={[Contributors]},
   year={2025},
-  version={2.0},
+  version={2.1},
   url={https://github.com/chenwangfang/A-Multilevel-Logistic-Regression-Analysis},
   doi={10.5281/zenodo.XXXXXX}
 }
@@ -246,14 +246,14 @@ We welcome contributions! Please:
 
 ### 项目概述
 
-本仓库包含SPAADIA语料库多层统计分析的完整实现，整合认知语言学识解理论与机构话语分析。项目通过严格的统计建模验证了服务对话中框架激活、策略选择和意义协商机制的四个相互关联假设。
+本仓库包含SPAADIA语料库（35个对话，3,333轮）多层统计分析的完整实现，整合认知语言学识解理论与机构话语分析。研究实证验证了识解操作如何驱动服务对话中的框架激活和策略选择，揭示了认知机制与机构话语模式之间的系统性联系。XML-JSON混合标注系统实现了识解现象的量化，支持大规模实证分析。
 
 ### 📊 主要发现
 
-- **H1**：框架激活呈现双重机制（CD × IP交互：β = -3.526, *p* = 0.009），**ICC**_说话人 = 0.425
-- **H2**：框架-策略关联有限，χ²(6) = 3.32, *p* = 0.768, Cramér's *V* = 0.024
-- **H3**：策略转换中度路径依赖，对角优势 = 0.600，HR = 0.58
-- **H4**：结构化协商动态，语义距离减少 0.81→0.28（65.4%降低）
+- **H1**：框架激活呈现情境依赖（β = -.317）和制度预设（β = .253）双重机制，交互效应量中等（*f*² = 0.114），**ICC**_说话人 = 0.425，**ICC**_对话 = 0.000
+- **H2**：框架类型显著预测策略选择（χ² = 62.24, *p* < .001, Cramér's *V* = 0.259），服务启动框架强烈偏好框架强化策略（OR = 15.33）
+- **H3**：策略演化呈现路径依赖（对角优势 = 0.533）和效力衰减（β = -.082, *p* = .001），客户衰减系数超过服务提供者
+- **H4**：语义距离从0.836降至0.738（11.7%降低，*d* = 1.25），关键协商点位于第5和12轮（CUSUM = 0.29）
 
 ### 🚀 快速开始
 
@@ -406,18 +406,18 @@ python run_r_icc_analysis.py           # R验证（需要R环境）
 
 ```bibtex
 @article{chen2025construal,
-  title={服务对话中识解驱动的框架激活与策略选择：多层统计分析},
-  author={作者姓名},
-  journal={Applied Linguistics},
+  title={Construal-Driven Frame Activation and Strategy Selection in Service Dialogues: A Multilevel Logistic Regression Analysis},
+  author={[作者姓名]},
+  journal={[期刊名称]},
   year={2025},
-  doi={10.1093/applin/XXXXX}
+  doi={10.XXXX/XXXXX}
 }
 
 @software{spaadia_analysis_2025,
-  title={SPAADIA多层统计分析框架},
-  author={作者姓名},
+  title={SPAADIA Multilevel Statistical Analysis Framework},
+  author={[贡献者]},
   year={2025},
-  version={2.0},
+  version={2.1},
   url={https://github.com/chenwangfang/A-Multilevel-Logistic-Regression-Analysis},
   doi={10.5281/zenodo.XXXXXX}
 }
@@ -473,13 +473,13 @@ python run_r_icc_analysis.py           # R验证（需要R环境）
 
 ## 🔍 Statistical Transparency Statement / 统计透明度声明
 
-This research adheres to Applied Linguistics journal standards for statistical reporting. All analyses include:
+This research adheres to international journal standards for statistical reporting. All analyses include:
 - Effect sizes with 95% confidence intervals
 - FDR-corrected p-values alongside uncorrected values
 - Complete model specifications and diagnostic results
 - Raw data and analysis code for reproducibility
 
-本研究遵循Applied Linguistics期刊的统计报告标准。所有分析包括：
+本研究遵循国际期刊的统计报告标准。所有分析包括：
 - 带95%置信区间的效应量
 - FDR校正和未校正的p值
 - 完整的模型规范和诊断结果

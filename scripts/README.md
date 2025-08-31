@@ -247,7 +247,7 @@ exec(open(r'run_hybrid_analysis.py').read())  # 生成并运行自动脚本
   - 更新`comprehensive_validation.R`嵌入论文值对比
   - 创建完整的R脚本对比说明文档
 - 📝 **文档更新**：
-  - 更新CLAUDE.md记录所有修改
+  - 更新项目文档记录所有修改
   - 创建R脚本对比说明文档
   - README添加数据一致性保障机制说明
 

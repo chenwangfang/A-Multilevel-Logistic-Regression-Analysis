@@ -107,7 +107,7 @@ if 'speaker_role' in self.data.columns:
 
 ### 已更新：
 - [x] hypothesis_h1_advanced.py - 修复speaker_id字段问题
-- [x] CLAUDE.md - 更新ICC值和说明
+- [x] 项目文档 - 更新ICC值和说明
 - [x] 输出JSON文件 - 包含正确的ICC值
 
 ### 新增：
@@ -126,4 +126,4 @@ if 'speaker_role' in self.data.columns:
 ICC计算问题已完全解决。所有脚本现在使用一致的方法和正确的数据字段。最终ICC值（说话人=0.425，对话=0.000）准确反映了数据的三层嵌套结构。
 
 ---
-*本报告由Claude Code自动生成并验证*
+*本报告自动生成并验证*
