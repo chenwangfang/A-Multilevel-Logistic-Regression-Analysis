@@ -1,0 +1,13 @@
+﻿Fixed Effects,,,,,
+,b,SE,95% CI,t,p
+Intercept,4.627,0.052,"[4.525, 4.728]",89.31,< .001
+Context Dependence,-1.473,0.296,"[-2.052, -0.893]",-4.98,< .001
+Institutional Presetting,0.571,0.131,"[0.315, 0.827]",4.37,< .001
+,,,,,
+Random Effects,,,,,
+,Variance,SD,ICC,,
+Dialogue,0.069,0.264,0.322,,
+Residual,0.146,0.383,,,
+,,,,,
+Model Fit,,,,,
+AIC,nan,BIC,nan,Log-Likelihood,-906.6

@@ -1,0 +1,25 @@
+{
+  "variance_components": {
+    "dialogue": 0,
+    "speaker": 0.1438,
+    "residual": 0.2092,
+    "total": 0.353
+  },
+  "variance_percentages": {
+    "dialogue_pct": 0,
+    "speaker_pct": 40.7261,
+    "residual_pct": 59.2739
+  },
+  "icc": {
+    "dialogue": 0,
+    "speaker": 0.4073,
+    "cumulative": 0.4073
+  },
+  "model_info": {
+    "type": "three_level_nested",
+    "formula": "activation_strength ~ 1 + (1|dialogue_id/speaker_id_unique)",
+    "n_observations": 1792,
+    "n_dialogues": 35,
+    "n_speakers": 70
+  }
+}

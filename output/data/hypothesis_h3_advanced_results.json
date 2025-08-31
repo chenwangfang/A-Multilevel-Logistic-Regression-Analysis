@@ -1,0 +1,132 @@
+{
+  "hypothesis": "H3_Advanced",
+  "title": "H3: Path Dependence and Dynamic Adaptation in Strategy Evolution (Advanced)",
+  "method_improvements": {
+    "enhanced_markov": true,
+    "survival_analysis": true,
+    "network_analysis": true,
+    "nonlinear_modeling": true,
+    "permutation_test": true
+  },
+  "markov_chain": {
+    "stationary_distribution": {
+      "frame_reinforcement": 0.3113299784246817,
+      "frame_shifting": 0.34207271755877383,
+      "frame_blending": 0.3465973040165444
+    },
+    "mixing_time": 0.2813160176146741
+  },
+  "network_metrics": {
+    "density": 1.5,
+    "average_clustering": 1.0,
+    "centrality": {
+      "frame_reinforcement": {
+        "in_degree": 519,
+        "out_degree": 511,
+        "pagerank": 0.3145799446685203
+      },
+      "frame_shifting": {
+        "in_degree": 569,
+        "out_degree": 556,
+        "pagerank": 0.3408635075333635
+      },
+      "frame_blending": {
+        "in_degree": 577,
+        "out_degree": 598,
+        "pagerank": 0.3445565477981161
+      }
+    }
+  },
+  "permutation_test": {
+    "p_value": 0.374,
+    "significant": false
+  },
+  "tables": {
+    "table9": [
+      {
+        "frame_reinforcement": 0.3013698630136986,
+        "frame_shifting": 0.3659491193737769,
+        "frame_blending": 0.33268101761252444,
+        "稳态分布": 0.3113299784246817
+      },
+      {
+        "frame_reinforcement": 0.30035971223021585,
+        "frame_shifting": 0.33992805755395683,
+        "frame_blending": 0.3597122302158273,
+        "稳态分布": 0.34207271755877383
+      },
+      {
+        "frame_reinforcement": 0.3311036789297659,
+        "frame_shifting": 0.32274247491638797,
+        "frame_blending": 0.34615384615384615,
+        "稳态分布": 0.3465973040165444
+      },
+      {
+        "frame_reinforcement": 3.2120260472825763,
+        "frame_shifting": 2.923355031458138,
+        "frame_blending": 2.8851926671428068,
+        "稳态分布": 0.2813160176146741
+      }
+    ],
+    "table10": [
+      {
+        "Strategy Type": "Frame Reinforcement",
+        "Median Survival Time": "1.00",
+        "Analysis Type": "Kaplan-Meier",
+        "策略类型": NaN,
+        "中位生存时间": NaN,
+        "分析类型": NaN
+      },
+      {
+        "Strategy Type": "Frame Shifting",
+        "Median Survival Time": "1.00",
+        "Analysis Type": "Kaplan-Meier",
+        "策略类型": NaN,
+        "中位生存时间": NaN,
+        "分析类型": NaN
+      },
+      {
+        "Strategy Type": "Frame Blending",
+        "Median Survival Time": "1.00",
+        "Analysis Type": "Kaplan-Meier",
+        "策略类型": NaN,
+        "中位生存时间": NaN,
+        "分析类型": NaN
+      },
+      {
+        "Strategy Type": NaN,
+        "Median Survival Time": NaN,
+        "Analysis Type": NaN,
+        "策略类型": "路径依赖效应",
+        "中位生存时间": "-",
+        "分析类型": "面板数据模型"
+      },
+      {
+        "Strategy Type": NaN,
+        "Median Survival Time": NaN,
+        "Analysis Type": NaN,
+        "策略类型": "重复次数转折点",
+        "中位生存时间": "2.38",
+        "分析类型": "二次项系数显著"
+      }
+    ]
+  },
+  "bootstrap": {
+    "persistence": {
+      "estimate": 0.47687687687687685,
+      "ci_bca": [
+        0.44144144144144143,
+        0.5195195195195195
+      ],
+      "std_error": 0.020183275037959636
+    },
+    "entropy": {
+      "estimate": 1.0762802891008905,
+      "ci_bca": [
+        1.0737033102496487,
+        1.0782284428140458
+      ],
+      "std_error": 0.0011475389229403232
+    }
+  }
+}

@@ -7,23 +7,41 @@ SPAADIA分析脚本总运行程序（高级版）
 
 import os
 import sys
+import io
 import time
 import logging
 from pathlib import Path
 from datetime import datetime
 import subprocess
 
+# 修复Windows环境下的编码问题
+if sys.platform == 'win32':
+    # 强制设置UTF-8编码
+    os.environ['PYTHONIOENCODING'] = 'utf-8'
+    # 重新配置标准输出和错误流
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
 # 设置日志
-log_dir = Path("G:/Project/实证/关联框架/输出/logs")
+# 使用相对路径，兼容Linux和Windows
+log_dir = Path(__file__).parent.parent.parent / "输出" / "logs"
 log_dir.mkdir(parents=True, exist_ok=True)
 
 log_file = log_dir / f"advanced_analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+
+# 创建一个支持UTF-8的StreamHandler
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+# 确保控制台输出使用UTF-8编码
+if sys.platform == 'win32':
+    console_handler.stream = sys.stdout
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler(log_file, encoding='utf-8'),
-        logging.StreamHandler(sys.stdout)
+        console_handler
     ]
 )
 logger = logging.getLogger('AdvancedAnalysisRunner')
@@ -44,7 +62,8 @@ class AdvancedAnalysisRunner:
         """
         self.run_basic = run_basic
         self.run_advanced = run_advanced
-        self.script_dir = Path("G:/Project/实证/关联框架/Python脚本/SPAADIA分析脚本")
+        # 使用相对路径，兼容Linux和Windows
+        self.script_dir = Path(__file__).parent
         
         # 基础分析脚本列表（使用最新的publication版本，包含所有图形修复）
         self.basic_scripts = [
@@ -65,7 +84,8 @@ class AdvancedAnalysisRunner:
         
         # 验证脚本
         self.validation_scripts = [
-            "validation_scripts.R",  # R语言验证
+            "simple_r_validation.R",  # 简化的R验证（避免编码问题）
+            # "comprehensive_validation.R",  # 完整验证（存在编码问题，暂时禁用）
             "integrate_r_validation.py"  # 整合R验证结果
         ]
         
@@ -234,7 +254,8 @@ class AdvancedAnalysisRunner:
         """生成汇总报告"""
         logger.info("生成汇总报告...")
         
-        report_path = Path("G:/Project/实证/关联框架/输出/reports/advanced_analysis_summary.md")
+        # 使用相对路径
+        report_path = Path(__file__).parent.parent.parent / "输出" / "reports" / "advanced_analysis_summary.md"
         
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write("# SPAADIA高级分析汇总报告\n\n")
@@ -403,7 +424,8 @@ def main():
         print("\n" + "="*50)
         print("✓ SPAADIA高级分析全部完成！")
         print("="*50)
-        print(f"输出目录: G:/Project/实证/关联框架/输出/")
+        output_dir = Path(__file__).parent.parent.parent / "输出"
+        print(f"输出目录: {output_dir}")
         print(f"日志文件: {log_file}")
         print("="*50)
     else:

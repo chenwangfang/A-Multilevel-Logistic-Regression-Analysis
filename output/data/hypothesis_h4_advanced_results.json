@@ -1,0 +1,291 @@
+{
+  "hypothesis": "H4_Advanced",
+  "title": "H4: Semantic Convergence Mechanism in Meaning Negotiation (Advanced)",
+  "method_improvements": {
+    "five_breakpoints": true,
+    "word2vec_semantic": true,
+    "cusum_detection": true,
+    "multiple_imputation": true,
+    "bootstrap_validation": true
+  },
+  "breakpoints": [
+    0.15,
+    0.35,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "piecewise_model": {
+    "growth_rates": {
+      "Initial Phase": {
+        "mean_rate": -3.875115845592643,
+        "se": 4.440892098500626e-16,
+        "ci": [
+          -3.8751158455926427,
+          -3.8751158455926427
+        ]
+      },
+      "Early Negotiation": {
+        "mean_rate": 41.01541796080895,
+        "se": 0.0,
+        "ci": [
+          41.01541796080895,
+          41.01541796080895
+        ]
+      },
+      "Mid Development": {
+        "mean_rate": 138.32568146884324,
+        "se": 0.0,
+        "ci": [
+          138.32568146884324,
+          138.32568146884324
+        ]
+      },
+      "Deep Negotiation": {
+        "mean_rate": 60.11007399301364,
+        "se": 0.0,
+        "ci": [
+          60.11007399301364,
+          60.11007399301364
+        ]
+      },
+      "Late Convergence": {
+        "mean_rate": 147.3594958362837,
+        "se": 0.0,
+        "ci": [
+          147.3594958362837,
+          147.3594958362837
+        ]
+      },
+      "Final Phase": {
+        "mean_rate": 3.646064410973905,
+        "se": 0.0,
+        "ci": [
+          3.646064410973905,
+          3.646064410973905
+        ]
+      }
+    },
+    "slope_changes": [
+      {
+        "breakpoint": 0.15,
+        "mean_change": 44.8905338064016,
+        "significant": true
+      },
+      {
+        "breakpoint": 0.35,
+        "mean_change": 97.3102635080343,
+        "significant": true
+      },
+      {
+        "breakpoint": 0.5,
+        "mean_change": -78.2156074758296,
+        "significant": true
+      },
+      {
+        "breakpoint": 0.75,
+        "mean_change": 87.24942184327007,
+        "significant": true
+      },
+      {
+        "breakpoint": 0.9,
+        "mean_change": -143.7134314253098,
+        "significant": true
+      }
+    ]
+  },
+  "cusum_summary": {
+    "avg_changepoints": 0.0,
+    "changepoint_distribution": null
+  },
+  "role_differences": {
+    "test_results": {
+      "t_statistic": null,
+      "p_value": null,
+      "cohens_d": 0.0
+    }
+  },
+  "tables": {
+    "table11": [
+      {
+        "Dialogue Segment": "Initial Phase",
+        "Growth Rate": "-3.875",
+        "SE": "0.000",
+        "95% CI": "[-3.875, -3.875]",
+        "对话段": null,
+        "增长率": null,
+        "标准误": null
+      },
+      {
+        "Dialogue Segment": "Early Negotiation",
+        "Growth Rate": "41.015",
+        "SE": "0.000",
+        "95% CI": "[41.015, 41.015]",
+        "对话段": null,
+        "增长率": null,
+        "标准误": null
+      },
+      {
+        "Dialogue Segment": "Mid Development",
+        "Growth Rate": "138.326",
+        "SE": "0.000",
+        "95% CI": "[138.326, 138.326]",
+        "对话段": null,
+        "增长率": null,
+        "标准误": null
+      },
+      {
+        "Dialogue Segment": "Deep Negotiation",
+        "Growth Rate": "60.110",
+        "SE": "0.000",
+        "95% CI": "[60.110, 60.110]",
+        "对话段": null,
+        "增长率": null,
+        "标准误": null
+      },
+      {
+        "Dialogue Segment": "Late Convergence",
+        "Growth Rate": "147.359",
+        "SE": "0.000",
+        "95% CI": "[147.359, 147.359]",
+        "对话段": null,
+        "增长率": null,
+        "标准误": null
+      },
+      {
+        "Dialogue Segment": "Final Phase",
+        "Growth Rate": "3.646",
+        "SE": "0.000",
+        "95% CI": "[3.646, 3.646]",
+        "对话段": null,
+        "增长率": null,
+        "标准误": null
+      },
+      {
+        "Dialogue Segment": null,
+        "Growth Rate": null,
+        "SE": null,
+        "95% CI": "显著",
+        "对话段": "断点 0.15",
+        "增长率": "Δ = 44.891",
+        "标准误": "-"
+      },
+      {
+        "Dialogue Segment": null,
+        "Growth Rate": null,
+        "SE": null,
+        "95% CI": "显著",
+        "对话段": "断点 0.35",
+        "增长率": "Δ = 97.310",
+        "标准误": "-"
+      },
+      {
+        "Dialogue Segment": null,
+        "Growth Rate": null,
+        "SE": null,
+        "95% CI": "显著",
+        "对话段": "断点 0.50",
+        "增长率": "Δ = -78.216",
+        "标准误": "-"
+      },
+      {
+        "Dialogue Segment": null,
+        "Growth Rate": null,
+        "SE": null,
+        "95% CI": "显著",
+        "对话段": "断点 0.75",
+        "增长率": "Δ = 87.249",
+        "标准误": "-"
+      },
+      {
+        "Dialogue Segment": null,
+        "Growth Rate": null,
+        "SE": null,
+        "95% CI": "显著",
+        "对话段": "断点 0.90",
+        "增长率": "Δ = -143.713",
+        "标准误": "-"
+      }
+    ],
+    "table12": [
+      {
+        "Dialogue ID": "trainline01",
+        "Number of Change Points": 0.0,
+        "Change Point Positions": "无",
+        "Mean Segment Length": "1.000",
+        "对话ID": null,
+        "变化点数": null,
+        "变化点位置": null,
+        "平均段长": null
+      },
+      {
+        "Dialogue ID": "trainline02",
+        "Number of Change Points": 0.0,
+        "Change Point Positions": "无",
+        "Mean Segment Length": "1.000",
+        "对话ID": null,
+        "变化点数": null,
+        "变化点位置": null,
+        "平均段长": null
+      },
+      {
+        "Dialogue ID": "trainline03",
+        "Number of Change Points": 0.0,
+        "Change Point Positions": "无",
+        "Mean Segment Length": "1.000",
+        "对话ID": null,
+        "变化点数": null,
+        "变化点位置": null,
+        "平均段长": null
+      },
+      {
+        "Dialogue ID": "trainline07",
+        "Number of Change Points": 0.0,
+        "Change Point Positions": "无",
+        "Mean Segment Length": "1.000",
+        "对话ID": null,
+        "变化点数": null,
+        "变化点位置": null,
+        "平均段长": null
+      },
+      {
+        "Dialogue ID": "trainline08",
+        "Number of Change Points": 0.0,
+        "Change Point Positions": "无",
+        "Mean Segment Length": "1.000",
+        "对话ID": null,
+        "变化点数": null,
+        "变化点位置": null,
+        "平均段长": null
+      },
+      {
+        "Dialogue ID": null,
+        "Number of Change Points": null,
+        "Change Point Positions": null,
+        "Mean Segment Length": null,
+        "对话ID": "总体平均",
+        "变化点数": "0.00",
+        "变化点位置": "-",
+        "平均段长": "-"
+      }
+    ]
+  },
+  "bootstrap": {
+    "convergence_rate": {
+      "estimate": 0.0,
+      "ci_bca": [
+        0.0,
+        0.0
+      ],
+      "std_error": 0.0
+    },
+    "peak_position": {
+      "estimate": 0.5365,
+      "ci_bca": [
+        0.5077499999999999,
+        0.5365
+      ],
+      "std_error": 0.013114034047538553
+    }
+  }
+}

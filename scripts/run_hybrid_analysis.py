@@ -639,9 +639,9 @@ cat("结果已保存到:", output_dir, "\\n")
 - `validate_h1.R`: H1假设的lme4验证
 - `validate_h2.R`: H2假设的多项逻辑回归验证
 
-## 期刊合规性
+## 统计质量
 
-本分析满足Applied Linguistics期刊以下要求：
+本分析满足以下高标准统计要求：
 - ✅ 效应量报告（Cohen's d, Cramér's V）
 - ✅ 95%置信区间
 - ✅ 多重比较校正

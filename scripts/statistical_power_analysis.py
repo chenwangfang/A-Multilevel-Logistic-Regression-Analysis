@@ -208,7 +208,7 @@ class StatisticalPowerAnalysis:
         return f_squared
     
     def multilevel_power_simulation(self, n_simulations: int = 1000, 
-                                   icc: float = 0.2,
+                                   icc: float = None,
                                    effect_size: float = 0.5) -> Dict[str, Any]:
         """
         多层模型的功效模拟
@@ -273,7 +273,7 @@ class StatisticalPowerAnalysis:
         # 假设1：多层混合效应模型
         h1_power = self.multilevel_power_simulation(
             n_simulations=1000,
-            icc=0.205,  # 从实际数据获得
+            icc=None,  # 应从实际数据获得
             effect_size=0.5  # 中等效应
         )
         

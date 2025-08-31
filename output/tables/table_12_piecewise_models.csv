@@ -1,0 +1,13 @@
+Dialogue ID,Segment,Start Turn,End Turn,Slope,Intercept
+trainline01,1,0,96,0.0000,0.831
+trainline02,1,0,44,0.0000,0.843
+trainline03,1,0,106,0.0000,0.915
+trainline04,1,0,7,0.0000,0.826
+trainline04,2,7,14,0.0000,0.808
+trainline04,3,14,22,0.0000,0.904
+trainline05,1,0,99,0.0000,0.921
+trainline06,1,0,94,0.0000,0.839
+trainline07,1,0,92,0.0000,0.867
+trainline08,1,0,100,0.0000,0.868
+trainline09,1,0,118,0.0000,0.870
+trainline10,1,0,45,0.0000,0.855

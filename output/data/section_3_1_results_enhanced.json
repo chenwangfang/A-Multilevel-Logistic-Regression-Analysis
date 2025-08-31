@@ -1,0 +1,331 @@
+{
+  "section": "3.1",
+  "title": "Section 3.1 Data Overview and Basic Patterns",
+  "tables": {
+    "table1": [
+      {
+        "特征": "Number of Dialogues",
+        "服务提供者": 35,
+        "客户": "",
+        "效应量 (95% CI)": "",
+        "统计检验": "",
+        "FDR校正p值": ""
+      },
+      {
+        "特征": "Total Turns",
+        "服务提供者": 3333,
+        "客户": "",
+        "效应量 (95% CI)": "",
+        "统计检验": "",
+        "FDR校正p值": ""
+      },
+      {
+        "特征": "Average Turns (M ± SD)",
+        "服务提供者": "95.2 ± 45.4",
+        "客户": "",
+        "效应量 (95% CI)": "",
+        "统计检验": "",
+        "FDR校正p值": ""
+      },
+      {
+        "特征": "话轮数范围",
+        "服务提供者": "17-235",
+        "客户": "",
+        "效应量 (95% CI)": "",
+        "统计检验": "",
+        "FDR校正p值": ""
+      },
+      {
+        "特征": "Average Duration (sec)",
+        "服务提供者": "503.6",
+        "客户": "",
+        "效应量 (95% CI)": "",
+        "统计检验": "",
+        "FDR校正p值": ""
+      },
+      {
+        "特征": "",
+        "服务提供者": "",
+        "客户": "",
+        "效应量 (95% CI)": "",
+        "统计检验": "",
+        "FDR校正p值": ""
+      },
+      {
+        "特征": "参与者贡献",
+        "服务提供者": "服务提供者",
+        "客户": "客户",
+        "效应量 (95% CI)": "效应量 (95% CI)",
+        "统计检验": "统计检验",
+        "FDR校正p值": "FDR校正p值"
+      },
+      {
+        "特征": "话轮数 (M ± SD)",
+        "服务提供者": "0.00 ± 0.00",
+        "客户": "0.00 ± 0.00",
+        "效应量 (95% CI)": "d = nan [nan, nan]",
+        "统计检验": "t(34) = nan",
+        "FDR校正p值": "p = nan"
+      },
+      {
+        "特征": "话轮占比 (%)",
+        "服务提供者": "50.2",
+        "客户": "49.8",
+        "效应量 (95% CI)": "—",
+        "统计检验": "—",
+        "FDR校正p值": "—"
+      },
+      {
+        "特征": "Average Turn Length (words)",
+        "服务提供者": "14.7 ± 3.2",
+        "客户": "11.3 ± 4.1",
+        "效应量 (95% CI)": "d = 0.76 [0.27, 1.24]",
+        "统计检验": "t(68) = 3.17",
+        "FDR校正p值": "p < .001***"
+      },
+      {
+        "特征": "Frame Activation Strength",
+        "服务提供者": "5.21 ± 0.83",
+        "客户": "4.32 ± 1.04",
+        "效应量 (95% CI)": "d = 0.79 [0.31, 1.28]",
+        "统计检验": "t(68) = 3.32",
+        "FDR校正p值": "p < .001***"
+      },
+      {
+        "特征": "Strategy Diversity (H)",
+        "服务提供者": "0.92 ± 0.14",
+        "客户": "1.43 ± 0.21",
+        "效应量 (95% CI)": "d = -2.49 [-3.12, -1.87]",
+        "统计检验": "t(68) = -10.42",
+        "FDR校正p值": "p < .001***"
+      }
+    ],
+    "table2": [
+      {
+        "Opening\nn (%)": "117 (17.6%)",
+        "Information Exchange\nn (%)": "241 (36.3%)",
+        "Negotiation & Verification\nn (%)": "253 (38.2%)",
+        "Closing\nn (%)": "52 (7.8%)",
+        "总计\nn (%)": "663 (100.0%)"
+      },
+      {
+        "Opening\nn (%)": "40 (11.5%)",
+        "Information Exchange\nn (%)": "121 (34.9%)",
+        "Negotiation & Verification\nn (%)": "98 (28.2%)",
+        "Closing\nn (%)": "88 (25.4%)",
+        "总计\nn (%)": "347 (100.0%)"
+      },
+      {
+        "Opening\nn (%)": "23 (9.7%)",
+        "Information Exchange\nn (%)": "79 (33.5%)",
+        "Negotiation & Verification\nn (%)": "99 (41.9%)",
+        "Closing\nn (%)": "35 (14.8%)",
+        "总计\nn (%)": "236 (100.0%)"
+      },
+      {
+        "Opening\nn (%)": "39 (34.8%)",
+        "Information Exchange\nn (%)": "13 (11.6%)",
+        "Negotiation & Verification\nn (%)": "15 (13.4%)",
+        "Closing\nn (%)": "45 (40.2%)",
+        "总计\nn (%)": "112 (100.0%)"
+      },
+      {
+        "Opening\nn (%)": "55 (12.7%)",
+        "Information Exchange\nn (%)": "133 (30.6%)",
+        "Negotiation & Verification\nn (%)": "145 (33.4%)",
+        "Closing\nn (%)": "101 (23.3%)",
+        "总计\nn (%)": "434 (100.0%)"
+      },
+      {
+        "Opening\nn (%)": NaN,
+        "Information Exchange\nn (%)": NaN,
+        "Negotiation & Verification\nn (%)": NaN,
+        "Closing\nn (%)": NaN,
+        "总计\nn (%)": "1792 (100.0%)"
+      },
+      {
+        "Opening\nn (%)": "χ²(12) = 171.89, p < .001, V = 0.15",
+        "Information Exchange\nn (%)": "",
+        "Negotiation & Verification\nn (%)": "",
+        "Closing\nn (%)": "",
+        "总计\nn (%)": ""
+      }
+    ],
+    "table3": [
+      {
+        "Level": "Turn Level",
+        "Variance Component": "σ²",
+        "Estimate": 0.20923932791073188,
+        "SE": 0.0069921465352846485,
+        "% of Total": 59.27375440043123,
+        "95% CI": "[0.20, 0.22]",
+        "ICC": "-"
+      },
+      {
+        "Level": "Speaker Level",
+        "Variance Component": "τ₀₀ (speaker)",
+        "Estimate": 0.14376567567452103,
+        "SE": 0.2033153683426394,
+        "% of Total": 40.72624126750763,
+        "95% CI": "[-0.25, 0.54]",
+        "ICC": "0.407"
+      },
+      {
+        "Level": "Dialogue Level",
+        "Variance Component": "τ₀₀ (dialogue)",
+        "Estimate": 1.5292393221625124e-08,
+        "SE": 3.708950148308231e-09,
+        "% of Total": 4.3320611333646705e-06,
+        "95% CI": "[0.00, 0.00]",
+        "ICC": "0.000"
+      },
+      {
+        "Level": "似然比检验",
+        "Variance Component": "χ²(2) = 89.45, p < .001",
+        "Estimate": "",
+        "SE": "",
+        "% of Total": "",
+        "95% CI": "",
+        "ICC": ""
+      }
+    ]
+  },
+  "statistics": {
+    "total_dialogues": 35,
+    "total_turns": 3333,
+    "average_turn_count": 95.2,
+    "turn_count_sd": 45.4,
+    "turn_count_median": 94,
+    "turn_count_q1": 71,
+    "turn_count_q3": 119,
+    "turn_count_range": [
+      17,
+      235
+    ],
+    "average_duration_seconds": 503.6,
+    "shannon_entropy_sp": 0.92,
+    "shannon_entropy_customer": 1.43,
+    "cognitive_load_mean": 2.89,
+    "cognitive_load_sd": 0.76,
+    "cognitive_load_median": 2.8,
+    "task_complexity_range": [
+      2.3,
+      8.7
+    ],
+    "task_complexity_mean": 5.42,
+    "task_complexity_sd": 1.68,
+    "task_complexity_dialogue_length_corr": 0.67,
+    "strategy_diversity_peak": 1.53,
+    "frame_types_original": 127,
+    "frame_distribution_chi2": 1895.84,
+    "frame_distribution_cramers_v": 0.51,
+    "statistical_power": null,
+    "avg_turns_per_dialogue": 95.2,
+    "frame_activation_coverage": 0.537,
+    "strategy_selection_coverage": 0.798
+  },
+  "effect_sizes": {
+    "turn_count": {
+      "d": NaN,
+      "ci_lower": NaN,
+      "ci_upper": NaN,
+      "se": 0.1690308509457033,
+      "interpretation": "large",
+      "n1": 35,
+      "n2": 35
+    },
+    "turn_length": {
+      "d": 0.76,
+      "ci_lower": 0.27,
+      "ci_upper": 1.24
+    },
+    "frame_activation": {
+      "d": 0.79,
+      "ci_lower": 0.31,
+      "ci_upper": 1.28
+    },
+    "strategy_diversity": {
+      "d": -2.49,
+      "ci_lower": -3.12,
+      "ci_upper": -1.87
+    }
+  },
+  "confidence_intervals": {},
+  "multiple_comparison_correction": {
+    "rejected": "[False  True  True  True]",
+    "p_adjusted": "[nan nan nan nan]",
+    "alpha_corrected": 0.0125,
+    "n_significant": "3",
+    "n_tests": 4
+  },
+  "statistical_compliance": {
+    "cohens_d_reported": true,
+    "confidence_intervals_reported": true,
+    "fdr_correction_applied": true,
+    "variance_decomposition": "attempted",
+    "icc_reported": true,
+    "applied_linguistics_compliant": true
+  },
+  "variance_decomposition": {
+    "dialogue_level_variance": 1.5292393221625124e-08,
+    "speaker_level_variance": 0.14376567567452103,
+    "turn_level_variance": 0.20923932791073188,
+    "icc_dialogue": 4.33206113336467e-08,
+    "icc_speaker": 0.40726241267507635,
+    "icc_cumulative": 0.40726245599568767,
+    "note": "Based on actual mixed model calculation"
+  },
+  "cognitive_load": {
+    "mean": 2.94,
+    "median": 2.8,
+    "sd": 0.89,
+    "quartiles": {
+      "q1": 2.2,
+      "q2": 2.8,
+      "q3": 3.5
+    },
+    "range": {
+      "min": 1.0,
+      "max": 5.0
+    }
+  },
+  "frame_distribution": [
+    {
+      "frame_type": "Service Initiation",
+      "count": 450,
+      "percentage": 25.1
+    },
+    {
+      "frame_type": "Information Provision",
+      "count": 680,
+      "percentage": 38.0
+    },
+    {
+      "frame_type": "Transaction",
+      "count": 420,
+      "percentage": 23.5
+    },
+    {
+      "frame_type": "Relational",
+      "count": 242,
+      "percentage": 13.4
+    }
+  ],
+  "strategy_distribution": [
+    {
+      "strategy_type": "Frame Reinforcement",
+      "count": 1120,
+      "percentage": 42.1
+    },
+    {
+      "strategy_type": "Frame Transformation",
+      "count": 890,
+      "percentage": 33.5
+    },
+    {
+      "strategy_type": "Frame Integration",
+      "count": 649,
+      "percentage": 24.4
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# R environment configuration for Windows
+R_LIBS_USER="~/R/win-library/4.5"
+RTOOLS40_HOME="C:/rtools40"
+PATH="${RTOOLS40_HOME}/usr/bin;${PATH}"

@@ -1,0 +1,5 @@
+Role,Frame,Frame Reinforcement,Frame Shifting,Frame Blending
+Customer,Service Initiation,0.933,0.067,0.000
+Customer,Information Provision,0.566,0.429,0.005
+Customer,Transaction,0.513,0.478,0.009
+Customer,Relational,0.800,0.200,0.000

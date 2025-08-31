@@ -1,7 +1,7 @@
 # Construal-Driven Frame Activation and Strategy Selection in Service Dialogues: A Multilevel Statistical Analysis
 # 服务对话中识解驱动的框架激活与策略选择：多层统计分析
 
-[![Version](https://img.shields.io/badge/Version-2.0-blue)](https://github.com/chenwangfang/A-Multilevel-Logistic-Regression-Analysis/releases)
+[![Version](https://img.shields.io/badge/Version-2.1-blue)](https://github.com/chenwangfang/A-Multilevel-Logistic-Regression-Analysis/releases)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.2%2B-276DC3)](https://www.r-project.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -22,10 +22,10 @@ This repository contains the complete implementation of multilevel statistical a
 
 ### 📊 Key Findings
 
-- **H1**: Frame activation exhibits dual mechanisms (context dependency × institutional presetting), interaction effect *f*² = 0.114
+- **H1**: Frame activation exhibits dual mechanisms (CD × IP interaction: β = -3.526, *p* = 0.009), **ICC**_speaker = 0.425
 - **H2**: Limited frame-strategy association, χ²(6) = 3.32, *p* = 0.768, Cramér's *V* = 0.024
-- **H3**: Moderate path dependency in strategy transitions, diagonal dominance = 0.533, mixing time = 2 turns
-- **H4**: Structured negotiation dynamics with change points at turns 5 and 12, piecewise *R*² = 0.42
+- **H3**: Moderate path dependency in strategy transitions, diagonal dominance = 0.600, HR = 0.58
+- **H4**: Structured negotiation dynamics, semantic distance reduction 0.81→0.28 (65.4% reduction)
 
 ### 🚀 Quick Start
 
@@ -50,11 +50,25 @@ cd scripts
 # Option 1: Run complete analysis with advanced statistics (Recommended)
 python run_all_analyses_advanced.py
 
-# Option 2: Quick hybrid analysis for figures only
+# Option 2: Quick hybrid analysis for core results
 python run_hybrid_analysis.py
+
+# Option 3: Generate all figures only
+python run_all_figures.py
+
+# Optional: Run individual figure scripts
+python figure1_theoretical_framework.py  # Generate theoretical framework
+python figure2_dual_mechanism.py         # Generate H1 dual mechanism
+python figure3_frame_strategy_sankey.py  # Generate H2 Sankey diagram
+python figure4_markov_evolution.py       # Generate H3 Markov evolution
+python figure5_semantic_convergence.py   # Generate H4 semantic convergence
 
 # Optional: Run R validation
 python run_r_validation.py
+
+# Optional: Calculate ICC separately
+python three_level_icc_python.py        # Python implementation
+python run_r_icc_analysis.py           # R validation (requires R)
 ```
 
 #
@@ -91,22 +105,48 @@ These documents provide comprehensive technical details supporting the main anal
 │   └── xml_annotations/         # XML annotation files
 ├── scripts/                     # Analysis scripts
 │   ├── Core Analyses/
-│   │   ├── hypothesis_h1_analysis_publication.py
-│   │   ├── hypothesis_h2_analysis_publication.py
-│   │   ├── hypothesis_h3_analysis_publication.py
-│   │   └── hypothesis_h4_analysis_publication.py
+│   │   ├── hypothesis_h1_analysis_publication.py  # H1: Frame activation dual mechanisms
+│   │   ├── hypothesis_h2_analysis_publication.py  # H2: Frame-strategy association
+│   │   ├── hypothesis_h3_analysis_publication.py  # H3: Dynamic strategy adaptation
+│   │   └── hypothesis_h4_analysis_publication.py  # H4: Semantic negotiation
 │   ├── Advanced Analyses/
-│   │   ├── hypothesis_h1_advanced.py
-│   │   ├── hypothesis_h2_advanced.py
-│   │   ├── hypothesis_h3_advanced.py
-│   │   └── hypothesis_h4_advanced.py
+│   │   ├── hypothesis_h1_advanced.py             # Advanced H1 with ICC correction
+│   │   ├── hypothesis_h1_enhanced.py             # Enhanced H1 analysis
+│   │   ├── hypothesis_h2_advanced.py             # Advanced H2 analysis
+│   │   ├── hypothesis_h2_enhanced.py             # Enhanced H2 analysis
+│   │   ├── hypothesis_h2_enhanced_feature_engineering.py  # Feature engineering for H2
+│   │   ├── hypothesis_h3_advanced.py             # Advanced H3 analysis
+│   │   └── hypothesis_h4_advanced.py             # Advanced H4 analysis
+│   ├── Figure Generation/
+│   │   ├── figure1_theoretical_framework.py      # Theoretical framework diagram
+│   │   ├── figure2_dual_mechanism.py             # Dual mechanism visualization
+│   │   ├── figure3_frame_strategy_sankey.py      # Sankey diagram for frame-strategy
+│   │   ├── figure4_markov_evolution.py           # Markov chain evolution
+│   │   ├── figure5_semantic_convergence.py       # Semantic convergence patterns
+│   │   ├── create_flowchart_pillow.py           # Analysis flowchart (Pillow)
+│   │   ├── create_multilevel_flowchart.py       # Multilevel analysis flowchart
+│   │   └── run_all_figures.py                   # Generate all figures at once
 │   ├── Statistical Enhancement/
-│   │   ├── statistical_power_analysis.py
-│   │   ├── statistical_enhancements.py
-│   │   └── advanced_statistics.py
-│   └── Main Runners/
-│       ├── run_all_analyses_advanced.py
-│       └── run_hybrid_analysis.py
+│   │   ├── statistical_power_analysis.py         # Power analysis (59.8% power)
+│   │   ├── statistical_enhancements.py           # FDR correction and enhancements
+│   │   ├── advanced_statistics.py                # Advanced statistical methods
+│   │   ├── section_3_1_analysis_enhanced.py      # Section 3.1 descriptive statistics
+│   │   └── three_level_icc_python.py            # ICC calculation module
+│   ├── R Integration/
+│   │   ├── run_r_validation.py                   # Python-R validation interface
+│   │   ├── run_r_icc_analysis.py                # Python-R interface for ICC
+│   │   ├── integrate_r_validation.py            # Integrate R validation results
+│   │   ├── integrate_validation_results.py      # Consolidate validation outputs
+│   │   ├── data_bridge_for_R.py                 # Prepare data for R analysis
+│   │   ├── comprehensive_validation.R           # Comprehensive R validation
+│   │   ├── simple_r_validation.R                # Simplified R validation
+│   │   ├── three_level_icc_analysis.R          # R lme4 ICC validation
+│   │   └── three_level_icc_analysis_windows.R  # Windows-compatible R script
+│   ├── Main Runners/
+│   │   ├── run_all_analyses_advanced.py         # Run complete analysis pipeline
+│   │   └── run_hybrid_analysis.py               # Quick hybrid analysis
+│   └── Data Loading/
+│       └── data_loader_enhanced.py              # Enhanced data loader for SPAADIA
 ├── output/                      # Analysis outputs
 │   ├── data/                   # JSON statistical results
 │   ├── figures/                # Publication figures (1200 DPI)
@@ -120,13 +160,23 @@ These documents provide comprehensive technical details supporting the main anal
 
 ### 🔬 Technical Implementation
 
+#### Script Statistics
+- **Total Scripts**: 36 (32 Python + 4 R scripts)
+- **Core Analysis**: 4 publication-ready hypothesis tests
+- **Advanced Analysis**: 7 enhanced versions with additional features
+- **Figure Generation**: 8 scripts for publication-quality visualizations
+- **Statistical Enhancement**: 5 scripts for power analysis and corrections
+- **R Integration**: 9 scripts for cross-validation and integration
+
 #### Software Environment
 - **Python 3.9+**: pandas, numpy, scipy, statsmodels 0.14+, scikit-learn, matplotlib 3.5+, seaborn 0.12+
 - **R 4.2+** (optional): lme4, pbkrtest, jsonlite, vcd, nnet, performance
 - **Analysis Pipeline**: Hybrid Python-R approach with Python for primary analysis and R for validation
 
 #### Statistical Methods
-- **Three-level linear mixed models** with Kenward-Roger approximation
+- **Three-level linear mixed models** with proper ICC calculation (speaker-level ICC = 0.425)
+  - Variance decomposition: 57.5% turn-level, 42.5% speaker-level, 0% dialogue-level
+  - ANOVA method for three-level nested structure
 - **Multinomial logistic regression** with clustered robust standard errors
 - **Markov chain analysis** with stationary distribution and mixing time
 - **Piecewise growth curve models** with CUSUM change-point detection
@@ -200,10 +250,10 @@ We welcome contributions! Please:
 
 ### 📊 主要发现
 
-- **H1**：框架激活呈现双重机制（语境依赖×机构预设），交互效应 *f*² = 0.114
+- **H1**：框架激活呈现双重机制（CD × IP交互：β = -3.526, *p* = 0.009），**ICC**_说话人 = 0.425
 - **H2**：框架-策略关联有限，χ²(6) = 3.32, *p* = 0.768, Cramér's *V* = 0.024
-- **H3**：策略转换中度路径依赖，对角优势 = 0.533，混合时间 = 2个话轮
-- **H4**：结构化协商动态，变化点在第5轮和第12轮，分段 *R*² = 0.42
+- **H3**：策略转换中度路径依赖，对角优势 = 0.600，HR = 0.58
+- **H4**：结构化协商动态，语义距离减少 0.81→0.28（65.4%降低）
 
 ### 🚀 快速开始
 
@@ -228,11 +278,25 @@ cd scripts
 # 选项1：运行包含高级统计的完整分析（推荐）
 python run_all_analyses_advanced.py
 
-# 选项2：仅生成图表的快速混合分析
+# 选项2：快速混合分析获取核心结果
 python run_hybrid_analysis.py
+
+# 选项3：仅生成所有图表
+python run_all_figures.py
+
+# 可选：运行单个图表脚本
+python figure1_theoretical_framework.py  # 生成理论框架图
+python figure2_dual_mechanism.py         # 生成H1双重机制图
+python figure3_frame_strategy_sankey.py  # 生成H2桑基图
+python figure4_markov_evolution.py       # 生成H3马尔可夫演化图
+python figure5_semantic_convergence.py   # 生成H4语义收敛图
 
 # 可选：运行R验证
 python run_r_validation.py
+
+# 可选：单独计算ICC
+python three_level_icc_python.py        # Python实现
+python run_r_icc_analysis.py           # R验证（需要R环境）
 ```
 
 ### 📁 仓库结构
@@ -244,22 +308,48 @@ python run_r_validation.py
 │   └── xml_annotations/         # XML标注文件
 ├── scripts/                     # 分析脚本
 │   ├── 核心分析/
-│   │   ├── hypothesis_h1_analysis_publication.py
-│   │   ├── hypothesis_h2_analysis_publication.py
-│   │   ├── hypothesis_h3_analysis_publication.py
-│   │   └── hypothesis_h4_analysis_publication.py
+│   │   ├── hypothesis_h1_analysis_publication.py  # H1：框架激活双重机制
+│   │   ├── hypothesis_h2_analysis_publication.py  # H2：框架-策略关联
+│   │   ├── hypothesis_h3_analysis_publication.py  # H3：动态策略适应
+│   │   └── hypothesis_h4_analysis_publication.py  # H4：语义协商
 │   ├── 高级分析/
-│   │   ├── hypothesis_h1_advanced.py
-│   │   ├── hypothesis_h2_advanced.py
-│   │   ├── hypothesis_h3_advanced.py
-│   │   └── hypothesis_h4_advanced.py
+│   │   ├── hypothesis_h1_advanced.py             # 高级H1分析（含ICC修正）
+│   │   ├── hypothesis_h1_enhanced.py             # 增强H1分析
+│   │   ├── hypothesis_h2_advanced.py             # 高级H2分析
+│   │   ├── hypothesis_h2_enhanced.py             # 增强H2分析
+│   │   ├── hypothesis_h2_enhanced_feature_engineering.py  # H2特征工程
+│   │   ├── hypothesis_h3_advanced.py             # 高级H3分析
+│   │   └── hypothesis_h4_advanced.py             # 高级H4分析
+│   ├── 图表生成/
+│   │   ├── figure1_theoretical_framework.py      # 理论框架图
+│   │   ├── figure2_dual_mechanism.py             # 双重机制可视化
+│   │   ├── figure3_frame_strategy_sankey.py      # 框架-策略桑基图
+│   │   ├── figure4_markov_evolution.py           # 马尔可夫链演化
+│   │   ├── figure5_semantic_convergence.py       # 语义收敛模式
+│   │   ├── create_flowchart_pillow.py           # 分析流程图（Pillow版）
+│   │   ├── create_multilevel_flowchart.py       # 多层分析流程图
+│   │   └── run_all_figures.py                   # 生成所有图表
 │   ├── 统计增强/
-│   │   ├── statistical_power_analysis.py
-│   │   ├── statistical_enhancements.py
-│   │   └── advanced_statistics.py
-│   └── 主运行器/
-│       ├── run_all_analyses_advanced.py
-│       └── run_hybrid_analysis.py
+│   │   ├── statistical_power_analysis.py         # 功效分析（59.8%功效）
+│   │   ├── statistical_enhancements.py           # FDR校正和增强
+│   │   ├── advanced_statistics.py                # 高级统计方法
+│   │   ├── section_3_1_analysis_enhanced.py      # 第3.1节描述性统计
+│   │   └── three_level_icc_python.py            # ICC计算模块
+│   ├── R集成/
+│   │   ├── run_r_validation.py                   # Python-R验证接口
+│   │   ├── run_r_icc_analysis.py                # ICC的Python-R接口
+│   │   ├── integrate_r_validation.py            # 整合R验证结果
+│   │   ├── integrate_validation_results.py      # 合并验证输出
+│   │   ├── data_bridge_for_R.py                 # 为R分析准备数据
+│   │   ├── comprehensive_validation.R           # 综合R验证
+│   │   ├── simple_r_validation.R                # 简化R验证
+│   │   ├── three_level_icc_analysis.R          # R lme4 ICC验证
+│   │   └── three_level_icc_analysis_windows.R  # Windows兼容R脚本
+│   ├── 主运行器/
+│   │   ├── run_all_analyses_advanced.py         # 运行完整分析流程
+│   │   └── run_hybrid_analysis.py               # 快速混合分析
+│   └── 数据加载/
+│       └── data_loader_enhanced.py              # SPAADIA增强数据加载器
 ├── 输出/                        # 分析输出
 │   ├── data/                   # JSON统计结果
 │   ├── figures/                # 发表级图表（1200 DPI）
@@ -273,13 +363,23 @@ python run_r_validation.py
 
 ### 🔬 技术实现
 
+#### 脚本统计
+- **脚本总数**：36个（32个Python + 4个R脚本）
+- **核心分析**：4个发表级假设检验
+- **高级分析**：7个带附加功能的增强版本
+- **图表生成**：8个生成发表级可视化的脚本
+- **统计增强**：5个功效分析和校正脚本
+- **R集成**：9个用于交叉验证和集成的脚本
+
 #### 软件环境
 - **Python 3.9+**：pandas、numpy、scipy、statsmodels 0.14+、scikit-learn、matplotlib 3.5+、seaborn 0.12+
 - **R 4.2+**（可选）：lme4、pbkrtest、jsonlite、vcd、nnet、performance
 - **分析管道**：Python-R混合方法，Python负责主要分析，R提供验证
 
 #### 统计方法
-- **三层线性混合模型**，带Kenward-Roger近似
+- **三层线性混合模型**，正确的ICC计算（说话人层ICC = 0.425）
+  - 方差分解：57.5%话轮层，42.5%说话人层，0%对话层
+  - 采用ANOVA方法处理三层嵌套结构
 - **多项逻辑回归**，带聚类稳健标准误
 - **马尔可夫链分析**，含稳态分布和混合时间
 - **分段增长曲线模型**，带CUSUM变化点检测
@@ -340,6 +440,34 @@ python run_r_validation.py
 
 - **邮箱**：[通讯作者邮箱]
 - **问题**：[GitHub Issues](https://github.com/chenwangfang/A-Multilevel-Logistic-Regression-Analysis/issues)
+
+---
+
+## 📝 Recent Updates / 最近更新
+
+### Version 2.1 (2025-08-31)
+- **CRITICAL FIX**: Corrected ICC calculation for three-level nested models
+  - Fixed speaker_id field issue in hypothesis_h1_advanced.py
+  - Implemented proper ANOVA variance decomposition method
+  - Unified ICC values across all scripts (speaker ICC = 0.425, dialogue ICC = 0.000)
+- **NEW**: Added dedicated ICC calculation modules
+  - `three_level_icc_python.py`: Python implementation using ANOVA method
+  - `run_r_icc_analysis.py`: Python-R interface for validation
+  - `three_level_icc_analysis.R`: R lme4 implementation
+- **IMPROVED**: Enhanced statistical transparency with complete variance decomposition reporting
+- **CLEANED**: Removed temporary test files and optimized codebase structure
+
+### 版本 2.1 (2025-08-31)
+- **关键修复**：修正了三层嵌套模型的ICC计算
+  - 修复了hypothesis_h1_advanced.py中的speaker_id字段问题
+  - 实现了正确的ANOVA方差分解方法
+  - 统一了所有脚本的ICC值（说话人ICC = 0.425，对话ICC = 0.000）
+- **新增**：添加了专门的ICC计算模块
+  - `three_level_icc_python.py`：使用ANOVA方法的Python实现
+  - `run_r_icc_analysis.py`：用于验证的Python-R接口
+  - `three_level_icc_analysis.R`：R lme4实现
+- **改进**：通过完整的方差分解报告增强了统计透明度
+- **清理**：删除了临时测试文件并优化了代码库结构
 
 ---
 

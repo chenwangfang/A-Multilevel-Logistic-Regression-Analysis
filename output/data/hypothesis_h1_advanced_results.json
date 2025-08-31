@@ -1,0 +1,78 @@
+{
+  "icc": {
+    "speaker": 0.4249281195456512,
+    "dialogue": 0.0,
+    "cumulative": 0.4249281195456512,
+    "variance_components": {
+      "residual_variance": 0.20934867558826262,
+      "speaker_variance": 0.15469046926239827,
+      "dialogue_variance": 0,
+      "total_variance": 0.3640391448506609
+    },
+    "variance_percentages": {
+      "residual_pct": 57.50718804543487,
+      "speaker_pct": 42.49281195456512,
+      "dialogue_pct": 0.0
+    }
+  },
+  "model_comparison": {
+    "M0_speaker": {
+      "AIC": NaN,
+      "BIC": NaN,
+      "LogLik": -1235.4394899087038
+    },
+    "M0_dialogue": {
+      "AIC": NaN,
+      "BIC": NaN,
+      "LogLik": -1473.1482171719817
+    },
+    "M1_fixed": {
+      "AIC": NaN,
+      "BIC": NaN,
+      "LogLik": -1044.6406435003682
+    },
+    "M2a_full": {
+      "AIC": NaN,
+      "BIC": NaN,
+      "LogLik": -949.2651515488615
+    },
+    "M3_dialogue": {
+      "AIC": NaN,
+      "BIC": NaN,
+      "LogLik": -1083.9938730434696
+    }
+  },
+  "main_model": {
+    "type": "完整随机斜率模型",
+    "coefficients": {
+      "Intercept": 4.954470684617572,
+      "CD_c": -0.9086234727929219,
+      "IP_c": 1.3787702999912665,
+      "CD_c:IP_c": -3.525921492160978,
+      "role": -0.6680260602283036,
+      "task_complexity": -0.19117194070355495
+    },
+    "std_errors": {
+      "Intercept": 0.1643130317602107,
+      "CD_c": 0.4353643238480507,
+      "IP_c": 0.43190137846979293,
+      "CD_c:IP_c": 1.343061086990085,
+      "role": 0.1982607199700477,
+      "task_complexity": 0.318278239060284
+    },
+    "p_values": {
+      "Intercept": 9.906526925976226e-200,
+      "CD_c": 0.03688437062515645,
+      "IP_c": 0.001411316079818127,
+      "CD_c:IP_c": 0.008657582916152132,
+      "role": 0.0007532321052770964,
+      "task_complexity": 0.5480770705594258,
+      "speaker_id_unique Var": 0.018754004380475996,
+      "speaker_id_unique x CD_c Cov": 0.052378865209025224,
+      "CD_c Var": 0.001554198000161818,
+      "speaker_id_unique x IP_c Cov": 0.0438921277673029,
+      "CD_c x IP_c Cov": 0.0016753184199108971,
+      "IP_c Var": 0.00028405349303600215
+    }
+  }
+}

@@ -8,8 +8,12 @@
     "activation_strength_mean": 4.940569196428571,
     "activation_strength_sd": 0.596743732060095,
     "context_institutional_correlation": -0.6327529951245257,
-    "statistical_power": 0.598,
-    "icc": 0.674
+    "context_institutional_correlation_ci": [
+      -0.6597289472638206,
+      -0.6041485107494519
+    ],
+    "statistical_power": null,
+    "icc": null
   },
   "grouped_analysis": {
     "low_cognitive_load": {
@@ -22,9 +26,9 @@
     },
     "high_cognitive_load": {
       "n": 861,
-      "context_dependence_beta": -0.07,
+      "context_dependence_beta": -0.48,
       "context_dependence_se": 0.1,
-      "institutional_presetting_beta": 0.84,
+      "institutional_presetting_beta": 0.15,
       "institutional_presetting_se": 0.08,
       "r_squared": 0.22
     },
@@ -62,44 +66,44 @@
   },
   "model_comparison": [
     {
-      "Model": "M0",
-      "AIC": NaN,
-      "BIC": NaN,
-      "Log-Likelihood": -1473.1482171719817,
-      "R² (marginal)": 0.0,
-      "R² (conditional)": 0.210007391167963
+      "model_name": "M0",
+      "aic": NaN,
+      "bic": NaN,
+      "rsquared": 0.0,
+      "rsquared_conditional": 0.210007391167963,
+      "converged": true
     },
     {
-      "Model": "M1",
-      "AIC": NaN,
-      "BIC": NaN,
-      "Log-Likelihood": -1114.589235891457,
-      "R² (marginal)": 0.3324910424581695,
-      "R² (conditional)": 0.5408458094799056
+      "model_name": "M1",
+      "aic": NaN,
+      "bic": NaN,
+      "rsquared": 0.3324910424581695,
+      "rsquared_conditional": 0.5408458094799056,
+      "converged": true
     },
     {
-      "Model": "M2",
-      "AIC": NaN,
-      "BIC": NaN,
-      "Log-Likelihood": -1104.0199112158916,
-      "R² (marginal)": 0.340411412347454,
-      "R² (conditional)": 0.551292584877995
+      "model_name": "M2",
+      "aic": NaN,
+      "bic": NaN,
+      "rsquared": 0.340411412347454,
+      "rsquared_conditional": 0.551292584877995,
+      "converged": true
     },
     {
-      "Model": "M3",
-      "AIC": NaN,
-      "BIC": NaN,
-      "Log-Likelihood": -963.6962254944328,
-      "R² (marginal)": 0.4449719383262871,
-      "R² (conditional)": 0.7176782097840488
+      "model_name": "M3",
+      "aic": NaN,
+      "bic": NaN,
+      "rsquared": 0.4449719383262871,
+      "rsquared_conditional": 0.7176782097840488,
+      "converged": true
     },
     {
-      "Model": "M4",
-      "AIC": NaN,
-      "BIC": NaN,
-      "Log-Likelihood": -906.5565253465238,
-      "R² (marginal)": 0.5016704281300401,
-      "R² (conditional)": 0.8233808128671825
+      "model_name": "M4",
+      "aic": NaN,
+      "bic": NaN,
+      "rsquared": 0.5016704281300401,
+      "rsquared_conditional": 0.8233808128671825,
+      "converged": true
     }
   ],
   "lr_tests": [
@@ -227,11 +231,11 @@
     }
   ],
   "power_analysis": {
-    "estimated_power": 0.598,
+    "estimated_power": 1.0,
     "effect_size": 0.5,
     "alpha": 0.05,
     "sample_size": 1792,
-    "icc": 0.674
+    "icc": 0.3217103847371423
   },
   "corrected_pvalues": [
     {

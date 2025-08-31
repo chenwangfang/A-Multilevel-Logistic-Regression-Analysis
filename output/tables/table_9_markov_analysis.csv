@@ -1,0 +1,9 @@
+Role,From,Frame Reinforcement,Frame Shifting,Frame Blending
+Service Provider,Frame Reinforcement,0.650,0.250,0.100
+Service Provider,Frame Shifting,0.200,0.600,0.200
+Service Provider,Frame Blending,0.300,0.350,0.350
+Service Provider,Stationary,0.398,0.414,0.188
+Customer,Frame Reinforcement,0.500,0.350,0.150
+Customer,Frame Shifting,0.250,0.500,0.250
+Customer,Frame Blending,0.200,0.400,0.400
+Customer,Stationary,0.316,0.427,0.257
