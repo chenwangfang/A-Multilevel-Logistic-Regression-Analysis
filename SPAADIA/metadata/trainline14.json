@@ -1,0 +1,271 @@
+{
+  "dialogue_id": "trainline14",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-11-18",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.88,
+      "frame_activation": 0.90,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.85
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 138,
+    "utterance_count": 218,
+    "duration_seconds": 489,
+    "word_count": 1853,
+    "speaker_distribution": {
+      "service_provider": 69,
+      "customer": 69
+    },
+    "frame_statistics": {
+      "frame_type_count": 37,
+      "frame_transition_count": 42,
+      "mean_activation_strength": 4.6,
+      "dominant_frames": ["service_initiation", "journey_details", "authorization_procedure", "payment_confirmation"],
+      "frame_type_distribution": {
+        "frame_reinforcement": 62.4,
+        "frame_shifting": 28.7,
+        "frame_blending": 8.9
+      }
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 43,
+      "strategy_efficacy": {
+        "mean": 4.7,
+        "standard_deviation": 0.62,
+        "min": 3.4,
+        "max": 5.9
+      },
+      "adaptation_index": {
+        "mean": 0.58,
+        "standard_deviation": 0.31
+      }
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 28,
+      "mean_semantic_distance": 0.34,
+      "contribution_patterns": {
+        "service_provider_dominated": 14,
+        "customer_dominated": 10,
+        "balanced": 4
+      }
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial establishment of the service interaction framework",
+      "journey_destination": "Frame for discussing the travel destination",
+      "payment_method": "Frame concerning payment methods and options",
+      "journey_clarification": "Frame for clarifying journey details",
+      "journey_correction": "Frame for correcting previously provided journey information",
+      "origin_inquiry": "Frame for ascertaining departure point",
+      "journey_origin": "Frame concerning travel origin point",
+      "location_specification": "Frame for specifying precise location details",
+      "location_confirmation": "Frame for confirming location information",
+      "destination_specification": "Frame for specifying destination details",
+      "knowledge_gap": "Frame revealing lack of knowledge requiring additional information",
+      "expert_knowledge": "Frame demonstrating professional expertise",
+      "customer_agreement": "Frame indicating customer's alignment with proposed options",
+      "discount_eligibility": "Frame exploring possibilities for fare reduction",
+      "standard_pricing": "Frame for discussing regular fare structures",
+      "passenger_information": "Frame for gathering passenger details",
+      "single_passenger": "Frame establishing solo traveler status",
+      "travel_date": "Frame for establishing journey timing",
+      "imminent_travel": "Frame indicating near-future journey timing",
+      "date_specification": "Frame for precisely establishing calendar date",
+      "date_confirmation": "Frame for verifying date information",
+      "time_preference": "Frame for exploring preferred departure/arrival times",
+      "time_specification": "Frame for establishing specific journey times",
+      "journey_details": "Comprehensive frame for travel logistics information",
+      "decision_making": "Frame involving evaluation and selection among options",
+      "customer_empowerment": "Frame positioning customer as primary decision maker",
+      "return_journey": "Frame for discussing travel back to origin point",
+      "alternative_transport": "Frame introducing non-train transportation options",
+      "single_ticket": "Frame establishing one-way journey requirement",
+      "pricing_inquiry": "Frame for questions about fare cost",
+      "pricing_clarification": "Frame for explaining fare structures",
+      "flexibility_planning": "Frame for adaptable travel arrangements",
+      "pricing_reassurance": "Frame providing confirmation about pricing consistency",
+      "acknowledgment": "Frame indicating information reception without evaluation",
+      "fare_options": "Frame detailing different ticket types and prices",
+      "understanding": "Frame indicating comprehension of information",
+      "ticket_type": "Frame categorizing ticket class or category",
+      "attention": "Frame signaling focus on communication",
+      "pricing": "Frame stating specific fare amounts",
+      "acceptance": "Frame indicating affirmative decision",
+      "booking_confirmation": "Frame establishing ticket purchase commitment",
+      "booking_agreement": "Frame indicating consent to purchase",
+      "seat_preference": "Frame for discussing seating options",
+      "non_smoking_preference": "Frame establishing smoke-free requirement",
+      "booking_limitation": "Frame explaining reservation constraints",
+      "preference_elicitation": "Frame for gathering customer preferences",
+      "mild_preference": "Frame indicating weak preference without strong commitment",
+      "flexibility": "Frame indicating adaptability to various options",
+      "journey_summary": "Frame recapitulating complete travel arrangements",
+      "surprise_understanding": "Frame indicating unexpected information comprehension",
+      "contingency": "Frame for discussing alternative scenarios",
+      "refund_policy": "Frame explaining cancellation terms",
+      "ticket_collection": "Frame detailing how to obtain physical tickets",
+      "timing_instruction": "Frame providing procedural time guidance",
+      "agreement": "Frame indicating alignment between parties",
+      "collection_location": "Frame specifying ticket retrieval point",
+      "clarification_request": "Frame seeking additional explanation",
+      "correction": "Frame adjusting previously provided information",
+      "personal_information": "Frame gathering customer identity details",
+      "personal_identification": "Frame establishing customer identity",
+      "verification": "Frame confirming accuracy of information",
+      "spelling_correction": "Frame adjusting orthographic information",
+      "additional_information": "Frame supplementing previously provided details",
+      "initial": "Frame specifying name first letter",
+      "title_inquiry": "Frame ascertaining formal address preference",
+      "title": "Frame establishing formal address status",
+      "contact_information": "Frame gathering communication details",
+      "telephone_number": "Frame recording contact number",
+      "payment_address": "Frame establishing billing location",
+      "corporate_payment": "Frame introducing company payment mechanism",
+      "cardholder_verification": "Frame confirming payment card ownership",
+      "third_party_payment": "Frame establishing non-traveler payment arrangement",
+      "traveler_verification": "Frame confirming journey participant identity",
+      "traveler_identification": "Frame establishing journey participant identity",
+      "authorization_requirement": "Frame introducing formal permission requirement",
+      "alternative_proposal": "Frame offering different procedural option",
+      "authorization_procedure": "Frame detailing permission documentation process",
+      "problem_introduction": "Frame presenting procedural obstacle",
+      "clarification": "Frame explaining misunderstood information",
+      "realization": "Frame indicating new understanding",
+      "authorization_purpose": "Frame explaining rationale for permission requirement",
+      "understanding_acceptance": "Frame indicating comprehension and agreement",
+      "topic_return": "Frame reintroducing previously discussed matter",
+      "company_name": "Frame identifying business entity",
+      "address_detail": "Frame gathering location information",
+      "completion": "Frame indicating process advancement",
+      "cardholder_identity": "Frame establishing payment card owner",
+      "expiry_date": "Frame recording payment card validity period",
+      "payment_confirmation": "Frame finalizing financial transaction",
+      "reference_code": "Frame providing identification markers",
+      "reference_details": "Frame providing extended identification information",
+      "procedure": "Frame explaining process steps",
+      "closure": "Frame initiating conversation conclusion",
+      "conclusion": "Frame finalizing interaction",
+      "reciprocal_gratitude": "Frame exchanging appreciation expressions",
+      "farewell": "Frame initiating departure sequence",
+      "farewell_reciprocation": "Frame completing departure sequence"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategies that strengthen or maintain current frame",
+      "frame_shifting": "Strategies that change or redirect active frames",
+      "frame_blending": "Strategies that combine or integrate multiple frames",
+      "frame_elaboration": "Strategies that develop or expand current frame"
+    },
+    "strategy_subtypes": {
+      "initialization": "Establishing initial interaction parameters",
+      "role_establishment": "Defining participant identities and functions",
+      "directive_guidance": "Providing structured direction for interaction",
+      "information_provision": "Supplying factual content",
+      "topic_transition_marking": "Signaling shift to new conversational focus",
+      "framework_expansion": "Broadening scope of current interaction frame",
+      "confirmation": "Affirming previously established content",
+      "verification": "Checking accuracy of information",
+      "contradiction": "Explicitly negating previously established content",
+      "correction": "Providing alternative accurate information",
+      "information_seeking": "Requesting specific content",
+      "precision_seeking": "Requesting detailed refinement of information",
+      "expectation_revelation": "Disclosing anticipated conditions",
+      "information_request": "Soliciting specific information",
+      "knowledge_provision": "Supplying expert or specialized information",
+      "explanation": "Providing clarifying information",
+      "personalization": "Adapting content to individual circumstances",
+      "solution_proposal": "Offering resolution to identified issues",
+      "adaptive_planning": "Suggesting flexible arrangements",
+      "weak_denial": "Gentle rejection of proposed options",
+      "preference_qualification": "Detailed elaboration of desired conditions",
+      "information_consolidation": "Synthesizing previously discussed details",
+      "expectation_revision": "Modifying previously held assumptions",
+      "verification": "Confirming accuracy of information",
+      "denial": "Explicit rejection of proposition",
+      "understanding_signal": "Indicating comprehension",
+      "requirement_introduction": "Establishing necessary conditions",
+      "alternative_proposal": "Suggesting different approach",
+      "justification": "Providing rationale for position",
+      "proposal_rejection": "Declining suggested approach",
+      "procedure_explanation": "Detailing process steps",
+      "constraint_expression": "Identifying limiting factors",
+      "rejection": "Refusing proposed option",
+      "requirement_emphasis": "Reinforcing necessary conditions",
+      "acceptance": "Agreeing to proposed conditions",
+      "reference_provision": "Supplying identification information",
+      "instruction": "Providing directive guidance",
+      "reminder": "Reinforcing key information",
+      "reassurance": "Offering confidence-building information",
+      "conclusion_marker": "Signaling interaction termination",
+      "appreciation": "Expressing gratitude",
+      "reciprocal_appreciation": "Returning expression of thanks",
+      "farewell": "Conventional interaction closure"
+    },
+    "negotiation_types": {
+      "initial_positioning": "Establishing opening interaction parameters",
+      "role_establishment": "Defining participant identities and responsibilities",
+      "agenda_setting": "Determining interaction scope and direction",
+      "procedural_guidance": "Directing interaction process",
+      "misunderstanding_correction": "Rectifying communication errors",
+      "information_correction": "Supplying accurate alternatives to incorrect content",
+      "solution_proposal": "Offering resolution approaches",
+      "option_evaluation": "Assessing available alternatives",
+      "expectation_adjustment": "Modifying anticipated conditions",
+      "future_planning": "Arranging subsequent activities",
+      "commitment_seeking": "Requesting decision confirmation",
+      "preference_statement": "Expressing desired conditions",
+      "information_consolidation": "Synthesizing previously established details",
+      "clarification_seeking": "Requesting explanatory information",
+      "correction_provision": "Supplying accurate information",
+      "requirement_introduction": "Establishing necessary conditions",
+      "permission_seeking": "Requesting authorization for action",
+      "proposal_rejection": "Declining suggested approach",
+      "constraint_expressing": "Identifying limiting factors",
+      "requirement_emphasis": "Reinforcing necessary conditions",
+      "information_provision": "Supplying factual content",
+      "reminder_provision": "Reinforcing key information",
+      "closure_initiation": "Beginning interaction conclusion",
+      "appreciation_expression": "Communicating gratitude",
+      "interaction_termination": "Concluding communication exchange"
+    },
+    "adaptation_index": {
+      "description": "Measure of strategic adjustment relative to previous interaction",
+      "scale": "0 (no adaptation) to 1 (complete strategic revision)"
+    },
+    "efficacy": {
+      "description": "Measure of strategy effectiveness in achieving communicative goals",
+      "scale": "1 (ineffective) to 7 (highly effective)"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": {
+        "variables": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+        "analysis_type": "Multivariate Analysis of Variance (MANOVA)"
+      },
+      "H2": {
+        "variables": ["frame_type", "strategy_type", "strategy_subtype", "efficacy"],
+        "analysis_type": "Multilevel Logistic Regression Analysis"
+      },
+      "H3": {
+        "variables": ["adaptation_index", "stage", "temporal_marker", "strategy_adjustment_rate"],
+        "analysis_type": "Integrated Temporal Effect Analysis"
+      },
+      "H4": {
+        "variables": ["negotiation_type", "contribution_ratio", "semantic_distance", "speaker_role"],
+        "analysis_type": "Process Analysis Method"
+      }
+    },
+    "methodological_innovations": {
+      "multi_dimensional_coding": "Integration of cognitive, pragmatic, and institutional dimensions",
+      "dynamic_adaptation_indices": "Quantification of strategic adjustment processes",
+      "semantic_distance_measurement": "Operationalization of meaning negotiation outcomes"
+    }
+  }
+}

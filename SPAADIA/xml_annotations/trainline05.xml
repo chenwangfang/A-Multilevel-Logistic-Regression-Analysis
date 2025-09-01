@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogue id="trainline05" type="service" domain="transportation_booking" date="2023-05-15">
+  <metadata>
+    <corpus>SPAADIA</corpus>
+    <annotation_version>2.0</annotation_version>
+    <annotators>
+      <primary>Annotator1</primary>
+      <secondary>Annotator2</secondary>
+      <reliability>0.89</reliability>
+    </annotators>
+    <dialogue_statistics>
+      <turn_count>99</turn_count>
+      <utterance_count>146</utterance_count>
+      <duration_seconds>498</duration_seconds>
+      <word_count>1367</word_count>
+      <frame_type_count>18</frame_type_count>
+      <strategy_type_count>26</strategy_type_count>
+    </dialogue_statistics>
+    <dialogue_dynamics meta='{"frame_transition_frequency": 0.35, "strategy_adaptation_rate": 0.51, "negotiation_intensity": 0.31, "communication_efficiency": 0.72}'>
+    </dialogue_dynamics>
+  </metadata>
+  
+  <turn id="T001" speaker="A" speaker_role="service_provider" relative_position="0.01" 
+        stage="opening" temporal_marker="00:05" duration="3.8">
+    <utterance_group frame_activation="service_initiation" frame_activation_strength="4.7"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.78, "institutional_presetting": 0.92}, 
+                     "cognitive_load": 2.2}'>
+      <utterance id="U001" sp_act="greet" polarity="positive" topic="opening" mode="deixis-greet">
+        <content>good afternoon</content>
+        <strategy type="frame_reinforcement" subtype="initialization" 
+                  efficacy="4.3" negotiation_marker="null"/>
+      </utterance>
+    
+      <utterance id="U002" sp_act="identifySelf" polarity="positive" topic="intro" mode="deixis">
+        <content>Virgin Trainlines</content>
+        <strategy type="frame_reinforcement" subtype="role_establishment" 
+                  efficacy="4.6" negotiation_marker="null"/>
+      </utterance>
+    
+      <utterance id="U003" sp_act="identifySelf" polarity="positive" mode="intro-partial-decl">
+        <content>Sandra speaking</content>
+        <strategy type="frame_reinforcement" subtype="personal_identification" 
+                  efficacy="4.4" negotiation_marker="null"/>
+      </utterance>
+    
+      <utterance id="U004" sp_act="reqDirect" polarity="positive" topic="journey" mode="preference2-open-query">
+        <content>for which journey do you wish to purchase a ticket</content>
+        <strategy type="frame_reinforcement" subtype="directive_guidance" 
+                  efficacy="4.9" negotiation_marker="initiation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T002" speaker="B" speaker_role="customer" relative_position="0.02" 
+        stage="information_exchange" temporal_marker="00:12" duration="2.5">
+    <utterance_group frame_activation="journey_information" frame_activation_strength="4.2"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.85, "institutional_presetting": 0.40}, 
+                     "cognitive_load": 2.5}'>
+      <utterance id="U005" sp_act="hesitate" polarity="neutral" topic="processing">
+        <content>er</content>
+        <strategy type="frame_reinforcement" subtype="processing_signal" 
+                  efficacy="2.1" negotiation_marker="null"/>
+      </utterance>
+    
+      <utterance id="U006" sp_act="direct-refer" polarity="positive" topic="location-to-fare-from" mode="partial-decl">
+        <content>from Macclesfield to London Euston return</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.5" negotiation_marker="response_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T003" speaker="A" speaker_role="service_provider" relative_position="0.03" 
+        stage="information_exchange" temporal_marker="00:17" duration="3.1">
+    <utterance_group frame_activation="payment_method" frame_activation_strength="5.1"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.45, "institutional_presetting": 0.91}, 
+                     "cognitive_load": 3.3, "frame_transition": {
+                       "previous_frame": "journey_information",
+                       "transition_type": "sequential",
+                       "transition_smoothness": 0.85
+                     }}'>
+      <utterance id="U007" sp_act="init" polarity="neutral" topic="procedure_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.4" negotiation_marker="transition_point"/>
+      </utterance>
+    
+      <utterance id="U008" sp_act="reqInfo" polarity="positive" topic="creditcard" mode="alternative-closed-query">
+        <content>do you hold a current credit or debit card</content>
+        <strategy type="frame_shifting" subtype="framework_expansion" 
+                  efficacy="5.2" negotiation_marker="null"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T004" speaker="B" speaker_role="customer" relative_position="0.04" 
+        stage="information_exchange" temporal_marker="00:21" duration="1.2">
+    <utterance_group frame_activation="payment_method_confirmation" frame_activation_strength="4.3"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.87, "institutional_presetting": 0.32}, 
+                     "cognitive_load": 1.8}'>
+      <utterance id="U009" sp_act="answer-acknowledge" polarity="positive" topic="confirmation">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_response" 
+                  efficacy="4.2" negotiation_marker="acceptance_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T005" speaker="A" speaker_role="service_provider" relative_position="0.05" 
+        stage="information_exchange" temporal_marker="00:23" duration="2.7">
+    <utterance_group frame_activation="discount_eligibility" frame_activation_strength="4.8"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.62, "institutional_presetting": 0.88}, 
+                     "cognitive_load": 2.9}'>
+      <utterance id="U010" sp_act="reqInfo" polarity="positive" topic="railcard" mode="closed-query">
+        <content>do you have a rail card at all</content>
+        <strategy type="frame_shifting" subtype="eligibility_verification" 
+                  efficacy="4.7" negotiation_marker="expansion_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T006" speaker="B" speaker_role="customer" relative_position="0.06" 
+        stage="information_exchange" temporal_marker="00:26" duration="1.0">
+    <utterance_group frame_activation="standard_pricing" frame_activation_strength="4.1"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.89, "institutional_presetting": 0.30}, 
+                     "cognitive_load": 1.7}'>
+      <utterance id="U011" sp_act="answer-negate" polarity="negative" topic="discount">
+        <content>no</content>
+        <strategy type="frame_reinforcement" subtype="eligibility_response" 
+                  efficacy="4.0" negotiation_marker="limitation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T007" speaker="A" speaker_role="service_provider" relative_position="0.07" 
+        stage="information_exchange" temporal_marker="00:28" duration="2.9">
+    <utterance_group frame_activation="passenger_quantity" frame_activation_strength="4.9"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.65, "institutional_presetting": 0.87}, 
+                     "cognitive_load": 2.8}'>
+      <utterance id="U012" sp_act="reqInfo" polarity="positive" topic="number-journey" mode="query-open-query">
+        <content>and how many people's travelling</content>
+        <strategy type="frame_shifting" subtype="information_gathering" 
+                  efficacy="4.8" negotiation_marker="expansion_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T008" speaker="B" speaker_role="customer" relative_position="0.08" 
+        stage="information_exchange" temporal_marker="00:31" duration="1.1">
+    <utterance_group frame_activation="quantity_information" frame_activation_strength="3.9"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.92, "institutional_presetting": 0.28}, 
+                     "cognitive_load": 1.6}'>
+      <utterance id="U013" sp_act="answer-refer" polarity="positive" topic="number" mode="decl">
+        <content>two</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.1" negotiation_marker="response_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T009" speaker="A" speaker_role="service_provider" relative_position="0.09" 
+        stage="information_exchange" temporal_marker="00:33" duration="2.2">
+    <utterance_group frame_activation="passenger_type" frame_activation_strength="4.7"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.78, "institutional_presetting": 0.86}, 
+                     "cognitive_load": 2.7}'>
+      <utterance id="U014" sp_act="reqInfo" polarity="positive" topic="number" mode="closed-query">
+        <content>is that two adults</content>
+        <strategy type="frame_reinforcement" subtype="clarification_request" 
+                  efficacy="4.6" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T010" speaker="B" speaker_role="customer" relative_position="0.10" 
+        stage="information_exchange" temporal_marker="00:36" duration="0.9">
+    <utterance_group frame_activation="adult_passenger" frame_activation_strength="4.0"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.93, "institutional_presetting": 0.27}, 
+                     "cognitive_load": 1.5}'>
+      <utterance id="U015" sp_act="answer-acknowledge" polarity="positive" topic="confirmation">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_response" 
+                  efficacy="4.0" negotiation_marker="confirmation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T011" speaker="A" speaker_role="service_provider" relative_position="0.11" 
+        stage="information_exchange" temporal_marker="00:38" duration="3.1">
+    <utterance_group frame_activation="departure_date" frame_activation_strength="5.0"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.68, "institutional_presetting": 0.89}, 
+                     "cognitive_load": 2.9}'>
+      <utterance id="U016" sp_act="reqInfo" polarity="positive" topic="date-departure" mode="open-query">
+        <content>and what date is it you're departing</content>
+        <strategy type="frame_shifting" subtype="information_gathering" 
+                  efficacy="4.9" negotiation_marker="expansion_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T012" speaker="B" speaker_role="customer" relative_position="0.12" 
+        stage="information_exchange" temporal_marker="00:42" duration="2.5">
+    <utterance_group frame_activation="specific_date" frame_activation_strength="4.2"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.91, "institutional_presetting": 0.29}, 
+                     "cognitive_load": 2.3}'>
+      <utterance id="U017" sp_act="hesitate" polarity="neutral" topic="processing">
+        <content>er</content>
+        <strategy type="frame_reinforcement" subtype="processing_signal" 
+                  efficacy="2.0" negotiation_marker="null"/>
+      </utterance>
+      
+      <utterance id="U018" sp_act="answer-refer" polarity="positive" topic="month-date" mode="decl">
+        <content>3rd of October</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.3" negotiation_marker="response_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T013" speaker="A" speaker_role="service_provider" relative_position="0.13" 
+        stage="information_exchange" temporal_marker="00:45" duration="1.8">
+    <utterance_group frame_activation="weekday_verification" frame_activation_strength="4.5"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.82, "institutional_presetting": 0.85}, 
+                     "cognitive_load": 2.6}'>
+      <utterance id="U019" sp_act="reqInfo" polarity="positive" topic="day" mode="query">
+        <content>Saturday</content>
+        <strategy type="frame_reinforcement" subtype="verification_request" 
+                  efficacy="4.4" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T014" speaker="B" speaker_role="customer" relative_position="0.14" 
+        stage="information_exchange" temporal_marker="00:47" duration="0.9">
+    <utterance_group frame_activation="weekday_confirmation" frame_activation_strength="3.9"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.94, "institutional_presetting": 0.26}, 
+                     "cognitive_load": 1.5}'>
+      <utterance id="U020" sp_act="answer-acknowledge" polarity="positive" topic="confirmation">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_response" 
+                  efficacy="3.9" negotiation_marker="confirmation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T015" speaker="A" speaker_role="service_provider" relative_position="0.15" 
+        stage="information_exchange" temporal_marker="00:49" duration="3.6">
+    <utterance_group frame_activation="departure_time" frame_activation_strength="5.2"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.71, "institutional_presetting": 0.90}, 
+                     "cognitive_load": 3.0}'>
+      <utterance id="U021" sp_act="reqDirect" polarity="positive" topic="time-from" mode="preference2-open-query">
+        <content>what time do you like to depart from Macclesfield</content>
+        <strategy type="frame_shifting" subtype="preference_elicitation" 
+                  efficacy="5.1" negotiation_marker="expansion_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T016" speaker="B" speaker_role="customer" relative_position="0.16" 
+        stage="information_exchange" temporal_marker="00:54" duration="2.3">
+    <utterance_group frame_activation="time_preference" frame_activation_strength="4.3"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.90, "institutional_presetting": 0.30}, 
+                     "cognitive_load": 2.2}'>
+      <utterance id="U022" sp_act="hesitate" polarity="neutral" topic="processing">
+        <content>em</content>
+        <strategy type="frame_reinforcement" subtype="processing_signal" 
+                  efficacy="2.1" negotiation_marker="null"/>
+      </utterance>
+      
+      <utterance id="U023" sp_act="direct-refer" polarity="positive" topic="time-enum" mode="partial-decl">
+        <content>about 9 o'clock</content>
+        <strategy type="frame_reinforcement" subtype="preference_expression" 
+                  efficacy="4.4" negotiation_marker="preference_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T017" speaker="A" speaker_role="service_provider" relative_position="0.17" 
+        stage="information_exchange" temporal_marker="00:58" duration="4.2">
+    <utterance_group frame_activation="return_time" frame_activation_strength="5.3"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.73, "institutional_presetting": 0.91}, 
+                     "cognitive_load": 3.1}'>
+      <utterance id="U024" sp_act="reqDirect" polarity="positive" topic="time" mode="preference2-open-query">
+        <content>and when do you like to return</content>
+        <strategy type="frame_shifting" subtype="preference_elicitation" 
+                  efficacy="5.2" negotiation_marker="expansion_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T018" speaker="B" speaker_role="customer" relative_position="0.18" 
+        stage="information_exchange" temporal_marker="01:03" duration="3.8">
+    <utterance_group frame_activation="return_details" frame_activation_strength="4.6"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.88, "institutional_presetting": 0.31}, 
+                     "cognitive_load": 2.7}'>
+      <utterance id="U025" sp_act="hesitate" polarity="neutral" topic="processing">
+        <content>er</content>
+        <strategy type="frame_reinforcement" subtype="processing_signal" 
+                  efficacy="2.0" negotiation_marker="null"/>
+      </utterance>
+      
+      <utterance id="U026" sp_act="direct-refer" polarity="positive" topic="month-date-day" mode="partial-decl">
+        <content>on Monday the 5th of October</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.5" negotiation_marker="response_point"/>
+      </utterance>
+      
+      <utterance id="U027" sp_act="elab-refer" polarity="positive" topic="time-day" mode="decl">
+        <content>at about midday</content>
+        <strategy type="frame_reinforcement" subtype="detail_elaboration" 
+                  efficacy="4.7" negotiation_marker="elaboration_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T019" speaker="A" speaker_role="service_provider" relative_position="0.19" 
+        stage="information_processing" temporal_marker="01:12" duration="5.9">
+    <utterance_group frame_activation="train_schedule" frame_activation_strength="5.7"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.58, "institutional_presetting": 0.94}, 
+                     "cognitive_load": 3.8}'>
+      <utterance id="U028" sp_act="init" polarity="neutral" topic="schedule_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.6" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U029" sp_act="state" polarity="positive" topic="time-enum-day" mode="frag">
+        <content>the train going out on Saturday the trains run at 8 minutes to the hour</content>
+        <strategy type="frame_reinforcement" subtype="professional_information" 
+                  efficacy="5.6" negotiation_marker="information_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T020" speaker="B" speaker_role="customer" relative_position="0.20" 
+        stage="information_processing" temporal_marker="01:18" duration="1.0">
+    <utterance_group frame_activation="information_reception" frame_activation_strength="3.8"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.95, "institutional_presetting": 0.25}, 
+                     "cognitive_load": 1.9}'>
+      <utterance id="U030" sp_act="acknowledge" polarity="positive" topic="reception">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="reception_signal" 
+                  efficacy="3.8" negotiation_marker="reception_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T021" speaker="A" speaker_role="service_provider" relative_position="0.21" 
+        stage="information_processing" temporal_marker="01:20" duration="3.2">
+    <utterance_group frame_activation="time_options" frame_activation_strength="5.4"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.75, "institutional_presetting": 0.92}, 
+                     "cognitive_load": 3.5}'>
+      <utterance id="U031" sp_act="state" polarity="positive" topic="enum-time" mode="alternative-decl">
+        <content>so they're either 8 minutes to 9 or 8 minutes to 10</content>
+        <strategy type="frame_reinforcement" subtype="option_presentation" 
+                  efficacy="5.3" negotiation_marker="option_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T022" speaker="B" speaker_role="customer" relative_position="0.22" 
+        stage="information_processing" temporal_marker="01:24" duration="0.9">
+    <utterance_group frame_activation="understanding_confirmation" frame_activation_strength="3.7"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.96, "institutional_presetting": 0.24}, 
+                     "cognitive_load": 1.8}'>
+      <utterance id="U032" sp_act="acknowledge" polarity="positive" topic="understanding">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="understanding_signal" 
+                  efficacy="3.7" negotiation_marker="reception_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T023" speaker="A" speaker_role="service_provider" relative_position="0.23" 
+        stage="information_processing" temporal_marker="01:26" duration="2.8">
+    <utterance_group frame_activation="preference_inquiry" frame_activation_strength="5.1"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.76, "institutional_presetting": 0.89}, 
+                     "cognitive_load": 3.2}'>
+      <utterance id="U033" sp_act="reqDirect" polarity="positive" topic="time" mode="preference2-constrain-open-query">
+        <content>but when would you prefer</content>
+        <strategy type="frame_reinforcement" subtype="preference_elicitation" 
+                  efficacy="5.0" negotiation_marker="inquiry_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T024" speaker="B" speaker_role="customer" relative_position="0.24" 
+        stage="information_processing" temporal_marker="01:30" duration="2.1">
+    <utterance_group frame_activation="preference_expression" frame_activation_strength="4.4"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.89, "institutional_presetting": 0.32}, 
+                     "cognitive_load": 2.4}'>
+      <utterance id="U034" sp_act="hesitate" polarity="neutral" topic="processing">
+        <content>er</content>
+        <strategy type="frame_reinforcement" subtype="processing_signal" 
+                  efficacy="2.1" negotiation_marker="null"/>
+      </utterance>
+      
+      <utterance id="U035" sp_act="direct-refer" polarity="positive" topic="time-enum" mode="decl">
+        <content>8 minutes to 10</content>
+        <strategy type="frame_reinforcement" subtype="decision_expression" 
+                  efficacy="4.3" negotiation_marker="decision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T025" speaker="A" speaker_role="service_provider" relative_position="0.25" 
+        stage="information_processing" temporal_marker="01:35" duration="4.5">
+    <utterance_group frame_activation="journey_details" frame_activation_strength="5.6"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.72, "institutional_presetting": 0.93}, 
+                     "cognitive_load": 3.6}'>
+      <utterance id="U036" sp_act="state" polarity="positive" topic="enum-departure" mode="frag">
+        <content>9:52 departing Macclesfield</content>
+        <strategy type="frame_reinforcement" subtype="detail_specification" 
+                  efficacy="5.5" negotiation_marker="detail_point"/>
+      </utterance>
+      
+      <utterance id="U037" sp_act="state" polarity="positive" topic="location-time-arrival" mode="decl">
+        <content>arriving in London Euston at 12:17</content>
+        <strategy type="frame_reinforcement" subtype="information_completion" 
+                  efficacy="5.7" negotiation_marker="completion_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T026" speaker="B" speaker_role="customer" relative_position="0.26" 
+        stage="information_processing" temporal_marker="01:40" duration="0.8">
+    <utterance_group frame_activation="information_confirmation" frame_activation_strength="3.8"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.94, "institutional_presetting": 0.23}, 
+                     "cognitive_load": 1.7}'>
+      <utterance id="U038" sp_act="acknowledge" polarity="positive" topic="confirmation">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_signal" 
+                  efficacy="3.8" negotiation_marker="confirmation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T027" speaker="A" speaker_role="service_provider" relative_position="0.27" 
+        stage="information_verification" temporal_marker="01:42" duration="2.9">
+    <utterance_group frame_activation="date_confirmation" frame_activation_strength="4.9"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.81, "institutional_presetting": 0.88}, 
+                     "cognitive_load": 3.0}'>
+      <utterance id="U039" sp_act="reqConfirm" polarity="positive" topic="month-date" mode="query">
+        <content>and that start at the 3rd of October</content>
+        <strategy type="frame_reinforcement" subtype="verification_request" 
+                  efficacy="4.8" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T028" speaker="B" speaker_role="customer" relative_position="0.28" 
+        stage="information_verification" temporal_marker="01:46" duration="0.9">
+    <utterance_group frame_activation="confirmation_response" frame_activation_strength="3.9"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.93, "institutional_presetting": 0.22}, 
+                     "cognitive_load": 1.6}'>
+      <utterance id="U040" sp_act="confirm-acknowledge" polarity="positive" topic="confirmation">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_response" 
+                  efficacy="3.9" negotiation_marker="confirmation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T029" speaker="A" speaker_role="service_provider" relative_position="0.29" 
+        stage="information_verification" temporal_marker="01:48" duration="6.7">
+    <utterance_group frame_activation="verification" frame_activation_strength="5.0"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.79, "institutional_presetting": 0.90}, 
+                     "cognitive_load": 3.3}'>
+      <utterance id="U041" sp_act="stateIntent-hold" polarity="positive" topic="fare-verify-time" mode="intent-report-hold-decl">
+        <content>and i'm just going to check your return time</content>
+        <strategy type="frame_reinforcement" subtype="process_transparency" 
+                  efficacy="4.7" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U042" sp_act="reqConfirm" polarity="positive" topic="month-date-day" mode="query">
+        <content>that's on Monday the 5th of October</content>
+        <strategy type="frame_reinforcement" subtype="verification_request" 
+                  efficacy="4.9" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T030" speaker="B" speaker_role="customer" relative_position="0.30" 
+        stage="information_verification" temporal_marker="01:55" duration="0.8">
+    <utterance_group frame_activation="verification_confirmation" frame_activation_strength="3.8"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.92, "institutional_presetting": 0.21}, 
+                     "cognitive_load": 1.5}'>
+      <utterance id="U043" sp_act="confirm-acknowledge" polarity="positive" topic="confirmation">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_response" 
+                  efficacy="3.8" negotiation_marker="confirmation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T031" speaker="A" speaker_role="service_provider" relative_position="0.31" 
+        stage="information_provision" temporal_marker="02:05" duration="5.2">
+    <utterance_group frame_activation="train_information" frame_activation_strength="5.8"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.60, "institutional_presetting": 0.95}, 
+                     "cognitive_load": 3.9}'>
+      <utterance id="U044" sp_act="init" polarity="neutral" topic="information_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.5" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U045" sp_act="state" polarity="positive" topic="to-location-time-from" mode="decl">
+        <content>the trains run on the hour from Euston to Macclesfield</content>
+        <strategy type="frame_reinforcement" subtype="professional_information" 
+                  efficacy="5.7" negotiation_marker="information_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T032" speaker="B" speaker_role="customer" relative_position="0.32" 
+        stage="information_provision" temporal_marker="02:11" duration="3.5">
+    <utterance_group frame_activation="option_request" frame_activation_strength="4.5"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.86, "institutional_presetting": 0.33}, 
+                     "cognitive_load": 2.9}'>
+      <utterance id="U046" sp_act="acknowledge" polarity="positive" topic="information_processing">
+        <content>right</content>
+        <strategy type="frame_reinforcement" subtype="reception_signal" 
+                  efficacy="3.6" negotiation_marker="reception_point"/>
+      </utterance>
+      
+      <utterance id="U047" sp_act="hesitate" polarity="neutral" topic="processing">
+        <content>er</content>
+        <strategy type="frame_reinforcement" subtype="processing_signal" 
+                  efficacy="2.2" negotiation_marker="null"/>
+      </utterance>
+      
+      <utterance id="U048" sp_act="reqOpt" polarity="positive" topic="time-enum" mode="closed-query">
+        <content>could i er 2 o' clock</content>
+        <strategy type="frame_shifting" subtype="option_request" 
+                  efficacy="4.4" negotiation_marker="request_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T033" speaker="A" speaker_role="service_provider" relative_position="0.33" 
+        stage="information_provision" temporal_marker="02:15" duration="3.1">
+    <utterance_group frame_activation="time_option" frame_activation_strength="5.5"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.74, "institutional_presetting": 0.91}, 
+                     "cognitive_load": 3.7}'>
+      <utterance id="U049" sp_act="init" polarity="neutral" topic="option_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.6" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U050" sp_act="stateOpt" polarity="positive" topic="location-time-from-enum" mode="exists-frag">
+        <content>there's a train at 14 hundred from Euston</content>
+        <strategy type="frame_reinforcement" subtype="option_confirmation" 
+                  efficacy="5.4" negotiation_marker="option_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T034" speaker="B" speaker_role="customer" relative_position="0.34" 
+        stage="information_provision" temporal_marker="02:19" duration="0.9">
+    <utterance_group frame_activation="option_acceptance" frame_activation_strength="3.9"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.91, "institutional_presetting": 0.23}, 
+                     "cognitive_load": 1.7}'>
+      <utterance id="U051" sp_act="acknowledge" polarity="positive" topic="acceptance">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="acceptance_signal" 
+                  efficacy="3.9" negotiation_marker="acceptance_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T035" speaker="A" speaker_role="service_provider" relative_position="0.35" 
+        stage="information_provision" temporal_marker="02:21" duration="2.7">
+    <utterance_group frame_activation="arrival_information" frame_activation_strength="5.3"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.77, "institutional_presetting": 0.89}, 
+                     "cognitive_load": 3.4}'>
+      <utterance id="U052" sp_act="state" polarity="positive" topic="time-arrival" mode="decl">
+        <content>arriving in Macclesfield at 16:03</content>
+        <strategy type="frame_reinforcement" subtype="information_completion" 
+                  efficacy="5.2" negotiation_marker="completion_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T036" speaker="B" speaker_role="customer" relative_position="0.36" 
+        stage="information_provision" temporal_marker="02:24" duration="1.0">
+    <utterance_group frame_activation="information_confirmation" frame_activation_strength="3.8"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.90, "institutional_presetting": 0.24}, 
+                     "cognitive_load": 1.6}'>
+      <utterance id="U053" sp_act="acknowledge" polarity="positive" topic="confirmation">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_signal" 
+                  efficacy="3.8" negotiation_marker="confirmation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T037" speaker="A" speaker_role="service_provider" relative_position="0.37" 
+        stage="fare_checking" temporal_marker="02:28" duration="4.9">
+    <utterance_group frame_activation="price_checking" frame_activation_strength="5.9"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.55, "institutional_presetting": 0.96}, 
+                     "cognitive_load": 4.0}'>
+      <utterance id="U054" sp_act="init" polarity="neutral" topic="price_check_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.7" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U055" sp_act="stateIntent-hold" polarity="positive" topic="fare-availability-verify" mode="intent-report-hold-decl">
+        <content>i'm just going to check to see what's your cheapest fare available to you</content>
+        <strategy type="frame_shifting" subtype="process_transparency" 
+                  efficacy="5.8" negotiation_marker="transparency_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T038" speaker="B" speaker_role="customer" relative_position="0.38" 
+        stage="fare_checking" temporal_marker="02:33" duration="0.8">
+    <utterance_group frame_activation="waiting_confirmation" frame_activation_strength="3.7"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.95, "institutional_presetting": 0.20}, 
+                     "cognitive_load": 1.4}'>
+      <utterance id="U056" sp_act="acknowledge" polarity="positive" topic="waiting">
+        <content>yeah</content>
+        <strategy type="frame_reinforcement" subtype="waiting_signal" 
+                  efficacy="3.7" negotiation_marker="acceptance_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T039" speaker="A" speaker_role="service_provider" relative_position="0.39" 
+        stage="fare_provision" temporal_marker="02:48" duration="6.3">
+    <utterance_group frame_activation="fare_information" frame_activation_strength="6.1"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.61, "institutional_presetting": 0.97}, 
+                     "cognitive_load": 4.3}'>
+      <utterance id="U057" sp_act="init" polarity="neutral" topic="fare_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.8" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U058" sp_act="state" polarity="positive" topic="fare-date-enum" mode="decl">
+        <content>the cheapest fare for the dates and times specified is going to be your Super Advance Return at 30 pounds each</content>
+        <strategy type="frame_reinforcement" subtype="professional_information" 
+                  efficacy="6.0" negotiation_marker="information_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T040" speaker="B" speaker_role="customer" relative_position="0.40" 
+        stage="fare_provision" temporal_marker="02:55" duration="3.2">
+    <utterance_group frame_activation="price_challenge" frame_activation_strength="5.6"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.83, "institutional_presetting": 0.35}, 
+                     "cognitive_load": 3.8, "adaptation_indicators": {
+                       "response_latency": 1.2,
+                       "strategy_adjustment_rate": 0.87,
+                       "adaptation_direction": "challenge"
+                     }}'>
+      <utterance id="U059" sp_act="echo-abandon" polarity="positive" mode="abandon-abandon">
+        <content>30 pou...</content>
+        <strategy type="frame_shifting" subtype="surprise_expression" 
+                  efficacy="4.9" negotiation_marker="surprise_point"/>
+      </utterance>
+      
+      <utterance id="U060" sp_act="state" polarity="positive" topic="fare-enum" mode="report-decl">
+        <content>i've just been quoted 19 pounds</content>
+        <strategy type="frame_shifting" subtype="challenge_introduction" 
+                  efficacy="5.5" negotiation_marker="challenge_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T041" speaker="A" speaker_role="service_provider" relative_position="0.41" 
+        stage="fare_negotiation" temporal_marker="03:00" duration="4.7">
+    <utterance_group frame_activation="fare_explanation" frame_activation_strength="6.0"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.85, "institutional_presetting": 0.94}, 
+                     "cognitive_load": 4.2, "adaptation_indicators": {
+                       "response_latency": 0.9,
+                       "strategy_adjustment_rate": 0.91,
+                       "adaptation_direction": "explanation"
+                     }}'>
+      <utterance id="U061" sp_act="state" polarity="negative" topic="fare-enum-availability-time-day" mode="decl">
+        <content>the 19 pounds Virgin Value fare not available until 15:52 in the afternoon on Saturday</content>
+        <strategy type="frame_shifting" subtype="limitation_explanation" 
+                  efficacy="5.9" negotiation_marker="explanation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T042" speaker="B" speaker_role="customer" relative_position="0.42" 
+        stage="fare_negotiation" temporal_marker="03:05" duration="1.5">
+    <utterance_group frame_activation="information_processing" frame_activation_strength="4.7"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.87, "institutional_presetting": 0.34}, 
+                     "cognitive_load": 3.1}'>
+      <utterance id="U062" sp_act="echo-reqConfirm" polarity="positive" mode="query">
+        <content>15:52</content>
+        <strategy type="frame_reinforcement" subtype="verification_request" 
+                  efficacy="4.6" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T043" speaker="A" speaker_role="service_provider" relative_position="0.43" 
+        stage="fare_negotiation" temporal_marker="03:07" duration="1.2">
+    <utterance_group frame_activation="information_confirmation" frame_activation_strength="5.1"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.88, "institutional_presetting": 0.86}, 
+                     "cognitive_load": 3.2}'>
+      <utterance id="U063" sp_act="acknowledge" polarity="positive" topic="confirmation">
+        <content>yeah</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_response" 
+                  efficacy="5.0" negotiation_marker="confirmation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T044" speaker="B" speaker_role="customer" relative_position="0.44" 
+        stage="fare_negotiation" temporal_marker="03:09" duration="2.2">
+    <utterance_group frame_activation="decision_acceptance" frame_activation_strength="4.8"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.86, "institutional_presetting": 0.29}, 
+                     "cognitive_load": 2.7}'>
+      <utterance id="U064" sp_act="acknowledge" polarity="positive" topic="understanding">
+        <content>right</content>
+        <strategy type="frame_reinforcement" subtype="understanding_signal" 
+                  efficacy="4.2" negotiation_marker="understanding_point"/>
+      </utterance>
+      
+      <utterance id="U065" sp_act="acknowledge" polarity="positive" mode="tag" topic="decision">
+        <content>ok then</content>
+        <strategy type="frame_reinforcement" subtype="acceptance_signal" 
+                  efficacy="4.7" negotiation_marker="acceptance_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T045" speaker="A" speaker_role="service_provider" relative_position="0.45" 
+        stage="booking_process" temporal_marker="03:12" duration="3.4">
+    <utterance_group frame_activation="booking_decision" frame_activation_strength="5.7"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.69, "institutional_presetting": 0.93}, 
+                     "cognitive_load": 3.9}'>
+      <utterance id="U066" sp_act="init" polarity="neutral" topic="decision_start">
+        <content>so</content>
+        <strategy type="frame_blending" subtype="integration_marking" 
+                  efficacy="4.9" negotiation_marker="integration_point"/>
+      </utterance>
+      
+      <utterance id="U067" sp_act="reqDirect" polarity="positive" topic="booking-journey" mode="preference2-closed-query">
+        <content>do you want me to book this ticket</content>
+        <strategy type="frame_blending" subtype="decision_elicitation" 
+                  efficacy="5.6" negotiation_marker="decision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T046" speaker="B" speaker_role="customer" relative_position="0.46" 
+        stage="booking_process" temporal_marker="03:16" duration="0.9">
+    <utterance_group frame_activation="decision_confirmation" frame_activation_strength="4.2"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.92, "institutional_presetting": 0.27}, 
+                     "cognitive_load": 2.2}'>
+      <utterance id="U068" sp_act="direct-acknowledge" polarity="positive" topic="decision">
+        <content>yeah</content>
+        <strategy type="frame_reinforcement" subtype="decision_confirmation" 
+                  efficacy="4.1" negotiation_marker="confirmation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T047" speaker="A" speaker_role="service_provider" relative_position="0.47" 
+        stage="booking_process" temporal_marker="03:18" duration="3.6">
+    <utterance_group frame_activation="fare_choice" frame_activation_strength="5.5"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.80, "institutional_presetting": 0.91}, 
+                     "cognitive_load": 3.7}'>
+      <utterance id="U069" sp_act="reqDirect" polarity="positive" topic="fare-enum" mode="preference2-closed-query">
+        <content>do you want the 15:52 for the Virgin Value fare</content>
+        <strategy type="frame_shifting" subtype="choice_elicitation" 
+                  efficacy="5.4" negotiation_marker="choice_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T048" speaker="B" speaker_role="customer" relative_position="0.48" 
+        stage="booking_process" temporal_marker="03:22" duration="2.7">
+    <utterance_group frame_activation="option_rejection" frame_activation_strength="5.2"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.84, "institutional_presetting": 0.36}, 
+                     "cognitive_load": 3.3}'>
+      <utterance id="U070" sp_act="refuse" polarity="negative" topic="rejection">
+        <content>no</content>
+        <strategy type="frame_shifting" subtype="rejection_expression" 
+                  efficacy="5.1" negotiation_marker="rejection_point"/>
+      </utterance>
+      
+      <utterance id="U071" sp_act="elab-stateIntent-abandon" polarity="positive" mode="intent-preference1-abandon">
+        <content>we'll go for the er</content>
+        <strategy type="frame_shifting" subtype="preference_indication" 
+                  efficacy="4.5" negotiation_marker="preference_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T049" speaker="A" speaker_role="service_provider" relative_position="0.49" 
+        stage="booking_process" temporal_marker="03:25" duration="2.2">
+    <utterance_group frame_activation="option_completion" frame_activation_strength="5.4"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.83, "institutional_presetting": 0.87}, 
+                     "cognitive_load": 3.5}'>
+      <utterance id="U072" sp_act="complete" polarity="positive" topic="fare-enum" mode="decl">
+        <content>Super Advance at 30 pounds each</content>
+        <strategy type="frame_reinforcement" subtype="completion_assistance" 
+                  efficacy="5.3" negotiation_marker="assistance_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T050" speaker="B" speaker_role="customer" relative_position="0.50" 
+        stage="booking_process" temporal_marker="03:28" duration="0.9">
+    <utterance_group frame_activation="choice_confirmation" frame_activation_strength="4.1"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.93, "institutional_presetting": 0.25}, 
+                     "cognitive_load": 2.0}'>
+      <utterance id="U073" sp_act="acknowledge" polarity="positive" topic="confirmation">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_signal" 
+                  efficacy="4.0" negotiation_marker="confirmation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T051" speaker="A" speaker_role="service_provider" relative_position="0.51" 
+        stage="booking_process" temporal_marker="03:30" duration="8.7">
+    <utterance_group frame_activation="ticket_collection" frame_activation_strength="5.8"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.67, "institutional_presetting": 0.95}, 
+                     "cognitive_load": 4.1}'>
+      <utterance id="U074" sp_act="init" polarity="neutral" topic="collection_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.8" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U075" sp_act="stateConstraint" polarity="positive" topic="journey" mode="intent-benefit-constrain-decl">
+        <content>what i'm going to have to do is arrange for you to collect your tickets from the train station</content>
+        <strategy type="frame_shifting" subtype="procedure_explanation" 
+                  efficacy="5.7" negotiation_marker="procedure_point"/>
+      </utterance>
+      
+      <utterance id="U076" sp_act="direct-state" polarity="positive" topic="time-location-journey-enum-day-departure" mode="condition-frag">
+        <content>if i ask you to be there for 60 minutes before departure time on the day of travel</content>
+        <strategy type="frame_reinforcement" subtype="condition_specification" 
+                  efficacy="5.6" negotiation_marker="condition_point"/>
+      </utterance>
+      
+      <utterance id="U077" sp_act="direct-state" polarity="positive" topic="creditcard" mode="constrain-decl">
+        <content>and you need to take your credit card with you</content>
+        <strategy type="frame_reinforcement" subtype="requirement_specification" 
+                  efficacy="5.9" negotiation_marker="requirement_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T052" speaker="B" speaker_role="customer" relative_position="0.52" 
+        stage="booking_process" temporal_marker="03:39" duration="0.8">
+    <utterance_group frame_activation="requirement_understanding" frame_activation_strength="4.0"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.94, "institutional_presetting": 0.24}, 
+                     "cognitive_load": 1.9}'>
+      <utterance id="U078" sp_act="acknowledge" polarity="positive" topic="understanding">
+        <content>yes</content>
+        <strategy type="frame_reinforcement" subtype="understanding_signal" 
+                  efficacy="3.9" negotiation_marker="understanding_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T053" speaker="A" speaker_role="service_provider" relative_position="0.53" 
+        stage="personal_information" temporal_marker="03:41" duration="3.0">
+    <utterance_group frame_activation="personal_information" frame_activation_strength="5.6"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.64, "institutional_presetting": 0.96}, 
+                     "cognitive_load": 3.8}'>
+      <utterance id="U079" sp_act="init" polarity="neutral" topic="information_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.9" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U080" sp_act="direct-refer" polarity="positive" topic="name" mode="request-decl">
+        <content>your surname please</content>
+        <strategy type="frame_shifting" subtype="information_request" 
+                  efficacy="5.5" negotiation_marker="request_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T054" speaker="B" speaker_role="customer" relative_position="0.54" 
+        stage="personal_information" temporal_marker="03:45" duration="1.8">
+    <utterance_group frame_activation="personal_information_provision" frame_activation_strength="4.3"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.91, "institutional_presetting": 0.31}, 
+                     "cognitive_load": 2.3}'>
+      <utterance id="U081" sp_act="refer" polarity="positive" mode="decl">
+        <content>it's [ANONYMIZED]</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.2" negotiation_marker="provision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T055" speaker="A" speaker_role="service_provider" relative_position="0.55" 
+        stage="personal_information" temporal_marker="03:48" duration="2.5">
+    <utterance_group frame_activation="spelling_inquiry" frame_activation_strength="5.2"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.79, "institutional_presetting": 0.89}, 
+                     "cognitive_load": 3.4}'>
+      <utterance id="U082" sp_act="reqInfo" polarity="positive" mode="open-query">
+        <content>and how do you spell that</content>
+        <strategy type="frame_reinforcement" subtype="clarification_request" 
+                  efficacy="5.1" negotiation_marker="clarification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T056" speaker="B" speaker_role="customer" relative_position="0.56" 
+        stage="personal_information" temporal_marker="03:51" duration="3.6">
+    <utterance_group frame_activation="spelling_provision" frame_activation_strength="4.4"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.90, "institutional_presetting": 0.32}, 
+                     "cognitive_load": 2.5}'>
+      <utterance id="U083" sp_act="answer-refer" polarity="positive" mode="decl">
+        <content>[ANONYMIZED LETTERS]</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.3" negotiation_marker="provision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T057" speaker="A" speaker_role="service_provider" relative_position="0.57" 
+        stage="personal_information" temporal_marker="03:55" duration="2.3">
+    <utterance_group frame_activation="initial_inquiry" frame_activation_strength="5.0"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.81, "institutional_presetting": 0.88}, 
+                     "cognitive_load": 3.2}'>
+      <utterance id="U084" sp_act="reqInfo" polarity="positive" topic="name" mode="query">
+        <content>and your initial</content>
+        <strategy type="frame_reinforcement" subtype="information_request" 
+                  efficacy="4.9" negotiation_marker="request_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T058" speaker="B" speaker_role="customer" relative_position="0.58" 
+        stage="personal_information" temporal_marker="03:58" duration="2.1">
+    <utterance_group frame_activation="initial_provision" frame_activation_strength="4.2"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.92, "institutional_presetting": 0.29}, 
+                     "cognitive_load": 2.1}'>
+      <utterance id="U085" sp_act="hesitate" polarity="neutral" topic="processing">
+        <content>er</content>
+        <strategy type="frame_reinforcement" subtype="processing_signal" 
+                  efficacy="2.0" negotiation_marker="null"/>
+      </utterance>
+      
+      <utterance id="U086" sp_act="refer" polarity="positive">
+        <content>[ANONYMIZED LETTER]</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.1" negotiation_marker="provision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T059" speaker="A" speaker_role="service_provider" relative_position="0.59" 
+        stage="contact_information" temporal_marker="04:07" duration="3.2">
+    <utterance_group frame_activation="contact_information" frame_activation_strength="5.7"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.66, "institutional_presetting": 0.94}, 
+                     "cognitive_load": 3.9}'>
+      <utterance id="U087" sp_act="init" polarity="neutral" topic="contact_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.7" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U088" sp_act="direct-refer" polarity="positive" topic="telephone-number" mode="request-decl">
+        <content>your contact telephone number please</content>
+        <strategy type="frame_shifting" subtype="information_request" 
+                  efficacy="5.6" negotiation_marker="request_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T060" speaker="B" speaker_role="customer" relative_position="0.60" 
+        stage="contact_information" temporal_marker="04:11" duration="2.1">
+    <utterance_group frame_activation="telephone_provision" frame_activation_strength="4.6"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.89, "institutional_presetting": 0.33}, 
+                     "cognitive_load": 2.6}'>
+      <utterance id="U089" sp_act="state" polarity="positive" topic="enum" mode="frag">
+        <content>it's 0 1 5 0 5</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.5" negotiation_marker="provision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T061" speaker="A" speaker_role="service_provider" relative_position="0.61" 
+        stage="contact_information" temporal_marker="04:14" duration="1.2">
+    <utterance_group frame_activation="information_confirmation" frame_activation_strength="4.8"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.84, "institutional_presetting": 0.85}, 
+                     "cognitive_load": 3.0}'>
+      <utterance id="U090" sp_act="acknowledge" polarity="positive" topic="confirmation">
+        <content>aha</content>
+        <strategy type="frame_reinforcement" subtype="reception_signal" 
+                  efficacy="4.7" negotiation_marker="reception_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T062" speaker="B" speaker_role="customer" relative_position="0.62" 
+        stage="contact_information" temporal_marker="04:16" duration="2.5">
+    <utterance_group frame_activation="information_verification" frame_activation_strength="4.5"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.88, "institutional_presetting": 0.34}, 
+                     "cognitive_load": 2.7}'>
+      <utterance id="U091" sp_act="reqInfo" polarity="positive" mode="query">
+        <content>got that</content>
+        <strategy type="frame_reinforcement" subtype="verification_request" 
+                  efficacy="4.4" negotiation_marker="verification_point"/>
+      </utterance>
+      
+      <utterance id="U092" sp_act="pardon" polarity="neutral" mode="regret">
+        <content>sorry</content>
+        <strategy type="frame_reinforcement" subtype="politeness_marker" 
+                  efficacy="3.9" negotiation_marker="politeness_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T063" speaker="A" speaker_role="service_provider" relative_position="0.63" 
+        stage="contact_information" temporal_marker="04:19" duration="1.7">
+    <utterance_group frame_activation="number_confirmation" frame_activation_strength="5.0"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.82, "institutional_presetting": 0.86}, 
+                     "cognitive_load": 3.1}'>
+      <utterance id="U093" sp_act="echo-reqConfirm" polarity="positive" topic="enum" mode="query">
+        <content>0 1 5 0 5</content>
+        <strategy type="frame_reinforcement" subtype="verification_request" 
+                  efficacy="4.9" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T064" speaker="B" speaker_role="customer" relative_position="0.64" 
+        stage="contact_information" temporal_marker="04:21" duration="3.5">
+    <utterance_group frame_activation="number_extension" frame_activation_strength="4.8"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.87, "institutional_presetting": 0.35}, 
+                     "cognitive_load": 2.9}'>
+      <utterance id="U094" sp_act="confirm-acknowledge" polarity="positive" topic="confirmation">
+        <content>yeah</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_signal" 
+                  efficacy="4.0" negotiation_marker="confirmation_point"/>
+      </utterance>
+      
+      <utterance id="U095" sp_act="refer-abandon" polarity="positive" mode="abandon-abandon">
+        <content>the telepho...</content>
+        <strategy type="frame_shifting" subtype="self_correction" 
+                  efficacy="3.8" negotiation_marker="correction_point"/>
+      </utterance>
+      
+      <utterance id="U096" sp_act="acknowledge" polarity="positive" topic="continuation">
+        <content>yeah</content>
+        <strategy type="frame_reinforcement" subtype="continuation_signal" 
+                  efficacy="4.1" negotiation_marker="continuation_point"/>
+      </utterance>
+      
+      <utterance id="U097" sp_act="refer" polarity="positive" topic="enum" mode="frag">
+        <content>8 4 1</content>
+        <strategy type="frame_reinforcement" subtype="information_extension" 
+                  efficacy="4.7" negotiation_marker="extension_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T065" speaker="A" speaker_role="service_provider" relative_position="0.65" 
+        stage="contact_information" temporal_marker="04:25" duration="1.8">
+    <utterance_group frame_activation="number_repetition" frame_activation_strength="4.9"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.83, "institutional_presetting": 0.84}, 
+                     "cognitive_load": 2.9}'>
+      <utterance id="U098" sp_act="echo-refer" polarity="positive" topic="enum" mode="frag">
+        <content>8 4 1</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.8" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T066" speaker="B" speaker_role="customer" relative_position="0.66" 
+        stage="contact_information" temporal_marker="04:27" duration="1.6">
+    <utterance_group frame_activation="additional_information" frame_activation_strength="4.4"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.89, "institutional_presetting": 0.30}, 
+                     "cognitive_load": 2.4}'>
+      <utterance id="U099" sp_act="refer" polarity="positive" mode="decl">
+        <content>treble 9</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.3" negotiation_marker="provision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T067" speaker="A" speaker_role="service_provider" relative_position="0.67" 
+        stage="contact_information" temporal_marker="04:29" duration="4.0">
+    <utterance_group frame_activation="information_confirmation" frame_activation_strength="5.3"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.78, "institutional_presetting": 0.87}, 
+                     "cognitive_load": 3.3}'>
+      <utterance id="U100" sp_act="echo-refer" polarity="positive" mode="decl">
+        <content>treble 9</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.8" negotiation_marker="verification_point"/>
+      </utterance>
+      
+      <utterance id="U101" sp_act="reqInfo" polarity="positive" topic="creditcard-address" mode="query">
+        <content>and your postcode to where your credit card is registered to</content>
+        <strategy type="frame_shifting" subtype="information_request" 
+                  efficacy="5.2" negotiation_marker="request_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T068" speaker="B" speaker_role="customer" relative_position="0.68" 
+        stage="address_information" temporal_marker="04:34" duration="1.7">
+    <utterance_group frame_activation="postcode_provision" frame_activation_strength="4.3"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.90, "institutional_presetting": 0.31}, 
+                     "cognitive_load": 2.3}'>
+      <utterance id="U102" sp_act="answer-refer" polarity="positive" mode="frag">
+        <content>[ANONYMIZED] 11</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.2" negotiation_marker="provision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T069" speaker="A" speaker_role="service_provider" relative_position="0.69" 
+        stage="address_information" temporal_marker="04:36" duration="1.2">
+    <utterance_group frame_activation="information_reception" frame_activation_strength="4.7"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.85, "institutional_presetting": 0.83}, 
+                     "cognitive_load": 2.8}'>
+      <utterance id="U103" sp_act="acknowledge" polarity="positive" topic="reception">
+        <content>aha</content>
+        <strategy type="frame_reinforcement" subtype="reception_signal" 
+                  efficacy="4.6" negotiation_marker="reception_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T070" speaker="B" speaker_role="customer" relative_position="0.70" 
+        stage="address_information" temporal_marker="04:38" duration="1.5">
+    <utterance_group frame_activation="postcode_extension" frame_activation_strength="4.2"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.91, "institutional_presetting": 0.28}, 
+                     "cognitive_load": 2.2}'>
+      <utterance id="U104" sp_act="refer" polarity="positive" topic="enum" mode="decl">
+        <content>4 [ANONYMIZED]</content>
+        <strategy type="frame_reinforcement" subtype="information_extension" 
+                  efficacy="4.1" negotiation_marker="extension_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T071" speaker="A" speaker_role="service_provider" relative_position="0.71" 
+        stage="address_information" temporal_marker="04:40" duration="2.9">
+    <utterance_group frame_activation="address_confirmation" frame_activation_strength="5.4"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.77, "institutional_presetting": 0.90}, 
+                     "cognitive_load": 3.5}'>
+      <utterance id="U105" sp_act="direct-state" polarity="positive" topic="confirm-address" mode="request-decl">
+        <content>you confirm that address for me please</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_request" 
+                  efficacy="5.3" negotiation_marker="request_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T072" speaker="B" speaker_role="customer" relative_position="0.72" 
+        stage="address_information" temporal_marker="04:44" duration="3.7">
+    <utterance_group frame_activation="address_details" frame_activation_strength="4.9"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.86, "institutional_presetting": 0.37}, 
+                     "cognitive_load": 3.1}'>
+      <utterance id="U106" sp_act="acknowledge" polarity="positive" topic="confirmation">
+        <content>yeah</content>
+        <strategy type="frame_reinforcement" subtype="confirmation_signal" 
+                  efficacy="4.0" negotiation_marker="confirmation_point"/>
+      </utterance>
+      
+      <utterance id="U107" sp_act="state" polarity="positive" topic="enum-address" mode="frag">
+        <content>it's 94 [ANONYMIZED] Avenue</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.8" negotiation_marker="provision_point"/>
+      </utterance>
+      
+      <utterance id="U108" sp_act="refer" polarity="positive" mode="decl">
+        <content>Macclesfield</content>
+        <strategy type="frame_reinforcement" subtype="information_completion" 
+                  efficacy="4.7" negotiation_marker="completion_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T073" speaker="A" speaker_role="service_provider" relative_position="0.73" 
+        stage="payment_processing" temporal_marker="04:49" duration="11.9">
+    <utterance_group frame_activation="information_recording" frame_activation_strength="5.2"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.75, "institutional_presetting": 0.92}, 
+                     "cognitive_load": 3.6}'>
+      <utterance id="U109" sp_act="stateIntent-hold" polarity="positive" mode="intent-hold-decl">
+        <content>i'm just writing this down</content>
+        <strategy type="frame_reinforcement" subtype="process_transparency" 
+                  efficacy="5.1" negotiation_marker="transparency_point"/>
+      </utterance>
+      
+      <utterance id="U110" sp_act="init" polarity="neutral" topic="payment_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.8" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U111" sp_act="reqInfo" polarity="positive" topic="creditcard" mode="open-query">
+        <content>what type of credit card is that you hold</content>
+        <strategy type="frame_shifting" subtype="information_request" 
+                  efficacy="5.4" negotiation_marker="request_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T074" speaker="B" speaker_role="customer" relative_position="0.74" 
+        stage="payment_processing" temporal_marker="05:02" duration="1.5">
+    <utterance_group frame_activation="card_type_information" frame_activation_strength="4.5"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.90, "institutional_presetting": 0.29}, 
+                     "cognitive_load": 2.4}'>
+      <utterance id="U112" sp_act="answer-state" polarity="positive" topic="creditcard" mode="decl">
+        <content>it's Visa</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.4" negotiation_marker="provision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T075" speaker="A" speaker_role="service_provider" relative_position="0.75" 
+        stage="payment_processing" temporal_marker="05:04" duration="2.3">
+    <utterance_group frame_activation="card_number_inquiry" frame_activation_strength="5.5"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.73, "institutional_presetting": 0.93}, 
+                     "cognitive_load": 3.7}'>
+      <utterance id="U113" sp_act="reqInfo" polarity="positive" topic="number-creditcard" mode="query">
+        <content>and the Visa number</content>
+        <strategy type="frame_reinforcement" subtype="information_request" 
+                  efficacy="5.4" negotiation_marker="request_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T076" speaker="B" speaker_role="customer" relative_position="0.76" 
+        stage="payment_processing" temporal_marker="05:07" duration="1.6">
+    <utterance_group frame_activation="card_number_start" frame_activation_strength="4.6"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.89, "institutional_presetting": 0.30}, 
+                     "cognitive_load": 2.8}'>
+      <utterance id="U114" sp_act="answer-state" polarity="positive" topic="enum" mode="frag">
+        <content>it's 9 9</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.5" negotiation_marker="provision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T077" speaker="A" speaker_role="service_provider" relative_position="0.77" 
+        stage="payment_processing" temporal_marker="05:09" duration="1.3">
+    <utterance_group frame_activation="number_repetition" frame_activation_strength="5.0"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.84, "institutional_presetting": 0.82}, 
+                     "cognitive_load": 3.0}'>
+      <utterance id="U115" sp_act="echo-refer" polarity="positive" topic="enum" mode="frag">
+        <content>9 9</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.9" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T078" speaker="B" speaker_role="customer" relative_position="0.78" 
+        stage="payment_processing" temporal_marker="05:11" duration="1.5">
+    <utterance_group frame_activation="number_continuation" frame_activation_strength="4.5"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.92, "institutional_presetting": 0.27}, 
+                     "cognitive_load": 2.5}'>
+      <utterance id="U116" sp_act="refer" polarity="positive" topic="enum" mode="frag">
+        <content>9 0</content>
+        <strategy type="frame_reinforcement" subtype="information_continuation" 
+                  efficacy="4.4" negotiation_marker="continuation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T079" speaker="A" speaker_role="service_provider" relative_position="0.79" 
+        stage="payment_processing" temporal_marker="05:13" duration="1.2">
+    <utterance_group frame_activation="number_confirmation" frame_activation_strength="4.9"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.85, "institutional_presetting": 0.81}, 
+                     "cognitive_load": 2.9}'>
+      <utterance id="U117" sp_act="echo-refer" polarity="positive" topic="enum" mode="frag">
+        <content>9 0</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.8" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T080" speaker="B" speaker_role="customer" relative_position="0.80" 
+        stage="payment_processing" temporal_marker="05:15" duration="1.4">
+    <utterance_group frame_activation="card_number_continuation" frame_activation_strength="4.4"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.93, "institutional_presetting": 0.26}, 
+                     "cognitive_load": 2.4}'>
+      <utterance id="U118" sp_act="refer" polarity="positive" topic="enum" mode="frag">
+        <content>4 8</content>
+        <strategy type="frame_reinforcement" subtype="information_continuation" 
+                  efficacy="4.3" negotiation_marker="continuation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T081" speaker="A" speaker_role="service_provider" relative_position="0.81" 
+        stage="payment_processing" temporal_marker="05:17" duration="1.1">
+    <utterance_group frame_activation="number_confirmation" frame_activation_strength="4.8"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.86, "institutional_presetting": 0.80}, 
+                     "cognitive_load": 2.8}'>
+      <utterance id="U119" sp_act="echo-refer" polarity="positive" topic="enum" mode="frag">
+        <content>4 8</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.7" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T082" speaker="B" speaker_role="customer" relative_position="0.82" 
+        stage="payment_processing" temporal_marker="05:19" duration="1.3">
+    <utterance_group frame_activation="number_continuation" frame_activation_strength="4.3"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.94, "institutional_presetting": 0.25}, 
+                     "cognitive_load": 2.3}'>
+      <utterance id="U120" sp_act="refer" polarity="positive" topic="enum" mode="frag">
+        <content>1 6</content>
+        <strategy type="frame_reinforcement" subtype="information_continuation" 
+                  efficacy="4.2" negotiation_marker="continuation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T083" speaker="A" speaker_role="service_provider" relative_position="0.83" 
+        stage="payment_processing" temporal_marker="05:21" duration="1.0">
+    <utterance_group frame_activation="number_confirmation" frame_activation_strength="4.7"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.87, "institutional_presetting": 0.79}, 
+                     "cognitive_load": 2.7}'>
+      <utterance id="U121" sp_act="echo-refer" polarity="positive" topic="enum" mode="frag">
+        <content>1 6</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.6" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T084" speaker="B" speaker_role="customer" relative_position="0.84" 
+        stage="payment_processing" temporal_marker="05:23" duration="1.2">
+    <utterance_group frame_activation="number_continuation" frame_activation_strength="4.2"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.95, "institutional_presetting": 0.24}, 
+                     "cognitive_load": 2.2}'>
+      <utterance id="U122" sp_act="refer" polarity="positive" topic="enum" mode="frag">
+        <content>4 8</content>
+        <strategy type="frame_reinforcement" subtype="information_continuation" 
+                  efficacy="4.1" negotiation_marker="continuation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T085" speaker="A" speaker_role="service_provider" relative_position="0.85" 
+        stage="payment_processing" temporal_marker="05:25" duration="0.9">
+    <utterance_group frame_activation="number_confirmation" frame_activation_strength="4.6"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.88, "institutional_presetting": 0.78}, 
+                     "cognitive_load": 2.6}'>
+      <utterance id="U123" sp_act="echo-refer" polarity="positive" topic="enum" mode="frag">
+        <content>4 8</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.5" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T086" speaker="B" speaker_role="customer" relative_position="0.86" 
+        stage="payment_processing" temporal_marker="05:27" duration="1.3">
+    <utterance_group frame_activation="number_continuation" frame_activation_strength="4.1"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.96, "institutional_presetting": 0.23}, 
+                     "cognitive_load": 2.1}'>
+      <utterance id="U124" sp_act="refer" polarity="positive" topic="enum" mode="frag">
+        <content>6 5</content>
+        <strategy type="frame_reinforcement" subtype="information_continuation" 
+                  efficacy="4.0" negotiation_marker="continuation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T087" speaker="A" speaker_role="service_provider" relative_position="0.87" 
+        stage="payment_processing" temporal_marker="05:29" duration="0.8">
+    <utterance_group frame_activation="number_confirmation" frame_activation_strength="4.5"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.89, "institutional_presetting": 0.77}, 
+                     "cognitive_load": 2.5}'>
+      <utterance id="U125" sp_act="echo-refer" polarity="positive" topic="enum" mode="frag">
+        <content>6 5</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.4" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T088" speaker="B" speaker_role="customer" relative_position="0.88" 
+        stage="payment_processing" temporal_marker="05:31" duration="1.2">
+    <utterance_group frame_activation="number_continuation" frame_activation_strength="4.0"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.97, "institutional_presetting": 0.22}, 
+                     "cognitive_load": 2.0}'>
+      <utterance id="U126" sp_act="refer" polarity="positive" topic="enum" mode="frag">
+        <content>8 9</content>
+        <strategy type="frame_reinforcement" subtype="information_continuation" 
+                  efficacy="3.9" negotiation_marker="continuation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T089" speaker="A" speaker_role="service_provider" relative_position="0.89" 
+        stage="payment_processing" temporal_marker="05:33" duration="0.8">
+    <utterance_group frame_activation="number_confirmation" frame_activation_strength="4.4"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.90, "institutional_presetting": 0.76}, 
+                     "cognitive_load": 2.4}'>
+      <utterance id="U127" sp_act="echo-refer" polarity="positive" topic="enum" mode="frag">
+        <content>8 9</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.3" negotiation_marker="verification_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T090" speaker="B" speaker_role="customer" relative_position="0.90" 
+        stage="payment_processing" temporal_marker="05:35" duration="1.3">
+    <utterance_group frame_activation="number_completion" frame_activation_strength="4.2"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.96, "institutional_presetting": 0.21}, 
+                     "cognitive_load": 2.1}'>
+      <utterance id="U128" sp_act="refer" polarity="positive" topic="enum" mode="decl">
+        <content>1 9</content>
+        <strategy type="frame_reinforcement" subtype="information_completion" 
+                  efficacy="4.1" negotiation_marker="completion_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T091" speaker="A" speaker_role="service_provider" relative_position="0.91" 
+        stage="payment_processing" temporal_marker="05:37" duration="2.9">
+    <utterance_group frame_activation="number_confirmation" frame_activation_strength="5.1"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.82, "institutional_presetting": 0.87}, 
+                     "cognitive_load": 3.2}'>
+      <utterance id="U129" sp_act="echo-refer" polarity="positive" topic="enum" mode="decl">
+        <content>1 9</content>
+        <strategy type="frame_reinforcement" subtype="repetition_verification" 
+                  efficacy="4.2" negotiation_marker="verification_point"/>
+      </utterance>
+      
+      <utterance id="U130" sp_act="reqInfo" polarity="positive" topic="creditcard" mode="query">
+        <content>and the expiry date</content>
+        <strategy type="frame_shifting" subtype="information_request" 
+                  efficacy="5.0" negotiation_marker="request_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T092" speaker="B" speaker_role="customer" relative_position="0.92" 
+        stage="payment_processing" temporal_marker="05:41" duration="1.7">
+    <utterance_group frame_activation="expiry_information" frame_activation_strength="4.3"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.91, "institutional_presetting": 0.28}, 
+                     "cognitive_load": 2.2}'>
+      <utterance id="U131" sp_act="state" polarity="positive" mode="decl">
+        <content>is the 3rd 99</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="4.2" negotiation_marker="provision_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T093" speaker="A" speaker_role="service_provider" relative_position="0.93" 
+        stage="booking_completion" temporal_marker="05:44" duration="4.7">
+    <utterance_group frame_activation="payment_information" frame_activation_strength="5.8"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.65, "institutional_presetting": 0.95}, 
+                     "cognitive_load": 4.0}'>
+      <utterance id="U132" sp_act="init" polarity="neutral" topic="payment_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.9" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U133" sp_act="answer" polarity="positive" topic="booking-fare-enum" mode="decl">
+        <content>60 pounds will be debited from that account</content>
+        <strategy type="frame_reinforcement" subtype="information_provision" 
+                  efficacy="5.7" negotiation_marker="information_point"/>
+      </utterance>
+      
+      <utterance id="U134" sp_act="reqDirect" polarity="positive" topic="seat" mode="alternative-preference2-closed-query">
+        <content>would you like smoking or non-smoking</content>
+        <strategy type="frame_shifting" subtype="preference_elicitation" 
+                  efficacy="5.6" negotiation_marker="preference_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T094" speaker="B" speaker_role="customer" relative_position="0.94" 
+        stage="booking_completion" temporal_marker="05:49" duration="2.0">
+    <utterance_group frame_activation="seating_choice" frame_activation_strength="4.5"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.88, "institutional_presetting": 0.30}, 
+                     "cognitive_load": 2.5}'>
+      <utterance id="U135" sp_act="hesitate" polarity="neutral" topic="processing">
+        <content>er</content>
+        <strategy type="frame_reinforcement" subtype="processing_signal" 
+                  efficacy="2.1" negotiation_marker="null"/>
+      </utterance>
+      
+      <utterance id="U136" sp_act="direct-refer" polarity="positive" topic="seat" mode="decl">
+        <content>non-smoking</content>
+        <strategy type="frame_reinforcement" subtype="preference_expression" 
+                  efficacy="4.4" negotiation_marker="preference_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T095" speaker="A" speaker_role="service_provider" relative_position="0.95" 
+        stage="booking_completion" temporal_marker="05:52" duration="2.6">
+    <utterance_group frame_activation="seat_preference_inquiry" frame_activation_strength="5.2"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.75, "institutional_presetting": 0.88}, 
+                     "cognitive_load": 3.3}'>
+      <utterance id="U137" sp_act="reqInfo" polarity="positive" topic="booking-seat" mode="closed-query">
+        <content>do you have any seat preference</content>
+        <strategy type="frame_reinforcement" subtype="preference_elicitation" 
+                  efficacy="5.1" negotiation_marker="elicitation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T096" speaker="B" speaker_role="customer" relative_position="0.96" 
+        stage="booking_completion" temporal_marker="05:55" duration="1.4">
+    <utterance_group frame_activation="no_preference" frame_activation_strength="3.9"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.95, "institutional_presetting": 0.26}, 
+                     "cognitive_load": 1.8}'>
+      <utterance id="U138" sp_act="answer-negate" polarity="negative" topic="preference">
+        <content>er no</content>
+        <strategy type="frame_reinforcement" subtype="negative_response" 
+                  efficacy="3.8" negotiation_marker="response_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T097" speaker="A" speaker_role="service_provider" relative_position="0.97" 
+        stage="booking_completion" temporal_marker="06:05" duration="7.5">
+    <utterance_group frame_activation="seat_availability" frame_activation_strength="5.9"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.63, "institutional_presetting": 0.98}, 
+                     "cognitive_load": 4.2}'>
+      <utterance id="U139" sp_act="init" polarity="neutral" topic="availability_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="4.9" negotiation_marker="transition_point"/>
+      </utterance>
+      
+      <utterance id="U140" sp_act="refer" polarity="positive" topic="time-enum-day" mode="frag">
+        <content>the 9:52 train on Saturday morning</content>
+        <strategy type="frame_reinforcement" subtype="context_reference" 
+                  efficacy="5.4" negotiation_marker="reference_point"/>
+      </utterance>
+      
+      <utterance id="U141" sp_act="expressPossibility" polarity="positive" topic="booking-availability-seat" mode="poss1-decl">
+        <content>the best available i can book you is in smoking</content>
+        <strategy type="frame_shifting" subtype="limitation_introduction" 
+                  efficacy="5.8" negotiation_marker="limitation_point"/>
+      </utterance>
+      
+      <utterance id="U142" sp_act="state" polarity="negative" topic="seat" mode="exists-decl">
+        <content>there's not any non-smoking seats left</content>
+        <strategy type="frame_reinforcement" subtype="constraint_explanation" 
+                  efficacy="5.7" negotiation_marker="explanation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T098" speaker="B" speaker_role="customer" relative_position="0.98" 
+        stage="booking_completion" temporal_marker="06:13" duration="3.2">
+    <utterance_group frame_activation="alternative_acceptance" frame_activation_strength="4.8"
+                     institutional_constraint="low" meta='{"activation_indices": 
+                     {"context_dependence": 0.85, "institutional_presetting": 0.38}, 
+                     "cognitive_load": 3.0, "adaptation_indicators": {
+                       "response_latency": 1.1,
+                       "strategy_adjustment_rate": 0.83,
+                       "adaptation_direction": "accommodation"
+                     }}'>
+      <utterance id="U143" sp_act="acknowledge" polarity="positive" topic="understanding">
+        <content>right</content>
+        <strategy type="frame_reinforcement" subtype="understanding_signal" 
+                  efficacy="4.1" negotiation_marker="understanding_point"/>
+      </utterance>
+      
+      <utterance id="U144" sp_act="init" polarity="positive" mode="tag" topic="acceptance">
+        <content>ok</content>
+        <strategy type="frame_shifting" subtype="acceptance_marking" 
+                  efficacy="4.3" negotiation_marker="acceptance_point"/>
+      </utterance>
+      
+      <utterance id="U145" sp_act="stateIntent" polarity="positive" topic="seat" mode="intent-preference1-decl">
+        <content>i'll go for a smoking then</content>
+        <strategy type="frame_shifting" subtype="alternative_acceptance" 
+                  efficacy="4.7" negotiation_marker="accommodation_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+  
+  <turn id="T099" speaker="A" speaker_role="service_provider" relative_position="0.99" 
+        stage="booking_completion" temporal_marker="06:17" duration="0.5">
+    <utterance_group frame_activation="seat_arrangement" frame_activation_strength="5.5"
+                     institutional_constraint="high" meta='{"activation_indices": 
+                     {"context_dependence": 0.70, "institutional_presetting": 0.94}, 
+                     "cognitive_load": 3.8}'>
+      <utterance id="U146" sp_act="init" polarity="neutral" topic="arrangement_start">
+        <content>now</content>
+        <strategy type="frame_shifting" subtype="topic_transition_marking" 
+                  efficacy="5.0" negotiation_marker="transition_point"/>
+      </utterance>
+    </utterance_group>
+  </turn>
+</dialogue>

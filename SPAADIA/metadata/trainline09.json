@@ -1,0 +1,448 @@
+{
+  "dialogue_id": "trainline09",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-22",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 109,
+    "utterance_count": 219,
+    "duration_seconds": 587,
+    "word_count": 1743,
+    "speaker_distribution": {
+      "service_provider": 55,
+      "customer": 54
+    },
+    "frame_statistics": {
+      "frame_type_count": 36,
+      "frame_transition_count": 42,
+      "mean_activation_strength": 5.1,
+      "activation_strength_distribution": {
+        "very_low": 0.02,
+        "low": 0.08,
+        "medium": 0.32,
+        "high": 0.43,
+        "very_high": 0.15
+      },
+      "dominant_frames": [
+        "service_initiation",
+        "journey_information",
+        "payment_method",
+        "fare_information",
+        "service_class",
+        "ticket_collection",
+        "seat_reservation",
+        "payment_information"
+      ],
+      "frame_activation_variance": 0.18,
+      "frame_type_frequency": {
+        "service_initiation": 0.01,
+        "journey_information": 0.02,
+        "payment_method": 0.04,
+        "passenger_quantity": 0.01,
+        "service_class": 0.04,
+        "discount_eligibility": 0.02,
+        "departure_time": 0.03,
+        "goal_oriented": 0.01,
+        "journey_details": 0.02,
+        "return_journey": 0.02,
+        "fare_information": 0.04,
+        "search_process": 0.01,
+        "cooperation": 0.01,
+        "purchase_decision": 0.01,
+        "system_change": 0.02,
+        "solution_processing": 0.04,
+        "booking_process": 0.27,
+        "customer_recognition": 0.01,
+        "system_limitation": 0.03,
+        "understanding_acceptance": 0.01,
+        "personal_information": 0.04,
+        "future_expectation": 0.02,
+        "seat_preference": 0.01,
+        "seat_allocation": 0.02,
+        "journey_confirmation": 0.04,
+        "return_time": 0.04,
+        "return_seat": 0.04,
+        "payment_address": 0.04,
+        "contact_information": 0.05,
+        "payment_information": 0.09,
+        "price_confirmation": 0.04,
+        "refund_rules": 0.02,
+        "missed_train": 0.01,
+        "ticket_collection": 0.05,
+        "reference_number": 0.05,
+        "interaction_closure": 0.03
+      }
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 48,
+      "frame_reinforcement_percentage": 62.5,
+      "frame_shifting_percentage": 31.2,
+      "frame_blending_percentage": 6.3,
+      "mean_strategy_efficacy": 4.9,
+      "efficacy_distribution": {
+        "very_low": 0.01,
+        "low": 0.07,
+        "medium": 0.35,
+        "high": 0.48,
+        "very_high": 0.09
+      },
+      "adaptation_indices": {
+        "mean": 0.67,
+        "variance": 0.12
+      },
+      "subtype_frequency": {
+        "frame_reinforcement": {
+          "initialization": 0.005,
+          "organizational_identification": 0.005,
+          "role_establishment": 0.005,
+          "directive_guidance": 0.005,
+          "rapport_building": 0.009,
+          "information_provision": 0.201,
+          "processing_indication": 0.037,
+          "confirmation": 0.055,
+          "acknowledgment": 0.018,
+          "attention_signal": 0.018,
+          "understanding_signal": 0.055,
+          "acceptance_signal": 0.018,
+          "satisfaction_expression": 0.037,
+          "information_verification": 0.050,
+          "instruction_summary": 0.009,
+          "process_summary": 0.005,
+          "accommodation_signal": 0.005,
+          "benefit_elaboration": 0.005,
+          "readiness_signal": 0.009,
+          "clarification": 0.009,
+          "process_explanation": 0.005,
+          "action_indication": 0.005,
+          "information_elaboration": 0.005,
+          "appreciation_expression": 0.005,
+          "rule_specification": 0.009,
+          "closing_ritual": 0.009,
+          "solution_searching": 0.005,
+          "problem_indication": 0.005,
+          "acceptance": 0.005,
+          "information_completion": 0.009,
+          "confirmation_seeking": 0.005,
+          "cooperation_signal": 0.014,
+          "alignment_signal": 0.005,
+          "waiting_behavior": 0.005,
+          "topic_continuation": 0.009,
+          "preparation_indication": 0.005,
+          "time_request": 0.005,
+          "procedural_information": 0.009,
+          "condition_specification": 0.009,
+          "rapport_management": 0.005
+        },
+        "frame_shifting": {
+          "topic_transition_marking": 0.073,
+          "framework_expansion": 0.005,
+          "information_elicitation": 0.059,
+          "preference_introduction": 0.005,
+          "goal_specification": 0.005,
+          "error_correction": 0.005,
+          "information_correction": 0.005,
+          "alternative_introduction": 0.009,
+          "problem_introduction": 0.005,
+          "problem_articulation": 0.005,
+          "solution_proposition": 0.009,
+          "expectation_expression": 0.005,
+          "expectation_management": 0.005,
+          "small_talk_initiation": 0.005,
+          "preference_expression": 0.009,
+          "transaction_confirmation": 0.005,
+          "price_verification": 0.009,
+          "closure_initiation": 0.005,
+          "process_verification": 0.005,
+          "process_transparency": 0.005,
+          "procedural_indication": 0.009,
+          "process_indication": 0.009,
+          "topic_introduction": 0.005,
+          "decision_expression": 0.005
+        },
+        "frame_blending": {
+          "solution_proposition": 0.009,
+          "value_proposition": 0.005,
+          "value_enhancement": 0.005,
+          "benefit_verification": 0.005,
+          "integration_marking": 0.009,
+          "information_provision": 0.005
+        }
+      }
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 75,
+      "negotiation_type_distribution": {
+        "initiation": 0.04,
+        "transition": 0.20,
+        "challenge": 0.05,
+        "adjustment": 0.01,
+        "verification": 0.24,
+        "transformation": 0.04,
+        "integration": 0.03,
+        "confirmation": 0.33,
+        "decision": 0.01,
+        "digression": 0.01
+      },
+      "mean_semantic_distance": 0.38,
+      "mean_sp_contribution_ratio": 0.72,
+      "mean_customer_contribution_ratio": 0.28,
+      "confirmation_distribution": {
+        "service_provider_initiated": 0.56,
+        "customer_initiated": 0.44
+      },
+      "challenge_efficacy": {
+        "successful": 0.75,
+        "partial": 0.20,
+        "unsuccessful": 0.05
+      }
+    },
+    "temporal_statistics": {
+      "mean_turn_duration": 3.2,
+      "stage_distribution": {
+        "opening": 0.01,
+        "information_exchange": 0.24,
+        "information_provision": 0.06,
+        "problem_solving": 0.05,
+        "system_explanation": 0.07,
+        "booking_process": 0.47,
+        "decision_making": 0.01,
+        "confirmation": 0.06,
+        "small_talk": 0.01,
+        "closing": 0.02
+      },
+      "service_provider_response_latency": {
+        "mean": 1.3,
+        "variance": 0.4
+      },
+      "customer_response_latency": {
+        "mean": 1.5,
+        "variance": 0.6
+      },
+      "turn_transition_statistics": {
+        "mean_transition_time": 1.2,
+        "variance": 0.5,
+        "transitions_under_1s": 0.42,
+        "transitions_1s_to_2s": 0.35,
+        "transitions_over_2s": 0.23
+      },
+      "stage_transition_points": [
+        0.01,
+        0.02,
+        0.10,
+        0.13,
+        0.26,
+        0.27,
+        0.33,
+        0.45,
+        0.47,
+        0.53,
+        0.57,
+        0.61,
+        0.87,
+        1.07
+      ]
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service frame establishing organizational identity and service relationship",
+      "journey_information": "Frame for gathering essential travel parameters from customer",
+      "payment_method": "Frame focusing on payment process and available options",
+      "passenger_quantity": "Frame addressing number of travelers in booking",
+      "service_class": "Frame regarding travel class preferences and options",
+      "discount_eligibility": "Frame examining entitlement to reduced fares",
+      "departure_time": "Frame focusing on outbound journey timing",
+      "goal_oriented": "Customer-initiated frame prioritizing arrival objectives over specific departure times",
+      "journey_details": "Frame providing comprehensive journey information",
+      "return_journey": "Frame addressing return travel arrangements",
+      "fare_information": "Frame focusing on pricing structure and options",
+      "search_process": "Frame explicitly addressing ticket/fare search activity",
+      "cooperation": "Frame signaling willingness to participate in the service process",
+      "purchase_decision": "Customer-initiated frame indicating purchase commitment",
+      "system_change": "Frame dealing with system limitations or modifications",
+      "solution_processing": "Problem-solution frame addressing system constraints",
+      "booking_process": "Procedural frame focusing on reservation details",
+      "customer_recognition": "Customer-initiated frame regarding system memory of previous interactions",
+      "system_limitation": "Frame explaining institutional capabilities/constraints",
+      "understanding_acceptance": "Frame signaling comprehension and accommodation",
+      "personal_information": "Frame gathering customer identification data",
+      "future_expectation": "Non-transactional frame addressing future improvements",
+      "seat_reservation": "Frame focusing on seat allocation process",
+      "seat_preference": "Customer-initiated frame specifying seating requirements",
+      "seat_allocation": "Frame providing specific seat assignment details",
+      "journey_confirmation": "Frame verifying journey parameters",
+      "return_time": "Frame addressing return journey timing",
+      "return_seat": "Frame focusing on return journey seat allocation",
+      "payment_address": "Frame collecting payment verification details",
+      "contact_information": "Frame gathering communication details",
+      "payment_information": "Frame focusing on payment instrument details",
+      "price_confirmation": "Frame explicitly confirming transaction amount",
+      "refund_rules": "Frame explaining cancellation policies and procedures",
+      "missed_train": "Frame addressing contingency processes",
+      "ticket_collection": "Frame focusing on ticket retrieval procedures",
+      "reference_number": "Frame providing booking identification details",
+      "interaction_closure": "Frame managing conversation termination rituals"
+    },
+    "strategy_types": {
+      "frame_reinforcement": {
+        "description": "Strategies that maintain and strengthen the established frame",
+        "subtypes": {
+          "initialization": "Establishing basic components of a new frame",
+          "organizational_identification": "Explicitly referencing institutional identity",
+          "role_establishment": "Clarifying participant roles in interaction",
+          "directive_guidance": "Structuring interaction through explicit directives",
+          "rapport_building": "Developing interpersonal relationship dimensions",
+          "information_provision": "Supplying frame-relevant information",
+          "processing_indication": "Signaling cognitive engagement",
+          "confirmation": "Validating shared understanding",
+          "acknowledgment": "Signaling receipt of information",
+          "attention_signal": "Demonstrating continued engagement",
+          "understanding_signal": "Indicating comprehension",
+          "acceptance_signal": "Signaling agreement or compliance",
+          "satisfaction_expression": "Communicating positive evaluation",
+          "information_verification": "Confirming accuracy of information",
+          "instruction_summary": "Recapitulating procedural requirements",
+          "process_summary": "Synthesizing operational processes",
+          "accommodation_signal": "Demonstrating flexibility",
+          "benefit_elaboration": "Expanding value propositions",
+          "readiness_signal": "Indicating preparedness",
+          "clarification": "Providing additional explanatory information",
+          "process_explanation": "Explaining institutional processes",
+          "action_indication": "Signaling intended actions",
+          "information_elaboration": "Expanding on previously provided information",
+          "appreciation_expression": "Expressing gratitude",
+          "rule_specification": "Explicating normative constraints",
+          "closing_ritual": "Employing conventional termination moves",
+          "solution_searching": "Exploring potential resolutions",
+          "problem_indication": "Signaling processing difficulties",
+          "acceptance": "Indicating acceptance of proposed solutions",
+          "information_completion": "Completing information provision",
+          "confirmation_seeking": "Soliciting validation",
+          "cooperation_signal": "Indicating willingness to participate",
+          "alignment_signal": "Demonstrating agreement with perspective",
+          "waiting_behavior": "Indicating processing time",
+          "topic_continuation": "Maintaining current conversational focus",
+          "preparation_indication": "Signaling readiness preparation",
+          "time_request": "Requesting processing time",
+          "procedural_information": "Providing process-related details",
+          "condition_specification": "Detailing prerequisite conditions",
+          "rapport_management": "Managing relational aspects"
+        }
+      },
+      "frame_shifting": {
+        "description": "Strategies that introduce a new frame or substantially modify the current frame",
+        "subtypes": {
+          "topic_transition_marking": "Signaling shift to new conversational domain",
+          "framework_expansion": "Broadening interaction scope",
+          "information_elicitation": "Soliciting specific information types",
+          "preference_introduction": "Initiating preference-based modifications",
+          "goal_specification": "Establishing outcome-oriented parameters",
+          "error_correction": "Addressing inaccuracies",
+          "information_correction": "Supplying corrected information",
+          "alternative_introduction": "Presenting additional options",
+          "problem_introduction": "Identifying constraints or difficulties",
+          "problem_articulation": "Elaborating problem characteristics",
+          "solution_proposition": "Offering resolution options",
+          "expectation_expression": "Communicating anticipated conditions",
+          "expectation_management": "Modifying unrealistic expectations",
+          "small_talk_initiation": "Introducing non-transactional discourse",
+          "preference_expression": "Communicating specific requirements",
+          "transaction_confirmation": "Validating economic exchange details",
+          "price_verification": "Confirming cost information",
+          "closure_initiation": "Beginning termination sequence",
+          "process_verification": "Confirming procedural understanding",
+          "process_transparency": "Making institutional processes explicit",
+          "procedural_indication": "Indicating operational stages",
+          "process_indication": "Signaling procedural activities",
+          "topic_introduction": "Introducing new thematic content",
+          "decision_expression": "Articulating choice commitments"
+        }
+      },
+      "frame_blending": {
+        "description": "Strategies that integrate multiple frames or create hybrid frames",
+        "subtypes": {
+          "solution_proposition": "Offering cross-frame resolution options",
+          "value_proposition": "Articulating cross-frame benefits",
+          "value_enhancement": "Augmenting perceived value through frame integration",
+          "benefit_verification": "Confirming cross-frame advantages",
+          "integration_marking": "Signaling synthesis of multiple frames",
+          "information_provision": "Supplying information that spans multiple frames"
+        }
+      }
+    },
+    "negotiation_types": {
+      "initiation": "Starting point for new frame introduction",
+      "transition": "Point marking movement between frames",
+      "challenge": "Point where frame adequacy is questioned",
+      "adjustment": "Point where frame parameters are modified",
+      "verification": "Point confirming frame parameters",
+      "transformation": "Point where frame undergoes substantial change",
+      "integration": "Point where multiple frames are synthesized",
+      "confirmation": "Point validating frame stability",
+      "decision": "Point marking commitment to specific option",
+      "digression": "Point temporarily departing from transactional frame"
+    },
+    "interaction_stages": {
+      "opening": "Initial stage establishing service relationship",
+      "information_exchange": "Stage focusing on bidirectional information flow",
+      "information_provision": "Stage emphasizing unidirectional information supply",
+      "problem_solving": "Stage addressing constraints or difficulties",
+      "system_explanation": "Stage focusing on institutional parameter explanation",
+      "booking_process": "Stage completing transactional procedures",
+      "decision_making": "Stage involving commitment to specific options",
+      "confirmation": "Stage validating transactional details",
+      "small_talk": "Stage involving non-transactional exchanges",
+      "closing": "Terminal stage with ritual termination moves"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "activation_strength"],
+      "H2": ["frame_type", "strategy_selection", "efficacy"],
+      "H3": ["adaptation_indicators", "strategy_adjustment_rate", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    },
+    "methodological_alignment": {
+      "multivariate_analysis": ["frame_activation_strength", "context_dependence", "institutional_presetting", "cognitive_load"],
+      "multilevel_logistic_regression": ["frame_type", "strategy_type", "efficacy", "adaptation_index"],
+      "temporal_effect_analysis": ["adaptation_indicators", "strategy_adjustment_rate", "absolute_time", "relative_position"],
+      "process_analysis": ["negotiation_type", "contribution_ratio", "semantic_distance"]
+    },
+    "analytical_procedures": {
+      "H1_analysis": {
+        "principal_method": "Multivariate Analysis of Variance (MANOVA)",
+        "secondary_method": "Multilevel Linear Modeling",
+        "key_variables": ["context_dependence", "institutional_presetting", "activation_strength", "cognitive_load"],
+        "expected_findings": "Significant main effects and interaction effects between context dependence and institutional presetting on frame activation strength"
+      },
+      "H2_analysis": {
+        "principal_method": "Multilevel Logistic Regression Analysis",
+        "secondary_method": "Contingency Association Analysis",
+        "key_variables": ["frame_type", "strategy_type", "strategy_subtype", "efficacy"],
+        "expected_findings": "Significant predictive relationship between frame types and strategy selection patterns"
+      },
+      "H3_analysis": {
+        "principal_method": "Integrated Temporal Effect Analysis",
+        "secondary_method": "Multilevel Survival Analysis",
+        "key_variables": ["adaptation_indicators", "strategy_adjustment_rate", "absolute_time", "relative_position", "stage"],
+        "expected_findings": "Systematic patterns of strategy adjustment over time showing optimization tendencies"
+      },
+      "H4_analysis": {
+        "principal_method": "Process Analysis Method",
+        "secondary_method": "Multilevel Logistic Regression Analysis of Role Differences",
+        "key_variables": ["negotiation_type", "contribution_ratio", "semantic_distance", "speaker_role"],
+        "expected_findings": "Significant role-based differences in meaning negotiation patterns and contribution ratios"
+      }
+    }
+  }
+}

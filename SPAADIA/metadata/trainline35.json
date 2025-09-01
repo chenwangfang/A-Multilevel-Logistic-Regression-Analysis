@@ -1,0 +1,172 @@
+{
+  "dialogue_id": "trainline35",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-15",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 187,
+    "utterance_count": 342,
+    "duration_seconds": 568,
+    "word_count": 3785,
+    "speaker_distribution": {
+      "service_provider": 94,
+      "customer": 93
+    },
+    "frame_statistics": {
+      "frame_type_count": 17,
+      "frame_transition_count": 48,
+      "mean_activation_strength": 5.2,
+      "dominant_frames": ["journey_details", "service_challenge", "information_provision", "solution_provision", "payment_method"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 26,
+      "frame_reinforcement_percentage": 58.6,
+      "frame_shifting_percentage": 36.4,
+      "frame_blending_percentage": 5.0,
+      "mean_strategy_efficacy": 4.9
+    },
+    "dialogue_dynamics": {
+      "frame_transition_frequency": 0.38,
+      "strategy_adaptation_rate": 0.52,
+      "negotiation_intensity": 0.34,
+      "communication_efficiency": 0.71
+    },
+    "stage_distribution": {
+      "opening": 2.1,
+      "information_exchange": 28.7,
+      "negotiation": 35.2,
+      "solution_provision": 12.5,
+      "transaction": 15.3,
+      "closing": 6.2
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service interaction framework at the beginning of dialogue",
+      "information_provision": "Framework for providing information to the interlocutor",
+      "information_seeking": "Framework for requesting and obtaining information",
+      "journey_details": "Framework focusing on travel specifics such as dates, times, and locations",
+      "payment_method": "Framework dealing with payment options and financial transactions",
+      "regulatory_constraints": "Framework explaining policy limitations and organizational rules",
+      "cognitive_updating": "Framework for processing and integrating new conflicting information",
+      "problem_solving": "Framework for addressing challenges and generating solutions",
+      "service_challenge": "Framework handling service limitations or constraints",
+      "preference_adjustment": "Framework for modifying initial preferences or requirements",
+      "information_correction": "Framework for rectifying previously provided inaccurate information",
+      "solution_acceptance": "Framework for acknowledging and accepting proposed solutions",
+      "pricing_information": "Framework focusing on costs and fare details",
+      "return_journey": "Framework handling the return portion of a round-trip booking",
+      "alternative_seeking": "Framework exploring different options or possibilities",
+      "rationale_explanation": "Framework providing justifications or reasons for constraints",
+      "solution_seeking": "Framework actively pursuing resolution options",
+      "preference_flexibility": "Framework indicating adaptability regarding preferences",
+      "solution_details": "Framework elaborating specific aspects of agreed solutions",
+      "interaction_pause": "Framework managing temporary suspension of dialogue",
+      "identity_disclosure": "Framework revealing personal or professional information",
+      "solution_provision": "Framework presenting comprehensive solutions",
+      "alternative_exploration": "Framework systematically examining potential alternatives",
+      "frustration_expression": "Framework communicating dissatisfaction or disappointment",
+      "price_verification": "Framework confirming cost-related information",
+      "solution_evaluation": "Framework assessing the quality or suitability of solutions",
+      "booking_confirmation": "Framework finalizing transaction details",
+      "seat_booking": "Framework handling seating preferences and arrangements",
+      "seat_preference": "Framework specifying desired seating characteristics",
+      "refund_policy": "Framework explaining cancellation and refund conditions",
+      "change_policy": "Framework detailing modification possibilities and limitations",
+      "journey_confirmation": "Framework verifying outward journey specifics",
+      "return_confirmation": "Framework verifying return journey specifics",
+      "payment_details": "Framework handling specific payment card information",
+      "personal_details": "Framework collecting customer identification information",
+      "contact_details": "Framework gathering communication contact information",
+      "address_details": "Framework recording physical address information",
+      "ticket_delivery": "Framework explaining ticket distribution methods",
+      "booking_reference": "Framework providing transaction identification information",
+      "gratitude_expression": "Framework communicating appreciation",
+      "verification": "Framework systematically confirming multiple booking details",
+      "contingency_explanation": "Framework addressing potential problems and solutions"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategy strengthening established framework",
+      "frame_shifting": "Strategy introducing or transitioning to different framework",
+      "frame_blending": "Strategy integrating multiple frameworks"
+    },
+    "strategy_subtypes": {
+      "initialization": "Establishing initial interaction parameters",
+      "directive_guidance": "Providing structured direction to interaction",
+      "contextual_background": "Offering relevant situational information",
+      "information_request": "Seeking specific information from interlocutor",
+      "slot_filling": "Providing requested information elements",
+      "financial_verification": "Confirming payment capability or methods",
+      "correction": "Rectifying inaccurate information",
+      "regulatory_constraint": "Introducing policy-based limitations",
+      "cognitive_updating": "Processing and integrating new information",
+      "constraint_clarification": "Elaborating on limitation details",
+      "alternative_solution": "Offering different resolution approach",
+      "factual_correction": "Providing accurate information to replace errors",
+      "alternative_information": "Offering different information than expected",
+      "constraint_introduction": "Presenting limitations or boundaries",
+      "alternative_exploration": "Investigating different possibilities",
+      "preference_adjustment": "Modifying initial requirements or desires",
+      "alternative_provision": "Supplying different options",
+      "self_correction": "Revising one's own previous statements",
+      "decision_making": "Reaching conclusions and making choices",
+      "price_information": "Providing cost-related details",
+      "verification": "Confirming information accuracy",
+      "constraint_specification": "Detailing specific limitation parameters",
+      "alternative_proposal": "Suggesting different approach or solution",
+      "negative_information": "Providing information about unavailability",
+      "rationale_provision": "Offering explanations or justifications",
+      "flexibility_indication": "Showing adaptability regarding requirements",
+      "corrected_information": "Providing accurate replacement information",
+      "interaction_management": "Controlling conversational flow",
+      "identity_disclosure": "Revealing personal or professional information",
+      "solution_provision": "Presenting comprehensive resolution",
+      "emotional_expression": "Communicating feelings or reactions",
+      "price_verification": "Confirming cost-related information",
+      "acceptance": "Agreeing to proposed solution or approach",
+      "transaction_initiation": "Beginning formal booking process",
+      "preference_specification": "Articulating specific desired characteristics",
+      "policy_information": "Providing organizational rule details",
+      "information_summary": "Concisely presenting key information",
+      "information_introduction": "Presenting new information category",
+      "service_announcement": "Formally stating service actions",
+      "appreciation_expression": "Communicating gratitude",
+      "compliance_indication": "Showing agreement to follow directions",
+      "service_explanation": "Elaborating on service processes or features"
+    },
+    "negotiation_types": {
+      "initiation": "Beginning of framework establishment",
+      "transition": "Movement between different frameworks",
+      "verification": "Confirmation of understanding or details",
+      "challenge": "Contesting or questioning framework elements",
+      "adjustment": "Modifying framework elements in response to interaction",
+      "integration": "Combining elements from multiple frameworks",
+      "confirmation": "Establishing agreement on framework parameters",
+      "transformation": "Substantial reconfiguration of active framework"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "activation_strength"],
+      "H2": ["frame_type", "strategy_type", "strategy_subtype", "efficacy"],
+      "H3": ["adaptation_index", "stage", "response_latency", "strategy_adjustment_rate"],
+      "H4": ["negotiation_type", "contribution_ratio", "semantic_distance"]
+    },
+    "statistical_analyses": {
+      "H1": ["Multivariate Analysis of Variance (MANOVA)", "Multilevel Linear Modeling"],
+      "H2": ["Multilevel Logistic Regression Analysis", "Contingency Association Analysis"],
+      "H3": ["Integrated Temporal Effect Analysis", "Multilevel Survival Analysis"],
+      "H4": ["Process Analysis Method", "Multilevel Logistic Regression Analysis"]
+    }
+  }
+}

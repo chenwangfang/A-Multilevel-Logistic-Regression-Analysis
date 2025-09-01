@@ -1,0 +1,187 @@
+{
+  "dialogue_id": "trainline30",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-25",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 32,
+    "utterance_count": 67,
+    "duration_seconds": 235,
+    "word_count": 427,
+    "speaker_distribution": {
+      "service_provider": 16,
+      "customer": 16
+    },
+    "frame_statistics": {
+      "frame_type_count": 18,
+      "frame_transition_count": 17,
+      "mean_activation_strength": 5.2,
+      "dominant_frames": ["service_initiation", "one_way_ticket", "fare_options", "booking_cancellation"],
+      "frame_distribution": {
+        "frame_reinforcement_percentage": 59.7,
+        "frame_shifting_percentage": 35.8,
+        "frame_blending_percentage": 4.5
+      }
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 13,
+      "mean_strategy_efficacy": 5.1,
+      "strategy_adaptation_mean": 0.72,
+      "key_negotiation_points": ["challenge_point", "transformation_point", "confirmation_point"],
+      "negotiation_intensity": 0.31
+    },
+    "interaction_dynamics": {
+      "mean_contribution_ratio": [0.57, 0.43],
+      "mean_semantic_distance": 0.35,
+      "stage_distribution": {
+        "opening": 0.03,
+        "information_exchange": 0.24,
+        "information_verification": 0.13,
+        "information_provision": 0.15,
+        "negotiation": 0.38,
+        "transaction": 0.04,
+        "closing": 0.05
+      }
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service frame establishment at dialogue beginning",
+      "journey_information": "Information exchange about travel details and requirements",
+      "location_verification": "Verification of departure or arrival locations",
+      "location_provision": "Provision of location information by customer",
+      "payment_method": "Discussion about payment methods and options",
+      "payment_confirmation": "Confirmation of payment method details",
+      "time_verification": "Verification of travel time details",
+      "time_confirmation": "Confirmation of correct travel time",
+      "return_journey": "Discussion about return trip options and details",
+      "one_way_ticket": "Discussion about one-way journey specifications",
+      "one_way_confirmation": "Verification and confirmation of one-way journey",
+      "date_verification": "Verification of travel date details",
+      "date_confirmation": "Confirmation of travel date information",
+      "ticket_collection": "Information about ticket collection procedures",
+      "collection_confirmation": "Acknowledgment of ticket collection information",
+      "fare_check": "Process of checking available fare options",
+      "fare_options": "Presentation of available ticket price options",
+      "price_objection": "Customer challenging or questioning price information",
+      "fare_explanation": "Service provider explaining fare structure or availability",
+      "understanding_acknowledgment": "Recognition of information received",
+      "availability_reinforcement": "Reinforcement of availability information",
+      "price_verification": "Verification of ticket price details",
+      "price_confirmation": "Confirmation of ticket price understanding",
+      "booking_cancellation": "Decision to cancel the booking process",
+      "service_closure": "Closing sequence initiated by service provider",
+      "interaction_closure": "Final closing exchange between participants"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategies that strengthen or maintain the current frame",
+      "frame_shifting": "Strategies that change or transition to a different frame",
+      "frame_blending": "Strategies that integrate multiple frames simultaneously",
+      "strategy_subtypes": {
+        "initialization": "Initial establishment of a service frame",
+        "role_establishment": "Identification of institutional role",
+        "directive_guidance": "Directive that guides customer action",
+        "processing_signal": "Indication of cognitive processing",
+        "information_provision": "Supplying requested information",
+        "information_completion": "Adding complementary information",
+        "information_elaboration": "Expanding on previously provided information",
+        "information_elicitation": "Request for specific information",
+        "verification": "Checking accuracy of information",
+        "confirmation": "Confirming accuracy of information",
+        "reinforcement": "Strengthening current frame activation",
+        "acceptance": "Acknowledging and accepting information",
+        "mirroring": "Repeating or echoing previous utterance",
+        "topic_transition_marking": "Linguistic marker signaling topic change",
+        "framework_expansion": "Extending current frame to include new elements",
+        "correction": "Correcting inaccurate information",
+        "correction_elaboration": "Explaining or elaborating on correction",
+        "alternative_framing": "Presenting alternative perspective",
+        "clarification": "Providing explanatory information",
+        "resolution": "Statement resolving prior ambiguity",
+        "cognitive_processing": "Marker indicating thinking process",
+        "procedure_explanation": "Explanation of service procedures",
+        "service_action_announcement": "Statement of forthcoming service action",
+        "clarification_request": "Request for additional explanatory information",
+        "surprise_expression": "Expression of unexpected information",
+        "emotional_expression": "Display of affective response",
+        "counter_information": "Presentation of contradictory information",
+        "explanation_provision": "Providing rationale or explanation",
+        "face_management": "Utterance managing interpersonal harmony",
+        "justification": "Providing reasons for situation",
+        "cognitive_realization": "Expression of new understanding",
+        "information_reinforcement": "Repetition for emphasis",
+        "cognitive_integration": "Processing and integrating information",
+        "verification_request": "Request for confirmation",
+        "information_verification": "Checking understanding of specific information",
+        "rapport_building": "Enhancing interpersonal relationship",
+        "cognitive_closure": "Marking cognitive completion",
+        "decision_announcement": "Statement of decision or intention",
+        "alternative_plan": "Presentation of different course of action",
+        "ritual_closure": "Conventional closing formulation",
+        "interaction_termination": "Final closure of dialogue",
+        "gratitude_expression": "Expression of appreciation"
+      }
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of frame activation",
+      "verification": "Point of information checking",
+      "confirmation": "Point of mutual agreement on information",
+      "transition": "Point of frame change",
+      "challenge": "Point of questioning or disagreement",
+      "adjustment": "Point of adapting to new information",
+      "transformation": "Point of significant frame shift",
+      "integration": "Point of combining multiple perspectives",
+      "closure": "Point of interaction conclusion"
+    },
+    "stage_types": {
+      "opening": "Initial greeting and service initiation",
+      "information_exchange": "Exchange of basic journey details",
+      "information_verification": "Verification of provided information",
+      "information_provision": "One-sided information delivery",
+      "negotiation": "Resolution of differences or problems",
+      "transaction": "Completion of booking or decision",
+      "closing": "Termination of service interaction"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    },
+    "key_findings": {
+      "institutional_asymmetry": {
+        "service_provider_constraint_mean": 0.76,
+        "customer_constraint_mean": 0.28,
+        "strategy_distribution_difference": 0.42
+      },
+      "frame_transition_patterns": {
+        "service_provider_initiated": 0.71,
+        "customer_initiated": 0.29,
+        "smooth_transitions": 0.62,
+        "challenged_transitions": 0.38
+      },
+      "negotiation_efficacy": {
+        "challenge_resolution_rate": 0.83,
+        "mean_semantic_distance_reduction": 0.47,
+        "successful_integrations": 0.78
+      }
+    }
+  },
+  "dialogue_summary": {
+    "narrative_structure": "Customer enquires about a one-way train ticket from Manchester to London Euston. After initial misunderstanding about return journey, service provider confirms one-way booking procedure. When quoting standard fare (£45.50), customer objects, mentioning lower fare (£9.50) quoted to wife. Service provider explains discounted fare no longer available. Customer decides not to book and terminate interaction.",
+    "key_negotiation_sequence": "Price objection and explanation sequence (turns 23-30) demonstrates institutional constraint in fare options, customer's decisive frame shifting in cancellation decision, and mutual acceptance of interaction termination.",
+    "theoretical_significance": "Exemplifies institutional asymmetry in frame activation strength (service provider: 5.5 vs customer: 5.2) and strategic adaptation patterns in negotiation sequences, particularly in price objection resolution."
+  }
+}

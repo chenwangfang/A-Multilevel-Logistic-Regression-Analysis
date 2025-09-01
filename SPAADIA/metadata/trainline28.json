@@ -1,0 +1,150 @@
+{
+  "dialogue_id": "trainline28",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-15",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.88,
+      "negotiation_points": 0.87
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 235,
+    "utterance_count": 401,
+    "duration_seconds": 1286,
+    "word_count": 2571,
+    "speaker_distribution": {
+      "service_provider": 118,
+      "customer": 117
+    },
+    "frame_statistics": {
+      "frame_type_count": 28,
+      "frame_transition_count": 47,
+      "mean_activation_strength": 4.9,
+      "dominant_frames": ["service_initiation", "special_needs", "journey_information", "payment_method", "fare_inquiry"],
+      "framework_dynamics": {
+        "frame_transition_frequency": 0.37,
+        "context_dependence_mean": 0.82,
+        "institutional_presetting_mean": 0.58
+      }
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 36,
+      "frame_reinforcement_percentage": 62.8,
+      "frame_shifting_percentage": 29.4,
+      "frame_blending_percentage": 7.8,
+      "mean_strategy_efficacy": 4.7,
+      "strategy_adaptation_rate": 0.52
+    },
+    "communication_efficiency": 0.68,
+    "negotiation_intensity": 0.33
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service interaction framework at beginning of dialogue",
+      "special_needs": "Recognition and accommodation of specific customer requirements",
+      "information_collection": "Systematic gathering of relevant information",
+      "journey_information": "Travel details including origin, destination, and timing",
+      "cognitive_correction": "Adjustment of misunderstood or incorrect information",
+      "journey_verification": "Confirmation of travel details for accuracy",
+      "confirmation": "Acknowledgment and validation of provided information",
+      "booking_process": "Procedural framework for ticket reservation",
+      "booking_information": "Specific details related to ticket reservation",
+      "payment_method": "Framework for payment options and processing",
+      "payment_information": "Specific details related to payment processing",
+      "travel_time": "Temporal aspects of journey planning",
+      "time_preference": "Customer's preferred travel schedule",
+      "fare_inquiry": "Investigation of ticket pricing options",
+      "discount_eligibility": "Determination of qualification for reduced fares",
+      "discount_verification": "Confirmation of qualification for reduced fares",
+      "discount_confirmation": "Acknowledgment of reduced fare qualification",
+      "discount_specification": "Detailed information about specific discount types",
+      "disability_discount": "Special fare reduction for disabled travelers",
+      "collection_conditions": "Requirements for ticket collection",
+      "farewell": "Closure of service interaction"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategies that strengthen or maintain established frames",
+      "frame_shifting": "Strategies that transition between different frames",
+      "frame_blending": "Strategies that integrate multiple frames simultaneously"
+    },
+    "strategy_subtypes": {
+      "initialization": "Establishing the initial interaction frame",
+      "institutional_identification": "Identifying organizational affiliation",
+      "personal_identification": "Identifying individual service provider",
+      "directive_guidance": "Directing customer toward specific information provision",
+      "preparation": "Signaling upcoming content or response",
+      "rapport_building": "Establishing interpersonal connection",
+      "identity_declaration": "Stating personal characteristics relevant to service",
+      "request_specification": "Articulating specific service needs",
+      "external_reference": "Referring to information from outside current interaction",
+      "condition_setting": "Establishing parameters for service provision",
+      "topic_transition": "Shifting to new conversational content",
+      "information_elicitation": "Prompting specific information from interlocutor",
+      "information_provision": "Supplying requested or relevant details",
+      "information_emphasis": "Highlighting specific aspects of provided information",
+      "information_verification": "Checking accuracy of understood information",
+      "information_rejection": "Negating incorrect information",
+      "rejection_emphasis": "Reinforcing negation of incorrect information",
+      "information_correction": "Supplying correct information after rejection",
+      "information_reconfirmation": "Re-verifying corrected information",
+      "information_validation": "Confirming accuracy of information",
+      "conversation_closure": "Terminating the interaction"
+    },
+    "negotiation_types": {
+      "initiation_point": "Beginning of framework establishment",
+      "introduction_point": "Introduction of new elements into interaction",
+      "negotiation_invitation": "Opening for co-construction of meaning",
+      "transition_point": "Shift between topical or functional elements",
+      "question_point": "Information request requiring response",
+      "verification_point": "Accuracy checking of understanding",
+      "challenge_point": "Contesting of presented information",
+      "correction_point": "Rectification of misunderstanding",
+      "confirmation_request": "Solicitation of validation",
+      "confirmation_point": "Validation of understanding or agreement",
+      "closure_point": "Termination of negotiation sequence"
+    },
+    "interaction_stages": {
+      "opening": "Initial establishment of interaction",
+      "information_gathering": "Collection of necessary details",
+      "information_verification": "Confirmation of collected details",
+      "information_processing": "Interpretation and utilization of information",
+      "information_provision": "Delivery of requested or relevant information",
+      "solution_provision": "Offering resolution to customer needs",
+      "solution_processing": "Customer evaluation of offered solution",
+      "solution_seeking": "Search for alternative options",
+      "solution_acceptance": "Customer agreement with proposed solution",
+      "special_needs": "Addressing specific customer requirements",
+      "transaction_initiation": "Beginning of payment/booking process",
+      "transaction_processing": "Handling of payment details",
+      "transaction_summary": "Review of completed transaction",
+      "transaction_closing": "Finalization of transaction",
+      "closing": "Termination of service interaction"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_type", "efficacy"],
+      "H3": ["strategy_adaptation_index", "temporal_dynamics", "stage_transitions"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    },
+    "statistical_models": {
+      "H1": "Multivariate Analysis of Variance (MANOVA)",
+      "H2": "Multilevel Logistic Regression",
+      "H3": "Integrated Temporal Effect Analysis",
+      "H4": "Process Analysis Method"
+    }
+  },
+  "corpus_position": {
+    "dialogue_index": 28,
+    "typicality_rating": 0.82,
+    "theoretical_saturation_contribution": "High",
+    "analytical_distinctiveness": "Contains significant disability accommodation frame sequences, valuable for examining special needs adaptation strategies within service dialogues"
+  }
+}

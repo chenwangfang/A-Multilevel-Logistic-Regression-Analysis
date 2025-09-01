@@ -1,0 +1,131 @@
+{
+  "dialogue_id": "trainline32",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-11-12",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.86,
+      "frame_activation": 0.88,
+      "strategy_selection": 0.85,
+      "negotiation_points": 0.83
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 53,
+    "utterance_count": 91,
+    "duration_seconds": 317,
+    "word_count": 946,
+    "speaker_distribution": {
+      "service_provider": 26,
+      "customer": 27
+    },
+    "frame_statistics": {
+      "frame_type_count": 12,
+      "frame_transition_count": 21,
+      "mean_activation_strength": 4.8,
+      "dominant_frames": ["fare_constraints", "service_constraints", "alternative_seeking", "journey_information"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 19,
+      "frame_reinforcement_percentage": 58.6,
+      "frame_shifting_percentage": 32.1,
+      "frame_blending_percentage": 9.3,
+      "mean_strategy_efficacy": 4.9
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service interaction framework at dialogue beginning",
+      "journey_information": "Information collection about travel details",
+      "payment_method": "Discussion of payment options and requirements",
+      "service_constraints": "Institutional rules and limitations on service",
+      "fare_inquiry": "Customer-initiated exploration of ticket prices",
+      "intent_verification": "Clarification of customer's service goals",
+      "booking_explanation": "Contextual information about booking purpose",
+      "fare_constraints": "Limitations on fare availability and options",
+      "disappointment": "Emotional response to undesired information",
+      "alternative_options": "Presentation of substitute choices",
+      "railcard_inquiry": "Investigation of discount eligibility",
+      "journey_details": "Specific train schedule information",
+      "fare_concern": "Customer's price-related worry expression",
+      "alternative_seeking": "Active search for different options",
+      "decision_hesitation": "Temporary pause for consideration",
+      "decision_making": "Cognitive process of selecting options",
+      "decision_postponement": "Delay of final decision",
+      "booking_constraints": "Requirements for completing reservation",
+      "closing": "Conclusion of service interaction"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strengthening of established framework",
+      "frame_shifting": "Transition to different framework",
+      "frame_blending": "Integration of multiple frameworks"
+    },
+    "strategy_subtypes": {
+      "initialization": "Establishing initial framework",
+      "directive_guidance": "Leading interaction direction",
+      "slot_filling": "Providing required information",
+      "topic_transition_marking": "Signaling subject change",
+      "framework_expansion": "Broadening interaction scope",
+      "constraint_setting": "Establishing limitations",
+      "agenda_change": "Redirecting interaction focus",
+      "emphasis": "Highlighting important elements",
+      "intent_clarification": "Verifying communication purpose",
+      "correction": "Rectifying misunderstandings",
+      "context_expansion": "Adding background information",
+      "situation_explanation": "Providing scenario details",
+      "permission_seeking": "Requesting approval",
+      "rule_specification": "Detailing institutional constraints",
+      "information_seeking": "Requesting specific data",
+      "refocus": "Returning to previous focus",
+      "constraint_declaration": "Announcing limitations",
+      "alternative_presentation": "Offering other options",
+      "information_provision": "Supplying relevant details",
+      "suitability_check": "Verifying appropriateness",
+      "concern_identification": "Pinpointing issues",
+      "constraint_reinforcement": "Restating limitations",
+      "alternative_seeking": "Searching for other options",
+      "complete_constraint": "Stating absolute limitations",
+      "alternative_exploration": "Investigating other possibilities",
+      "request_for_action": "Asking for specific response",
+      "constraint_reiteration": "Repeating limitations",
+      "postponement": "Delaying decision",
+      "pre_closing": "Initiating conversation end"
+    },
+    "negotiation_types": {
+      "initiation": "Starting interaction framework",
+      "transition": "Shifting to new framework",
+      "challenge": "Questioning current framework",
+      "adjustment": "Modifying existing framework",
+      "negotiation": "Joint meaning construction",
+      "constraint": "Setting interaction boundaries",
+      "refocus": "Redirecting interaction focus",
+      "limitation": "Establishing restrictions",
+      "emotional": "Affective reaction point",
+      "verification": "Confirming understanding",
+      "option": "Presenting alternatives",
+      "confirmation": "Validating proposals",
+      "closure": "Finalizing discussion topic",
+      "delay": "Temporary interaction pause",
+      "thinking": "Cognitive processing indication",
+      "repair": "Fixing communication problems",
+      "postponement": "Deferring decision",
+      "transition": "Moving to concluding phase"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    },
+    "analytical_features": {
+      "salient_dialogue_characteristics": "The dialogue exhibits high institutional constraint levels from the service provider (mean=0.87) versus low constraint levels from the customer (mean=0.34). There is significant frame shifting around fare inquiry, displaying the customer's persistent focus on price considerations.",
+      "notable_negotiation_patterns": "Multiple closure points from service provider (utterances U060, U072, U074) conflict with continued negotiation attempts from customer (utterances U059, U068, U071), demonstrating asymmetrical power dynamics in service constraint enforcement.",
+      "strategic_adaptation_indicators": "The customer employs diverse strategy adaptation (frame shifting, frame blending) to navigate institutional constraints, while the service provider predominantly relies on frame reinforcement strategies to maintain institutional framework."
+    }
+  }
+}

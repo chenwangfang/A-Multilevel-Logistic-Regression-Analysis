@@ -1,0 +1,206 @@
+{
+  "dialogue_id": "trainline25",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-18",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 48,
+    "utterance_count": 94,
+    "duration_seconds": 389,
+    "word_count": 986,
+    "speaker_distribution": {
+      "service_provider": 24,
+      "customer": 24
+    },
+    "frame_statistics": {
+      "frame_type_count": 17,
+      "frame_transition_count": 32,
+      "mean_activation_strength": 4.76,
+      "dominant_frames": ["journey_information", "seat_preference", "ticket_collection", "identity_verification", "collection_restrictions"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 21,
+      "frame_reinforcement_percentage": 67.8,
+      "frame_shifting_percentage": 27.3,
+      "frame_blending_percentage": 4.9,
+      "mean_strategy_efficacy": 4.62
+    },
+    "temporal_statistics": {
+      "stage_distribution": {
+        "opening": 5.3,
+        "information_exchange": 133.2,
+        "information_verification": 14.3,
+        "negotiation": 38.6,
+        "closing": 8.6
+      },
+      "mean_turn_duration": 4.06,
+      "service_provider_mean_turn_duration": 5.38,
+      "customer_mean_turn_duration": 2.73
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 39,
+      "average_semantic_distance": 0.26,
+      "challenge_point_count": 5,
+      "confirmation_point_count": 12,
+      "service_provider_contribution_ratio": 0.67,
+      "customer_contribution_ratio": 0.33
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service interaction framework at the beginning of dialogue",
+      "journey_information": "Frame for collecting and providing journey-related information",
+      "payment_method": "Frame related to payment options and card details",
+      "ticket_collection": "Frame regarding arrangements for ticket collection",
+      "location_verification": "Frame for verifying journey locations",
+      "time_verification": "Frame for verifying or clarifying time information",
+      "journey_verification": "Frame for summarizing and confirming journey details",
+      "ticket_class": "Frame regarding ticket class selection",
+      "fare_options": "Frame presenting fare choices and prices",
+      "fare_acceptance": "Frame indicating acceptance of fare proposal",
+      "ticket_restrictions": "Frame explaining restrictions on ticket usage",
+      "return_options": "Frame presenting return journey options",
+      "return_decision": "Frame for customer's decision on return journey",
+      "seat_preference": "Frame for seat type and location preferences",
+      "cancellation_policy": "Frame explaining ticket cancellation conditions",
+      "travel_restrictions": "Frame explaining travel condition restrictions",
+      "identity_verification": "Frame for personal identity confirmation",
+      "identity_resolution": "Frame for resolving identity-related issues",
+      "collection_restrictions": "Frame explaining ticket collection requirements",
+      "problem_identification": "Frame recognizing conflicts or issues",
+      "cancellation_acceptance": "Frame indicating acceptance of transaction cancellation",
+      "closing": "Frame for concluding the service interaction"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategies that strengthen the current active frame",
+      "frame_shifting": "Strategies that change or transition between frames",
+      "frame_blending": "Strategies that integrate elements from multiple frames"
+    },
+    "strategy_subtypes": {
+      "initialization": "Establishing initial contact",
+      "institutional_identification": "Identifying institutional affiliation",
+      "personal_identification": "Identifying personal role",
+      "directive_guidance": "Directing participant to specific action",
+      "processing_signal": "Indicating cognitive processing",
+      "information_provision": "Providing requested information",
+      "information_seeking": "Requesting specific information",
+      "topic_transition_marking": "Signaling transition between topics",
+      "framework_expansion": "Expanding the active framework",
+      "procedural_guidance": "Providing guidance on procedures",
+      "information_verification": "Verifying provided information",
+      "confirmation": "Confirming understanding or acceptance",
+      "information_clarification": "Clarifying ambiguous information",
+      "summary_initiation": "Initiating a summary of information",
+      "option_presentation": "Presenting available options",
+      "acceptance": "Indicating acceptance of proposal",
+      "reference_establishment": "Establishing reference to specific element",
+      "constraint_explanation": "Explaining limitations or constraints",
+      "hypothetical_scenario": "Introducing hypothetical situations",
+      "scenario_extension": "Extending a presented scenario",
+      "option_explanation": "Explaining details of options",
+      "alternative_presentation": "Presenting alternative possibilities",
+      "option_finalization": "Finalizing available options",
+      "option_receipt": "Acknowledging receipt of options",
+      "decision_making": "Making a decision among options",
+      "decision_acknowledgment": "Acknowledging a decision",
+      "preference_elicitation": "Seeking preference information",
+      "preference_expression": "Expressing specific preferences",
+      "topic_continuation": "Continuing with current topic",
+      "preference_denial": "Indicating absence of preference",
+      "preference_elaboration": "Elaborating on preference",
+      "policy_explanation": "Explaining institutional policies",
+      "information_receipt": "Acknowledging receipt of information",
+      "information_reinforcement": "Reinforcing previously stated information",
+      "abandoned_condition": "Initiating but not completing conditions",
+      "constraint_reinforcement": "Reinforcing previously stated constraints",
+      "flexibility_explanation": "Explaining available flexibility",
+      "information_qualification": "Qualifying provided information",
+      "constraint_introduction": "Introducing new constraints",
+      "problem_recognition": "Recognizing existence of problems",
+      "problem_addressing": "Addressing identified problems",
+      "impossibility_statement": "Stating impossibility of action",
+      "abandoned_directive": "Initiating but not completing directives",
+      "solution_proposal": "Proposing solutions to problems",
+      "solution_exploration": "Exploring possible solutions",
+      "constraint_preparation": "Preparing for constraint introduction",
+      "abandoned_constraint": "Initiating but not completing constraints",
+      "realization_marker": "Indicating moment of realization",
+      "solution_acceptance": "Accepting proposed solution",
+      "closing_initiation": "Initiating dialogue closure",
+      "closing_acceptance": "Accepting dialogue closure",
+      "appreciation_expression": "Expressing appreciation",
+      "farewell_expression": "Expressing farewell",
+      "farewell_reciprocation": "Reciprocating farewell"
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of frame establishment",
+      "transition": "Point of transition between frames",
+      "verification": "Point of information verification",
+      "confirmation": "Point of mutual understanding confirmation",
+      "integration": "Point of integrating multiple perspectives",
+      "choice": "Point of option presentation for selection",
+      "decision": "Point of decision making",
+      "challenge": "Point of contesting existing frame",
+      "adjustment": "Point of modifying existing frame",
+      "transformation": "Point of significant frame change",
+      "closing": "Point of interaction conclusion"
+    },
+    "stage_types": {
+      "opening": "Initial exchange establishing communication",
+      "information_exchange": "Exchange of information relevant to service",
+      "information_verification": "Verification of previously exchanged information",
+      "negotiation": "Discussion of options, problems, and solutions",
+      "closing": "Conclusion of service interaction"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_type", "strategy_subtype", "efficacy"],
+      "H3": ["adaptation_index", "strategy_changed", "temporal_sequence"],
+      "H4": ["negotiation_type", "contribution_ratio", "semantic_distance"]
+    },
+    "key_findings": {
+      "H1": "Frame activation in this dialogue exhibits dual characteristics with high institutional presetting (mean: 0.77) for service provider and high context dependence (mean: 0.88) for customer, supporting context-presetting hypothesis",
+      "H2": "Strong association between frame types and strategy selection patterns (Cramer's V: 0.62), with frame reinforcement dominating routine information frames and frame shifting prominent in problem resolution frames",
+      "H3": "Strategy adaptation index increases during negotiation stages (mean: 0.83) compared to information exchange stages (mean: 0.58), indicating dynamic optimization under constraints",
+      "H4": "Contribution ratios show asymmetric pattern with service provider leading in transition points (0.89:0.11) while customer dominates challenge points (0.19:0.81), revealing collaborative yet role-differentiated meaning construction"
+    }
+  },
+  "annotation_challenges": {
+    "ambiguity_points": [
+      {"turn_id": "T038", "utterance_id": "U071", "issue": "Ambiguous frame classification between identity_verification and problem_identification"},
+      {"turn_id": "T040", "utterance_id": "U079", "issue": "Multiple simultaneous negotiation types (challenge and transformation)"},
+      {"turn_id": "T041", "utterance_id": "U081", "issue": "Difficulty distinguishing between frame_shifting and frame_blending for solution_exploration"}
+    ],
+    "reliability_improvement_methods": [
+      "Multiple annotation rounds with reconciliation",
+      "Development of detailed decision trees for ambiguous cases",
+      "Creation of standardized examples for challenging categories"
+    ]
+  },
+  "comparative_metrics": {
+    "cross_dialogue_comparison": {
+      "frame_activation_strength": {"trainline25": 4.76, "trainline_corpus_mean": 4.58},
+      "strategy_efficacy": {"trainline25": 4.62, "trainline_corpus_mean": 4.47},
+      "negotiation_intensity": {"trainline25": 0.31, "trainline_corpus_mean": 0.28},
+      "problem_resolution_rate": {"trainline25": 1.0, "trainline_corpus_mean": 0.78}
+    },
+    "trainline25_distinctive_features": [
+      "Higher than average strategy adaptation rate (0.68 vs. corpus mean 0.53)",
+      "More frequent use of frame_blending strategies in problem resolution (4.9% vs. corpus mean 2.3%)",
+      "Greater semantic distance in challenge points (0.52 vs. corpus mean 0.38)",
+      "More efficient problem resolution with fewer turns (9 turns vs. corpus mean 13.6 turns)"
+    ]
+  }
+}

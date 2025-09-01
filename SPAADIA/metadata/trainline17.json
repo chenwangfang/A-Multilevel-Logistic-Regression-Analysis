@@ -1,0 +1,160 @@
+{
+  "dialogue_id": "trainline17",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-18",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.85,
+      "frame_activation": 0.88,
+      "strategy_selection": 0.83,
+      "negotiation_points": 0.82
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 65,
+    "utterance_count": 106,
+    "duration_seconds": 387,
+    "word_count": 982,
+    "speaker_distribution": {
+      "service_provider": 33,
+      "customer": 32
+    },
+    "frame_statistics": {
+      "frame_type_count": 18,
+      "frame_transition_count": 26,
+      "mean_activation_strength": 4.4,
+      "dominant_frames": ["service_initiation", "ticket_rules", "booking_summary", "fare_information"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 12,
+      "frame_reinforcement_percentage": 68.3,
+      "frame_shifting_percentage": 26.5,
+      "frame_blending_percentage": 5.2,
+      "mean_strategy_efficacy": 4.3
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 34,
+      "negotiation_type_distribution": {
+        "initiation": 5.9,
+        "verification": 26.5,
+        "challenge": 14.7, 
+        "adjustment": 11.8,
+        "transition": 20.6,
+        "initiative": 5.9,
+        "confirmation": 11.8,
+        "integration": 5.9
+      },
+      "mean_semantic_distance": 0.33
+    },
+    "stage_distribution": {
+      "opening": 1.5,
+      "information_exchange": 53.8,
+      "decision_making": 4.6, 
+      "decision_confirmation": 3.1,
+      "information_provision": 1.5,
+      "transaction": 35.4
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service frame establishment at dialogue beginning",
+      "journey_information": "Collection of basic journey details frame",
+      "location_verification": "Verification of specific location details",
+      "confirmation": "Confirmation of previously provided information",
+      "payment_method": "Payment method selection and verification",
+      "passenger_information": "Collection of passenger count and details",
+      "discount_eligibility": "Verification of railcard or discount eligibility",
+      "ticket_type": "Selection and specification of ticket types",
+      "travel_date": "Travel date information collection",
+      "date_specification": "Detailed date specification and confirmation",
+      "departure_time": "Departure time selection and verification",
+      "schedule_information": "Train schedule pattern information",
+      "ticket_rules": "Explanation of ticket usage rules and conditions",
+      "fare_information": "Price and fare type information",
+      "journey_duration": "Information about journey length",
+      "time_selection": "Customer's selection of preferred departure time",
+      "specific_journey_information": "Detailed information about specific train",
+      "booking_confirmation": "Verification of booking details",
+      "seat_preference": "Collection of seating preferences",
+      "booking_summary": "Final summary of booking details",
+      "personal_information": "Collection of customer personal details",
+      "incomplete_frame": "Unfinished frame establishment attempt"
+    },
+    "strategy_types": {
+      "frame_reinforcement": {
+        "initialization": "Beginning a new frame with standard opening",
+        "role_establishment": "Establishing participant roles within frame",
+        "directive_guidance": "Directing participant toward specific frame",
+        "attention_focusing": "Drawing attention to new information",
+        "information_verification": "Verifying information within existing frame",
+        "confirmation": "Acknowledging and confirming existing information",
+        "slot_filling": "Providing specific requested information",
+        "information_provision": "Providing substantive information",
+        "information_collection": "Gathering specific information",
+        "verification": "Checking accuracy of information",
+        "elaboration": "Expanding on previously provided information",
+        "hedging": "Qualifying information with uncertainty markers",
+        "cognitive_processing": "Signaling thinking or processing time",
+        "echo_confirmation": "Repeating for confirmation purposes",
+        "constraint_emphasis": "Highlighting limitations or requirements",
+        "query_refinement": "Refining or clarifying a previous question",
+        "clarification_request": "Requesting clarification of information"
+      },
+      "frame_shifting": {
+        "topic_transition_marking": "Signaling topic change",
+        "framework_expansion": "Broadening current frame",
+        "proactive_information": "Offering information before requested",
+        "alternative_offering": "Providing alternatives within frame",
+        "hypothetical_framing": "Creating conditional scenario",
+        "rule_clarification": "Explaining procedural requirements",
+        "information_seeking": "Active information gathering",
+        "preference_specification": "Indicating specific preference",
+        "preference_query": "Asking about preferences",
+        "query_specification": "Asking specific clarification question",
+        "option_specification": "Providing specific option choices",
+        "information_request": "Requesting specific information"
+      },
+      "frame_blending": {
+        "resource_verification": "Checking available information resources",
+        "summary_initiation": "Beginning information integration",
+        "information_integration": "Combining multiple information elements",
+        "information_completion": "Adding final elements to combined information"
+      }
+    },
+    "negotiation_types": {
+      "initiation": "Initial frame establishment point",
+      "verification": "Information accuracy checking point",
+      "challenge": "Questioning or problematizing current frame",
+      "adjustment": "Modifying frame in response to challenge",
+      "transition": "Moving between frames",
+      "initiative": "Customer-initiated frame change",
+      "confirmation": "Final agreement on frame content",
+      "integration": "Synthesis of multiple frame elements"
+    },
+    "interaction_stages": {
+      "opening": "Initial contact and service frame establishment",
+      "information_exchange": "Collection and provision of journey details",
+      "decision_making": "Customer evaluating options and expressing preferences",
+      "decision_confirmation": "Confirming booking choices",
+      "information_provision": "Providing specific journey information",
+      "transaction": "Processing personal details and completing booking"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "activation_strength"],
+      "H2": ["frame_type", "strategy_type", "strategy_subtype", "efficacy"],
+      "H3": ["strategy_adjustment_rate", "adaptation_direction", "adaptation_index"],
+      "H4": ["negotiation_type", "contribution_ratio", "semantic_distance"]
+    },
+    "statistical_models": {
+      "H1": "multivariate_analysis_of_variance",
+      "H2": "multilevel_logistic_regression",
+      "H3": "integrated_temporal_effect_analysis",
+      "H4": "process_analysis_method"
+    }
+  }
+}

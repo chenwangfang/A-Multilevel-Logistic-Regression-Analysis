@@ -1,0 +1,196 @@
+{
+  "dialogue_id": "trainline19",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-18",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.88,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 90,
+    "utterance_count": 138,
+    "duration_seconds": 486,
+    "word_count": 1378,
+    "speaker_distribution": {
+      "service_provider": 45,
+      "customer": 45
+    },
+    "frame_statistics": {
+      "frame_type_count": 15,
+      "frame_transition_count": 34,
+      "mean_activation_strength": 4.9,
+      "dominant_frames": ["service_initiation", "journey_information", "alternative_solutions", "ticket_rules", "payment_details"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 24,
+      "frame_reinforcement_percentage": 62.5,
+      "frame_shifting_percentage": 28.7,
+      "frame_blending_percentage": 8.8,
+      "mean_strategy_efficacy": 5.0
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 36,
+      "initiation_points": 1,
+      "transition_points": 9,
+      "verification_points": 8,
+      "confirmation_points": 7,
+      "challenge_points": 1,
+      "transformation_points": 1,
+      "integration_points": 1,
+      "acceptance_points": 5,
+      "closing_points": 1,
+      "termination_points": 2
+    },
+    "temporal_dynamics": {
+      "opening_phase_duration": 5.3,
+      "information_exchange_phase_duration": 192.1,
+      "verification_phase_duration": 57.8,
+      "problem_solving_phase_duration": 12.1,
+      "transaction_phase_duration": 124.4,
+      "closing_phase_duration": 10.3
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service interaction framework at dialogue beginning",
+      "journey_information": "Collection of basic travel itinerary details",
+      "payment_method": "Exploration of available payment options",
+      "payment_confirmation": "Verification of payment capability",
+      "journey_date": "Specification of travel dates",
+      "passenger_details": "Collection of passenger information",
+      "passenger_type": "Classification of passenger categories",
+      "discount_eligibility": "Assessment of qualification for reduced fares",
+      "journey_time": "Specification of departure/arrival times",
+      "journey_time_verification": "Confirmation of travel schedule details",
+      "return_journey": "Planning of return trip details",
+      "return_date": "Specification of return travel date",
+      "fare_search": "Process of finding appropriate fare options",
+      "return_journey_verification": "Confirmation of return travel details",
+      "fare_options": "Presentation of available pricing structures",
+      "availability_constraint": "Limitations on booking capacity",
+      "alternative_solutions": "Proposal of alternative travel arrangements",
+      "solution_selection": "Decision-making on travel options",
+      "journey_summary": "Comprehensive overview of travel plan",
+      "seat_preference": "Selection of seating arrangements",
+      "seat_detail": "Specification of detailed seating preferences",
+      "ticket_rules": "Explanation of terms and conditions",
+      "personal_details": "Collection of customer identifying information",
+      "initial_request": "Request for customer's first name initial",
+      "contact_details": "Collection of communication information",
+      "address_information": "Collection of postal address",
+      "full_address": "Comprehensive address details",
+      "ticket_delivery": "Information about ticket distribution method",
+      "total_price": "Statement of final transaction amount",
+      "payment_details": "Collection of payment instrument information",
+      "reference_number": "Provision of booking reference code",
+      "delivery_information": "Details about ticket delivery process",
+      "closing_politeness": "Exchange of closing courtesies",
+      "farewell": "Terminal phase of conversation closure"
+    },
+    "strategy_types": {
+      "frame_reinforcement": {
+        "description": "Strategies that strengthen or maintain the current activated frame",
+        "subtypes": {
+          "initialization": "Establishing initial service framework",
+          "organizational_identification": "Declaring organizational affiliation",
+          "personal_identification": "Providing individual identity",
+          "directive_guidance": "Steering interaction toward institutional goals",
+          "information_provision": "Supplying relevant details",
+          "information_request": "Soliciting specific information",
+          "confirmation": "Affirming understanding or agreement",
+          "reinforcement": "Strengthening established points",
+          "verification": "Checking accuracy of information",
+          "repetition_confirmation": "Echoing to confirm understanding",
+          "information_completion": "Adding supplementary details",
+          "agreement": "Expressing concurrence",
+          "acceptance": "Indicating reception of information",
+          "preference_expression": "Articulating personal preferences",
+          "reception_marker": "Signaling information receipt",
+          "satisfaction_expression": "Expressing positive evaluation",
+          "appreciation_expression": "Expressing gratitude",
+          "closing_ritual": "Performing conventional closing acts"
+        }
+      },
+      "frame_shifting": {
+        "description": "Strategies that change or reorient the active frame",
+        "subtypes": {
+          "topic_transition_marking": "Signaling shift to new topic",
+          "framework_expansion": "Broadening the active frame",
+          "process_transparency": "Explaining procedural steps",
+          "information_provision": "Providing information in new frame",
+          "constraint_introduction": "Introducing limiting factors",
+          "preference_elicitation": "Soliciting preference information",
+          "condition_introduction": "Presenting conditional scenarios",
+          "rule_specification": "Detailing regulatory requirements",
+          "information_request": "Requesting information in new frame",
+          "practical_confirmation": "Verifying practical readiness",
+          "closing_ritual": "Initiating conversation closure"
+        }
+      },
+      "frame_blending": {
+        "description": "Strategies that integrate multiple frames",
+        "subtypes": {
+          "process_transparency": "Explaining cross-frame procedures",
+          "alternative_provision": "Offering multiple frame solutions",
+          "information_consolidation": "Synthesizing information across frames",
+          "information_completion": "Supplementing details across frames",
+          "transaction_summary": "Providing comprehensive transaction overview",
+          "service_information": "Delivering integrated service details"
+        }
+      }
+    },
+    "negotiation_types": {
+      "initiation": "Initial frame establishment point",
+      "transition": "Shift between distinct frames",
+      "verification": "Accuracy confirmation point",
+      "confirmation": "Agreement or acknowledgment point",
+      "challenge": "Problematization or constraint point",
+      "acceptance": "Explicit reception of information/proposal",
+      "transformation": "Significant reframing of interaction",
+      "integration": "Synthesis of multiple elements",
+      "closing": "Beginning of interaction termination",
+      "termination": "Final closure of interaction"
+    },
+    "interaction_stages": {
+      "opening": "Initial contact and service framework establishment",
+      "information_exchange": "Collection and provision of core data",
+      "information_verification": "Confirmation of critical details",
+      "processing": "System interaction and data handling",
+      "information_provision": "Delivery of service-related information",
+      "problem_solving": "Resolution of constraints or challenges",
+      "transaction": "Payment and booking formalization",
+      "closing": "Termination of service interaction"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "activation_strength"],
+      "H2": ["frame_type", "strategy_selection", "strategy_efficacy"],
+      "H3": ["adaptation_index", "temporal_dynamics", "strategic_adjustment"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    },
+    "statistical_approaches": {
+      "H1": ["multivariate_variance_analysis", "multilevel_linear_modeling"],
+      "H2": ["multilevel_logistic_regression", "contingency_association_analysis"],
+      "H3": ["integrated_temporal_effect_analysis", "multilevel_survival_analysis"],
+      "H4": ["process_analysis", "role_difference_regression", "negotiation_effect_quantification"]
+    }
+  },
+  "dialogue_dynamics_indices": {
+    "frame_transition_frequency": 0.35,
+    "strategy_adaptation_rate": 0.43,
+    "negotiation_intensity": 0.31,
+    "communication_efficiency": 0.79,
+    "institutional_control_index": 0.68,
+    "process_transparency_score": 0.72,
+    "interactive_alignment_coefficient": 0.64,
+    "information_exchange_symmetry": 0.41
+  }
+}

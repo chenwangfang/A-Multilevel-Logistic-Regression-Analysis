@@ -1,0 +1,115 @@
+{
+  "dialogue_id": "trainline13",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-15",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.87,
+      "frame_activation": 0.89,
+      "strategy_selection": 0.85,
+      "negotiation_points": 0.84
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 151,
+    "utterance_count": 215,
+    "duration_seconds": 482,
+    "word_count": 1423,
+    "speaker_distribution": {
+      "service_provider": 76,
+      "customer": 75
+    },
+    "frame_statistics": {
+      "frame_type_count": 18,
+      "frame_transition_count": 35,
+      "mean_activation_strength": 5.1,
+      "dominant_frames": ["service_initiation", "journey_information_slot_filling", "payment_method", "availability_confirmation", "integrated_journey_slot_filling"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 25,
+      "frame_reinforcement_percentage": 67.5,
+      "frame_shifting_percentage": 25.6,
+      "frame_blending_percentage": 6.9,
+      "mean_strategy_efficacy": 4.9
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial frame establishment in service dialogue opening",
+      "journey_information_initiation": "Framework for journey information collection",
+      "journey_information_slot_filling": "Ongoing process of gathering journey details",
+      "journey_information_confirmation": "Verification of collected journey information",
+      "payment_method": "Framework for payment method establishment",
+      "payment_method_slot_filling": "Process of gathering payment details",
+      "customer_needs_slot_filling": "Process of gathering customer requirements",
+      "customer_needs_confirmation": "Verification of understood customer needs",
+      "discount_initiation": "Framework for discount eligibility discussion",
+      "discount_slot_filling": "Process of confirming discount eligibility",
+      "timing_initiation": "Framework for establishing journey timing",
+      "journey_planning_initiation": "Customer's framework for journey conceptualization",
+      "booking_initiation": "Framework for ticket booking confirmation",
+      "booking_confirmation": "Verification of booking intent",
+      "fare_initiation": "Framework for fare information presentation",
+      "fare_confirmation": "Verification of fare acceptance",
+      "availability_initiation": "Framework for discussing service availability",
+      "availability_confirmation": "Verification of understood availability constraints"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategy to strengthen and maintain established frames",
+      "frame_shifting": "Strategy to transform or redirect frame orientation",
+      "frame_blending": "Strategy to integrate multiple frames into a coherent whole"
+    },
+    "negotiation_types": {
+      "initiation": "Starting point for frame establishment",
+      "response": "Direct reply to frame activation",
+      "verification": "Confirmatory checking of frame elements",
+      "confirmation": "Positive affirmation of frame validity",
+      "transition": "Shift between different frames",
+      "constraint": "Introduction of limiting conditions",
+      "persistence": "Maintenance of frame despite challenge",
+      "alternative": "Offering different frame possibilities",
+      "intent": "Clarification of purpose within frame",
+      "specification": "Detailed elaboration of frame elements",
+      "detail": "Provision of specific frame information",
+      "expansion": "Broadening existing frame boundaries",
+      "approximation": "Inexact framing of elements",
+      "pricing": "Financial dimension establishment",
+      "strong_confirmation": "Emphatic affirmation of frame",
+      "inquiry": "Information seeking within frame",
+      "repetition": "Duplicative reinforcement of frame elements",
+      "date": "Temporal specification within frame"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    }
+  },
+  "dialogue_context": {
+    "service_type": "Transportation booking",
+    "institutional_setting": "Commercial telephone service",
+    "participant_roles": {
+      "A": "Train line service representative",
+      "B": "Customer seeking ticket booking"
+    },
+    "success_metrics": {
+      "goal_achievement": 1.0,
+      "communication_efficiency": 0.85,
+      "service_satisfaction": 0.95
+    }
+  },
+  "cross_dialogue_links": {
+    "related_dialogues": ["trainline01", "trainline07", "trainline22"],
+    "comparison_indices": {
+      "frame_activation_similarity": 0.78,
+      "strategy_selection_similarity": 0.72,
+      "negotiation_pattern_similarity": 0.80
+    }
+  }
+}

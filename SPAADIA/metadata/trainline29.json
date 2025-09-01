@@ -1,0 +1,225 @@
+{
+  "dialogue_id": "trainline29",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-25",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.88,
+      "negotiation_points": 0.87
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 108,
+    "utterance_count": 187,
+    "duration_seconds": 496,
+    "word_count": 1879,
+    "speaker_distribution": {
+      "service_provider": 54,
+      "customer": 54
+    },
+    "frame_statistics": {
+      "frame_type_count": 19,
+      "frame_transition_count": 32,
+      "mean_activation_strength": 5.2,
+      "dominant_frames": ["service_initiation", "fare_options", "payment_details", "ticketing_rules"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 27,
+      "frame_reinforcement_percentage": 62.5,
+      "frame_shifting_percentage": 33.7,
+      "frame_blending_percentage": 3.8,
+      "mean_strategy_efficacy": 5.0
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service interaction framework",
+      "journey_information": "Information collection about journey details",
+      "payment_method": "Card-based payment selection framework",
+      "payment_information": "Specific payment details provision",
+      "passenger_information": "Passenger count and details framework",
+      "journey_date": "Date of travel information framework",
+      "journey_time": "Time of travel information framework",
+      "time_verification": "Confirmation of time specifics framework",
+      "return_journey": "Return travel details framework",
+      "fare_options": "Price and ticket types framework",
+      "discount_eligibility": "Railcard and discount qualification framework",
+      "processing": "Intermediary processing of information framework",
+      "service_limitation": "Constraints on available options framework",
+      "information_processing": "Customer's cognitive processing framework",
+      "fare_availability": "Price availability for specific trains framework",
+      "time_constraint": "Time limitation issues framework",
+      "alternative_option": "Alternative selection framework",
+      "booking_request": "Ticket reservation request framework",
+      "booking_confirmation": "Booking verification framework",
+      "journey_details": "Comprehensive journey specifics framework",
+      "fare_details": "Specific price information framework",
+      "seating_preference": "Seat selection framework",
+      "ticketing_rules": "Ticket usage regulation framework",
+      "cancellation_rules": "Cancellation policy framework",
+      "change_rules": "Ticket modification framework",
+      "customer_information": "Personal details framework",
+      "contact_information": "Contact details framework",
+      "address_information": "Location details framework",
+      "address_verification": "Address confirmation framework",
+      "postal_information": "Mailing details framework",
+      "payment_details": "Credit card information framework",
+      "card_details": "Specific card details framework",
+      "reference_number": "Booking reference framework",
+      "note_readiness": "Preparation for information recording framework",
+      "payment_summary": "Transaction total framework",
+      "satisfaction": "Customer satisfaction expression framework",
+      "closing": "Conversation termination framework",
+      "gratitude": "Appreciation expression framework",
+      "farewell": "Parting exchange framework"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategy that strengthens established frames",
+      "frame_shifting": "Strategy that transitions or adjusts frames",
+      "frame_blending": "Strategy that integrates multiple frames",
+      "strategy_subtypes": {
+        "initialization": "Initial establishment of a frame",
+        "role_establishment": "Clarification of institutional roles",
+        "institutional_identity": "Assertion of professional identity",
+        "directive_guidance": "Direction-setting utterance",
+        "information_provision": "Supplying specific information",
+        "processing_indication": "Signal of cognitive processing",
+        "information_elicitation": "Request for specific information",
+        "preference_elicitation": "Request for preference information",
+        "verification": "Confirmation-seeking utterance",
+        "confirmation": "Affirmative response",
+        "emphasis": "Reinforcement of previous utterance",
+        "face_management": "Politeness strategy",
+        "topic_transition_marking": "Signal of topic change",
+        "framework_expansion": "Extension of existing frame",
+        "attention_redirection": "Shifting focus to new area",
+        "repetition": "Echoing previous information",
+        "clarification": "Making information more precise",
+        "process_signaling": "Indication of ongoing procedure",
+        "eligibility_assessment": "Qualification determination",
+        "acknowledgment": "Recognition of information",
+        "limitation_introduction": "Presenting constraints",
+        "knowledge_introduction": "Bringing in external information",
+        "explanation_attempt": "Effort to provide reasons",
+        "self_correction_attempt": "Self-initiated repair",
+        "self_reassurance": "Self-confirmation utterance",
+        "reasoning_attempt": "Logical connection creation",
+        "transition_marker": "Indicator of discourse shift",
+        "external_validation": "Appeal to outside authority",
+        "information_correction": "Modification of previous information",
+        "availability_check": "Query about option existence",
+        "alternative_introduction": "Presenting different option",
+        "specific_information": "Detailed factual information",
+        "information_completion": "Finishing information provision",
+        "preference_check": "Inquiry about satisfaction",
+        "rejection": "Negative response to option",
+        "justification": "Explanation of decision",
+        "alternative_seeking": "Request for different options",
+        "price_inquiry_attempt": "Request for cost information",
+        "completion_suggestion": "Anticipatory completion",
+        "request_action": "Direct action solicitation",
+        "information_summarization": "Recapitulation of details",
+        "price_specification": "Explicit cost statement",
+        "acceptance": "Positive reception",
+        "conditional_preference": "Conditional desire expression",
+        "preference_justification": "Explanation of preference",
+        "flexibility_indication": "Expression of adaptability",
+        "preference_emphasis": "Reinforcement of desire",
+        "commitment": "Promise of action",
+        "readiness_check": "Preparation verification",
+        "readiness_confirmation": "Affirmation of preparation",
+        "constraint_introduction": "Rule statement",
+        "condition_introduction": "Contingency presentation",
+        "compliance_marking": "Willingness indication",
+        "information_continuation": "Sequential addition",
+        "verification_request": "Ask for confirmation",
+        "appreciation": "Expression of gratitude",
+        "transaction_summarization": "Summary of financial details",
+        "service_completion": "Indication of process end",
+        "closing_marker": "Signal of conversation end",
+        "termination": "Final exchange",
+        "positive_evaluation": "Expression of satisfaction"
+      }
+    },
+    "negotiation_types": {
+      "initiation": "Opening of interaction frame",
+      "information": "Transfer of factual content",
+      "transition": "Shift between frames",
+      "verification": "Confirmation of accuracy",
+      "confirmation": "Affirmative response",
+      "knowledge_sharing": "Exchange of external information",
+      "approval": "Expression of positive evaluation",
+      "process": "Indication of ongoing procedures",
+      "constraint": "Introduction of limitations",
+      "clarification_request": "Request for more detail",
+      "preference_check": "Inquiry about satisfaction",
+      "alternative": "Presentation of options",
+      "rejection": "Negative response",
+      "explanation": "Provision of reasoning",
+      "alternative_request": "Request for different options",
+      "inquiry": "Information-seeking question",
+      "completion": "Finalizing information",
+      "request": "Direct solicitation",
+      "summarization": "Recapitulation of details",
+      "preference": "Expression of desire",
+      "flexibility": "Indication of adaptability",
+      "commitment": "Promise of action",
+      "condition": "Presentation of contingency",
+      "acceptance": "Positive reception",
+      "readiness_check": "Preparation verification",
+      "information_point": "Key information transfer point",
+      "appreciation": "Expression of gratitude",
+      "closing": "Conversation termination",
+      "termination": "Final exchange"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_selection", "efficacy"],
+      "H3": ["strategy_adaptation", "temporal_dynamics", "cognitive_load"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    },
+    "statistical_analyses": {
+      "H1": {
+        "method": "Multivariate Analysis of Variance (MANOVA)",
+        "variables": {
+          "independent": ["context_dependence", "institutional_presetting"],
+          "dependent": ["frame_activation_strength", "cognitive_load"]
+        },
+        "expected_patterns": "Higher institutional presetting correlates with stronger frame activation; context dependence moderates this relationship"
+      },
+      "H2": {
+        "method": "Multilevel Logistic Regression",
+        "variables": {
+          "independent": ["frame_type", "institutional_constraint", "context_dependence"],
+          "dependent": "strategy_type",
+          "random_effects": ["dialogue_id"]
+        },
+        "expected_patterns": "Frame types systematically predict strategy selection patterns; institutional constraint increases frame reinforcement strategies"
+      },
+      "H3": {
+        "method": "Integrated Temporal Effect Analysis",
+        "variables": {
+          "time_series": ["strategy_type", "efficacy", "adaptation_index"],
+          "stage_comparison": ["opening", "information_exchange", "booking", "closing"]
+        },
+        "expected_patterns": "Strategy selection shows optimization tendencies over time with increasing adaptation indices"
+      },
+      "H4": {
+        "method": "Process Analysis & Multilevel Logistic Regression",
+        "variables": {
+          "independent": ["speaker_role", "institutional_constraint"],
+          "dependent": ["contribution_ratio", "semantic_distance"],
+          "sequential": ["negotiation_type transitions"]
+        },
+        "expected_patterns": "Service providers and customers show systematic differences in contribution ratios; semantic distance decreases over successful negotiations"
+      }
+    }
+  }
+}

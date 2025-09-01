@@ -1,0 +1,861 @@
+{
+  "dialogue_id": "trainline01",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-15",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.87,
+      "frame_activation": 0.89,
+      "strategy_selection": 0.85,
+      "negotiation_points": 0.84,
+      "temporal_dynamics": 0.91,
+      "frame_transitions": 0.86
+    },
+    "annotation_process": {
+      "annotation_stages": [
+        {"stage": 1, "focus": "basic_structure", "duration_days": 3},
+        {"stage": 2, "focus": "frame_activation", "duration_days": 5},
+        {"stage": 3, "focus": "strategy_selection", "duration_days": 4},
+        {"stage": 4, "focus": "quantitative_metrics", "duration_days": 5},
+        {"stage": 5, "focus": "validation", "duration_days": 2}
+      ],
+      "validation_method": "dual_blind_cross_validation",
+      "reconciliation_process": "disagreement_resolution_conference"
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 89,
+    "utterance_count": 146,
+    "duration_seconds": 452,
+    "word_count": 1253,
+    "speaker_distribution": {
+      "service_provider": 45,
+      "customer": 44
+    },
+    "utterance_distribution": {
+      "service_provider": 87,
+      "customer": 59
+    },
+    "frame_statistics": {
+      "frame_activation_count": 85,
+      "frame_type_count": 37,
+      "frame_transition_count": 28,
+      "mean_activation_strength": 4.85,
+      "activation_strength_distribution": {
+        "low": [3.0, 4.0, 0.14],
+        "medium": [4.0, 5.0, 0.47],
+        "high": [5.0, 6.0, 0.31],
+        "very_high": [6.0, 7.0, 0.08]
+      },
+      "dominant_frames": ["service_initiation", "journey_information", "fare_options", "booking_confirmation", "payment_confirmation"],
+      "frame_duration": {
+        "mean_seconds": 5.08,
+        "median_seconds": 3.5,
+        "min_seconds": 1.0,
+        "max_seconds": 19.5
+      },
+      "institutional_presetting": {
+        "mean": 0.65,
+        "by_speaker": {
+          "service_provider": 0.86,
+          "customer": 0.37
+        },
+        "by_stage": {
+          "opening": 0.89,
+          "information_exchange": 0.68,
+          "negotiation": 0.76,
+          "transaction": 0.82,
+          "closing": 0.72
+        }
+      },
+      "context_dependence": {
+        "mean": 0.79,
+        "by_speaker": {
+          "service_provider": 0.69,
+          "customer": 0.89
+        },
+        "by_stage": {
+          "opening": 0.76,
+          "information_exchange": 0.83,
+          "negotiation": 0.77,
+          "transaction": 0.71,
+          "closing": 0.75
+        }
+      },
+      "cognitive_load": {
+        "mean": 2.34,
+        "standard_deviation": 0.87,
+        "by_speaker": {
+          "service_provider": 2.67,
+          "customer": 1.98
+        },
+        "by_stage": {
+          "opening": 2.1,
+          "information_exchange": 2.2,
+          "negotiation": 3.8,
+          "transaction": 2.6,
+          "closing": 1.9
+        }
+      },
+      "frame_distribution_by_stage": {
+        "opening": ["service_initiation"],
+        "information_exchange": ["journey_information", "payment_method", "discount_eligibility", "passenger_quantity", "journey_date", "departure_time", "return_information"],
+        "verification": ["location_verification", "date_verification", "journey_verification", "return_journey_verification"],
+        "negotiation": ["fare_options", "fare_limitation"],
+        "transaction": ["booking_confirmation", "payment_information", "booking_reference", "payment_confirmation"],
+        "closing": ["satisfaction", "closing", "closing_reciprocation", "closing_finalization"]
+      }
+    },
+    "strategy_statistics": {
+      "strategy_selection_count": 134,
+      "strategy_type_count": 25,
+      "frame_reinforcement_percentage": 64.2,
+      "frame_shifting_percentage": 29.8,
+      "frame_blending_percentage": 0.7,
+      "frame_acceptance_percentage": 35.1,
+      "frame_correction_percentage": 1.5,
+      "mean_strategy_efficacy": 4.98,
+      "strategy_efficacy_distribution": {
+        "low": [3.0, 4.0, 0.11],
+        "medium": [4.0, 5.0, 0.42],
+        "high": [5.0, 6.0, 0.39],
+        "very_high": [6.0, 7.0, 0.08]
+      },
+      "strategy_distribution_by_speaker": {
+        "service_provider": {
+          "frame_reinforcement": 52.6,
+          "frame_shifting": 38.7,
+          "frame_blending": 0.8
+        },
+        "customer": {
+          "frame_acceptance": 57.6,
+          "frame_reinforcement": 31.8,
+          "frame_shifting": 8.5,
+          "frame_blending": 0.5
+        }
+      },
+      "strategy_adaptation_index": {
+        "mean": 0.52,
+        "standard_deviation": 0.19,
+        "by_speaker": {
+          "service_provider": 0.63,
+          "customer": 0.34
+        },
+        "by_stage": {
+          "opening": 0.22,
+          "information_exchange": 0.48,
+          "verification": 0.68,
+          "negotiation": 0.76,
+          "transaction": 0.52,
+          "closing": 0.41
+        }
+      },
+      "strategy_subtypes": {
+        "initialization": 3,
+        "role_establishment": 1,
+        "directive_guidance": 1,
+        "information_provision": 16,
+        "verification": 6,
+        "confirmation": 14,
+        "topic_transition_marking": 8,
+        "framework_expansion": 4,
+        "compliance": 1,
+        "specification": 1,
+        "framework_continuation": 2,
+        "framework_specification": 1,
+        "correction": 3,
+        "face_management": 1,
+        "correction_integration": 1,
+        "information_completion": 4,
+        "procedural_announcement": 1,
+        "discourse_continuity": 3,
+        "interaction_management": 1,
+        "cooperation": 1,
+        "explanation_introduction": 1,
+        "constraint_communication": 1,
+        "constraint_explanation": 1,
+        "understanding_indication": 2,
+        "solution_framing": 1,
+        "rationale_provision": 1,
+        "alternative_introduction": 1,
+        "option_elaboration": 1,
+        "aspect_transition": 1,
+        "condition_specification": 5,
+        "option_provision": 1,
+        "benefit_highlighting": 1,
+        "agreement": 1,
+        "discourse_progression": 1,
+        "action_announcement": 2,
+        "situation_definition": 1,
+        "clarification": 1,
+        "acknowledgment": 4,
+        "acceptance": 1,
+        "information_verification": 3,
+        "verification_confirmation": 1,
+        "preference_elicitation": 1,
+        "preference_provision": 1,
+        "preference_specification": 2,
+        "acceptance_indication": 1,
+        "transaction_completion": 1,
+        "transaction_progression": 1,
+        "readiness_indication": 1,
+        "information_request_continuation": 4,
+        "information_request_expansion": 2,
+        "reception_indication": 2,
+        "information_continuation": 6,
+        "focus_transition": 3,
+        "verification_request": 1,
+        "information_specification": 1,
+        "information_confirmation": 7,
+        "information_request_completion": 1,
+        "transaction_finalization": 1,
+        "reference_provision": 1,
+        "reception_confirmation": 1,
+        "reference_completion": 1,
+        "comprehension_indication": 3,
+        "payment_confirmation": 1,
+        "delivery_information": 1,
+        "interaction_preparation_closure": 1,
+        "satisfaction_expression": 1,
+        "interaction_termination": 1,
+        "closing_reciprocation": 1,
+        "closure_finalization": 1,
+        "rule_explanation": 2,
+        "constraint_specification": 4
+      }
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 37,
+      "negotiation_type_distribution": {
+        "initiation": 0.027,
+        "transition": 0.270,
+        "verification": 0.162,
+        "confirmation": 0.135,
+        "challenge": 0.027,
+        "adjustment": 0.054,
+        "comprehension": 0.081,
+        "compliance": 0.054,
+        "transformation": 0.027,
+        "integration": 0.027,
+        "transaction": 0.027,
+        "completion": 0.054,
+        "closure_related": 0.081,
+        "contrast": 0.027,
+        "correction": 0.027,
+        "pre_closure": 0.027,
+        "satisfaction": 0.027,
+        "closure_initiation": 0.027,
+        "closure_confirmation": 0.027,
+        "termination": 0.027
+      },
+      "contribution_ratio": {
+        "service_provider_mean": 0.75,
+        "customer_mean": 0.25,
+        "by_negotiation_type": {
+          "initiation": [0.91, 0.09],
+          "transition": [0.88, 0.12],
+          "verification": [0.82, 0.18],
+          "confirmation": [0.22, 0.78],
+          "challenge": [0.25, 0.75],
+          "adjustment": [0.70, 0.30],
+          "comprehension": [0.19, 0.81],
+          "compliance": [0.24, 0.76],
+          "transformation": [0.86, 0.14],
+          "integration": [0.82, 0.18],
+          "transaction": [0.94, 0.06],
+          "completion": [0.92, 0.08],
+          "closure_related": [0.62, 0.38],
+          "contrast": [0.93, 0.07],
+          "correction": [0.22, 0.78],
+          "pre_closure": [0.85, 0.15],
+          "satisfaction": [0.11, 0.89],
+          "closure_initiation": [0.82, 0.18],
+          "closure_confirmation": [0.24, 0.76],
+          "termination": [0.79, 0.21]
+        }
+      },
+      "semantic_distance": {
+        "mean": 0.33,
+        "standard_deviation": 0.15,
+        "by_negotiation_type": {
+          "initiation": 0.12,
+          "transition": 0.42,
+          "verification": 0.33,
+          "confirmation": 0.16,
+          "challenge": 0.63,
+          "adjustment": 0.45,
+          "comprehension": 0.26,
+          "compliance": 0.23,
+          "transformation": 0.43,
+          "integration": 0.51,
+          "transaction": 0.37,
+          "completion": 0.28,
+          "closure_related": 0.22,
+          "contrast": 0.52,
+          "correction": 0.56,
+          "pre_closure": 0.31,
+          "satisfaction": 0.18,
+          "closure_initiation": 0.33,
+          "closure_confirmation": 0.21,
+          "termination": 0.12
+        }
+      }
+    },
+    "temporal_dynamics": {
+      "total_duration_seconds": 452,
+      "mean_turn_duration_seconds": 5.08,
+      "turn_duration_by_speaker": {
+        "service_provider": 6.72,
+        "customer": 1.62
+      },
+      "stage_distribution": {
+        "opening": 0.01,
+        "information_exchange": 0.32,
+        "information_verification": 0.11,
+        "information_processing": 0.04,
+        "information_provision": 0.14,
+        "negotiation": 0.07,
+        "verification": 0.07,
+        "preference_collection": 0.03,
+        "confirmation": 0.03,
+        "information_collection": 0.25,
+        "transaction_completion": 0.08,
+        "closing": 0.05
+      },
+      "turn_transition_speed": {
+        "mean_latency": 0.8,
+        "by_stage": {
+          "opening": 1.1,
+          "information_exchange": 0.7,
+          "negotiation": 1.2,
+          "transaction": 0.9,
+          "closing": 0.6
+        }
+      },
+      "frame_transition_dynamics": {
+        "transition_smoothness_mean": 0.81,
+        "transition_types": {
+          "sequential": 0.58,
+          "verification": 0.18,
+          "correction": 0.07,
+          "accommodation": 0.04,
+          "solution": 0.04,
+          "completion": 0.03,
+          "termination": 0.04,
+          "evaluation": 0.02
+        },
+        "institutional_influence_mean": 0.76,
+        "by_transition_type": {
+          "sequential": 0.88,
+          "verification": 0.79,
+          "correction": 0.34,
+          "accommodation": 0.58,
+          "solution": 0.87,
+          "completion": 0.90,
+          "termination": 0.85,
+          "evaluation": 0.36
+        }
+      }
+    },
+    "coverage_statistics": {
+      "frame_activation_coverage": 1.0,
+      "strategy_selection_coverage": 1.0,
+      "matched_frames_strategies": 85,
+      "unmatched_frames": 0,
+      "orphaned_strategies": 0
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service interaction frame establishment, including greeting and service role identification",
+      "journey_information": "Travel details collection and processing, focused on destination and route",
+      "payment_method": "Payment type determination and processing, including card type verification",
+      "payment_method_response": "Customer response confirming or providing payment method details",
+      "discount_eligibility": "Discount qualification assessment, including railcard verification",
+      "discount_eligibility_response": "Customer response to discount qualification assessment",
+      "passenger_quantity": "Traveler number determination for ticket quantity calculation",
+      "passenger_quantity_response": "Customer specification of number of travelers",
+      "journey_date": "Travel date specification for outward journey",
+      "journey_date_response": "Customer provision of outward journey date",
+      "departure_time": "Departure time specification for scheduling",
+      "departure_time_specification": "Customer provision of preferred departure time",
+      "location_verification": "Confirmation of location details to ensure booking accuracy",
+      "correction": "Information correction and adjustment when errors are identified",
+      "correction_acceptance": "Acknowledgment and integration of corrected information",
+      "acceptance": "Affirmation and approval of provided information or suggestions",
+      "return_information": "Return journey details processing, including date and time",
+      "return_information_provision": "Customer provision of return journey details",
+      "arrival_confirmation": "Verification of arrival time expectations",
+      "fare_checking": "Ticket price verification and availability assessment",
+      "acknowledgment": "Basic recognition of received information without substantive response",
+      "date_verification": "Confirmation of travel dates to ensure booking accuracy",
+      "confirmation": "Explicit verification and approval of critical information",
+      "fare_limitation": "Explanation of fare availability constraints and options",
+      "understanding": "Indication of comprehension of complex information",
+      "fare_options": "Ticket pricing options and explanation, including cost-saving alternatives",
+      "booking_confirmation": "Ticket reservation validation and processing",
+      "comprehension": "Demonstration of understanding complex information or processes",
+      "journey_verification": "Comprehensive confirmation of all journey details",
+      "seat_preference": "Seating preference elicitation for ticket customization",
+      "seat_preference_provision": "Customer specification of seating preferences",
+      "seat_preference_detailed": "Specific seating arrangement preference elicitation",
+      "seat_preference_detailed_provision": "Customer provision of detailed seating preferences",
+      "booking_completion": "Transaction finalization and booking confirmation",
+      "return_journey_verification": "Confirmation of return journey details for accuracy",
+      "fare_confirmation": "Final verification of ticket pricing before payment",
+      "ticket_rules": "Explanation of ticket usage rules and restrictions",
+      "personal_information": "Customer details collection for booking records",
+      "personal_information_provision": "Customer provision of personal identification details",
+      "personal_information_continued": "Continued collection of customer identification details",
+      "personal_information_provision_continued": "Customer continuation of personal details provision",
+      "contact_information": "Customer contact details collection for notifications",
+      "contact_information_provision": "Customer provision of contact details",
+      "contact_information_continuation": "Continued collection of contact information",
+      "contact_information_completion": "Completion of contact information gathering process",
+      "payment_information": "Payment details collection for transaction processing",
+      "payment_information_provision": "Customer provision of payment information",
+      "address_verification": "Confirmation of address details for payment processing",
+      "address_provision": "Customer provision of address information",
+      "payment_card_details": "Specific card information collection for transaction",
+      "payment_correction": "Adjustment of payment method or details when necessary",
+      "card_details_continuation": "Continued collection of card information",
+      "card_details_completion": "Completion of card information gathering",
+      "card_issue_number": "Collection of card issue number for debit cards",
+      "card_issue_number_provision": "Customer provision of card issue number",
+      "card_expiry": "Collection of card expiry date for payment processing",
+      "card_expiry_provision": "Customer provision of card expiry information",
+      "booking_reference": "Provision of booking reference for future retrieval",
+      "receptive_acknowledgment": "Ready acceptance of provided reference information",
+      "reference_provision": "Detailed provision of booking reference information",
+      "reference_continuation": "Continued provision of reference information",
+      "payment_confirmation": "Verification of successful payment processing",
+      "satisfaction": "Expression of contentment with service outcome",
+      "closing": "Interaction termination and farewell",
+      "closing_reciprocation": "Reciprocal closure acknowledgment",
+      "closing_finalization": "Final termination of service interaction"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategies that strengthen established frames through repetition, elaboration, or emphasis",
+      "frame_shifting": "Strategies that transform or adjust frames through transition, correction, or redirection",
+      "frame_blending": "Strategies that integrate multiple frames to address complex information needs",
+      "frame_acceptance": "Strategies that acknowledge and operate within established frames without alteration",
+      "frame_correction": "Strategies that modify incorrect frame elements to restore accuracy",
+      "strategy_subtypes": {
+        "initialization": "Establishing the initial communicative framework",
+        "role_establishment": "Defining participant roles within the interaction",
+        "directive_guidance": "Structuring the interaction through direct instruction",
+        "verification": "Confirming accuracy of previously established information",
+        "topic_transition_marking": "Signaling shift between conversational topics",
+        "framework_expansion": "Broadening the scope of the current frame",
+        "compliance": "Indicating adherence to established frame requirements",
+        "specification": "Providing detailed information within established parameters",
+        "framework_continuation": "Maintaining established frame with additional elements",
+        "framework_specification": "Adding precision to existing frame elements",
+        "correction": "Modifying inaccurate frame elements",
+        "face_management": "Preserving interactional harmony when errors occur",
+        "correction_integration": "Incorporating corrected information into the frame",
+        "confirmation": "Explicitly affirming frame elements or propositions",
+        "information_provision": "Supplying factual content within established frame",
+        "information_completion": "Finishing incomplete informational components",
+        "procedural_announcement": "Declaring upcoming process steps",
+        "discourse_continuity": "Maintaining conversational flow across utterances",
+        "interaction_management": "Regulating the pace and structure of the exchange",
+        "cooperation": "Demonstrating willingness to participate in frame activities",
+        "explanation_introduction": "Beginning clarification of complex frame elements",
+        "constraint_communication": "Conveying limitations within service parameters",
+        "constraint_explanation": "Detailing reasons for service constraints",
+        "understanding_indication": "Showing comprehension of frame content",
+        "solution_framing": "Presenting options as resolutions to identified needs",
+        "rationale_provision": "Explaining reasoning behind suggestions or requirements",
+        "alternative_introduction": "Presenting different options within service frame",
+        "option_elaboration": "Detailing specifics of presented alternatives",
+        "aspect_transition": "Shifting between related components of the same frame",
+        "condition_specification": "Detailing prerequisites for offered options",
+        "option_provision": "Presenting specific service possibilities",
+        "benefit_highlighting": "Emphasizing advantages of suggested options",
+        "agreement": "Expressing acceptance of suggested options or information",
+        "discourse_progression": "Moving the interaction forward through transitions",
+        "action_announcement": "Stating upcoming service provider actions",
+        "situation_definition": "Establishing the current state of proceedings",
+        "clarification": "Providing additional explanation to prevent misunderstanding",
+        "information_request": "Soliciting specific information to facilitate service",
+        "information_request_continuation": "Continuing sequence of information gathering",
+        "information_request_expansion": "Broadening scope of information collection",
+        "reception_indication": "Signaling receipt of provided information",
+        "information_continuation": "Continuing provision of requested information",
+        "verification_request": "Soliciting confirmation of critical information",
+        "information_specification": "Providing precise details within request parameters",
+        "information_confirmation": "Echoing provided information to ensure accuracy",
+        "information_request_completion": "Finalizing information gathering sequence",
+        "focus_transition": "Shifting attention to different aspect of transaction",
+        "transaction_finalization": "Completing core service exchange elements",
+        "information_verification": "Checking accuracy of previously provided details",
+        "readiness_indication": "Signaling preparedness for next interaction phase",
+        "reference_provision": "Supplying identification codes for future reference",
+        "reference_completion": "Finishing provision of reference information",
+        "comprehension_indication": "Demonstrating understanding of complex procedures",
+        "payment_confirmation": "Verifying successful financial transaction",
+        "delivery_information": "Providing details about post-transaction logistics",
+        "interaction_preparation_closure": "Preparing for interaction termination",
+        "satisfaction_expression": "Communicating contentment with service outcome",
+        "interaction_termination": "Initiating conclusion of service exchange",
+        "closing_reciprocation": "Responding to closure initiation cooperatively",
+        "closure_finalization": "Completing termination of service interaction",
+        "acknowledgment": "Recognizing received information without substantive response",
+        "acceptance": "Indicating agreement with proposals or information",
+        "preference_elicitation": "Soliciting customer preferences for service customization",
+        "preference_provision": "Customer specification of service preferences",
+        "preference_specification": "Providing detailed preference information",
+        "acceptance_indication": "Showing acceptance of proposed service arrangements",
+        "transaction_completion": "Finalizing service transaction process",
+        "transaction_progression": "Moving transaction through required stages",
+        "verification_confirmation": "Confirming accuracy of verification processes",
+        "reception_confirmation": "Acknowledging receipt of important information",
+        "rule_explanation": "Explaining service rules and restrictions",
+        "constraint_specification": "Detailing specific limitations or requirements"
+      }
+    },
+    "negotiation_types": {
+      "initiation": "Frame establishment point where core interaction parameters are defined",
+      "transition": "Point where interaction shifts between distinct communicative frames",
+      "verification": "Information accuracy checking to ensure shared understanding",
+      "confirmation": "Explicit affirmation of proposed or established frames",
+      "challenge": "Direct questioning or correction of proposed frame elements",
+      "adjustment": "Modification of frame elements in response to identified issues",
+      "comprehension": "Demonstration of understanding of complex information",
+      "compliance": "Willing adherence to institutionally established procedures",
+      "transformation": "Substantial reframing of interaction parameters",
+      "integration": "Combination of multiple frames into coherent structure",
+      "contrast": "Juxtaposition of different frame elements for comparison",
+      "transaction": "Core service exchange point involving financial commitment",
+      "completion": "Finalization of major interaction component",
+      "termination": "Final interaction closure point",
+      "satisfaction": "Evaluation point expressing service outcome assessment",
+      "closure_initiation": "Beginning of interaction termination sequence",
+      "closure_confirmation": "Reciprocal acknowledgment of termination sequence",
+      "pre_closure": "Preparation for interaction termination",
+      "correction": "Adjustment of incorrect information or misunderstanding"
+    },
+    "frame_transition_types": {
+      "sequential": "Orderly progression through predetermined service script steps",
+      "verification": "Transitioning to accuracy checking before proceeding",
+      "correction": "Shifting to error rectification when inaccuracies identified",
+      "accommodation": "Adjusting frame to incorporate corrected information",
+      "challenge": "Disputing established frame elements requiring revision",
+      "solution": "Moving to resolution-oriented framing of options",
+      "action": "Transitioning from discussion to concrete service actions",
+      "confirmation": "Moving to explicit verification of critical elements",
+      "information": "Shifting to detailed explanation of requirements or rules",
+      "evaluation": "Transitioning to assessment of service outcome",
+      "termination": "Moving to interaction conclusion phase"
+    },
+    "measurement_scales": {
+      "frame_activation_strength": {
+        "scale": [1, 7],
+        "levels": {
+          "1": "Minimal frame activation with negligible influence on interaction",
+          "2": "Slight frame activation with limited interactive effect",
+          "3": "Moderate frame activation with noticeable but non-dominant influence",
+          "4": "Medium frame activation with substantial interactive presence",
+          "5": "Strong frame activation with pronounced influence on interaction",
+          "6": "Very strong frame activation with major interactive effects",
+          "7": "Maximal frame activation with dominant control of interaction"
+        }
+      },
+      "strategy_efficacy": {
+        "scale": [1, 7],
+        "levels": {
+          "1": "Completely ineffective with failure to achieve intended effect",
+          "2": "Largely ineffective with minimal achievement of strategic goal",
+          "3": "Partially effective with limited strategic outcome",
+          "4": "Moderately effective with adequate goal achievement",
+          "5": "Substantially effective with clear strategic success",
+          "6": "Highly effective with strong achievement of intended outcome",
+          "7": "Maximally effective with complete strategic goal attainment"
+        }
+      },
+      "context_dependence": {
+        "scale": [0, 1],
+        "interpretation": "Continuous measure of degree to which frame activation relies on immediate contextual factors rather than institutional presetting"
+      },
+      "institutional_presetting": {
+        "scale": [0, 1],
+        "interpretation": "Continuous measure of degree to which frame activation is predetermined by institutional roles and procedures rather than emergent from context"
+      },
+      "cognitive_load": {
+        "scale": [1, 10],
+        "interpretation": "Estimated mental effort required to process and engage with the current frame"
+      },
+      "adaptation_index": {
+        "scale": [0, 1],
+        "interpretation": "Degree to which strategy represents adjustment to new contextual conditions rather than predetermined script"
+      },
+      "semantic_distance": {
+        "scale": [0, 1],
+        "interpretation": "Magnitude of conceptual shift occurring at negotiation points, with higher values indicating greater transformation"
+      },
+      "contribution_ratio": {
+        "scale": [[0, 1], [0, 1]],
+        "interpretation": "Proportional influence of service provider and customer in constructing meaning at negotiation points"
+      },
+      "transition_smoothness": {
+        "scale": [0, 1],
+        "interpretation": "Degree of coherence and cooperativeness during frame transitions, with higher values indicating smoother shifts"
+      }
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "activation_strength", "cognitive_load"],
+      "H2": ["frame_type", "strategy_selection", "strategy_subtype", "efficacy"],
+      "H3": ["strategy_adaptation", "temporal_dynamics", "transition_smoothness", "transition_type"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    },
+    "statistical_models": {
+      "H1": {
+        "model_type": "MANOVA",
+        "dependent_variables": ["activation_strength", "cognitive_load"],
+        "independent_variables": ["context_dependence", "institutional_presetting"],
+        "covariates": ["speaker_role", "stage"],
+        "interaction_terms": ["context_dependence*institutional_presetting"]
+      },
+      "H2": {
+        "model_type": "multilevel_logistic_regression",
+        "dependent_variable": "strategy_type",
+        "reference_category": "frame_reinforcement",
+        "predictor_variables": ["frame_type", "speaker_role", "stage", "activation_strength"],
+        "random_effects": ["dialogue_id"],
+        "interaction_terms": ["frame_type*speaker_role", "frame_type*stage"]
+      },
+      "H3": {
+        "model_type": "integrated_temporal_effect_analysis",
+        "target_measures": ["strategy_adaptation_index", "transition_smoothness"],
+        "time_series_components": ["relative_position", "stage"],
+        "sequence_analysis": ["strategy_transition_patterns", "frame_transition_dynamics"],
+        "lag_effects": [1, 2]
+      },
+      "H4": {
+        "model_type": "process_analysis",
+        "dependent_variables": ["semantic_distance", "contribution_ratio"],
+        "predictor_variables": ["negotiation_type", "speaker_role", "institutional_presetting"],
+        "phase_transition_matrix": "negotiation_type_transitions",
+        "comparison_variables": ["initial_semantic_position", "final_semantic_position"]
+      }
+    },
+    "variable_operationalization": {
+      "frame_activation_variables": {
+        "context_dependence": {
+          "measurement": "0-1 scale in JSONL index file",
+          "analysis_transformation": "categorized into low/medium/high (0-0.33/0.33-0.67/0.67-1)",
+          "hypothesis_relevance": "H1 - primary independent variable"
+        },
+        "institutional_presetting": {
+          "measurement": "0-1 scale in JSONL index file",
+          "analysis_transformation": "categorized into low/medium/high (0-0.33/0.33-0.67/0.67-1)",
+          "hypothesis_relevance": "H1 - primary independent variable"
+        },
+        "activation_strength": {
+          "measurement": "1-7 scale in JSONL index file",
+          "analysis_transformation": "continuous variable",
+          "hypothesis_relevance": "H1 - primary dependent variable"
+        },
+        "cognitive_load": {
+          "measurement": "1-10 scale in JSONL index file",
+          "analysis_transformation": "continuous variable",
+          "hypothesis_relevance": "H1 - secondary dependent variable"
+        }
+      },
+      "strategy_selection_variables": {
+        "strategy_type": {
+          "measurement": "categorical variable in JSONL index file",
+          "analysis_transformation": "multinomial categorical with frame_reinforcement as reference",
+          "hypothesis_relevance": "H2 - primary dependent variable"
+        },
+        "frame_type": {
+          "measurement": "categorical variable in JSONL index file",
+          "analysis_transformation": "categorical predictor",
+          "hypothesis_relevance": "H2 - primary independent variable"
+        },
+        "efficacy": {
+          "measurement": "1-7 scale in JSONL index file",
+          "analysis_transformation": "continuous variable",
+          "hypothesis_relevance": "H2 - outcome measure for strategy effectiveness"
+        },
+        "strategy_subtype": {
+          "measurement": "categorical variable in JSONL index file",
+          "analysis_transformation": "nested categorical variable",
+          "hypothesis_relevance": "H2 - detailed strategy classification"
+        }
+      },
+      "dynamic_adaptation_variables": {
+        "adaptation_index": {
+          "measurement": "0-1 scale in JSONL index file",
+          "analysis_transformation": "continuous time series variable",
+          "hypothesis_relevance": "H3 - primary dependent variable"
+        },
+        "relative_position": {
+          "measurement": "0-1 scale in JSONL index file",
+          "analysis_transformation": "continuous predictor for temporal effects",
+          "hypothesis_relevance": "H3 - primary temporal predictor"
+        },
+        "stage": {
+          "measurement": "categorical variable in JSONL index file",
+          "analysis_transformation": "ordered categorical predictor",
+          "hypothesis_relevance": "H3 - interaction stage indicator"
+        },
+        "transition_smoothness": {
+          "measurement": "0-1 scale in JSONL index file",
+          "analysis_transformation": "continuous outcome variable",
+          "hypothesis_relevance": "H3 - measure of adaptation quality"
+        }
+      },
+      "negotiation_variables": {
+        "negotiation_type": {
+          "measurement": "categorical variable in JSONL index file",
+          "analysis_transformation": "categorical predictor",
+          "hypothesis_relevance": "H4 - primary classification variable"
+        },
+        "contribution_ratio": {
+          "measurement": "two-element array in JSONL index file",
+          "analysis_transformation": "continuous variable pair summing to 1.0",
+          "hypothesis_relevance": "H4 - measure of participant influence in meaning construction"
+        },
+        "semantic_distance": {
+          "measurement": "0-1 scale in JSONL index file",
+          "analysis_transformation": "continuous dependent variable",
+          "hypothesis_relevance": "H4 - measure of meaning transformation magnitude"
+        }
+      }
+    }
+  },
+  "multilevel_model_specifications": {
+    "model_structure": {
+      "levels": ["utterance", "turn", "dialogue"],
+      "random_effects": ["dialogue_id", "turn_id"],
+      "fixed_effects": ["frame_type", "speaker_role", "stage", "activation_strength", "context_dependence", "institutional_presetting"]
+    },
+    "h1_manova": {
+      "model_type": "MANOVA",
+      "dependent_variables": ["activation_strength", "cognitive_load"],
+      "independent_variables": ["context_dependence_category", "institutional_presetting_category"],
+      "covariates": ["speaker_role", "stage", "relative_position"],
+      "interaction_terms": ["context_dependence_category*institutional_presetting_category", "context_dependence_category*speaker_role"],
+      "formula": "cbind(activation_strength, cognitive_load) ~ context_dependence_category * institutional_presetting_category + speaker_role + stage + relative_position + (1|dialogue_id)",
+      "estimation_method": "Maximum likelihood estimation",
+      "software_implementation": "R: car::Manova() with lme4::lmer()"
+    },
+    "h2_logistic_regression": {
+      "formula": "logit(P(strategy = k) / P(strategy = 1)) = β₀ₖ + Σⱼβⱼₖ×Xⱼ + Σₘγₘₖ×Zₘ + Σₚ,ₚδₚₖ×(Xₚ × Zq) + (u₀ₖ|dialogue_id)",
+      "parameters": {
+        "k": "Strategy type (k=2 for frame_shifting, k=3 for frame_blending, k=4 for frame_acceptance, with frame_reinforcement k=1 as reference)",
+        "β₀ₖ": "Baseline intercept for strategy type k",
+        "Xⱼ": "Vector of micro-contextual factors (e.g., turn position, activation_strength, efficacy)",
+        "Zₘ": "Vector of macro-institutional factors (e.g., frame_type, speaker_role, stage)",
+        "βⱼₖ": "Fixed effect coefficients for micro factors",
+        "γₘₖ": "Fixed effect coefficients for macro factors",
+        "δₚₖ": "Interaction effect coefficients",
+        "u₀ₖ": "Random intercept term at dialogue level"
+      },
+      "estimation_method": "Maximum likelihood with Laplace approximation",
+      "software_implementation": "R: nnet::multinom() or lme4::glmer() with family=binomial"
+    },
+    "h3_temporal_analysis": {
+      "model_type": "integrated_temporal_effect_analysis",
+      "primary_models": {
+        "adaptation_trajectory": {
+          "formula": "adaptation_index ~ poly(relative_position, 2) * stage + activation_strength + strategy_efficacy + (relative_position|dialogue_id)",
+          "model_type": "linear_mixed_effects",
+          "software": "R: lme4::lmer()"
+        },
+        "transition_smoothness": {
+          "formula": "transition_smoothness ~ lag_adaptation_index + frame_transition_type + institutional_influence + (1|dialogue_id)",
+          "model_type": "beta_regression",
+          "software": "R: betareg::betareg()"
+        },
+        "sequence_analysis": {
+          "method": "optimal_matching",
+          "distance_metric": "optimal_matching_distance",
+          "clustering": "hierarchical_clustering",
+          "software": "R: TraMineR::seqdef(), cluster::agnes()"
+        }
+      },
+      "lag_effects": {
+        "lag_1": "previous_turn_strategy_type",
+        "lag_2": "two_turns_previous_strategy_type"
+      },
+      "time_series_components": ["trend", "seasonality", "irregular"],
+      "software_implementation": "R: forecast::auto.arima(), lme4::lmer()"
+    },
+    "h4_process_analysis": {
+      "model_type": "process_analysis_framework",
+      "primary_analyses": {
+        "semantic_distance_model": {
+          "formula": "semantic_distance ~ negotiation_type + contribution_ratio_sp + institutional_presetting + frame_activation_strength + (1|dialogue_id)",
+          "model_type": "beta_regression",
+          "software": "R: betareg::betareg()"
+        },
+        "contribution_ratio_model": {
+          "formula": "contribution_ratio_sp ~ negotiation_type + speaker_role + frame_type + semantic_distance_lag + (1|dialogue_id)",
+          "model_type": "beta_regression",
+          "software": "R: betareg::betareg()"
+        },
+        "negotiation_transition_matrix": {
+          "method": "markov_chain_analysis",
+          "transition_probabilities": "negotiation_type_transitions",
+          "stationary_distribution": "equilibrium_negotiation_states",
+          "software": "R: markovchain::markovchainFit()"
+        }
+      },
+      "phase_analysis": {
+        "meaning_construction_phases": ["initiation", "development", "consolidation", "resolution"],
+        "phase_transition_predictors": ["semantic_distance", "contribution_ratio", "institutional_presetting"],
+        "software": "R: survival::coxph(), msm::msm()"
+      }
+    },
+    "model_validation": {
+      "cross_validation": {
+        "method": "k_fold_cross_validation",
+        "k": 10,
+        "repeated_cv": true,
+        "repetitions": 5
+      },
+      "goodness_of_fit": {
+        "h1_metrics": ["Wilks_lambda", "Pillai_trace", "partial_eta_squared"],
+        "h2_metrics": ["AIC", "BIC", "concordance_index", "classification_accuracy"],
+        "h3_metrics": ["RMSE", "MAE", "R_squared_marginal", "R_squared_conditional"],
+        "h4_metrics": ["pseudo_R_squared", "deviance_explained", "concordance_correlation"]
+      },
+      "model_diagnostics": {
+        "residual_analysis": true,
+        "multicollinearity_check": "VIF_analysis",
+        "influential_observations": "Cooks_distance",
+        "assumption_testing": ["normality", "homoscedasticity", "independence"]
+      }
+    },
+    "effect_size_interpretation": {
+      "h1_effect_sizes": {
+        "small": "partial_eta_squared < 0.01",
+        "medium": "0.01 ≤ partial_eta_squared < 0.06",
+        "large": "partial_eta_squared ≥ 0.06"
+      },
+      "h2_effect_sizes": {
+        "small": "odds_ratio: 1.2-1.5",
+        "medium": "odds_ratio: 1.5-2.5",
+        "large": "odds_ratio > 2.5"
+      },
+      "h3_effect_sizes": {
+        "small": "standardized_beta < 0.2",
+        "medium": "0.2 ≤ standardized_beta < 0.5",
+        "large": "standardized_beta ≥ 0.5"
+      },
+      "h4_effect_sizes": {
+        "small": "pseudo_R_squared < 0.02",
+        "medium": "0.02 ≤ pseudo_R_squared < 0.13",
+        "large": "pseudo_R_squared ≥ 0.13"
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "dialogue_id": "trainline33",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-12-10",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.91,
+      "frame_activation": 0.93,
+      "strategy_selection": 0.89,
+      "negotiation_points": 0.88
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 119,
+    "utterance_count": 199,
+    "duration_seconds": 632,
+    "word_count": 1857,
+    "speaker_distribution": {
+      "service_provider": 60,
+      "customer": 59
+    },
+    "frame_statistics": {
+      "frame_type_count": 17,
+      "frame_transition_count": 38,
+      "mean_activation_strength": 5.1,
+      "dominant_frames": ["service_procedure", "order_summary", "personal_information", "booking_procedure", "payment_information"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 25,
+      "frame_reinforcement_percentage": 61.4,
+      "frame_shifting_percentage": 32.3,
+      "frame_blending_percentage": 6.3,
+      "mean_strategy_efficacy": 4.8
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 53,
+      "mean_semantic_distance": 0.28,
+      "service_provider_mean_contribution": 0.74,
+      "customer_mean_contribution": 0.26,
+      "dominant_negotiation_types": ["confirmation", "verification", "transition"]
+    },
+    "temporal_statistics": {
+      "stage_count": 9,
+      "mean_stage_duration": 70.2,
+      "longest_stage": "personal_details",
+      "mean_turn_duration": 5.3
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service frame establishment at dialogue beginning",
+      "customer_need": "Frame expressing customer's service requirements",
+      "service_procedure": "Procedural frame guiding information collection process",
+      "information_clarification": "Frame for resolving ambiguities in provided information",
+      "information_verification": "Frame for confirming accuracy of exchanged information",
+      "fare_search": "Frame for exploring available fare options",
+      "fare_limitation": "Frame expressing constraints on available fares",
+      "alternative_solution": "Frame proposing alternative service solutions",
+      "solution_proposal": "Frame presenting specific service solution",
+      "ticket_rules": "Frame explaining ticket usage regulations",
+      "ticket_flexibility": "Frame highlighting flexibility options in ticket usage",
+      "positive_evaluation": "Frame expressing positive assessment of solution",
+      "booking_procedure": "Frame guiding booking process steps",
+      "seat_booking": "Frame for seat preference selection",
+      "order_summary": "Frame summarizing booking details for confirmation",
+      "refund_policy": "Frame explaining cancellation and refund regulations",
+      "personal_information": "Frame collecting customer personal details",
+      "company_information": "Frame collecting customer company details",
+      "contact_information": "Frame collecting customer contact details",
+      "address_information": "Frame collecting customer address details",
+      "payment_information": "Frame collecting payment method details",
+      "payment_processing": "Frame confirming transaction processing",
+      "reference_number": "Frame providing booking reference information",
+      "delivery_information": "Frame explaining ticket delivery method",
+      "satisfaction": "Frame expressing customer satisfaction",
+      "closing": "Closing frame finalizing the service interaction"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategy strengthening established frame",
+      "frame_shifting": "Strategy changing or adjusting frames",
+      "frame_blending": "Strategy integrating multiple frames"
+    },
+    "strategy_subtypes": {
+      "initialization": "Establishing initial service framework",
+      "role_establishment": "Clarifying institutional roles",
+      "procedural_guidance": "Directing customer through service steps",
+      "information_gathering": "Collecting required service information",
+      "information_provision": "Providing factual service information",
+      "information_verification": "Confirming accuracy of exchanged information",
+      "clarification_seeking": "Requesting disambiguation of information",
+      "clarification_provision": "Providing disambiguation of information",
+      "topic_transition_marking": "Signaling shift to new topic or frame",
+      "solution_framing": "Presenting solution in strategic framework",
+      "constraint_introduction": "Introducing service limitations",
+      "alternative_introduction": "Proposing alternative service options",
+      "benefit_emphasis": "Highlighting advantages of service options",
+      "rule_explanation": "Explaining service regulations",
+      "flexibility_introduction": "Highlighting adaptability of service options",
+      "emotional_response": "Expressing affective reaction",
+      "positive_evaluation": "Expressing favorable assessment",
+      "decision_expression": "Communicating service choice",
+      "confirmation": "Expressing agreement or acknowledgment",
+      "confirmation_reinforcement": "Strengthening previous confirmation",
+      "requirement_restatement": "Restating information needs",
+      "context_correction": "Adjusting misunderstood context",
+      "face_management": "Managing social harmony",
+      "closing_routine": "Executing conversation closure",
+      "farewell": "Expressing parting goodwill"
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of frame establishment",
+      "transition": "Point of movement between frames",
+      "verification": "Point of information accuracy checking",
+      "confirmation": "Point of agreement establishment",
+      "transformation": "Point of significant frame change",
+      "integration": "Point of frame synthesis",
+      "negotiation": "Point of meaning negotiation",
+      "challenge": "Point of frame contestation",
+      "adjustment": "Point of frame modification",
+      "correction": "Point of error rectification",
+      "misalignment": "Point of frame misunderstanding",
+      "completion": "Point of process finalization",
+      "final_verification": "Point of final confirmation",
+      "closing": "Point of interaction conclusion"
+    },
+    "interaction_stages": {
+      "opening": "Initial service greeting and identity establishment",
+      "information_exchange": "Collection of service-relevant information",
+      "information_verification": "Confirmation of information accuracy",
+      "solution_search": "Exploration of potential service solutions",
+      "solution_presentation": "Presentation of selected service options",
+      "solution_acceptance": "Customer acceptance of proposed solution",
+      "booking_process": "Implementation of service arrangement",
+      "order_confirmation": "Verification of arrangement details",
+      "personal_details": "Collection of customer personal information",
+      "payment_details": "Collection of payment information",
+      "payment_confirmation": "Confirmation of transaction processing",
+      "reference_number": "Provision of booking reference",
+      "ticket_delivery": "Explanation of service fulfillment method",
+      "closing": "Conclusion of service interaction"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_type", "strategy_subtype", "efficacy"],
+      "H3": ["adaptation_index", "relative_position", "stage", "strategy_adjustment_patterns"],
+      "H4": ["negotiation_type", "contribution_ratio", "semantic_distance", "role_differences"]
+    },
+    "analytical_methods": {
+      "H1": ["multivariate_analysis_of_variance", "multilevel_linear_modeling"],
+      "H2": ["multilevel_logistic_regression", "contingency_association_analysis"],
+      "H3": ["integrated_temporal_effect_analysis", "multilevel_survival_analysis"],
+      "H4": ["process_analysis", "multilevel_logistic_regression", "markov_chain_analysis"]
+    },
+    "cross_dialogue_comparisons": {
+      "frame_activation_patterns": ["trainline01", "trainline10", "trainline33"],
+      "strategy_selection_distribution": ["trainline01", "trainline10", "trainline33"],
+      "negotiation_dynamics": ["trainline01", "trainline10", "trainline33"],
+      "institutional_presetting_effects": ["trainline01", "trainline10", "trainline33"]
+    }
+  }
+}

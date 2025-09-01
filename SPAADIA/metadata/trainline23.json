@@ -1,0 +1,182 @@
+{
+  "dialogue_id": "trainline23",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2024-05-15",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 102,
+    "utterance_count": 208,
+    "duration_seconds": 586,
+    "word_count": 1876,
+    "speaker_distribution": {
+      "service_provider": 51,
+      "customer": 51
+    },
+    "frame_statistics": {
+      "frame_type_count": 35,
+      "frame_transition_count": 42,
+      "mean_activation_strength": 5.1,
+      "dominant_frames": ["service_initiation", "information_collection", "information_provision", "booking_confirmation", "price_selection"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 7,
+      "frame_reinforcement_percentage": 32.4,
+      "frame_shifting_percentage": 45.6,
+      "frame_response_percentage": 14.2,
+      "frame_blending_percentage": 5.3,
+      "frame_resistance_percentage": 2.5,
+      "mean_strategy_efficacy": 4.9
+    },
+    "interaction_statistics": {
+      "negotiation_point_count": 38,
+      "confirmation_points": 14,
+      "correction_points": 6,
+      "information_points": 63,
+      "transition_points": 15,
+      "mean_semantic_distance": 0.42
+    },
+    "temporal_statistics": {
+      "mean_turn_duration": 5.7,
+      "stage_distribution": {
+        "opening": 0.01,
+        "information_exchange": 0.34,
+        "information_verification": 0.12,
+        "service_processing": 0.08,
+        "price_selection": 0.06,
+        "booking": 0.05,
+        "ticket_rules": 0.04,
+        "verification": 0.07,
+        "seat_reservation": 0.05,
+        "booking_confirmation": 0.08,
+        "ticketing_guidance": 0.04,
+        "reference_number": 0.02,
+        "explanation": 0.03,
+        "closing": 0.01
+      }
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishing the service interaction framework at dialogue opening",
+      "request_expression": "Customer's articulation of service needs or requirements",
+      "information_collection": "Gathering necessary data from the customer",
+      "information_provision": "Supplying requested information to the service provider",
+      "information_verification": "Confirming accuracy of exchanged information",
+      "self_correction": "Correction of one's own previously provided information",
+      "correction": "Correction of information provided by the other party",
+      "service_processing": "Executing core service operations",
+      "price_selection": "Presenting and selecting price options",
+      "price_explanation": "Explaining rationale behind pricing options",
+      "preference_insistence": "Customer maintaining original preference despite alternatives",
+      "booking": "Initiating the reservation process",
+      "ticket_rules": "Explaining conditions and rules of the ticket",
+      "understanding": "Signaling comprehension of provided information",
+      "booking_procedure": "Explaining the booking process steps",
+      "rules_explanation": "Detailed explanation of service terms and conditions",
+      "verification": "Checking accuracy of specific information",
+      "seat_reservation": "Selection and confirmation of seating preferences",
+      "preference_expression": "Articulation of specific preferences",
+      "booking_confirmation": "Finalizing and confirming booking details",
+      "ticketing_guidance": "Providing instructions for ticket collection",
+      "reference_number": "Providing booking reference information",
+      "explanation": "Providing clarification on processes or decisions",
+      "inquiry": "Customer seeking additional information",
+      "closing": "Initiating dialogue conclusion",
+      "gratitude": "Expression of appreciation",
+      "farewell": "Formal dialogue termination"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Maintaining and strengthening established frames",
+      "frame_shifting": "Introducing new frames or redirecting the focus",
+      "frame_blending": "Combining multiple frames",
+      "frame_response": "Directly responding to an established frame",
+      "frame_verification": "Checking understanding of established frame",
+      "frame_resistance": "Opposing frame shift attempts",
+      "frame_continuation": "Extending current frame with additional information"
+    },
+    "strategy_subtypes": {
+      "initialization": "Establishing initial service frame",
+      "role_establishment": "Identifying institutional roles",
+      "directive_guidance": "Directing customer towards specific information provision",
+      "information_provision": "Providing requested information",
+      "topic_transition_marking": "Signaling transition to new topic/frame",
+      "framework_expansion": "Expanding the active frame with new dimensions",
+      "information_seeking": "Requesting specific information",
+      "direct_answer": "Providing straightforward response to query",
+      "correction": "Modifying incorrect information",
+      "constraint_introduction": "Introducing service limitations or requirements",
+      "procedural_announcement": "Describing upcoming actions or procedures",
+      "preference_elicitation": "Seeking customer preferences",
+      "alternative_presentation": "Offering alternative options",
+      "preference_assertion": "Strong statement of preference",
+      "alternative_solution": "Offering solution to resolve conflicting preferences",
+      "rule_explanation": "Clarifying service rules and conditions",
+      "verification_request": "Requesting confirmation of information",
+      "explanation_conclusion": "Summarizing explanatory information",
+      "farewell_expression": "Formal closing of conversation"
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of frame establishment",
+      "transition": "Shift between frames",
+      "information": "Key information exchange point",
+      "correction": "Information rectification point",
+      "negotiation": "Preference reconciliation point",
+      "alternative": "Alternative option introduction",
+      "resistance": "Opposition to suggested frames",
+      "resolution": "Settlement of competing frames",
+      "decision": "Commitment to specific action",
+      "verification": "Information accuracy check",
+      "preference": "Expression of specific desires",
+      "inquiry": "Request for additional information",
+      "closure": "Dialogue conclusion initiation",
+      "termination": "Final dialogue ending"
+    },
+    "interaction_stages": {
+      "opening": "Initial service contact establishment",
+      "information_exchange": "Primary information gathering and provision",
+      "information_verification": "Confirmation of exchanged information",
+      "service_processing": "Core service delivery operations",
+      "price_selection": "Price options presentation and selection",
+      "booking": "Reservation initiation and confirmation",
+      "ticket_rules": "Explanation of ticket terms and conditions",
+      "verification": "Accuracy checking of specific information",
+      "seat_reservation": "Seat preference specification",
+      "booking_confirmation": "Final confirmation of booking details",
+      "ticketing_guidance": "Instructions for ticket collection",
+      "reference_number": "Provision of booking reference",
+      "explanation": "Clarification of processes or decisions",
+      "closing": "Dialogue conclusion"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "activation_strength"],
+      "H2": ["frame_type", "strategy_type", "strategy_efficacy"],
+      "H3": ["strategy_adaptation", "temporal_dynamics", "adaptation_index"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    },
+    "statistical_methods": {
+      "H1": ["multivariate_analysis_of_variance", "multilevel_linear_modeling"],
+      "H2": ["multilevel_logistic_regression", "contingency_association_analysis"],
+      "H3": ["integrated_temporal_effect_analysis", "multilevel_survival_analysis"],
+      "H4": ["process_analysis", "multilevel_logistic_regression"]
+    },
+    "intercoder_reliability": {
+      "method": "Fleiss_kappa",
+      "frame_activation": 0.89,
+      "strategy_selection": 0.86,
+      "negotiation_points": 0.84,
+      "overall": 0.86
+    }
+  }
+}

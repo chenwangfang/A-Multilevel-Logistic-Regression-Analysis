@@ -1,0 +1,105 @@
+{
+  "dialogue_id": "trainline31",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-18",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.92,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.85
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 17,
+    "utterance_count": 33,
+    "duration_seconds": 98,
+    "word_count": 257,
+    "speaker_distribution": {
+      "service_provider": 9,
+      "customer": 8
+    },
+    "frame_statistics": {
+      "frame_type_count": 17,
+      "frame_transition_count": 9,
+      "mean_activation_strength": 4.7,
+      "dominant_frames": ["service_initiation", "preference_specification", "accommodation"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 32,
+      "frame_reinforcement_percentage": 53.1,
+      "frame_shifting_percentage": 28.1,
+      "frame_blending_percentage": 18.8,
+      "mean_strategy_efficacy": 4.7
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service framework establishment at dialogue beginning",
+      "journey_information": "Framework for collecting journey-related information",
+      "payment_method": "Framework focused on payment options and requirements",
+      "compliance": "Framework for customer conformity to institutional requirements",
+      "temporal_information": "Framework for eliciting date and time specifications",
+      "temporal_specification": "Framework for providing temporal information details",
+      "verification": "Framework for confirming provided information",
+      "confirmation": "Framework for acknowledging verification attempts",
+      "information_enrichment": "Framework for adding contextual details to established information",
+      "passenger_information": "Framework for passenger count and details",
+      "time_preference": "Framework for eliciting temporal preferences",
+      "preference_specification": "Framework for articulating detailed preferences",
+      "accommodation": "Framework for adapting to unexpected changes",
+      "politeness": "Social framework for maintaining face and rapport",
+      "service_closure": "Framework for wrapping up service interaction",
+      "conversation_termination": "Framework for dialogue conclusion",
+      "farewell": "Social framework for final exchanges"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategies that strengthen established frames",
+      "frame_shifting": "Strategies that transition or adjust frames",
+      "frame_blending": "Strategies that integrate multiple frames"
+    },
+    "negotiation_types": {
+      "initiation": "Frame establishment point",
+      "transition": "Shift between frames",
+      "verification": "Information confirmation point",
+      "challenge": "Frame disruption point",
+      "transformation": "Major frame shift point",
+      "adjustment": "Frame adaptation point",
+      "confirmation": "Frame stabilization point",
+      "integration": "Frame consolidation point"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    }
+  },
+  "dialogue_dynamics": {
+    "frame_transition_frequency": 0.24,
+    "strategy_adaptation_rate": 0.35,
+    "negotiation_intensity": 0.21,
+    "communication_efficiency": 0.68,
+    "critical_points": [
+      {
+        "turn_id": "T012",
+        "utterance_id": "U023",
+        "critical_feature": "unexpected_interruption",
+        "impact_value": 0.78
+      },
+      {
+        "turn_id": "T013",
+        "utterance_id": "U027",
+        "critical_feature": "service_adaptation",
+        "impact_value": 0.65
+      }
+    ],
+    "conversation_pattern": "standard_opening_interrupted_closing",
+    "service_outcome": "postponed_resolution"
+  }
+}

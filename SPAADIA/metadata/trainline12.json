@@ -1,0 +1,160 @@
+{
+  "dialogue_id": "trainline12",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-11-20",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 162,
+    "utterance_count": 278,
+    "duration_seconds": 787,
+    "word_count": 3421,
+    "speaker_distribution": {
+      "service_provider": 81,
+      "customer": 81
+    },
+    "frame_statistics": {
+      "frame_type_count": 21,
+      "frame_transition_count": 38,
+      "mean_activation_strength": 4.8,
+      "dominant_frames": ["fare_restriction", "itinerary_confirmation", "personal_information_collection"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 28,
+      "frame_reinforcement_percentage": 63.4,
+      "frame_shifting_percentage": 27.2,
+      "frame_blending_percentage": 6.1,
+      "frame_challenging_percentage": 3.3,
+      "mean_strategy_efficacy": 4.6
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "The initial service frame establishing the service context",
+      "journey_requirement": "Frame for collecting basic journey requirements",
+      "payment_method": "Payment method information frame",
+      "passenger_information": "Passenger details information frame",
+      "discount_eligibility": "Frame for establishing discount card eligibility",
+      "fare_inquiry": "Frame for fare information requests and processing",
+      "availability_constraint": "Frame for expressing availability limitations",
+      "fare_restriction": "Frame for communicating ticket constraints and limitations",
+      "booking_decision": "Frame for making booking commitments",
+      "itinerary_confirmation": "Frame for confirming journey details",
+      "system_limitation": "Frame for explaining system constraints",
+      "decision_compromise": "Frame for negotiating compromise between options",
+      "personal_information_collection": "Frame for gathering customer personal details",
+      "payment_information_collection": "Frame for gathering payment details",
+      "transaction_summary": "Frame for summarizing the transaction details",
+      "closing": "Frame for closing the service interaction"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategy to strengthen and maintain the current active frame",
+      "frame_shifting": "Strategy to transition from one frame to another",
+      "frame_blending": "Strategy to integrate multiple frames simultaneously",
+      "frame_challenging": "Strategy to contest or resist the current frame"
+    },
+    "strategy_subtypes": {
+      "initialization": "Establishing initial frame parameters",
+      "slot_filling": "Providing specific information within a frame",
+      "verification": "Checking the accuracy of information",
+      "confirmation": "Affirming accuracy or acceptance",
+      "information_elicitation": "Requesting specific information",
+      "constraint_presentation": "Introducing limitations or restrictions",
+      "alternative_presentation": "Offering different options",
+      "adaptation_strategy": "Adjusting to constraints or limitations"
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of frame establishment",
+      "verification": "Checking and confirming information",
+      "transition": "Shifting between frames",
+      "constraint": "Presenting limitations or requirements",
+      "challenge": "Questioning or contesting frames",
+      "correction": "Amending incorrect information",
+      "decision": "Making choices between options",
+      "alternative": "Exploring different possibilities",
+      "compromise": "Finding middle ground between preferences"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    }
+  },
+  "dialogue_dynamics": {
+    "frame_transition_frequency": 0.37,
+    "strategy_adaptation_rate": 0.52,
+    "negotiation_intensity": 0.31,
+    "communication_efficiency": 0.74,
+    "stage_distribution": {
+      "opening": 0.03,
+      "information_exchange": 0.35,
+      "service_procedure": 0.06,
+      "information_verification": 0.12,
+      "decision_making": 0.15,
+      "constraint_negotiation": 0.18,
+      "transaction_completion": 0.08,
+      "closing": 0.03
+    },
+    "key_negotiation_patterns": [
+      {"sequence": ["constraint", "question", "explanation", "adaptation"], "frequency": 0.23},
+      {"sequence": ["alternative", "verification", "constraint", "compromise"], "frequency": 0.18},
+      {"sequence": ["transition", "challenge", "correction", "acceptance"], "frequency": 0.16}
+    ]
+  },
+  "service_categorization": {
+    "domain": "transportation_booking",
+    "task_complexity": "high",
+    "institutional_constraint_level": "medium",
+    "customer_agency_level": "medium",
+    "time_pressure_degree": "high",
+    "success_rating": 0.85,
+    "interaction_fluidity": 0.73,
+    "problematic_sequences": [
+      {"turns": ["T067", "T068", "T069"], "problem_type": "misunderstanding"},
+      {"turns": ["T075", "T076", "T077", "T078"], "problem_type": "constraint_negotiation"},
+      {"turns": ["T094", "T095", "T096", "T097"], "problem_type": "deadline_pressure"}
+    ]
+  },
+  "analytical_annotations": {
+    "frame_activation_patterns": {
+      "context_dependence_mean": 0.79,
+      "institutional_presetting_mean": 0.64,
+      "provider_vs_customer_activation_ratio": 1.63,
+      "primary_activation_triggers": ["institutional_role", "prior_frame", "customer_inquiry"]
+    },
+    "strategy_selection_patterns": {
+      "strategy_adaptation_correlation": 0.67,
+      "cognitive_load_influence": 0.54,
+      "efficacy_by_speaker": {
+        "service_provider": 4.8,
+        "customer": 4.3
+      },
+      "strategy_sequencing": {
+        "common_transitions": [
+          {"from": "frame_reinforcement", "to": "frame_shifting", "probability": 0.42},
+          {"from": "frame_shifting", "to": "frame_reinforcement", "probability": 0.38},
+          {"from": "frame_challenging", "to": "frame_reinforcement", "probability": 0.56}
+        ]
+      }
+    },
+    "meaning_negotiation_patterns": {
+      "service_provider_contribution_mean": 0.72,
+      "customer_contribution_mean": 0.28,
+      "semantic_distance_reduction_rate": 0.53,
+      "constraint_introduction_impact": 0.65,
+      "consensus_building_mechanisms": ["verification_sequences", "adaptation_strategies", "alternative_explorations"]
+    }
+  }
+}

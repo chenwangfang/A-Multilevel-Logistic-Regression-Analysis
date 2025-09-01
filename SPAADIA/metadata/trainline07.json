@@ -1,0 +1,227 @@
+{
+  "dialogue_id": "trainline07",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-18",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.88,
+      "frame_activation": 0.90,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 84,
+    "utterance_count": 135,
+    "duration_seconds": 483,
+    "word_count": 1378,
+    "speaker_distribution": {
+      "service_provider": 42,
+      "customer": 42
+    },
+    "frame_statistics": {
+      "frame_type_count": 16,
+      "frame_transition_count": 32,
+      "mean_activation_strength": 4.8,
+      "dominant_frames": ["service_initiation", "information_provision", "transaction_completion", "customer_compliance"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 24,
+      "frame_reinforcement_percentage": 67.5,
+      "frame_shifting_percentage": 26.8,
+      "frame_blending_percentage": 5.7,
+      "mean_strategy_efficacy": 4.9
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service provider frame establishment",
+      "journey_information": "Customer travel requirements frame",
+      "payment_method": "Payment options verification frame",
+      "customer_compliance": "Cooperative response to service provider requests",
+      "discount_verification": "Discount eligibility checking frame",
+      "passenger_verification": "Passenger details confirmation frame",
+      "temporal_verification": "Date and time confirmation frame",
+      "service_upgrade": "Premium service selection frame",
+      "procedural_challenge": "System limitation or change communication frame",
+      "option_offering": "Multiple choice presentation frame",
+      "customer_preference": "Customer specific request expression frame",
+      "service_provision": "Provider accommodation to customer request frame",
+      "customer_appreciation": "Gratitude expression frame",
+      "information_provision": "Factual or service details communication frame",
+      "information_gathering": "Data collection from customer frame",
+      "verification": "Data confirmation frame",
+      "information_seeking": "Customer question frame",
+      "customer_approval": "Satisfaction with proposed solution frame",
+      "procedural_action": "Process execution notification frame",
+      "benefit_provision": "Additional service advantages frame",
+      "information_correction": "Error identification and repair frame",
+      "acknowledgment": "Minimal response frame",
+      "confusion": "Clarity seeking frame",
+      "price_information": "Cost details provision frame",
+      "price_concern": "Customer cost issue raising frame",
+      "explanation_provision": "Justification for service aspects frame",
+      "understanding": "Comprehension signaling frame",
+      "policy_information": "Formal rules communication frame",
+      "delivery_information": "Product delivery details frame",
+      "approval": "Positive response to proposal frame",
+      "reference_provision": "Identification code provision frame",
+      "transaction_completion": "Purchase finalization frame",
+      "conversation_closing": "Dialogue termination frame"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategy maintaining and strengthening the established frame",
+      "frame_shifting": "Strategy changing or modifying the current frame",
+      "frame_blending": "Strategy combining multiple frames for comprehensive solution"
+    },
+    "strategy_subtypes": {
+      "initialization": "Opening sequence establishing basic service frame",
+      "role_establishment": "Clarifying institutional roles and identities",
+      "directive_guidance": "Structuring customer behavior within service frame",
+      "hesitation": "Indicating processing time or consideration",
+      "information_provision": "Offering relevant factual or procedural details",
+      "topic_transition_marking": "Signaling movement to next procedural phase",
+      "framework_expansion": "Broadening the scope of active service frame",
+      "confirmation": "Affirming understanding or agreement",
+      "confirmation_elaboration": "Extending agreement with additional validation",
+      "service_option_check": "Verifying eligibility for specific service features",
+      "information_gathering": "Collecting necessary data within procedure",
+      "preference_introduction": "Customer-initiated service modification proposal",
+      "specification": "Providing precise details about request",
+      "expectation_management": "Setting realistic service delivery parameters",
+      "problem_solving": "Addressing procedural obstacles",
+      "procedural_guidance": "Directing next steps in process",
+      "acknowledgment": "Minimal recognition of communication",
+      "acceptance": "Agreement with proposed solution",
+      "rapport_building": "Reinforcing positive interpersonal dimension",
+      "verification": "Checking accuracy of information",
+      "option_presentation": "Offering multiple choice alternatives",
+      "preference_expression": "Stating desired option selection",
+      "option_confirmation": "Validating selected preference",
+      "elaboration": "Expanding on previously provided information",
+      "certainty_expression": "Indicating confidence in information",
+      "benefit_enhancement": "Highlighting additional service advantages",
+      "clarification_request": "Seeking additional details",
+      "satisfaction_expression": "Communicating positive evaluation",
+      "information_request": "Asking for specific data",
+      "clarification": "Providing additional explanatory details",
+      "correction": "Modifying inaccurate information",
+      "self_correction": "Speaker-initiated information repair",
+      "clarification_attempt": "Effort to resolve confused communication",
+      "topic_introduction": "Initiating new conversational focus",
+      "surprise_expression": "Indicating unexpected information",
+      "observation": "Noting perceived patterns or inconsistencies",
+      "explanation_request": "Asking for justification",
+      "knowledge_demonstration": "Displaying familiarity with service",
+      "explanation_attempt": "Initial effort at justification",
+      "conclusion_marking": "Signaling end of explanation sequence",
+      "comprehension_signal": "Indicating successful understanding",
+      "policy_information": "Communicating institutional rules",
+      "verification_request": "Asking for confirmation of details",
+      "delivery_information": "Describing product arrival process",
+      "transaction_information": "Details of financial transaction",
+      "reference_information": "Details of booking identification",
+      "reference_provision": "Supplying identification codes",
+      "confirmation_request": "Seeking validation of understanding",
+      "closure_marking": "Signaling conversation ending phase",
+      "closure": "Final termination utterance"
+    },
+    "negotiation_types": {
+      "initiation": "Opening of new frame or topic",
+      "transition": "Movement between established frames",
+      "transformation": "Substantial modification of active frame",
+      "challenge": "Questioning or problematizing current frame",
+      "integration": "Combining multiple perspectives or solutions",
+      "adjustment": "Minor modification to active frame",
+      "confirmation": "Mutual acceptance of established frame",
+      "verification": "Checking accuracy of shared understanding",
+      "enhancement": "Adding value to existing frame",
+      "choice": "Selection among presented alternatives",
+      "assertion": "Authoritative statement establishing frame element",
+      "question": "Interrogative challenging frame element",
+      "reaction": "Emotional response to frame element"
+    },
+    "interactive_stages": {
+      "opening": "Initial contact and service frame establishment",
+      "information_exchange": "Gathering and providing basic service details",
+      "information_verification": "Confirming accuracy of shared data",
+      "negotiation": "Resolving differences in expectations or understanding",
+      "information_provision": "Delivering detailed service information",
+      "procedural": "Executing technical aspects of service",
+      "transaction": "Financial arrangements and confirmation",
+      "closing": "Termination of service encounter"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_selection", "strategy_efficacy"],
+      "H3": ["strategy_adaptation", "temporal_dynamics", "stage_transitions"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    }
+  },
+  "dialogue_dynamics": {
+    "frame_transition_frequency": 0.35,
+    "strategy_adaptation_rate": 0.42,
+    "negotiation_intensity": 0.26,
+    "communication_efficiency": 0.78,
+    "dynamic_patterns": {
+      "frame_recurrence": {
+        "service_provider": {
+          "most_recurrent": ["verification", "information_gathering", "reference_provision"],
+          "least_recurrent": ["confusion", "price_concern", "explanation_provision"]
+        },
+        "customer": {
+          "most_recurrent": ["customer_compliance", "acknowledgment", "information_provision"],
+          "least_recurrent": ["service_upgrade", "price_concern", "information_correction"]
+        }
+      },
+      "strategy_distribution": {
+        "opening_stage": {
+          "frame_reinforcement": 0.85,
+          "frame_shifting": 0.12,
+          "frame_blending": 0.03
+        },
+        "negotiation_stage": {
+          "frame_reinforcement": 0.48,
+          "frame_shifting": 0.42,
+          "frame_blending": 0.10
+        },
+        "transaction_stage": {
+          "frame_reinforcement": 0.82,
+          "frame_shifting": 0.15,
+          "frame_blending": 0.03
+        },
+        "closing_stage": {
+          "frame_reinforcement": 0.90,
+          "frame_shifting": 0.10,
+          "frame_blending": 0.00
+        }
+      },
+      "adaptation_indices": {
+        "temporal_correlation": 0.37,
+        "efficacy_correlation": 0.62,
+        "strategic_flexibility": {
+          "service_provider": 0.58,
+          "customer": 0.43
+        }
+      }
+    }
+  },
+  "comparative_indicators": {
+    "relative_to_corpus": {
+      "frame_activation_strength": 1.04,
+      "strategy_efficacy": 1.12,
+      "negotiation_intensity": 0.95,
+      "interaction_duration": 0.92
+    },
+    "typicality_scores": {
+      "frame_sequence": 0.87,
+      "strategy_pattern": 0.92,
+      "negotiation_structure": 0.83
+    }
+  }
+}

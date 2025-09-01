@@ -1,0 +1,232 @@
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T001", "utterance_id": "U001", "frame_type": "service_initiation", "activation_strength": 4.7, "context_dependence": 0.72, "institutional_presetting": 0.91, "cognitive_load": 2.3}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T002", "utterance_id": "U006", "frame_type": "journey_information", "activation_strength": 4.2, "context_dependence": 0.85, "institutional_presetting": 0.44, "cognitive_load": 2.6}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T003", "utterance_id": "U008", "frame_type": "payment_method", "activation_strength": 5.3, "context_dependence": 0.45, "institutional_presetting": 0.88, "cognitive_load": 3.1}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T004", "utterance_id": "U009", "frame_type": "payment_information", "activation_strength": 4.6, "context_dependence": 0.82, "institutional_presetting": 0.39, "cognitive_load": 2.4}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T005", "utterance_id": "U011", "frame_type": "passenger_information", "activation_strength": 4.8, "context_dependence": 0.68, "institutional_presetting": 0.87, "cognitive_load": 2.7}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T007", "utterance_id": "U014", "frame_type": "journey_date", "activation_strength": 5.0, "context_dependence": 0.65, "institutional_presetting": 0.86, "cognitive_load": 2.8}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T009", "utterance_id": "U017", "frame_type": "journey_time", "activation_strength": 5.1, "context_dependence": 0.67, "institutional_presetting": 0.85, "cognitive_load": 2.9}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T011", "utterance_id": "U020", "frame_type": "time_verification", "activation_strength": 4.9, "context_dependence": 0.84, "institutional_presetting": 0.63, "cognitive_load": 2.6}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T013", "utterance_id": "U025", "frame_type": "return_journey", "activation_strength": 5.2, "context_dependence": 0.69, "institutional_presetting": 0.86, "cognitive_load": 3.0}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T015", "utterance_id": "U029", "frame_type": "time_verification", "activation_strength": 5.0, "context_dependence": 0.87, "institutional_presetting": 0.64, "cognitive_load": 2.7}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T017", "utterance_id": "U033", "frame_type": "fare_options", "activation_strength": 5.4, "context_dependence": 0.61, "institutional_presetting": 0.88, "cognitive_load": 3.5}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T019", "utterance_id": "U036", "frame_type": "discount_eligibility", "activation_strength": 5.3, "context_dependence": 0.58, "institutional_presetting": 0.89, "cognitive_load": 3.2}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T021", "utterance_id": "U040", "frame_type": "processing", "activation_strength": 4.8, "context_dependence": 0.56, "institutional_presetting": 0.83, "cognitive_load": 2.9}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T023", "utterance_id": "U043", "frame_type": "service_limitation", "activation_strength": 5.5, "context_dependence": 0.63, "institutional_presetting": 0.90, "cognitive_load": 3.7}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T024", "utterance_id": "U048", "frame_type": "information_processing", "activation_strength": 5.2, "context_dependence": 0.94, "institutional_presetting": 0.24, "cognitive_load": 4.3}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T025", "utterance_id": "U058", "frame_type": "fare_availability", "activation_strength": 5.8, "context_dependence": 0.74, "institutional_presetting": 0.92, "cognitive_load": 4.0}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T028", "utterance_id": "U070", "frame_type": "time_constraint", "activation_strength": 5.6, "context_dependence": 0.92, "institutional_presetting": 0.20, "cognitive_load": 3.9}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T031", "utterance_id": "U075", "frame_type": "alternative_option", "activation_strength": 5.5, "context_dependence": 0.77, "institutional_presetting": 0.84, "cognitive_load": 3.6}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T034", "utterance_id": "U080", "frame_type": "booking_request", "activation_strength": 5.4, "context_dependence": 0.86, "institutional_presetting": 0.22, "cognitive_load": 2.8}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T037", "utterance_id": "U085", "frame_type": "journey_details", "activation_strength": 5.5, "context_dependence": 0.79, "institutional_presetting": 0.86, "cognitive_load": 3.5}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T043", "utterance_id": "U093", "frame_type": "fare_details", "activation_strength": 5.6, "context_dependence": 0.64, "institutional_presetting": 0.89, "cognitive_load": 3.4}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T045", "utterance_id": "U095", "frame_type": "seating_preference", "activation_strength": 5.3, "context_dependence": 0.60, "institutional_presetting": 0.88, "cognitive_load": 3.1}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T051", "utterance_id": "U107", "frame_type": "ticketing_rules", "activation_strength": 5.7, "context_dependence": 0.52, "institutional_presetting": 0.93, "cognitive_load": 3.8}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T053", "utterance_id": "U111", "frame_type": "cancellation_rules", "activation_strength": 5.8, "context_dependence": 0.54, "institutional_presetting": 0.94, "cognitive_load": 4.2}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T055", "utterance_id": "U115", "frame_type": "change_rules", "activation_strength": 5.7, "context_dependence": 0.53, "institutional_presetting": 0.92, "cognitive_load": 4.0}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T057", "utterance_id": "U119", "frame_type": "customer_information", "activation_strength": 5.4, "context_dependence": 0.59, "institutional_presetting": 0.91, "cognitive_load": 3.3}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T063", "utterance_id": "U127", "frame_type": "contact_information", "activation_strength": 5.3, "context_dependence": 0.66, "institutional_presetting": 0.90, "cognitive_load": 3.1}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T069", "utterance_id": "U133", "frame_type": "address_information", "activation_strength": 5.5, "context_dependence": 0.67, "institutional_presetting": 0.89, "cognitive_load": 3.4}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T077", "utterance_id": "U145", "frame_type": "payment_details", "activation_strength": 5.6, "context_dependence": 0.57, "institutional_presetting": 0.95, "cognitive_load": 3.7}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T093", "utterance_id": "U167", "frame_type": "reference_number", "activation_strength": 5.6, "context_dependence": 0.55, "institutional_presetting": 0.96, "cognitive_load": 3.6}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T103", "utterance_id": "U179", "frame_type": "payment_summary", "activation_strength": 5.7, "context_dependence": 0.62, "institutional_presetting": 0.94, "cognitive_load": 3.9}
+{"type": "frame_activation", "dialogue_id": "trainline29", "turn_id": "T105", "utterance_id": "U183", "frame_type": "closing", "activation_strength": 5.4, "context_dependence": 0.51, "institutional_presetting": 0.92, "cognitive_load": 3.0}
+
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T001", "utterance_id": "U004", "strategy_type": "frame_reinforcement", "strategy_subtype": "directive_guidance", "efficacy": 5.1, "adaptation_index": 0.0}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T002", "utterance_id": "U006", "strategy_type": "frame_reinforcement", "strategy_subtype": "information_provision", "efficacy": 4.5, "adaptation_index": 0.72}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T003", "utterance_id": "U007", "strategy_type": "frame_shifting", "strategy_subtype": "topic_transition_marking", "efficacy": 4.3, "adaptation_index": 0.64}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T003", "utterance_id": "U008", "strategy_type": "frame_shifting", "strategy_subtype": "framework_expansion", "efficacy": 5.4, "adaptation_index": 0.75}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T005", "utterance_id": "U011", "strategy_type": "frame_reinforcement", "strategy_subtype": "information_elicitation", "efficacy": 4.7, "adaptation_index": 0.68}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T009", "utterance_id": "U017", "strategy_type": "frame_reinforcement", "strategy_subtype": "preference_elicitation", "efficacy": 5.2, "adaptation_index": 0.71}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T011", "utterance_id": "U020", "strategy_type": "frame_reinforcement", "strategy_subtype": "verification", "efficacy": 4.8, "adaptation_index": 0.70}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T013", "utterance_id": "U025", "strategy_type": "frame_shifting", "strategy_subtype": "attention_redirection", "efficacy": 5.3, "adaptation_index": 0.76}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T017", "utterance_id": "U033", "strategy_type": "frame_shifting", "strategy_subtype": "process_signaling", "efficacy": 5.6, "adaptation_index": 0.78}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T019", "utterance_id": "U036", "strategy_type": "frame_shifting", "strategy_subtype": "eligibility_assessment", "efficacy": 5.5, "adaptation_index": 0.77}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T023", "utterance_id": "U043", "strategy_type": "frame_shifting", "strategy_subtype": "limitation_introduction", "efficacy": 5.7, "adaptation_index": 0.82}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T024", "utterance_id": "U048", "strategy_type": "frame_shifting", "strategy_subtype": "knowledge_introduction", "efficacy": 4.8, "adaptation_index": 0.88}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T024", "utterance_id": "U050", "strategy_type": "frame_shifting", "strategy_subtype": "explanation_attempt", "efficacy": 5.1, "adaptation_index": 0.89}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T025", "utterance_id": "U060", "strategy_type": "frame_shifting", "strategy_subtype": "limitation_introduction", "efficacy": 5.7, "adaptation_index": 0.81}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T025", "utterance_id": "U061", "strategy_type": "frame_shifting", "strategy_subtype": "alternative_introduction", "efficacy": 5.4, "adaptation_index": 0.83}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T028", "utterance_id": "U069", "strategy_type": "frame_shifting", "strategy_subtype": "rejection", "efficacy": 5.5, "adaptation_index": 0.86}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T028", "utterance_id": "U070", "strategy_type": "frame_shifting", "strategy_subtype": "justification", "efficacy": 5.7, "adaptation_index": 0.87}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T028", "utterance_id": "U071", "strategy_type": "frame_shifting", "strategy_subtype": "alternative_seeking", "efficacy": 5.8, "adaptation_index": 0.88}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T031", "utterance_id": "U075", "strategy_type": "frame_shifting", "strategy_subtype": "alternative_introduction", "efficacy": 5.6, "adaptation_index": 0.79}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T032", "utterance_id": "U077", "strategy_type": "frame_shifting", "strategy_subtype": "price_inquiry_attempt", "efficacy": 4.8, "adaptation_index": 0.74}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T034", "utterance_id": "U080", "strategy_type": "frame_shifting", "strategy_subtype": "request_action", "efficacy": 5.5, "adaptation_index": 0.85}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T037", "utterance_id": "U085", "strategy_type": "frame_reinforcement", "strategy_subtype": "information_summarization", "efficacy": 5.4, "adaptation_index": 0.72}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T043", "utterance_id": "U093", "strategy_type": "frame_shifting", "strategy_subtype": "price_specification", "efficacy": 5.7, "adaptation_index": 0.80}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T048", "utterance_id": "U099", "strategy_type": "frame_reinforcement", "strategy_subtype": "conditional_preference", "efficacy": 5.3, "adaptation_index": 0.73}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T048", "utterance_id": "U101", "strategy_type": "frame_reinforcement", "strategy_subtype": "flexibility_indication", "efficacy": 4.7, "adaptation_index": 0.69}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T051", "utterance_id": "U107", "strategy_type": "frame_shifting", "strategy_subtype": "constraint_introduction", "efficacy": 5.8, "adaptation_index": 0.84}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T053", "utterance_id": "U109", "strategy_type": "frame_shifting", "strategy_subtype": "condition_introduction", "efficacy": 5.6, "adaptation_index": 0.78}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T053", "utterance_id": "U111", "strategy_type": "frame_reinforcement", "strategy_subtype": "constraint_introduction", "efficacy": 5.9, "adaptation_index": 0.85}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T073", "utterance_id": "U137", "strategy_type": "frame_reinforcement", "strategy_subtype": "verification_request", "efficacy": 5.3, "adaptation_index": 0.74}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T093", "utterance_id": "U167", "strategy_type": "frame_shifting", "strategy_subtype": "information_introduction", "efficacy": 5.7, "adaptation_index": 0.81}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T103", "utterance_id": "U179", "strategy_type": "frame_shifting", "strategy_subtype": "transaction_summarization", "efficacy": 5.8, "adaptation_index": 0.82}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T103", "utterance_id": "U180", "strategy_type": "frame_reinforcement", "strategy_subtype": "service_completion", "efficacy": 5.6, "adaptation_index": 0.80}
+{"type": "strategy_selection", "dialogue_id": "trainline29", "turn_id": "T105", "utterance_id": "U182", "strategy_type": "frame_shifting", "strategy_subtype": "closing_marker", "efficacy": 4.8, "adaptation_index": 0.67}
+
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T001", "utterance_id": "U004", "negotiation_type": "initiation", "contribution_ratio": [0.93, 0.07], "semantic_distance": 0.11}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T002", "utterance_id": "U006", "negotiation_type": "information", "contribution_ratio": [0.21, 0.79], "semantic_distance": 0.36}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T003", "utterance_id": "U007", "negotiation_type": "transition", "contribution_ratio": [0.91, 0.09], "semantic_distance": 0.45}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T011", "utterance_id": "U020", "negotiation_type": "verification", "contribution_ratio": [0.88, 0.12], "semantic_distance": 0.23}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T012", "utterance_id": "U021", "negotiation_type": "confirmation", "contribution_ratio": [0.11, 0.89], "semantic_distance": 0.14}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T013", "utterance_id": "U025", "negotiation_type": "transition", "contribution_ratio": [0.90, 0.10], "semantic_distance": 0.43}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T014", "utterance_id": "U028", "negotiation_type": "knowledge_sharing", "contribution_ratio": [0.22, 0.78], "semantic_distance": 0.47}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T015", "utterance_id": "U030", "negotiation_type": "verification", "contribution_ratio": [0.87, 0.13], "semantic_distance": 0.25}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T016", "utterance_id": "U031", "negotiation_type": "confirmation", "contribution_ratio": [0.12, 0.88], "semantic_distance": 0.15}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T017", "utterance_id": "U032", "negotiation_type": "transition", "contribution_ratio": [0.92, 0.08], "semantic_distance": 0.48}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T017", "utterance_id": "U033", "negotiation_type": "process", "contribution_ratio": [0.89, 0.11], "semantic_distance": 0.33}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T018", "utterance_id": "U034", "negotiation_type": "approval", "contribution_ratio": [0.15, 0.85], "semantic_distance": 0.18}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T019", "utterance_id": "U035", "negotiation_type": "transition", "contribution_ratio": [0.91, 0.09], "semantic_distance": 0.46}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T023", "utterance_id": "U043", "negotiation_type": "constraint", "contribution_ratio": [0.94, 0.06], "semantic_distance": 0.53}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T024", "utterance_id": "U050", "negotiation_type": "knowledge_sharing", "contribution_ratio": [0.20, 0.80], "semantic_distance": 0.52}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T024", "utterance_id": "U056", "negotiation_type": "clarification_request", "contribution_ratio": [0.25, 0.75], "semantic_distance": 0.48}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T025", "utterance_id": "U058", "negotiation_type": "information", "contribution_ratio": [0.88, 0.12], "semantic_distance": 0.38}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T025", "utterance_id": "U060", "negotiation_type": "constraint", "contribution_ratio": [0.93, 0.07], "semantic_distance": 0.54}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T025", "utterance_id": "U061", "negotiation_type": "alternative", "contribution_ratio": [0.86, 0.14], "semantic_distance": 0.49}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T025", "utterance_id": "U064", "negotiation_type": "preference_check", "contribution_ratio": [0.84, 0.16], "semantic_distance": 0.37}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T026", "utterance_id": "U065", "negotiation_type": "verification", "contribution_ratio": [0.14, 0.86], "semantic_distance": 0.24}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T028", "utterance_id": "U069", "negotiation_type": "rejection", "contribution_ratio": [0.13, 0.87], "semantic_distance": 0.62}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T028", "utterance_id": "U070", "negotiation_type": "explanation", "contribution_ratio": [0.16, 0.84], "semantic_distance": 0.57}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T028", "utterance_id": "U071", "negotiation_type": "alternative_request", "contribution_ratio": [0.18, 0.82], "semantic_distance": 0.59}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T029", "utterance_id": "U072", "negotiation_type": "process", "contribution_ratio": [0.92, 0.08], "semantic_distance": 0.31}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T031", "utterance_id": "U075", "negotiation_type": "alternative", "contribution_ratio": [0.85, 0.15], "semantic_distance": 0.47}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T032", "utterance_id": "U077", "negotiation_type": "inquiry", "contribution_ratio": [0.23, 0.77], "semantic_distance": 0.43}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T033", "utterance_id": "U078", "negotiation_type": "completion", "contribution_ratio": [0.82, 0.18], "semantic_distance": 0.29}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T033", "utterance_id": "U079", "negotiation_type": "confirmation", "contribution_ratio": [0.86, 0.14], "semantic_distance": 0.16}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T034", "utterance_id": "U080", "negotiation_type": "request", "contribution_ratio": [0.19, 0.81], "semantic_distance": 0.51}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T037", "utterance_id": "U085", "negotiation_type": "summarization", "contribution_ratio": [0.91, 0.09], "semantic_distance": 0.35}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T042", "utterance_id": "U091", "negotiation_type": "approval", "contribution_ratio": [0.17, 0.83], "semantic_distance": 0.19}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T044", "utterance_id": "U094", "negotiation_type": "acceptance", "contribution_ratio": [0.16, 0.84], "semantic_distance": 0.21}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T045", "utterance_id": "U095", "negotiation_type": "preference_check", "contribution_ratio": [0.87, 0.13], "semantic_distance": 0.36}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T046", "utterance_id": "U096", "negotiation_type": "preference", "contribution_ratio": [0.14, 0.86], "semantic_distance": 0.32}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T048", "utterance_id": "U099", "negotiation_type": "preference", "contribution_ratio": [0.21, 0.79], "semantic_distance": 0.34}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T048", "utterance_id": "U101", "negotiation_type": "flexibility", "contribution_ratio": [0.24, 0.76], "semantic_distance": 0.28}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T049", "utterance_id": "U103", "negotiation_type": "commitment", "contribution_ratio": [0.93, 0.07], "semantic_distance": 0.24}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T051", "utterance_id": "U107", "negotiation_type": "constraint", "contribution_ratio": [0.95, 0.05], "semantic_distance": 0.56}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T053", "utterance_id": "U109", "negotiation_type": "condition", "contribution_ratio": [0.94, 0.06], "semantic_distance": 0.51}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T053", "utterance_id": "U111", "negotiation_type": "constraint", "contribution_ratio": [0.96, 0.04], "semantic_distance": 0.55}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T053", "utterance_id": "U112", "negotiation_type": "information", "contribution_ratio": [0.92, 0.08], "semantic_distance": 0.39}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T056", "utterance_id": "U117", "negotiation_type": "acceptance", "contribution_ratio": [0.13, 0.87], "semantic_distance": 0.20}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T073", "utterance_id": "U137", "negotiation_type": "verification", "contribution_ratio": [0.89, 0.11], "semantic_distance": 0.27}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T076", "utterance_id": "U144", "negotiation_type": "acceptance", "contribution_ratio": [0.18, 0.82], "semantic_distance": 0.19}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T078", "utterance_id": "U147", "negotiation_type": "clarification_request", "contribution_ratio": [0.22, 0.78], "semantic_distance": 0.33}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T079", "utterance_id": "U148", "negotiation_type": "confirmation", "contribution_ratio": [0.90, 0.10], "semantic_distance": 0.13}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T093", "utterance_id": "U167", "negotiation_type": "information", "contribution_ratio": [0.94, 0.06], "semantic_distance": 0.37}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T095", "utterance_id": "U169", "negotiation_type": "readiness_check", "contribution_ratio": [0.91, 0.09], "semantic_distance": 0.26}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T096", "utterance_id": "U170", "negotiation_type": "confirmation", "contribution_ratio": [0.15, 0.85], "semantic_distance": 0.15}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T103", "utterance_id": "U179", "negotiation_type": "information", "contribution_ratio": [0.95, 0.05], "semantic_distance": 0.41}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T103", "utterance_id": "U180", "negotiation_type": "completion", "contribution_ratio": [0.93, 0.07], "semantic_distance": 0.29}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T105", "utterance_id": "U182", "negotiation_type": "closing", "contribution_ratio": [0.92, 0.08], "semantic_distance": 0.42}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T106", "utterance_id": "U184", "negotiation_type": "appreciation", "contribution_ratio": [0.19, 0.81], "semantic_distance": 0.23}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T107", "utterance_id": "U185", "negotiation_type": "termination", "contribution_ratio": [0.90, 0.10], "semantic_distance": 0.14}
+{"type": "negotiation_point", "dialogue_id": "trainline29", "turn_id": "T108", "utterance_id": "U187", "negotiation_type": "termination", "contribution_ratio": [0.12, 0.88], "semantic_distance": 0.13}
+
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T001", "absolute_time": 4, "relative_position": 0.01, "stage": "opening", "duration": 6.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T002", "absolute_time": 11, "relative_position": 0.02, "stage": "information_exchange", "duration": 3.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T003", "absolute_time": 15, "relative_position": 0.03, "stage": "information_exchange", "duration": 4.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T004", "absolute_time": 19, "relative_position": 0.04, "stage": "information_exchange", "duration": 2.1}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T005", "absolute_time": 22, "relative_position": 0.05, "stage": "information_exchange", "duration": 3.0}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T006", "absolute_time": 25, "relative_position": 0.06, "stage": "information_exchange", "duration": 2.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T007", "absolute_time": 28, "relative_position": 0.07, "stage": "information_exchange", "duration": 3.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T008", "absolute_time": 32, "relative_position": 0.08, "stage": "information_exchange", "duration": 2.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T009", "absolute_time": 35, "relative_position": 0.09, "stage": "information_exchange", "duration": 3.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T010", "absolute_time": 39, "relative_position": 0.10, "stage": "information_exchange", "duration": 2.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T011", "absolute_time": 42, "relative_position": 0.11, "stage": "information_verification", "duration": 2.1}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T012", "absolute_time": 44, "relative_position": 0.12, "stage": "information_verification", "duration": 3.7}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T013", "absolute_time": 48, "relative_position": 0.13, "stage": "information_exchange", "duration": 3.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T014", "absolute_time": 52, "relative_position": 0.14, "stage": "information_exchange", "duration": 5.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T015", "absolute_time": 58, "relative_position": 0.15, "stage": "information_verification", "duration": 4.1}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T016", "absolute_time": 62, "relative_position": 0.16, "stage": "information_verification", "duration": 1.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T017", "absolute_time": 64, "relative_position": 0.17, "stage": "information_exchange", "duration": 6.7}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T018", "absolute_time": 71, "relative_position": 0.18, "stage": "information_exchange", "duration": 1.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T019", "absolute_time": 73, "relative_position": 0.19, "stage": "information_exchange", "duration": 4.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T020", "absolute_time": 78, "relative_position": 0.20, "stage": "information_exchange", "duration": 2.9}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T021", "absolute_time": 81, "relative_position": 0.21, "stage": "processing", "duration": 3.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T022", "absolute_time": 85, "relative_position": 0.22, "stage": "processing", "duration": 1.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T023", "absolute_time": 93, "relative_position": 0.23, "stage": "information_exchange", "duration": 8.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T024", "absolute_time": 102, "relative_position": 0.24, "stage": "information_processing", "duration": 12.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T025", "absolute_time": 115, "relative_position": 0.25, "stage": "information_exchange", "duration": 10.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T026", "absolute_time": 126, "relative_position": 0.26, "stage": "information_verification", "duration": 2.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T027", "absolute_time": 128, "relative_position": 0.27, "stage": "information_verification", "duration": 1.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T028", "absolute_time": 130, "relative_position": 0.28, "stage": "negotiation", "duration": 8.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T029", "absolute_time": 139, "relative_position": 0.29, "stage": "processing", "duration": 2.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T030", "absolute_time": 142, "relative_position": 0.30, "stage": "processing", "duration": 2.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T031", "absolute_time": 145, "relative_position": 0.31, "stage": "information_exchange", "duration": 4.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T032", "absolute_time": 150, "relative_position": 0.32, "stage": "information_exchange", "duration": 2.1}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T033", "absolute_time": 152, "relative_position": 0.33, "stage": "information_exchange", "duration": 3.0}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T034", "absolute_time": 155, "relative_position": 0.34, "stage": "booking", "duration": 2.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T035", "absolute_time": 158, "relative_position": 0.35, "stage": "booking", "duration": 4.1}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T036", "absolute_time": 162, "relative_position": 0.36, "stage": "booking", "duration": 1.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T037", "absolute_time": 164, "relative_position": 0.37, "stage": "booking", "duration": 6.9}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T038", "absolute_time": 171, "relative_position": 0.38, "stage": "booking", "duration": 1.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T039", "absolute_time": 173, "relative_position": 0.39, "stage": "booking", "duration": 4.7}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T040", "absolute_time": 178, "relative_position": 0.40, "stage": "booking", "duration": 1.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T041", "absolute_time": 180, "relative_position": 0.41, "stage": "booking", "duration": 3.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T042", "absolute_time": 183, "relative_position": 0.42, "stage": "booking", "duration": 2.0}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T043", "absolute_time": 185, "relative_position": 0.43, "stage": "booking", "duration": 5.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T044", "absolute_time": 190, "relative_position": 0.44, "stage": "booking", "duration": 1.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T045", "absolute_time": 192, "relative_position": 0.45, "stage": "booking", "duration": 4.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T046", "absolute_time": 197, "relative_position": 0.46, "stage": "booking", "duration": 2.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T047", "absolute_time": 200, "relative_position": 0.47, "stage": "booking", "duration": 3.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T048", "absolute_time": 204, "relative_position": 0.48, "stage": "booking", "duration": 8.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T049", "absolute_time": 213, "relative_position": 0.49, "stage": "booking", "duration": 3.0}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T050", "absolute_time": 216, "relative_position": 0.50, "stage": "booking", "duration": 1.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T051", "absolute_time": 218, "relative_position": 0.51, "stage": "booking_rules", "duration": 9.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T052", "absolute_time": 227, "relative_position": 0.52, "stage": "booking_rules", "duration": 1.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T053", "absolute_time": 229, "relative_position": 0.53, "stage": "booking_rules", "duration": 12.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T054", "absolute_time": 242, "relative_position": 0.54, "stage": "booking_rules", "duration": 1.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T055", "absolute_time": 244, "relative_position": 0.55, "stage": "booking_rules", "duration": 9.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T056", "absolute_time": 254, "relative_position": 0.56, "stage": "booking_rules", "duration": 1.9}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T057", "absolute_time": 256, "relative_position": 0.57, "stage": "customer_information", "duration": 4.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T058", "absolute_time": 260, "relative_position": 0.58, "stage": "customer_information", "duration": 3.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T059", "absolute_time": 264, "relative_position": 0.59, "stage": "customer_information", "duration": 2.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T060", "absolute_time": 267, "relative_position": 0.60, "stage": "customer_information", "duration": 1.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T061", "absolute_time": 269, "relative_position": 0.61, "stage": "customer_information", "duration": 3.1}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T062", "absolute_time": 272, "relative_position": 0.62, "stage": "customer_information", "duration": 2.0}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T063", "absolute_time": 274, "relative_position": 0.63, "stage": "customer_information", "duration": 4.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T064", "absolute_time": 279, "relative_position": 0.64, "stage": "customer_information", "duration": 2.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T065", "absolute_time": 281, "relative_position": 0.65, "stage": "customer_information", "duration": 1.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T066", "absolute_time": 283, "relative_position": 0.66, "stage": "customer_information", "duration": 1.9}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T067", "absolute_time": 285, "relative_position": 0.67, "stage": "customer_information", "duration": 1.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T068", "absolute_time": 287, "relative_position": 0.68, "stage": "customer_information", "duration": 1.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T069", "absolute_time": 289, "relative_position": 0.69, "stage": "customer_information", "duration": 4.7}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T070", "absolute_time": 294, "relative_position": 0.70, "stage": "customer_information", "duration": 2.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T071", "absolute_time": 296, "relative_position": 0.71, "stage": "customer_information", "duration": 1.7}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T072", "absolute_time": 298, "relative_position": 0.72, "stage": "customer_information", "duration": 3.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T073", "absolute_time": 302, "relative_position": 0.73, "stage": "customer_information", "duration": 3.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T074", "absolute_time": 306, "relative_position": 0.74, "stage": "customer_information", "duration": 7.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T075", "absolute_time": 313, "relative_position": 0.75, "stage": "customer_information", "duration": 4.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T076", "absolute_time": 317, "relative_position": 0.76, "stage": "customer_information", "duration": 1.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T077", "absolute_time": 319, "relative_position": 0.77, "stage": "payment", "duration": 4.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T078", "absolute_time": 324, "relative_position": 0.78, "stage": "payment", "duration": 3.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T079", "absolute_time": 328, "relative_position": 0.79, "stage": "payment", "duration": 1.9}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T080", "absolute_time": 330, "relative_position": 0.80, "stage": "payment", "duration": 2.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T081", "absolute_time": 332, "relative_position": 0.81, "stage": "payment", "duration": 2.1}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T082", "absolute_time": 334, "relative_position": 0.82, "stage": "payment", "duration": 2.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T083", "absolute_time": 336, "relative_position": 0.83, "stage": "payment", "duration": 2.0}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T084", "absolute_time": 338, "relative_position": 0.84, "stage": "payment", "duration": 2.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T085", "absolute_time": 340, "relative_position": 0.85, "stage": "payment", "duration": 1.9}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T086", "absolute_time": 342, "relative_position": 0.86, "stage": "payment", "duration": 3.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T087", "absolute_time": 346, "relative_position": 0.87, "stage": "payment", "duration": 2.1}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T088", "absolute_time": 348, "relative_position": 0.88, "stage": "payment", "duration": 2.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T089", "absolute_time": 350, "relative_position": 0.89, "stage": "payment", "duration": 5.7}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T090", "absolute_time": 356, "relative_position": 0.90, "stage": "payment", "duration": 4.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T091", "absolute_time": 360, "relative_position": 0.91, "stage": "payment", "duration": 2.9}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T092", "absolute_time": 363, "relative_position": 0.92, "stage": "payment", "duration": 2.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T093", "absolute_time": 366, "relative_position": 0.93, "stage": "booking_reference", "duration": 5.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T094", "absolute_time": 371, "relative_position": 0.94, "stage": "booking_reference", "duration": 1.7}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T095", "absolute_time": 373, "relative_position": 0.95, "stage": "booking_reference", "duration": 3.2}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T096", "absolute_time": 376, "relative_position": 0.96, "stage": "booking_reference", "duration": 2.3}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T097", "absolute_time": 379, "relative_position": 0.97, "stage": "booking_reference", "duration": 3.7}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T098", "absolute_time": 383, "relative_position": 0.98, "stage": "booking_reference", "duration": 1.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T099", "absolute_time": 385, "relative_position": 0.99, "stage": "booking_reference", "duration": 3.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T100", "absolute_time": 389, "relative_position": 1.00, "stage": "booking_reference", "duration": 1.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T101", "absolute_time": 391, "relative_position": 1.01, "stage": "booking_reference", "duration": 3.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T102", "absolute_time": 395, "relative_position": 1.02, "stage": "satisfaction", "duration": 2.6}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T103", "absolute_time": 398, "relative_position": 1.03, "stage": "transaction_summary", "duration": 9.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T104", "absolute_time": 408, "relative_position": 1.04, "stage": "satisfaction", "duration": 2.5}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T105", "absolute_time": 411, "relative_position": 1.05, "stage": "closing", "duration": 3.7}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T106", "absolute_time": 415, "relative_position": 1.06, "stage": "closing", "duration": 2.4}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T107", "absolute_time": 417, "relative_position": 1.07, "stage": "closing", "duration": 1.8}
+{"type": "temporal_dynamics", "dialogue_id": "trainline29", "turn_id": "T108", "absolute_time": 419, "relative_position": 1.08, "stage": "closing", "duration": 2.2}

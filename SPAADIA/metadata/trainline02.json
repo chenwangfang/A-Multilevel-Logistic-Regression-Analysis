@@ -1,0 +1,273 @@
+{
+  "dialogue_id": "trainline02",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-16",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86,
+      "temporal_dynamics": 0.88
+    },
+    "theoretical_framework": {
+      "cognitive_dimension": "Frame Semantics (Fillmore, 1982)",
+      "pragmatic_dimension": "Relevance Theory (Sperber & Wilson, 1995)",
+      "construal_dimension": "Cognitive Grammar (Langacker, 2008)",
+      "integration_model": "Cognitive-Pragmatic Synthesis"
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 38,
+    "utterance_count": 62,
+    "duration_seconds": 297,
+    "word_count": 478,
+    "speaker_distribution": {
+      "service_provider": 19,
+      "customer": 19
+    },
+    "frame_statistics": {
+      "frame_type_count": 17,
+      "unique_frame_types": [
+        "service_initiation", "travel_needs", "transaction_eligibility",
+        "transaction_parameters", "journey_scheduling", "date_verification",
+        "knowledge_gap", "expert_information", "return_journey",
+        "train_details", "journey_satisfaction", "price_inquiry",
+        "price_expectation", "price_constraint", "price_alternatives",
+        "price_finalization", "decision_reconsideration", "transaction_termination",
+        "dialogue_closure"
+      ],
+      "frame_transition_count": 16,
+      "mean_activation_strength": 4.87,
+      "activation_strength_sd": 0.73,
+      "dominant_frames": [
+        {"frame": "price_finalization", "strength": 6.4},
+        {"frame": "price_alternatives", "strength": 6.3},
+        {"frame": "price_inquiry", "strength": 6.1}
+      ],
+      "institutional_presetting_mean": 0.62,
+      "context_dependence_mean": 0.81,
+      "cognitive_load_mean": 2.73
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 38,
+      "unique_strategy_subtypes": 62,
+      "strategy_distribution": {
+        "frame_reinforcement": 36,
+        "frame_shifting": 24,
+        "frame_blending": 2,
+        "frame_response": 0,
+        "frame_resistance": 0
+      },
+      "frame_reinforcement_percentage": 58.1,
+      "frame_shifting_percentage": 38.7,
+      "frame_blending_percentage": 3.2,
+      "mean_strategy_efficacy": 4.83,
+      "efficacy_sd": 0.82,
+      "mean_adaptation_index": 0.61,
+      "adaptation_patterns": {
+        "zero_adaptation": 4,
+        "low_adaptation": 12,
+        "moderate_adaptation": 28,
+        "high_adaptation": 18
+      }
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 33,
+      "negotiation_type_distribution": {
+        "initiation": 1,
+        "transition": 7,
+        "uncertainty": 4,
+        "verification": 4,
+        "confirmation": 4,
+        "challenge": 3,
+        "transformation": 2,
+        "integration": 2,
+        "closure": 2,
+        "collaboration": 1,
+        "assistance": 1,
+        "clarification": 1,
+        "decision": 1,
+        "satisfaction": 1,
+        "correction": 1
+      },
+      "mean_contribution_ratio": {
+        "service_provider": 0.57,
+        "customer": 0.43
+      },
+      "mean_semantic_distance": 0.31,
+      "semantic_distance_sd": 0.17,
+      "consensus_building_efficiency": 0.73
+    },
+    "temporal_dynamics": {
+      "stage_distribution": {
+        "opening": 1,
+        "information_exchange": 17,
+        "information_verification": 5,
+        "information_provision": 4,
+        "information_processing": 1,
+        "transaction": 7,
+        "decision_making": 1,
+        "transaction_closure": 2,
+        "closing": 2
+      },
+      "mean_turn_duration": 2.76,
+      "duration_sd": 1.82,
+      "temporal_efficiency": 0.84,
+      "stage_transition_smoothness": 0.79
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service framework at dialogue beginning",
+      "travel_needs": "Customer's travel requirements framework",
+      "transaction_eligibility": "Framework for verifying customer's eligibility for transaction",
+      "transaction_parameters": "Framework for collecting ticket parameters",
+      "journey_scheduling": "Framework for arranging journey time details",
+      "date_verification": "Framework for confirming date information",
+      "knowledge_gap": "Framework highlighting information deficiency",
+      "expert_information": "Framework providing expert knowledge",
+      "return_journey": "Framework for organizing return trip details",
+      "train_details": "Framework providing specific train information",
+      "journey_satisfaction": "Framework expressing customer satisfaction with journey arrangements",
+      "price_inquiry": "Framework for fare investigation",
+      "price_expectation": "Framework expressing expected price points",
+      "price_constraint": "Framework explaining pricing limitations",
+      "price_alternatives": "Framework exploring alternative pricing options",
+      "price_finalization": "Framework establishing final price",
+      "decision_reconsideration": "Framework for reconsidering transaction decision",
+      "transaction_termination": "Framework for ending transaction process",
+      "dialogue_closure": "Framework for concluding dialogue interaction"
+    },
+    "strategy_types": {
+      "frame_reinforcement": {
+        "description": "Strategies strengthening established frames",
+        "subtypes": [
+          "initialization", "institutional_identification", "role_establishment",
+          "directive_guidance", "response_preparation", "information_provision",
+          "compliance_signaling", "discount_eligibility_check", "parameter_collection",
+          "uncertain_information_provision", "verification_attempt", "information_completion",
+          "information_confirmation", "parameter_specification", "decision_formulation",
+          "affirmation", "vague_reference", "pattern_clarification", "date_verification",
+          "agreement_seeking", "confirmation", "specific_selection", "acknowledgment",
+          "positive_evaluation", "cooperation_signaling", "constraint_acknowledgment",
+          "deliberation_signaling", "final_price_provision", "politeness_marker",
+          "dialogue_termination", "reciprocal_termination"
+        ]
+      },
+      "frame_shifting": {
+        "description": "Strategies transitioning between different frames",
+        "subtypes": [
+          "topic_transition_marking", "prerequisite_verification", "core_information_collection",
+          "knowledge_limitation", "expertise_request", "informative_stance",
+          "expert_knowledge_provision", "scope_expansion", "specific_information_provision",
+          "service_process_signaling", "expectation_setting", "constraint_explanation",
+          "alternative_proposal", "price_evaluation", "decision_hesitation",
+          "decision_delay", "termination_initiation", "clarification_request",
+          "polite_rejection", "closure_initiation"
+        ]
+      },
+      "frame_blending": {
+        "description": "Strategies integrating multiple frames",
+        "subtypes": [
+          "information_integration", "condition_framing"
+        ]
+      },
+      "frame_response": {
+        "description": "Strategies responding to frame elements",
+        "subtypes": []
+      },
+      "frame_resistance": {
+        "description": "Strategies resisting proposed frames",
+        "subtypes": []
+      }
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of frame establishment",
+      "transition": "Point of movement between frames",
+      "uncertainty": "Point of expressed doubt or hesitation",
+      "verification": "Point of information confirmation",
+      "collaboration": "Point of cooperative meaning construction",
+      "assistance": "Point of help solicitation",
+      "integration": "Point of information synthesis",
+      "confirmation": "Point of mutual agreement",
+      "clarification": "Point of meaning disambiguation",
+      "decision": "Point of choice determination",
+      "satisfaction": "Point of expressed contentment",
+      "challenge": "Point of expectation contradiction",
+      "correction": "Point of information rectification",
+      "transformation": "Point of significant framework alteration",
+      "closure": "Point of interaction termination"
+    },
+    "temporal_stages": {
+      "opening": "Initial service contact establishment",
+      "information_exchange": "Primary information gathering and provision",
+      "information_verification": "Confirmation of exchanged information",
+      "information_provision": "Expert knowledge delivery",
+      "information_processing": "Cognitive integration of information",
+      "transaction": "Core service transaction processing",
+      "decision_making": "Choice evaluation and determination",
+      "transaction_closure": "Transaction termination process",
+      "closing": "Dialogue conclusion"
+    }
+  },
+  "theoretical_implications": {
+    "frame_activation_patterns": {
+      "institutional_dominance": "High institutional presetting (M=0.62) confirms institutional constraint hypothesis",
+      "cognitive_complexity": "Moderate cognitive load (M=2.73) suggests manageable processing demands",
+      "context_sensitivity": "High context dependence (M=0.81) indicates dynamic frame adaptation"
+    },
+    "strategy_selection_dynamics": {
+      "reinforcement_preference": "58.1% frame reinforcement reveals stability orientation",
+      "adaptive_flexibility": "Moderate adaptation index (M=0.61) demonstrates responsive interaction",
+      "efficacy_achievement": "High mean efficacy (M=4.83) indicates successful communication"
+    },
+    "negotiation_characteristics": {
+      "asymmetric_contribution": "Service provider dominance (57%) reflects institutional power",
+      "semantic_convergence": "Moderate semantic distance (M=0.31) suggests effective meaning negotiation",
+      "collaborative_efficiency": "High consensus building (0.73) demonstrates cooperative orientation"
+    },
+    "temporal_evolution": {
+      "stage_progression": "Clear phase transitions from opening through closure",
+      "efficiency_optimization": "High temporal efficiency (0.84) indicates streamlined interaction",
+      "smooth_transitions": "High transition smoothness (0.79) reflects practiced routines"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": {
+        "variables": ["context_dependence", "institutional_presetting"],
+        "statistical_approach": "Multivariate Analysis of Variance (MANOVA)",
+        "expected_outcomes": "Significant interaction effects between institutional and contextual factors"
+      },
+      "H2": {
+        "variables": ["frame_type", "strategy_selection"],
+        "statistical_approach": "Multilevel Logistic Regression",
+        "expected_outcomes": "Frame-specific strategy preferences with institutional moderation"
+      },
+      "H3": {
+        "variables": ["strategy_adaptation", "temporal_dynamics"],
+        "statistical_approach": "Integrated Temporal Effect Analysis",
+        "expected_outcomes": "Dynamic adaptation patterns across dialogue phases"
+      },
+      "H4": {
+        "variables": ["negotiation_points", "contribution_ratio", "semantic_distance"],
+        "statistical_approach": "Process Analysis Method",
+        "expected_outcomes": "Collaborative meaning construction through asymmetric contributions"
+      }
+    },
+    "methodological_rigor": {
+      "triangulation": "Multi-dimensional coding validates theoretical constructs",
+      "reliability": "High inter-annotator agreement ensures measurement consistency",
+      "validity": "Theory-driven operationalization supports construct validity"
+    }
+  },
+  "corpus_integration": {
+    "dialogue_position": "trainline02 represents typical service interaction patterns",
+    "comparative_baseline": "Statistical profiles enable cross-dialogue comparison",
+    "aggregation_potential": "Standardized metrics support corpus-level analysis"
+  }
+}

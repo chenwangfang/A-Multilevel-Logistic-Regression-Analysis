@@ -1,0 +1,146 @@
+{
+  "dialogue_id": "trainline11",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-25",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.85
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 99,
+    "utterance_count": 170,
+    "duration_seconds": 527,
+    "word_count": 1378,
+    "speaker_distribution": {
+      "service_provider": 50,
+      "customer": 49
+    },
+    "frame_statistics": {
+      "frame_type_count": 12,
+      "frame_transition_count": 31,
+      "mean_activation_strength": 5.1,
+      "dominant_frames": ["service_initiation", "booking_confirmation", "payment_details", "advisory_information"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 19,
+      "frame_reinforcement_percentage": 61.7,
+      "frame_shifting_percentage": 33.2,
+      "frame_blending_percentage": 5.1,
+      "mean_strategy_efficacy": 5.2
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service framework at dialogue beginning",
+      "journey_information": "Information collection on travel journey details",
+      "clarification": "Seeking or providing clarification on previous utterances",
+      "intention_confirmation": "Confirmation of customer intentions or purpose",
+      "passenger_information": "Information about passenger details",
+      "payment_method": "Discussion of available payment methods",
+      "discount_options": "Information about available discounts or special fares",
+      "journey_details": "Specific details about journey times and locations",
+      "fare_options": "Information about ticket prices and fare types",
+      "available_trains": "Information about train service availability",
+      "alternative_request": "Customer's request for alternative options",
+      "availability_constraints": "Constraints or limitations on service availability",
+      "information_verification": "Verification of previously exchanged information",
+      "information_correction": "Correction of erroneous information",
+      "constraint_acceptance": "Acceptance of constraints or limitations",
+      "alternative_solution": "Provision of alternative solutions or options",
+      "solution_acceptance": "Acceptance of proposed solutions",
+      "return_journey": "Information about return journey details",
+      "date_verification": "Verification of travel dates",
+      "available_return_options": "Information about return journey options",
+      "option_evaluation": "Evaluation of available options",
+      "option_selection": "Selection of preferred options",
+      "fare_confirmation": "Confirmation of fare details",
+      "terms_conditions": "Information about terms and conditions",
+      "customer_information": "Customer personal information exchange",
+      "booking_verification": "Verification of booking details",
+      "contact_information": "Customer contact information exchange",
+      "address_information": "Customer address information exchange",
+      "processing": "System or agent processing actions",
+      "seat_preference": "Information about seat preferences",
+      "booking_confirmation": "Confirmation of booking details",
+      "advisory_information": "Advisory information about service changes",
+      "advisory_acceptance": "Customer acceptance of advisory information",
+      "payment_details": "Exchange of payment card details",
+      "booking_advisory": "Advisory information about booking process",
+      "reference_number": "Provision of booking reference numbers",
+      "conversation_closure": "Dialogue closing sequences"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strengthening already established frames",
+      "frame_shifting": "Transitioning between different frames",
+      "frame_blending": "Integration of multiple frames simultaneously"
+    },
+    "strategy_subtypes": {
+      "initialization": "Initial frame establishment",
+      "role_establishment": "Establishing institutional roles",
+      "directive_guidance": "Guiding interaction direction",
+      "information_provision": "Providing requested information",
+      "information_request": "Requesting specific information",
+      "clarification_request": "Seeking clarification",
+      "confirmation": "Confirming information",
+      "information_elaboration": "Elaborating on provided information",
+      "topic_transition_marking": "Marking transition between topics",
+      "alternative_request": "Requesting alternatives",
+      "constraint_explanation": "Explaining constraints or limitations",
+      "verification_request": "Requesting verification",
+      "information_verification": "Verifying information accuracy",
+      "information_correction": "Correcting erroneous information",
+      "reluctant_acceptance": "Accepting with reluctance",
+      "alternative_provision": "Providing alternative options",
+      "solution_acceptance": "Accepting proposed solutions",
+      "preference_expression": "Expressing preferences",
+      "acknowledgment": "Acknowledging information",
+      "constraint_statement": "Stating constraints directly",
+      "face_management": "Managing face needs or politeness",
+      "self_correction": "Self-correcting previous statements",
+      "processing_indication": "Indicating processing activities",
+      "advisory_information": "Providing advisory information",
+      "verification": "Verifying information",
+      "price_confirmation": "Confirming price information",
+      "appreciation_expression": "Expressing appreciation",
+      "farewell": "Closing interaction politely",
+      "closure_initiation": "Initiating conversation closure"
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of framework establishment",
+      "verification": "Point of information verification",
+      "confirmation": "Point of agreement/confirmation",
+      "transition": "Point of framework transition",
+      "challenge": "Point of framework challenge",
+      "correction": "Point of information correction",
+      "adjustment": "Point of adaptation to constraints",
+      "transformation": "Point of substantial framework change",
+      "constraint": "Point of constraint introduction",
+      "comparison": "Point of option comparison",
+      "completion": "Point of interaction completion"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_selection", "strategy_efficacy"],
+      "H3": ["strategy_adaptation", "adaptation_direction", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    }
+  },
+  "comparative_indicators": {
+    "frame_transition_frequency": 0.28,
+    "strategy_adaptation_rate": 0.51,
+    "negotiation_intensity": 0.32,
+    "communication_efficiency": 0.73,
+    "institutional_constraint_ratio": 2.7,
+    "context_dependence_differential": 0.16,
+    "strategy_efficacy_variance": 0.18
+  }
+}

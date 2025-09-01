@@ -1,0 +1,179 @@
+{
+  "dialogue_id": "trainline20",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-05-20",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.88,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.85
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 29,
+    "utterance_count": 68,
+    "duration_seconds": 291,
+    "word_count": 422,
+    "speaker_distribution": {
+      "service_provider": 15,
+      "customer": 14
+    },
+    "frame_statistics": {
+      "frame_type_count": 15,
+      "frame_transition_count": 24,
+      "mean_activation_strength": 4.62,
+      "dominant_frames": ["service_initiation", "fare_options", "booking_conditions"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 12,
+      "frame_reinforcement_percentage": 69.8,
+      "frame_shifting_percentage": 26.7,
+      "frame_blending_percentage": 3.5,
+      "mean_strategy_efficacy": 4.58
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 42,
+      "service_provider_mean_contribution": 0.67,
+      "customer_mean_contribution": 0.33,
+      "mean_semantic_distance": 0.31
+    },
+    "temporal_statistics": {
+      "opening_phase_duration": 15.5,
+      "information_exchange_duration": 68.9,
+      "verification_correction_duration": 24.5,
+      "negotiation_duration": 12.9,
+      "closing_duration": 6.9
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service framework establishment at dialogue beginning",
+      "journey_information": "Information about travel route and preferences",
+      "booking_intention": "Framework for clarifying booking vs. inquiry intention",
+      "conditional_booking": "Booking intent with specific conditions attached",
+      "payment_method": "Framework related to payment card information",
+      "payment_confirmation": "Confirmation of payment method details",
+      "travel_date": "Framework for date of travel verification",
+      "date_confirmation": "Confirmation of travel date information",
+      "passenger_count": "Framework for number of travelers",
+      "passenger_confirmation": "Confirmation of passenger count",
+      "departure_time": "Framework for departure time preferences",
+      "time_preference": "Customer's time preference expression",
+      "fare_options": "Ticket price and availability options",
+      "time_verification": "Verification of time information",
+      "correction": "Framework for correcting misunderstood information",
+      "time_confirmation": "Confirmation of travel time details",
+      "time_verified": "Completed verification of time information",
+      "price_verification": "Verification of fare information",
+      "discount_eligibility": "Framework for railcard discount eligibility",
+      "discount_ineligibility": "Framework for expressing lack of discount eligibility",
+      "understanding": "Framework for showing comprehension of customer's situation",
+      "deferred_booking": "Framework for postponing the booking process",
+      "booking_conditions": "Framework for stating institutional booking conditions",
+      "booking_deadline_verification": "Verification of booking deadline information",
+      "booking_deadline_confirmation": "Confirmation of booking deadline information",
+      "action_plan": "Framework for stating future actions",
+      "closing_initiation": "Framework for initiating dialogue closure",
+      "farewell": "Framework for expressing gratitude and goodbye",
+      "farewell_reciprocation": "Framework for reciprocating farewell expressions"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategies that strengthen the existing dialogue frame",
+      "frame_shifting": "Strategies that change or adjust the dialogue frame",
+      "frame_blending": "Strategies that integrate multiple frames"
+    },
+    "strategy_subtypes": {
+      "initialization": "Establishing initial contact",
+      "role_establishment": "Clarifying institutional roles",
+      "directive_guidance": "Guiding interlocutor's response direction",
+      "reciprocation": "Responding to greeting in kind",
+      "rapport_building": "Establishing interpersonal connection",
+      "information_request": "Requesting specific information",
+      "topic_transition_marking": "Signaling shift to new topic",
+      "intention_clarification": "Seeking clarification of purpose",
+      "intention_confirmation": "Confirming purpose or intention",
+      "condition_introduction": "Introducing specific conditions",
+      "framework_expansion": "Extending dialogue framework",
+      "information_provision": "Providing requested information",
+      "verification": "Confirming accuracy of information",
+      "confirmation": "Affirming information or agreement",
+      "information_elicitation": "Drawing out specific information",
+      "preference_elicitation": "Seeking preference information",
+      "vague_specification": "Providing approximate information",
+      "option_presentation": "Presenting available choices",
+      "information_completion": "Completing previously given information",
+      "verification_request": "Requesting confirmation of information",
+      "error_indication": "Signaling incorrect information",
+      "information_correction": "Providing corrected information",
+      "information_verification": "Checking information accuracy",
+      "acknowledgment": "Showing reception of information",
+      "discount_eligibility_check": "Checking qualification for discount",
+      "elaboration": "Providing additional explanatory details",
+      "self_correction": "Correcting one's own information",
+      "explanation_completion": "Completing an explanation",
+      "acknowledgment_with_understanding": "Showing comprehension and reception",
+      "closure_of_subtopic": "Ending a discussion subtopic",
+      "request_introduction": "Introducing a new request",
+      "request_acceptance": "Accepting a request",
+      "conditions_introduction": "Introducing institutional conditions",
+      "institutional_requirement_specification": "Specifying organizational requirements",
+      "acceptance_with_closure": "Accepting while closing topic",
+      "action_plan_statement": "Stating future intended actions",
+      "closure_with_formality": "Closing with formal address",
+      "gratitude_expression": "Expressing thanks",
+      "closing_ritual": "Conventional closing expressions",
+      "closing_ritual_reciprocation": "Responding to closing ritual"
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of framework establishment",
+      "specification": "Point of providing detailed information",
+      "transition": "Point of framework shift",
+      "classification": "Point of categorizing interaction type",
+      "agreement": "Point of mutual understanding establishment",
+      "qualification": "Point of adding conditions",
+      "verification": "Point of checking information accuracy",
+      "approximation": "Point of providing approximate information",
+      "information": "Point of key information delivery",
+      "correction": "Point of correcting misunderstood information",
+      "confirmation": "Point of confirming information",
+      "elaboration": "Point of providing additional details",
+      "recognition": "Point of acknowledging information",
+      "initiative": "Point of introducing new direction",
+      "acceptance": "Point of accepting proposal",
+      "constraint": "Point of introducing limiting conditions",
+      "closure": "Point of topic closing",
+      "commitment": "Point of establishing future action",
+      "pre_closing": "Point preparing for conversation end",
+      "closing": "Point of conversation ending",
+      "final_closing": "Final point of conversation termination"
+    },
+    "interaction_stages": {
+      "opening": "Initial contact and framework establishment",
+      "information_exchange": "Exchange of basic journey information",
+      "information_verification": "Checking accuracy of exchanged information",
+      "information_correction": "Correcting misunderstood information",
+      "information_provision": "Providing detailed information",
+      "response_acknowledgment": "Acknowledging provided information",
+      "negotiation": "Discussing booking arrangements",
+      "closing": "Terminating the conversation"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_type", "strategy_subtype", "efficacy"],
+      "H3": ["adaptation_index", "stage", "strategy_adjustment", "temporal_dynamics"],
+      "H4": ["negotiation_type", "contribution_ratio", "semantic_distance", "speaker_role"]
+    },
+    "statistical_methods": {
+      "H1": ["multivariate_analysis_of_variance", "multilevel_linear_modeling"],
+      "H2": ["multilevel_logistic_regression", "contingency_association_analysis"],
+      "H3": ["integrated_temporal_effect_analysis", "multilevel_survival_analysis"],
+      "H4": ["process_analysis", "multilevel_logistic_regression_of_role_differences"]
+    }
+  }
+}

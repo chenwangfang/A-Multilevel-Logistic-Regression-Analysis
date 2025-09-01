@@ -1,0 +1,117 @@
+{
+  "dialogue_id": "trainline21",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-11-10",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.88,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 90,
+    "utterance_count": 132,
+    "duration_seconds": 486,
+    "word_count": 1387,
+    "speaker_distribution": {
+      "service_provider": 45,
+      "customer": 45
+    },
+    "frame_statistics": {
+      "frame_type_count": 29,
+      "frame_transition_count": 36,
+      "mean_activation_strength": 5.35,
+      "dominant_frames": ["booking_completion", "new_plan_exploration", "payment_confirmation", "booking_summary"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 37,
+      "frame_reinforcement_percentage": 59.7,
+      "frame_shifting_percentage": 32.4,
+      "frame_blending_percentage": 7.9,
+      "mean_strategy_efficacy": 5.15
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service framework at dialogue beginning",
+      "travel_requirement": "Customer's expression of journey needs",
+      "information_collection": "Gathering essential booking information",
+      "service_processing": "Service provider performing backend operations",
+      "fare_selection": "Presentation and discussion of ticket pricing options",
+      "alternative_plan": "Exploration of alternative journey arrangements",
+      "new_plan_exploration": "Customer-initiated exploration of different travel options",
+      "new_plan_evaluation": "Assessment of suitability of proposed alternatives",
+      "plan_acceptance": "Customer agreement with proposed travel arrangements",
+      "plan_confirmation": "Verification of agreed travel details",
+      "price_confirmation": "Verification of agreed price information",
+      "journey_confirmation": "Comprehensive verification of journey details",
+      "preference_inquiry": "Collection of customer seating preferences",
+      "seat_preference": "Specific seat arrangement preferences",
+      "booking_completion": "Finalization of booking transaction",
+      "ticket_arrangement": "Instructions for ticket collection",
+      "time_suggestion": "Recommendations for timing considerations",
+      "personal_information": "Collection of customer's personal details",
+      "contact_information": "Collection of customer's contact details",
+      "payment_information": "Collection of payment-related information",
+      "address_verification": "Verification of billing address",
+      "payment_card": "Information about payment card type",
+      "card_number": "Collection of payment card number",
+      "card_type": "Verification of specific card brand",
+      "expiry_date": "Collection of payment card expiry date",
+      "payment_confirmation": "Confirmation of payment transaction",
+      "reference_number": "Provision of booking reference number",
+      "booking_summary": "Comprehensive summary of booking arrangement",
+      "dialogue_closing": "Termination of service interaction"
+    },
+    "strategy_types": {
+      "frame_initialization": "Establishing a new interactional framework",
+      "frame_slot_filling": "Providing information to populate framework variables",
+      "frame_reinforcement_slot_filling": "Strengthening established framework through information seeking",
+      "frame_reinforcement_confirmation": "Strengthening framework through affirmation",
+      "frame_challenging": "Contesting or rejecting proposed framework elements",
+      "frame_shifting_condition_adjustment": "Modifying framework conditions",
+      "frame_shifting_new_plan": "Introducing alternative framework parameters",
+      "frame_shifting_plan_provision": "Offering alternative arrangements",
+      "frame_blending_possibility_assessment": "Integrating multiple frameworks to evaluate options",
+      "frame_reinforcement_acceptance": "Strengthening framework through explicit agreement",
+      "frame_shifting_task_completion": "Transitioning to completion-oriented framework",
+      "frame_challenging_clarification_request": "Contesting framework through clarification",
+      "frame_reinforcement_rule_restatement": "Strengthening framework through rule repetition",
+      "frame_blending_conditional_suggestion": "Integrating frameworks to offer conditional recommendations",
+      "frame_shifting_payment_confirmation": "Transitioning to payment verification framework",
+      "frame_blending_overall_summary": "Integrating multiple frameworks for comprehensive conclusion",
+      "frame_reinforcement_acceptance_gratitude": "Strengthening framework through gratitude expression",
+      "frame_reinforcement_closing_expression": "Strengthening closure framework",
+      "frame_reinforcement_response_closing": "Reciprocating closure framework reinforcement"
+    },
+    "negotiation_types": {
+      "initiation": "Introduction of new interactional focus",
+      "response": "Reaction to previous contribution",
+      "transition": "Movement between interaction stages",
+      "confirmation": "Verification of shared understanding",
+      "challenge": "Contestation of proposed elements",
+      "adjustment": "Modification of proposed arrangements",
+      "transformation": "Substantial reframing of interaction",
+      "integration": "Synthesis of multiple elements",
+      "verification": "Checking accuracy of details",
+      "completion": "Finalization of interaction sequence",
+      "clarification": "Resolution of understanding issues",
+      "transaction": "Exchange of value commitments",
+      "closure": "Winding down of interaction",
+      "farewell": "Terminal exchange sequences"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    }
+  }
+}

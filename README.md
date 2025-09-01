@@ -99,10 +99,10 @@ These documents provide comprehensive technical details supporting the main anal
 ## 📁 Repository Structure
 
 ```
-├── SPAADIA/                     # Corpus data (35 dialogues)
-│   ├── indices/                 # JSONL index files
-│   ├── metadata/                # JSON metadata files
-│   └── xml_annotations/         # XML annotation files
+├── SPAADIA/                     # Corpus data (35 dialogues, 105 files)
+│   ├── indices/                 # JSONL index files (35 files)
+│   ├── metadata/                # JSON metadata files (35 files)
+│   └── xml_annotations/         # XML annotation files (35 files)
 ├── scripts/                     # Analysis scripts
 │   ├── Core Analyses/
 │   │   ├── hypothesis_h1_analysis_publication.py  # H1: Frame activation dual mechanisms
@@ -302,10 +302,10 @@ python run_r_icc_analysis.py           # R验证（需要R环境）
 ### 📁 仓库结构
 
 ```
-├── SPAADIA/                     # 语料库数据（35个对话）
-│   ├── indices/                 # JSONL索引文件
-│   ├── metadata/                # JSON元数据文件
-│   └── xml_annotations/         # XML标注文件
+├── SPAADIA/                     # 语料库数据（35个对话，105个文件）
+│   ├── indices/                 # JSONL索引文件（35个文件）
+│   ├── metadata/                # JSON元数据文件（35个文件）
+│   └── xml_annotations/         # XML标注文件（35个文件）
 ├── scripts/                     # 分析脚本
 │   ├── 核心分析/
 │   │   ├── hypothesis_h1_analysis_publication.py  # H1：框架激活双重机制

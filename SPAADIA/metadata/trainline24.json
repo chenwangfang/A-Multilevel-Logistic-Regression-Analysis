@@ -1,0 +1,110 @@
+{
+  "dialogue_id": "trainline24",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-11-20",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 96,
+    "utterance_count": 205,
+    "duration_seconds": 478,
+    "word_count": 1356,
+    "speaker_distribution": {
+      "service_provider": 48,
+      "customer": 48
+    },
+    "frame_statistics": {
+      "frame_type_count": 16,
+      "frame_transition_count": 31,
+      "mean_activation_strength": 5.1,
+      "dominant_frames": ["service_initiation", "journey_information", "payment_details", "ticket_conditions", "fare_information"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 25,
+      "frame_reinforcement_percentage": 65.8,
+      "frame_shifting_percentage": 27.3,
+      "frame_blending_percentage": 6.9,
+      "mean_strategy_efficacy": 4.9
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service dialogue frame establishment",
+      "journey_information": "Journey details collection frame",
+      "payment_method": "Payment method verification frame",
+      "passenger_information": "Passenger details collection frame",
+      "discount_eligibility": "Discount eligibility verification frame",
+      "fare_request": "Specific fare type request frame",
+      "verification_processing": "Information verification process frame",
+      "return_journey": "Return journey details collection frame",
+      "fare_information": "Fare information provision frame",
+      "ticket_conditions": "Ticket conditions explanation frame",
+      "personal_details": "Customer personal details collection frame",
+      "contact_details": "Customer contact information collection frame",
+      "payment_details": "Payment card details collection frame",
+      "seat_information": "Seat reservation information frame",
+      "ticket_collection": "Ticket collection instructions frame",
+      "farewell": "Dialogue closure frame"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategy reinforcing established frame",
+      "frame_shifting": "Strategy for changing or adjusting frame",
+      "frame_blending": "Strategy integrating multiple frames"
+    },
+    "strategy_subtypes": {
+      "initialization": "Initial dialogue opening strategy",
+      "directive_guidance": "Direction provision strategy",
+      "information_provision": "Information offering strategy",
+      "information_seeking": "Information requesting strategy",
+      "verification": "Information verification strategy",
+      "self_correction": "Self-initiated correction strategy",
+      "framework_expansion": "Frame expansion strategy",
+      "constraint_notification": "Constraint communication strategy",
+      "instruction_provision": "Instruction offering strategy",
+      "confirmation": "Information confirmation strategy",
+      "acknowledgment": "Acknowledgment indication strategy",
+      "topic_transition_marking": "Topic shift marking strategy"
+    },
+    "negotiation_types": {
+      "initiation": "Initial frame establishment point",
+      "transition": "Frame transition point",
+      "challenge": "Frame challenge point",
+      "adjustment": "Frame adjustment point",
+      "verification": "Information verification point",
+      "confirmation": "Frame confirmation point",
+      "negotiation": "Mutual negotiation point",
+      "closure": "Dialogue closure point"
+    },
+    "dialogue_stages": {
+      "opening": "Initial dialogue stage",
+      "information_exchange": "Information exchange dialogue stage",
+      "information_verification": "Information verification dialogue stage",
+      "information_provision": "Information provision dialogue stage",
+      "processing": "Information processing dialogue stage",
+      "closing": "Dialogue closure stage"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    },
+    "analytical_methods": {
+      "H1": "Multivariate Analysis of Variance (MANOVA)",
+      "H2": "Multilevel Logistic Regression Analysis",
+      "H3": "Integrated Temporal Effect Analysis",
+      "H4": "Process Analysis Method"
+    }
+  }
+}

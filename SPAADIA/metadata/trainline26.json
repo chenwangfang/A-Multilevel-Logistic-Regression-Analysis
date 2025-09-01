@@ -1,0 +1,190 @@
+{
+  "dialogue_id": "trainline26",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-18",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.89,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.86
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 68,
+    "utterance_count": 165,
+    "duration_seconds": 562,
+    "word_count": 1468,
+    "speaker_distribution": {
+      "service_provider": 34,
+      "customer": 34
+    },
+    "frame_statistics": {
+      "frame_type_count": 18,
+      "frame_transition_count": 26,
+      "mean_activation_strength": 5.2,
+      "dominant_frames": ["information_gathering", "preference_expression", "problem_solving", "customer_details", "journey_details"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 25,
+      "frame_reinforcement_percentage": 62.5,
+      "frame_shifting_percentage": 27.8,
+      "frame_blending_percentage": 9.7,
+      "mean_strategy_efficacy": 5.1
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service framework establishment at dialogue start",
+      "customer_need": "Customer expression of travel requirements",
+      "information_gathering": "Collecting necessary booking information",
+      "information_provision": "Providing requested information",
+      "transaction_preparation": "Setting up payment details",
+      "journey_planning": "Planning travel dates and times",
+      "passenger_details": "Collecting traveler information",
+      "discount_eligibility": "Determining eligibility for fare discounts",
+      "schedule_knowledge": "Discussing train schedule knowledge",
+      "return_journey": "Planning return trip details",
+      "journey_details": "Discussing specific journey facts",
+      "journey_verification": "Confirming journey details",
+      "preference_constraint": "Customer expressing limitations on options",
+      "problem_solving": "Resolving issues in booking process",
+      "waiting": "Temporary pause in transaction",
+      "verification": "Confirming details accuracy",
+      "personal_experience": "Customer sharing previous experiences",
+      "service_policy": "Explanation of service rules",
+      "confirmation": "Final confirmation of booking details",
+      "discount_application": "Application of discount to fare",
+      "preference_gathering": "Collecting customer preferences",
+      "preference_expression": "Customer expressing seat/service preferences",
+      "preference_handling": "Managing customer preferences",
+      "preference_modification": "Changing previously stated preferences",
+      "information_summary": "Summarizing all booking details",
+      "customer_details": "Collection of customer personal data"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strengthening established frames",
+      "frame_shifting": "Transitioning between different frames",
+      "frame_blending": "Integrating multiple frames",
+      "frame_challenging": "Contesting established frames",
+      "frame_activation": "Initiating new frames"
+    },
+    "strategy_subtypes": {
+      "initialization": "Setting up the initial interaction framework",
+      "role_establishment": "Establishing institutional roles",
+      "directive_guidance": "Directing customer through required steps",
+      "rapport_building": "Building interpersonal connection",
+      "need_expression": "Expressing service requirements",
+      "information_elicitation": "Drawing out specific information",
+      "information_provision": "Supplying requested information",
+      "topic_transition_marking": "Signaling transition between topics",
+      "framework_expansion": "Expanding the current frame",
+      "compliance": "Following institutional requirements",
+      "external_knowledge_introduction": "Introducing knowledge from outside source",
+      "preference_expression": "Expressing preferences",
+      "preference_constraint": "Stating limitations on preferences",
+      "solution_framing": "Presenting problem solutions",
+      "policy_explanation": "Explaining institutional policies",
+      "resolution_confirmation": "Confirming issue resolution",
+      "transaction_confirmation": "Confirming transaction details",
+      "preference_specification": "Providing detailed preferences",
+      "reasoning_explanation": "Explaining reasoning process",
+      "accommodation_framing": "Framing how preferences will be accommodated",
+      "preference_downgrading": "Reducing importance of stated preferences",
+      "accommodation_provision": "Providing accommodation for preferences",
+      "information_integration": "Combining multiple information sources",
+      "verification": "Confirming accuracy of information", 
+      "acknowledgment": "Acknowledging receipt of information",
+      "confirmation": "Confirming understanding or agreement",
+      "hesitation": "Showing uncertainty or thinking time",
+      "cognitive_processing": "Demonstrating thought process",
+      "self_management": "Managing one's own interaction",
+      "self_confirmation": "Confirming to oneself",
+      "topic_refocusing": "Returning focus to previous topic",
+      "evaluation_provision": "Providing evaluative commentary",
+      "alternative_proposal": "Offering alternative solutions",
+      "process_management": "Managing procedural aspects",
+      "process_explanation": "Explaining process steps",
+      "explanation_provision": "Providing explanatory information",
+      "reassurance": "Providing comfort or confidence",
+      "personal_experience_introduction": "Introducing personal history",
+      "personal_experience_provision": "Sharing personal experience",
+      "expectation_management": "Managing expectations",
+      "appreciation": "Expressing positive evaluation",
+      "detailed_information_provision": "Providing detailed facts"
+    },
+    "negotiation_types": {
+      "initiation": "Frame establishment starting point",
+      "information": "Information exchange point",
+      "slot_filling": "Filling required information slot",
+      "transition": "Transition between frames",
+      "challenge": "Frame challenge point",
+      "constraint": "Constraint expression point",
+      "verification": "Verification request point",
+      "confirmation": "Confirmation point",
+      "adaptation": "Strategic adaptation point",
+      "agreement": "Agreement point",
+      "management": "Process management point",
+      "resolution": "Problem resolution point",
+      "preference": "Preference expression point",
+      "reasoning": "Reasoning explanation point",
+      "modification": "Preference modification point",
+      "integration": "Information integration point",
+      "policy": "Policy explanation point",
+      "elaboration": "Information elaboration point",
+      "acknowledgment": "Acknowledgment point",
+      "compliance": "Compliance point"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    },
+    "statistical_analysis": {
+      "H1": ["MANOVA", "multilevel_linear_modeling"],
+      "H2": ["multilevel_logistic_regression", "contingency_association"],
+      "H3": ["temporal_effect_analysis", "multilevel_survival_analysis"],
+      "H4": ["process_analysis", "role_difference_analysis"]
+    },
+    "typical_passages": {
+      "frame_reinforcement": ["T024"],
+      "frame_challenging": ["T026"],
+      "frame_shifting": ["T025", "T029"],
+      "frame_blending": ["T048", "T050", "T055"]
+    }
+  },
+  "stage_distribution": {
+    "opening": 0.03,
+    "information_gathering": 0.15,
+    "information_provision": 0.12,
+    "information_verification": 0.08,
+    "negotiation": 0.05,
+    "problem_solving": 0.04,
+    "waiting": 0.03,
+    "transaction_processing": 0.18,
+    "transaction_completion": 0.08,
+    "preference_gathering": 0.05,
+    "preference_expression": 0.05,
+    "preference_handling": 0.04,
+    "information_summary": 0.04,
+    "customer_details": 0.06
+  },
+  "comparison_metrics": {
+    "mean_turn_length_words": 21.6,
+    "mean_turn_duration_seconds": 8.3,
+    "provider_customer_word_ratio": 1.35,
+    "frame_transitions_per_minute": 2.78,
+    "negotiation_points_per_minute": 2.56,
+    "strategy_variations_per_minute": 2.67,
+    "information_exchange_efficiency": 0.72,
+    "transactional_success_rate": 1.0,
+    "constraint_resolution_efficacy": 0.85,
+    "mean_preference_accommodation_score": 0.78
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "dialogue_id": "trainline10",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-18",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.88,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.85
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 35,
+    "utterance_count": 69,
+    "duration_seconds": 237,
+    "word_count": 485,
+    "speaker_distribution": {
+      "service_provider": 18,
+      "customer": 17
+    },
+    "frame_statistics": {
+      "frame_type_count": 19,
+      "frame_transition_count": 21,
+      "mean_activation_strength": 4.73,
+      "dominant_frames": ["train_options", "fare_limitation", "alternative_solution", "arrival_time_preference", "return_train_information"],
+      "frame_distribution": {
+        "service_provider_activated": 19,
+        "customer_activated": 16
+      }
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 11,
+      "frame_reinforcement_percentage": 67.2,
+      "frame_shifting_percentage": 26.8,
+      "frame_blending_percentage": 6.0,
+      "mean_strategy_efficacy": 4.32,
+      "dominant_strategies": ["information_provision", "slot_filling", "verification", "confirmation", "context_probing"]
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 44,
+      "mean_semantic_distance": 0.27,
+      "service_provider_contribution_mean": 0.62,
+      "customer_contribution_mean": 0.38,
+      "dominant_negotiation_types": ["confirmation", "probing", "response", "solution"]
+    },
+    "temporal_statistics": {
+      "mean_turn_duration": 3.15,
+      "stage_distribution": {
+        "opening": 1,
+        "information_exchange": 18,
+        "information_verification": 8,
+        "solution_provision": 2,
+        "solution_consideration": 2,
+        "solution_selection": 1,
+        "solution_verification": 2,
+        "solution_acceptance": 1,
+        "transaction": 2,
+        "problem_identification": 1,
+        "problem_acknowledgment": 1,
+        "alternative_provision": 1
+      }
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service framework establishment at dialogue opening",
+      "journey_information": "Travel route information collection framework",
+      "payment_method": "Payment method identification framework",
+      "discount_eligibility": "Customer discount qualification framework",
+      "passenger_count": "Number of travelers framework",
+      "travel_date": "Date of travel identification framework",
+      "date_verification": "Confirmation of specific date framework",
+      "month_verification": "Confirmation of specific month framework",
+      "departure_time": "Time of train departure framework",
+      "arrival_time_preference": "Preferred arrival time framework",
+      "arrival_time_specification": "Specification of arrival time period framework",
+      "train_options": "Available train services framework",
+      "option_consideration": "Consideration of presented options framework",
+      "information_completion": "Completion of incomplete information framework",
+      "option_selection": "Selection of specific option framework",
+      "selection_verification": "Verification of selected option framework",
+      "selection_confirmation": "Confirmation of selected option framework",
+      "return_journey": "Return travel arrangement framework",
+      "return_journey_inquiry": "Request for return travel information framework",
+      "date_confirmation": "Confirmation of specific date framework",
+      "return_train_information": "Information about return train services framework",
+      "solution_acceptance": "Acceptance of proposed solution framework",
+      "fare_checking": "Checking fare options framework",
+      "wait_acknowledgment": "Acknowledgment of waiting period framework",
+      "fare_limitation": "Limitation in fare availability framework",
+      "surprise_reaction": "Emotional response to unexpected information framework",
+      "alternative_solution": "Alternative proposal framework"
+    },
+    "strategy_types": {
+      "frame_reinforcement": {
+        "description": "Strategies that strengthen the established frame",
+        "subtypes": {
+          "initialization": "Initial establishment of service frame",
+          "role_establishment": "Clarification of institutional roles",
+          "directive_guidance": "Guiding customer response through directives",
+          "processing_signal": "Indicates cognitive processing",
+          "slot_filling": "Providing requested information within frame",
+          "boundary_marking": "Establishing clear information boundaries",
+          "reinforcement": "Strengthening previously provided information",
+          "verification": "Checking accuracy of information",
+          "confirmation": "Affirming accuracy of information",
+          "specification": "Providing more specific information",
+          "information_completion": "Completing partial information",
+          "information_provision": "Providing core information",
+          "information_repetition": "Repeating previously stated information",
+          "processing_attempt": "Effort to process complex information",
+          "acknowledgment": "Recognizing received information",
+          "solution_evaluation": "Evaluating proposed solution",
+          "context_specification": "Specifying context for subsequent information",
+          "explanation_provision": "Providing explanatory information",
+          "uncertainty_marking": "Signaling knowledge limitations"
+        }
+      },
+      "frame_shifting": {
+        "description": "Strategies that change or redirect the active frame",
+        "subtypes": {
+          "topic_transition_marking": "Signaling shift to new topic",
+          "framework_expansion": "Broadening scope of interaction",
+          "context_probing": "Exploring additional contextual information",
+          "perspective_shift": "Changing viewpoint orientation",
+          "solution_provision": "Offering solutions to identified needs",
+          "alternative_provision": "Presenting alternative options",
+          "decision_marking": "Signaling upcoming decision",
+          "decision_making": "Making explicit choice",
+          "information_request": "Requesting specific information",
+          "action_announcement": "Declaring forthcoming action",
+          "problem_presentation": "Identifying limitations or issues",
+          "emotional_reaction": "Expressing affective response",
+          "solution_framing": "Framing context for solution presentation"
+        }
+      },
+      "frame_blending": {
+        "description": "Strategies that integrate multiple frames",
+        "subtypes": {
+          "multiframe_integration": "Combining elements from multiple frames",
+          "compromise_construction": "Creating middle-ground solution",
+          "reframing": "Reconstructing problematic frame in new terms",
+          "cross_frame_reference": "Referring across frame boundaries",
+          "hybrid_solution": "Solution drawing from multiple frames"
+        }
+      }
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of frame establishment",
+      "response": "Direct answering to frame-aligned query",
+      "transition": "Point of frame change",
+      "negotiation_initiation": "Beginning of interactive negotiation",
+      "probing": "Information-seeking point",
+      "verification": "Accuracy-checking point",
+      "confirmation": "Accuracy-confirming point",
+      "redirection": "Direction-changing point",
+      "uncertainty": "Knowledge limitation point",
+      "specification": "Detail-adding point",
+      "solution": "Problem-resolving point",
+      "alternative": "Option-presenting point",
+      "processing": "Information-processing point",
+      "assistance": "Help-providing point",
+      "decision": "Choice-making point",
+      "inquiry": "Question-asking point",
+      "acceptance": "Solution-accepting point",
+      "process_initiation": "Process-beginning point",
+      "cooperation": "Collaborative-action point",
+      "problem": "Issue-identification point",
+      "emotional": "Emotion-expressing point",
+      "solution_initiation": "Solution-introduction point"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_selection", "strategy_subtype"],
+      "H3": ["adaptation_index", "temporal_dynamics", "stage_progression"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    },
+    "statistical_analyses": {
+      "H1": ["MANOVA", "multilevel_linear_modeling"],
+      "H2": ["multilevel_logistic_regression", "contingency_association_analysis"],
+      "H3": ["integrated_temporal_effect_analysis", "multilevel_survival_analysis"],
+      "H4": ["process_analysis", "role_difference_analysis"]
+    }
+  }
+}

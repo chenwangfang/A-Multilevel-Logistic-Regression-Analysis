@@ -1,0 +1,117 @@
+{
+  "dialogue_id": "trainline06",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-12-05",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.88,
+      "frame_activation": 0.90,
+      "strategy_selection": 0.86,
+      "negotiation_points": 0.85
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 94,
+    "utterance_count": 137,
+    "duration_seconds": 467,
+    "word_count": 1186,
+    "speaker_distribution": {
+      "service_provider": 47,
+      "customer": 47
+    },
+    "frame_statistics": {
+      "frame_type_count": 16,
+      "frame_transition_count": 30,
+      "mean_activation_strength": 5.0,
+      "dominant_frames": ["transaction_confirmation", "availability_constraint", "alternative_options", "ticket_terms", "system_verification"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 21,
+      "frame_reinforcement_percentage": 58.4,
+      "frame_shifting_percentage": 34.2,
+      "frame_blending_percentage": 7.4,
+      "mean_strategy_efficacy": 4.6
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 35,
+      "mean_semantic_distance": 0.36,
+      "challenge_resolution_ratio": 0.92,
+      "provider_contribution_mean": 0.67,
+      "customer_contribution_mean": 0.33
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service interaction framework",
+      "journey_information": "Travel details and requirements framework",
+      "payment_method": "Payment options and processing framework",
+      "discount_eligibility": "Special rates and discount qualification framework",
+      "passenger_quantity": "Number of travelers framework",
+      "departure_date": "Date of outbound journey framework",
+      "departure_time": "Time preferences for outbound travel framework",
+      "return_journey": "Return travel arrangements framework",
+      "fare_checking": "Price assessment and comparison framework",
+      "availability_constraint": "Service limitation and restrictions framework",
+      "alternative_option": "Customer-suggested alternative framework",
+      "alternative_options": "Provider-suggested alternatives framework",
+      "purchase_decision": "Booking commitment and confirmation framework",
+      "ticket_terms": "Terms and conditions of ticket usage framework",
+      "system_verification": "Payment and identity verification framework",
+      "transaction_confirmation": "Booking completion and reference framework"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategies that strengthen established frameworks",
+      "frame_shifting": "Strategies that transition between different frameworks",
+      "frame_blending": "Strategies that integrate multiple frameworks"
+    },
+    "strategy_subtypes": {
+      "directive_guidance": "Steering interaction through directive questions",
+      "information_provision": "Supplying relevant details to fill framework slots",
+      "topic_transition_marking": "Signaling shift to new conversational phase",
+      "framework_expansion": "Broadening current framework with additional elements",
+      "process_transparency": "Explaining procedural steps and expectations",
+      "limitation_explanation": "Clarifying constraints or boundaries",
+      "alternative_suggestion": "Proposing different options to resolve constraints",
+      "alternative_provision": "Offering multiple alternatives for selection",
+      "decision_expression": "Articulating choice or commitment",
+      "policy_information": "Explaining institutional rules and policies",
+      "clarification_request": "Seeking additional information to resolve ambiguity",
+      "problem_identification": "Articulating an issue requiring resolution",
+      "information_repetition": "Restating previously provided information"
+    },
+    "negotiation_types": {
+      "initiation": "Opening framework establishment point",
+      "response": "Direct reply to framework activation",
+      "transparency": "Process explanation and expectation setting",
+      "limitation": "Constraint or boundary point",
+      "suggestion": "Alternative option proposition",
+      "option": "Multiple choice presentation",
+      "decision": "Resolution or choice point",
+      "information": "Factual or procedural knowledge provision",
+      "problem": "Issue identification requiring resolution",
+      "cooperation": "Collaborative problem-solving interaction"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_selection", "efficacy"],
+      "H3": ["strategy_adaptation", "temporal_dynamics", "stage_transition"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    },
+    "key_findings": {
+      "H1_support": 0.89,
+      "H2_support": 0.85,
+      "H3_support": 0.82,
+      "H4_support": 0.83
+    }
+  },
+  "procedural_metadata": {
+    "annotation_tools": ["XML Editor v3.2", "SPAADIA Annotator v2.0", "Python Statistical Package v1.5"],
+    "validation_methods": ["Cross-annotator comparison", "Consistency checking", "Statistical verification"],
+    "theoretical_foundations": ["Relevance Theory", "Frame Semantics", "Construal Theory"]
+  }
+}

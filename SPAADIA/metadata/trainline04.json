@@ -1,0 +1,90 @@
+{
+  "dialogue_id": "trainline04",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2024-05-14",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.86,
+      "frame_activation": 0.88,
+      "strategy_selection": 0.84,
+      "negotiation_points": 0.83
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 116,
+    "utterance_count": 234,
+    "duration_seconds": 485,
+    "word_count": 1482,
+    "speaker_distribution": {
+      "service_provider": 58,
+      "customer": 58
+    },
+    "frame_statistics": {
+      "frame_type_count": 18,
+      "frame_transition_count": 32,
+      "mean_activation_strength": 4.6,
+      "dominant_frames": ["service_initiation", "journey_information", "payment_method", "journey_solution", "ticket_selection"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 27,
+      "frame_reinforcement_percentage": 59.4,
+      "frame_shifting_percentage": 27.6,
+      "frame_blending_percentage": 13.0,
+      "mean_strategy_efficacy": 4.7
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service frame establishment in dialogue opening",
+      "journey_information": "Information collection frame for travel details",
+      "destination_verification": "Frame for verifying destination information",
+      "destination_confirmation": "Frame for confirming destination details",
+      "origin_inquiry": "Frame for inquiring about departure location",
+      "origin_uncertainty": "Frame reflecting customer uncertainty about departure options",
+      "payment_method": "Frame for payment method verification",
+      "passenger_information": "Frame for passenger number and details",
+      "journey_summary": "Frame consolidating journey information",
+      "discount_rejection": "Frame for discount option decline",
+      "time_preference": "Frame for departure time preference elicitation",
+      "information_request": "Customer-initiated frame for specific information",
+      "journey_solution": "Frame providing comprehensive journey solution",
+      "understanding_development": "Frame for customer developing understanding",
+      "ticket_selection": "Frame for making ticket choice decision",
+      "customer_identification": "Frame for collecting customer identification details",
+      "farewell": "Closing frame initiated by service provider",
+      "farewell_reciprocation": "Closing frame reciprocation by customer"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategy that strengthens established frames",
+      "frame_expansion": "Strategy that extends existing frames with additional elements",
+      "frame_shift": "Strategy that redirects dialogue to different frame",
+      "frame_blending": "Strategy that integrates multiple frames",
+      "frame_acceptance": "Strategy that signals acceptance of proposed frame",
+      "frame_challenge": "Strategy that challenges or questions current frame",
+      "frame_transition": "Strategy that signals movement between frames",
+      "frame_element_rejection": "Strategy that rejects specific elements within frame"
+    },
+    "negotiation_types": {
+      "initiation": "Starting point for frame activation",
+      "verification": "Point for checking frame elements",
+      "confirmation": "Point for confirming frame elements",
+      "challenge": "Point where frame is contested",
+      "transition": "Point of movement between frames",
+      "integration": "Point where frames are combined",
+      "adjustment": "Point of frame modification",
+      "decision": "Point where decision is made",
+      "closure": "Point of dialogue conclusion"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    }
+  }
+}

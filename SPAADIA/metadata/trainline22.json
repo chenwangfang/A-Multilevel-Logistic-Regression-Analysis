@@ -1,0 +1,202 @@
+{
+  "dialogue_id": "trainline22",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-15",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.88,
+      "frame_activation": 0.91,
+      "strategy_selection": 0.87,
+      "negotiation_points": 0.85
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 61,
+    "utterance_count": 147,
+    "duration_seconds": 524,
+    "word_count": 1487,
+    "speaker_distribution": {
+      "service_provider": 31,
+      "customer": 30
+    },
+    "frame_statistics": {
+      "frame_type_count": 35,
+      "frame_transition_count": 21,
+      "mean_activation_strength": 4.8,
+      "dominant_frames": ["fare_availability", "fare_structure", "alternative_availability", "fare_options", "ticket_rule"]
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 25,
+      "frame_reinforcement_percentage": 62.5,
+      "frame_shifting_percentage": 33.7,
+      "frame_blending_percentage": 3.8,
+      "mean_strategy_efficacy": 4.7
+    },
+    "stage_distribution": {
+      "opening": 1,
+      "information_exchange": 16,
+      "processing": 4,
+      "information_provision": 14,
+      "information_verification": 15,
+      "negotiation": 7,
+      "unclear": 1,
+      "closing": 4
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Establishment of service interaction framework at beginning of dialogue",
+      "journey_specification": "Framework for specifying travel route details",
+      "payment_method": "Framework for payment options and verification",
+      "payment_confirmation": "Framework for confirming payment method availability",
+      "passenger_information": "Framework for gathering traveler quantity information",
+      "discount_eligibility": "Framework for assessing qualification for fare reductions",
+      "travel_timing": "Framework for specifying dates and times of travel",
+      "fare_options": "Framework for exploring different price categories",
+      "fare_search": "Framework for actively searching fare information",
+      "search_process": "Framework indicating ongoing search activity",
+      "fare_availability": "Framework for presenting available fare options",
+      "availability_verification": "Framework for confirming limited options",
+      "alternative_options": "Framework for exploring additional travel choices",
+      "option_rejection": "Framework for declining offered alternatives",
+      "fare_type_explanation": "Framework for explaining ticket category differences",
+      "concept_clarification": "Framework for understanding specialized terminology",
+      "fare_explanation": "Framework for detailed explanation of fare structure",
+      "concept_understanding": "Framework for demonstrating comprehension",
+      "fare_structure": "Framework for explaining fare hierarchical organization",
+      "alternative_date": "Framework for exploring different travel dates",
+      "date_verification": "Framework for confirming specific dates",
+      "alternative_availability": "Framework for secondary option exploration",
+      "direct_service": "Framework for exploring non-stop travel options",
+      "availability_explanation": "Framework for explaining limited options",
+      "option_consideration": "Framework for evaluating available choices",
+      "ticket_rule": "Framework for explaining booking regulations",
+      "fare_comparison": "Framework for comparing different ticket types",
+      "fare_unavailability": "Framework for explaining discontinued options",
+      "group_fare_explanation": "Framework for explaining multi-person discount options",
+      "future_scenario": "Framework for hypothetical outcome projection",
+      "group_booking_inquiry": "Framework for exploring multi-person booking options",
+      "search_initiation": "Framework for beginning new information search",
+      "unavailability_notification": "Framework for informing about absence of options",
+      "decision_making": "Framework for reaching action conclusions",
+      "closure_initiation": "Framework for beginning conversation termination",
+      "gratitude": "Framework for expressing appreciation",
+      "farewell": "Framework for formal conversation closure"
+    },
+    "strategy_types": {
+      "frame_reinforcement": {
+        "initialization": "Establishing the initial interaction framework",
+        "role_establishment": "Clarifying participant roles and identities",
+        "directive_guidance": "Providing clear direction for customer response",
+        "information_provision": "Supplying relevant requested information",
+        "information_seeking": "Requesting needed information from other party",
+        "processing_signal": "Indicating cognitive processing is occurring",
+        "confirmation": "Verifying or acknowledging received information",
+        "information_elaboration": "Providing additional detail to basic information",
+        "patience_signal": "Indicating willingness to wait",
+        "constraint_introduction": "Introducing limitations on options",
+        "information_completion": "Providing final elements of a complete answer",
+        "constraint_emphasis": "Highlighting important limitations",
+        "self_correction": "Amending previously provided incorrect information",
+        "concept_clarification": "Providing clearer explanation of terminology",
+        "comprehension_signal": "Indicating understanding of information",
+        "understanding_confirmation": "Explicitly confirming comprehension",
+        "information_receipt": "Acknowledging receipt of information",
+        "process_transparency": "Explaining ongoing activities",
+        "information_hierarchy": "Organizing information by importance",
+        "availability_information": "Reporting on option availability status",
+        "process_continuation": "Indicating sequential process steps",
+        "logical_conclusion": "Drawing inference from provided information",
+        "information_summary": "Concisely restating key points",
+        "parameter_verification": "Checking specific details for accuracy",
+        "price_verification": "Confirming cost information",
+        "attention_focus": "Directing attention to specific information",
+        "utterance_attempt": "Incomplete communication effort",
+        "topic_focus": "Highlighting specific subject matter",
+        "rule_notification": "Informing about regulatory requirements",
+        "hypothetical_explanation": "Providing conditional clarification",
+        "echo_confirmation": "Repeating information to confirm understanding",
+        "logical_connection": "Indicating causal or sequential relationship",
+        "consequence_information": "Explaining outcome implications",
+        "closure_signal": "Indicating conversation ending",
+        "closure_acknowledgment": "Recognizing conversation conclusion",
+        "gratitude_expression": "Expressing thanks for service",
+        "reciprocal_gratitude": "Returning expression of appreciation",
+        "farewell": "Formal conversation ending"
+      },
+      "frame_shifting": {
+        "topic_transition_marking": "Signaling shift to new subject matter",
+        "framework_expansion": "Broadening interaction scope",
+        "perspective_shift_signal": "Indicating change in viewpoint",
+        "preference_introduction": "Expressing desired outcomes",
+        "accommodation_signal": "Indicating adaptation to other's needs",
+        "result_introduction": "Presenting outcomes of process",
+        "limitation_verification": "Checking constraints on options",
+        "alternative_introduction": "Presenting different possibilities",
+        "option_rejection": "Declining offered alternatives",
+        "constraint_assertion": "Firmly stating limitations",
+        "clarification_request": "Asking for clearer explanation",
+        "explanation_preparation": "Setting stage for detailed information",
+        "concept_explanation": "Providing definition of technical concept",
+        "alternative_verification": "Checking for other options",
+        "terminology_clarification": "Explaining specialized vocabulary",
+        "alternative_proposal": "Suggesting different approach",
+        "alternative_exploration": "Investigating other possibilities",
+        "negative_information": "Providing disappointing information",
+        "surprise_expression": "Showing unexpected reaction",
+        "delay_strategy": "Postponing decision making",
+        "future_action_plan": "Outlining intended next steps",
+        "alternative_inquiry": "Requesting information about other options",
+        "negative_preparation": "Preparing for unfavorable information",
+        "information_request": "Asking for specific details",
+        "decision_preparation": "Setting stage for choice making",
+        "indecision_expression": "Communicating uncertainty",
+        "disappointment_expression": "Showing dissatisfaction",
+        "clarification_signal": "Indicating need for clarification",
+        "resurrection_signal": "Bringing back previous topic"
+      },
+      "frame_blending": {
+        "context_integration": "Combining multiple relevant frameworks",
+        "expectation_management": "Balancing desires with possibilities",
+        "compromise_formation": "Finding middle ground between positions",
+        "solution_synthesis": "Creating resolution from multiple inputs"
+      }
+    },
+    "negotiation_types": {
+      "initiation": "Starting point of frame establishment",
+      "transition": "Point of framework shift",
+      "challenge": "Point of frame contestation",
+      "adjustment": "Point of frame modification",
+      "verification": "Point of checking understanding",
+      "confirmation": "Point of affirming shared understanding",
+      "transformation": "Point of significant framework change"
+    },
+    "stage_types": {
+      "opening": "Initial interaction establishment phase",
+      "information_exchange": "Phase of basic data sharing",
+      "processing": "Phase of active information handling",
+      "information_provision": "Phase of detailed knowledge sharing",
+      "information_verification": "Phase of accuracy confirmation",
+      "negotiation": "Phase of resolving competing frameworks",
+      "unclear": "Ambiguous communication phase",
+      "closing": "Interaction termination phase"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting", "frame_activation_strength"],
+      "H2": ["frame_type", "strategy_selection", "efficacy"],
+      "H3": ["strategy_adaptation", "temporal_dynamics", "cognitive_load"],
+      "H4": ["negotiation_points", "contribution_ratio", "semantic_distance"]
+    },
+    "key_findings": {
+      "frame_activation_patterns": "High correlation between institutional presetting and frame activation strength (r=0.83) in service provider turns",
+      "strategy_distribution": "Frame reinforcement strategies dominate (62.5%) with higher mean efficacy (5.1) than frame shifting strategies (4.5)",
+      "adaptability_indices": "Customer-initiated challenges show higher adaptation rates in service provider responses (mean=0.81)",
+      "negotiation_characteristics": "Service provider contribution ratio significantly higher in confirmation points (M=0.85, SD=0.06) than in challenge points (M=0.24, SD=0.08)"
+    }
+  }
+}

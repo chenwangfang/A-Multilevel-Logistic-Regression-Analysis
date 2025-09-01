@@ -1,0 +1,162 @@
+{
+  "dialogue_id": "trainline16",
+  "annotation_metadata": {
+    "corpus": "SPAADIA",
+    "version": "2.0",
+    "date_annotated": "2023-10-15",
+    "annotators": ["Annotator1", "Annotator2"],
+    "inter_annotator_reliability": {
+      "overall": 0.87,
+      "frame_activation": 0.89,
+      "strategy_selection": 0.85,
+      "negotiation_points": 0.84
+    }
+  },
+  "dialogue_statistics": {
+    "turn_count": 120,
+    "utterance_count": 213,
+    "duration_seconds": 845,
+    "word_count": 1832,
+    "speaker_distribution": {
+      "service_provider": 60,
+      "customer": 60
+    },
+    "frame_statistics": {
+      "frame_type_count": 52,
+      "frame_transition_count": 35,
+      "mean_activation_strength": 4.8,
+      "dominant_frames": [
+        "service_initiation", 
+        "journey_information", 
+        "payment_method", 
+        "fare_inquiry", 
+        "fare_availability",
+        "standard_fare",
+        "booking_summary"
+      ],
+      "frame_type_distribution": {
+        "institutional_frames": 0.65,
+        "customer_initiated_frames": 0.35,
+        "information_exchange_frames": 0.30,
+        "transaction_frames": 0.45,
+        "negotiation_frames": 0.25
+      }
+    },
+    "strategy_statistics": {
+      "strategy_type_count": 26,
+      "frame_reinforcement_percentage": 58.6,
+      "frame_shifting_percentage": 35.2,
+      "frame_blending_percentage": 6.2,
+      "mean_strategy_efficacy": 4.6,
+      "strategy_adaptation_rate": 0.42,
+      "role_based_strategy_distribution": {
+        "service_provider": {
+          "frame_reinforcement": 0.62,
+          "frame_shifting": 0.33,
+          "frame_blending": 0.05
+        },
+        "customer": {
+          "frame_reinforcement": 0.45,
+          "frame_shifting": 0.42,
+          "frame_blending": 0.13
+        }
+      }
+    },
+    "negotiation_statistics": {
+      "negotiation_point_count": 28,
+      "mean_semantic_distance": 0.42,
+      "service_provider_contribution_mean": 0.58,
+      "customer_contribution_mean": 0.42,
+      "negotiation_type_distribution": {
+        "initiation": 0.05,
+        "verification": 0.18,
+        "challenge": 0.15,
+        "adjustment": 0.12,
+        "transition": 0.22,
+        "transformation": 0.10,
+        "integration": 0.08,
+        "confirmation": 0.10
+      }
+    },
+    "temporal_statistics": {
+      "mean_turn_duration": 3.5,
+      "stage_distribution": {
+        "opening": 0.05,
+        "information_exchange": 0.20,
+        "negotiation": 0.25,
+        "information_verification": 0.10,
+        "transaction": 0.35,
+        "closing": 0.05
+      },
+      "peak_cognitive_load": 4.5,
+      "mean_cognitive_load": 2.8
+    }
+  },
+  "coding_scheme": {
+    "frame_types": {
+      "service_initiation": "Initial service frame establishment at dialogue beginning",
+      "journey_information": "Information collection frame about travel details",
+      "payment_method": "Payment options and details frame",
+      "fare_inquiry": "Customer-initiated inquiry about ticket types and prices",
+      "fare_verification": "Verification of fare information and details",
+      "fare_availability": "Availability constraints on specific fare types",
+      "fare_limitation": "Limitations and restrictions on fare options",
+      "standard_fare": "Standard ticket options and pricing details",
+      "third_party_consultation": "Customer consulting with third party during interaction",
+      "booking_summary": "Summary and confirmation of booking details",
+      "ticket_rules": "Rules and policies regarding ticket usage and changes",
+      "closing": "Dialogue closing and farewell frame"
+    },
+    "strategy_types": {
+      "frame_reinforcement": "Strategies that strengthen and maintain established frames",
+      "frame_shifting": "Strategies that transition or adjust between different frames",
+      "frame_blending": "Strategies that integrate multiple frames simultaneously"
+    },
+    "strategy_subtypes": {
+      "directive_guidance": "Directing interaction through specific instructions",
+      "topic_transition_marking": "Explicitly marking shift between topics",
+      "inquiry_initiation": "Initiating new information-seeking sequence",
+      "information_provision": "Providing requested or necessary information",
+      "information_verification": "Checking accuracy of previously provided information",
+      "constraint_introduction": "Introducing limitations or constraints",
+      "constraint_explanation": "Explaining reasons for existing constraints",
+      "rejection_signaling": "Signaling rejection of proposed options",
+      "clarification_request": "Requesting additional information for understanding",
+      "knowledge_verification": "Verifying shared knowledge between participants",
+      "knowledge_provision": "Providing specialized or expert knowledge",
+      "misaligned_response": "Response not aligned with expected frame",
+      "commitment_request": "Requesting commitment to proposed action",
+      "interaction_suspension": "Temporarily suspending primary interaction",
+      "service_specification": "Specifying details of service provision",
+      "policy_specification": "Specifying institutional policies",
+      "payment_processing": "Processing payment information",
+      "farewell_initiation": "Initiating closing sequence"
+    },
+    "negotiation_types": {
+      "initiation": "Initial frame establishment point",
+      "verification": "Information verification point",
+      "challenge": "Frame challenging point",
+      "adjustment": "Frame adjustment point",
+      "transition": "Frame transition point",
+      "transformation": "Frame transformation point",
+      "integration": "Frame integration point",
+      "confirmation": "Frame confirmation point",
+      "interruption": "Interaction flow interruption point"
+    }
+  },
+  "research_links": {
+    "hypotheses": ["H1", "H2", "H3", "H4"],
+    "analytical_focus": {
+      "H1": ["context_dependence", "institutional_presetting"],
+      "H2": ["frame_type", "strategy_selection"],
+      "H3": ["strategy_adaptation", "temporal_dynamics"],
+      "H4": ["negotiation_points", "contribution_ratio"]
+    },
+    "methodological_applications": {
+      "multivariate_analysis": ["frame_activation", "cognitive_load"],
+      "multilevel_logistic_regression": ["strategy_selection", "frame_type"],
+      "integrated_temporal_effects": ["stage_dynamics", "adaptation_patterns"],
+      "process_analysis": ["negotiation_sequence", "semantic_distance"]
+    }
+  }
+}
